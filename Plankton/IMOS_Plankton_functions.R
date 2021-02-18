@@ -14,7 +14,7 @@ get_NRSTrips <- function(){
            Month = month(SampleDateLocal),
            Day = day(SampleDateLocal),
            Time_24hr = str_sub(SampleDateLocal, -8, -1), # hms doesn"t seem to work on 00:00:00 times
-           tz = tz_lookup_coords(NRSTrips$Latitude, NRSTrips$Longitude, method = "fast"),
+           tz = tz_lookup_coords(Latitude, Longitude, method = "fast"),
            SampleDateUTC = with_tz(force_tzs(SampleDateLocal, tz, roll = TRUE), "UTC"),
            SampleDateLocal = as.character(SampleDateLocal)) %>% 
     select(-c(tz, DaylightSavings, UTCoffsetH, stateCode)) %>%
