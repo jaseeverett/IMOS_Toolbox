@@ -7,11 +7,12 @@
   ## 6th October 2020
 
 suppressPackageStartupMessages({
-  library(tidyverse)
   library(lubridate)
+  library(lutz)
   library(vegan)
   library(data.table)  
   library(ncdf4) # devtools::install_github("mdsumner/ncdf4")
+  library(tidyverse)
 })
 
 source("IMOS_Plankton_functions.R")
@@ -27,7 +28,7 @@ outD <- "Output"
 # ensure we have all trips accounted for 
 # note there are circumstances where a trip won't have a phyto and a zoo samples due to loss of sample etc.
 
-NRSdat <- get_NRSTrips() %>% 
+NRSdat <- get_NRSTrips() %>% #ignore warning, 'fast' method does better here than 'accurate'
   select(-SampleDepth_m) %>% 
   distinct()
 
@@ -36,14 +37,7 @@ dNRSdat <- distinct(NRSdat, NRScode, .keep_all = TRUE) %>%  # Distinct rows for 
   select(NRScode, Date, Latitude, Longitude)
 
 # SST and Chlorophyll from CTD
-CTD <- read_csv(paste0(rawD,.Platform$file.sep,"nrs_CTD.csv"), na = "(null)",
-                col_types = cols(PRES = col_double(), # columns start with  nulls so tidyverse annoyingly assigns col_logical()
-                                 PAR = col_double(),
-                                 SPEC_CNDC = col_double())) %>% 
-  rename(NRScode = NRS_TRIP_CODE, SampleDepth_m = PRES_REL, CTDDensity_kgm3 = DENS, 
-         CTDTemperature = TEMP, CTDPAR_umolm2s = PAR,
-         CTDConductivity_sm = CNDC, CTDSpecificConductivity_Sm = SPEC_CNDC, CTDSalinity = PSAL, 
-         CTDTurbidity_ntu = TURB, CTDChlF_mgm3 = CHLF) %>%
+CTD <- getCTD() %>%
   filter(SampleDepth_m < 15) %>% # take average of top 10m as a surface value for SST and CHL, this is removing 17 casts as of nov 2020
   group_by(NRScode) %>% 
   summarise(CTD_SST_C = mean(CTDTemperature, na.rm = TRUE),
@@ -51,6 +45,35 @@ CTD <- read_csv(paste0(rawD,.Platform$file.sep,"nrs_CTD.csv"), na = "(null)",
             .groups = "drop") %>%
   untibble()
 
+# data set for calculating MLD
+CTD_MLD <- getCTD() %>% 
+  select(NRScode, CTDTemperature, CTDSalinity, SampleDepth_m)
+
+n = nrow(CTD_MLD %>% select(NRScode) %>% unique())
+MLD <- data.frame(NRScode = NA, MLD_temp = NA, MLD_sal = NA)
+
+# MLD by T and S (Ref: Condie & Dunn 2006)
+for (i in 1:n) {
+  dat <- CTD_MLD %>% select(NRScode) %>% unique() %>% mutate(NRScode = as.factor(NRScode))
+  nrscode <- dat$NRScode[[i]] %>% droplevels()
+  mldData <- CTD_MLD %>% filter(NRScode == nrscode) %>% arrange(SampleDepth_m)
+  ref_T <- mldData %>% mutate(refd = abs(SampleDepth_m - 10), # find depth nearest to 10 m
+                              rankrefd = ave(refd, FUN = . %>% order %>% order)) %>%
+    filter(rankrefd == 1)
+  refT <- ref_T$CTDTemperature - 0.4 # temp at 10 m minus 0.4 deg C
+  mldData <- mldData %>% filter(SampleDepth_m >= ref_T$SampleDepth_m)
+  mld_t <- mldData %>% mutate(temp = abs(CTDTemperature - refT),
+                              ranktemp = ave(temp, FUN = . %>% order %>% order)) %>%
+    filter(ranktemp == 1)
+  MLD_temp <- mld_t$SampleDepth_m
+  
+  refS <- ref_T$CTDSalinity - 0.03 # temp at 10 m minus 0.4
+  mld_s <- mldData %>% mutate(temp = abs(CTDSalinity - refS),
+                              ranksal = ave(temp, FUN = . %>% order %>% order)) %>%
+    filter(ranksal == 1)
+  MLD_sal <- mld_s$SampleDepth_m
+  MLD <- rbind(MLD, c(as.character(nrscode), MLD_temp, MLD_sal)) %>% drop_na()     
+}
 
 # # Access satellite data for the sample dates using the IMOS_Toolbox
 # 
@@ -91,7 +114,8 @@ CTD <- read_csv(paste0(rawD,.Platform$file.sep,"nrs_CTD.csv"), na = "(null)",
 
 
 # Nutrient data
-Nuts <- Chemistry %>% 
+
+Nuts <- getChemistry() %>% 
   group_by(NRScode) %>% 
   summarise(Silicate_umol_L = mean(Silicate_umol_L, na.rm = TRUE),
             Phosphate_umol_L = mean(Phosphate_umol_L, na.rm = TRUE),
@@ -123,8 +147,8 @@ Pigments <- read_csv(paste0(rawD,.Platform$file.sep,"nrs_pigments.csv"), na = "(
 # ggplot(data = dat, aes(x = Year, y = SampleDepth_m)) + geom_point()
 
 # Total Zooplankton Abundance
-ZooData <- NRSZsamp %>% 
-  left_join(NRSZdat, by = "Sample")
+ZooData <- getNRSZooSamples() %>% 
+  left_join(getNRSZooData(), by = "Sample")
 
 TZoo <- ZooData %>% 
   group_by(NRScode) %>% 
@@ -164,13 +188,8 @@ HCrat <- ZooData %>%
 # Diversity, evenness etc.     
 
 # Bring in plankton data
-NRSZcount <- read_csv(paste0(rawD,.Platform$file.sep,"NRS_zoop_count_raw.csv"), na = "(null)") %>%
-  dplyr::rename("TaxonName" = "TAXON_NAME", "Copepod" = "TAXON_GROUP", 
-                "TaxonGroup" = "TAXON_GRP01", "NRScode" = "NRS_CODE",
-                "Genus" = "GENUS", "Species" = "SPECIES", "TaxonCount" = "TAXON_COUNT")
-
 ZooCount <- NRSZsamp %>% 
-  left_join(NRSZcount, by = "NRScode")
+  left_join(getNRSZooCount(), by = "NRScode")
 
 n <- ZooCount %>% 
   filter(Copepod == 'COPEPOD' & Species != "spp." & !is.na(Species) & !grepl("cf.", Species) & !grepl("grp", Species)) %>% 
@@ -194,8 +213,8 @@ CopepodEvenness <- n %>%
   mutate(CopepodEvenness = ShannonCopepodDiversity / log(NoCopepodSpecies_Sample))
 
 # Total Phyto abundance
-PhytoData <- NRSPsamp %>% 
-  left_join(NRSPdat, by = "Sample") %>% 
+PhytoData <- getNRSPhytoSamples() %>% 
+  left_join(getNRSPhytoData(), by = "Sample") %>% 
   filter(TaxonGroup != 'Other')
 
 # PhytoData <- PhytoData %>%
@@ -319,6 +338,7 @@ Indices <- NRSdat  %>%
   left_join(DiaEven, by = ("NRScode")) %>%
   left_join(DinoEven, by = ("NRScode")) %>%  
   left_join(CTD, by = ("NRScode")) %>%
+  left_join(MLD, by = ("NRScode")) %>%
   left_join(Nuts, by = ("NRScode")) %>% 
   left_join(Pigments, by = ("NRScode"))
 
