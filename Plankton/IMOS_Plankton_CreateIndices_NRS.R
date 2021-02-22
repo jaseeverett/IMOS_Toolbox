@@ -47,12 +47,13 @@ CTD <- getCTD() %>%
 
 # data set for calculating MLD
 CTD_MLD <- getCTD() %>% 
-  select(NRScode, CTDTemperature, CTDSalinity, SampleDepth_m)
+  select(NRScode, CTDTemperature, CTDSalinity, CTDChlF_mgm3, SampleDepth_m)
 
 n = nrow(CTD_MLD %>% select(NRScode) %>% unique())
-MLD <- data.frame(NRScode = NA, MLD_temp = NA, MLD_sal = NA)
+MLD <- data.frame(NRScode = NA, MLD_temp = as.numeric(NA), MLD_sal = as.numeric(NA), DCM = as.numeric(NA))
 
 # MLD by T and S (Ref: Condie & Dunn 2006)
+# DCM from max f from CTD
 for (i in 1:n) {
   dat <- CTD_MLD %>% select(NRScode) %>% unique() %>% mutate(NRScode = as.factor(NRScode))
   nrscode <- dat$NRScode[[i]] %>% droplevels()
@@ -72,7 +73,11 @@ for (i in 1:n) {
                               ranksal = ave(temp, FUN = . %>% order %>% order)) %>%
     filter(ranksal == 1)
   MLD_sal <- mld_s$SampleDepth_m
-  MLD <- rbind(MLD, c(as.character(nrscode), MLD_temp, MLD_sal)) %>% drop_na()     
+  
+  dcm <- (mldData %>% filter(CTDChlF_mgm3 == max(CTDChlF_mgm3)))$SampleDepth_m 
+  dcm[is_empty(dcm)] = NA
+
+  MLD <- rbind(MLD, data.frame(NRScode = as.character(nrscode), MLD_temp = MLD_temp, MLD_sal = MLD_sal, DCM = dcm), stringsAsFactors = FALSE)  %>% drop_na(NRScode)    
 }
 
 # # Access satellite data for the sample dates using the IMOS_Toolbox
@@ -161,6 +166,9 @@ TCope <- ZooData %>%
   summarise(CopeAbundance_m3 = sum(ZAbund_m3, na.rm = TRUE),
             .groups = "drop")
 
+# Total Zooplankton Biomass
+ZBiomass <- getNRSZooBiomass()
+
 # Bring in copepod information table with sizes etc.
 ZInfo <- get_ZooInfo() 
 
@@ -188,7 +196,7 @@ HCrat <- ZooData %>%
 # Diversity, evenness etc.     
 
 # Bring in plankton data
-ZooCount <- NRSZsamp %>% 
+ZooCount <- getNRSZooSamples() %>% 
   left_join(getNRSZooCount(), by = "NRScode")
 
 n <- ZooCount %>% 

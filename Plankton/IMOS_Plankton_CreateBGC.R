@@ -33,11 +33,7 @@ NRSTrips <- get_NRSTrips()
 Chemistry <- getChemistry()
 
 # Zooplankton biomass
-ZBiomass <-  read_csv(paste0(rawD,.Platform$file.sep,"nrs_biomass.csv"), na = "(null)") %>% 
-  rename(NRScode = NRS_CODE, Biomass_mgm3 = BIOMASS_MGM3) %>% 
-  mutate(SampleDepth_m = "WC",
-         NRScode = gsub('^.{3}|.{9}$', '', NRScode)) %>% 
-  untibble()
+ZBiomass <-  getNRSZooBiomass()
 
 # Pigments data
 Pigments <- read_csv(paste0(rawD,.Platform$file.sep,"nrs_pigments.csv"), na = "(null)") %>% 

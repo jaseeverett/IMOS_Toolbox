@@ -83,6 +83,16 @@ getNRSZooChangeLog <- function(){
   return(NRSZcl)
 }
 
+# Bring in Zooplankton biomass
+getNRSZooBiomass <- function(){
+  ZBiomass <-  read_csv(paste0(rawD,.Platform$file.sep,"nrs_biomass.csv"), na = "(null)") %>% 
+  rename(NRScode = NRS_CODE, Biomass_mgm3 = BIOMASS_MGM3) %>% 
+  mutate(SampleDepth_m = "WC",
+         NRScode = gsub('^.{3}|.{9}$', '', NRScode)) %>% 
+  untibble()
+  return(ZBiomass)
+}
+
 # Bring in copepod information table with sizes etc.
 get_ZooInfo <- function(){
   ZInfo <- read_csv(paste0(rawD,.Platform$file.sep,"taxon_info.csv"), na = "(null)") %>% 
