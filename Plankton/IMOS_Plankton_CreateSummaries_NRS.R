@@ -16,6 +16,8 @@ suppressPackageStartupMessages({
 rawD <- "RawData"
 outD <- "Output"
 
+source("IMOS_Plankton_functions.R")
+
 #### NRS Phytoplankton #### #################################################################################################################################
 
 # Bring in all NRS phytoplankton samples, data and changelog
@@ -92,13 +94,15 @@ NRSGenP2 <- NRSPdat %>%
   summarise(Cells_L = sum(Cells_L, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(NRSGenP2$Genus)) {
+  Gen = NRSGenP2 %>% select(Genus) %>% unique() 
+  Gen = as.character(Gen$Genus[i] %>% droplevels())
   Dates <- as.data.frame(NRSGenP2) %>% 
-    filter(Genus == Genus[i]) %>% 
+    filter(Genus == Gen) %>% 
     slice(1) %>% 
     droplevels()
   
   gen <- as.data.frame(NRSGenP2) %>% 
-    filter(Genus == Genus[i]) %>% 
+    filter(Genus == Gen) %>% 
     droplevels() 
   
   gen <- NRSPsamp %>% 
@@ -162,13 +166,15 @@ NRSSpecP2 <- NRSPdat %>%
   summarise(Cells_L = sum(Cells_L, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(NRSSpecP2$TaxonName)) {
+  Taxon = NRSSpecP2 %>% select(TaxonName) %>% unique() 
+  Taxon = as.character(Taxon$TaxonName[i] %>% droplevels())
   Dates <- as.data.frame(NRSSpecP2) %>% 
-    filter(TaxonName == TaxonName[i]) %>% 
+    filter(TaxonName == Taxon) %>% 
     slice(1)  %>% 
     droplevels()
   
   spec <- as.data.frame(NRSSpecP2) %>% 
-    filter(TaxonName == TaxonName[i]) %>% 
+    filter(TaxonName == Taxon) %>% 
     droplevels() 
   
   spec <- NRSPsamp %>% 
@@ -253,13 +259,16 @@ NRSGenPB2 <- NRSPdat %>%
   summarise(BioV_um3_L = sum(Biovolume_uM3_L, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(NRSGenPB2$Genus)) {
+  Gen = NRSGenPB2 %>% select(Genus) %>% unique() 
+  Gen = as.character(Gen$Genus[i] %>% droplevels())
+
   Dates <- as.data.frame(NRSGenPB2) %>% 
-    filter(Genus == Genus[i]) %>% 
+    filter(Genus == Gen) %>% 
     slice(1) %>% 
     droplevels()
   
   gen <- as.data.frame(NRSGenPB2) %>% 
-    filter(Genus == Genus[i]) %>% 
+    filter(Genus == Gen) %>% 
     droplevels() 
   
   gen <- NRSPsamp %>% 
@@ -297,9 +306,13 @@ nrsls <- NRSPcl %>%
 
 # for non change log species
 
+NRSPdat1 <- NRSPdat %>% filter(!grepl("^(?!.*/~\\$)", TaxonName, perl = TRUE) &
+                                Species == "spp." &
+                               !TaxonName %in% levels(as.factor(nrsls$TaxonName)) )
 NRSSpecPB1 <- NRSPdat %>% 
-  filter(!TaxonName %in% levels(as.factor(nrsls$TaxonName))
-         & Species != "spp." & !is.na(Species) & !grepl("cf.", Species)) %>% 
+  filter(!TaxonName %in% levels(as.factor(nrsls$TaxonName)) &
+         Species != "spp." & !is.na(Species) & !grepl("cf.", Species)) %>% 
+  rbind(NRSPdat1) %>% 
   group_by(Sample, TaxonName) %>% 
   summarise(BioV_um3_L = sum(Biovolume_uM3_L, na.rm = TRUE), .groups = "drop")
 
@@ -313,9 +326,14 @@ NRSSpecPB1 <- NRSPsamp %>%
   as.data.frame()
 
 # add change log species with -999 for NA"s and real absences as 0"s
+NRSPdat2 <- NRSPdat %>% filter(!grepl("^(?!.*/~\\$)", TaxonName, perl = TRUE) &
+                                 Species == "spp." &
+                                 TaxonName %in% levels(as.factor(nrsls$TaxonName)))
+
 NRSSpecPB2 <- NRSPdat %>% 
   filter(TaxonName %in% levels(as.factor(nrsls$TaxonName))
          & Species != "spp." & !is.na(Species) & !grepl("cf.", Species)) %>% 
+  rbind(NRSPdat2) %>% 
   left_join(NRSPcl, by = "TaxonName") %>%
   mutate(TaxonName = as_factor(TaxonName)) %>% 
   drop_na(TaxonName) %>%
@@ -323,13 +341,16 @@ NRSSpecPB2 <- NRSPdat %>%
   summarise(BioV_um3_L = sum(Cells_L, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(NRSSpecPB2$TaxonName)) {
+  Taxon = NRSSpecPB2 %>% select(TaxonName) %>% unique() 
+  Taxon = as.character(Taxon$TaxonName[i] %>% droplevels())
+
   Dates <- as.data.frame(NRSSpecPB2) %>% 
-    filter(TaxonName == TaxonName[i]) %>% 
+    filter(TaxonName == Taxon) %>% 
     slice(1)  %>% 
     droplevels()
   
   spec <- as.data.frame(NRSSpecPB2) %>% 
-    filter(TaxonName == TaxonName[i]) %>% 
+    filter(TaxonName == Taxon) %>% 
     droplevels() 
   
   spec <- NRSPsamp %>% 
@@ -357,10 +378,6 @@ NRSSpecPB <-  NRSSpecPB1 %>%
   mutate(SampleDateLocal = as.character(SampleDateLocal))
 
 fwrite(NRSSpecPB, file = paste0(outD,.Platform$file.sep,"NRS_phytoBioV_species_mat.csv"), row.names = FALSE)
-
-
-
-
 
 #### NRS Zooplankton #### #################################################################################################################################
 # Bring in all NRS zooplankton samples, data and changelog
@@ -434,13 +451,16 @@ NRSGenP2 <- NRSZdat %>%
   summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(NRSGenP2$Genus)) {
+  Gen <- NRSGenP2 %>% select(Genus) %>% unique()
+  Gen = as.character(Gen$Genus[i] %>% droplevels()) 
+  
   Dates <- as.data.frame(NRSGenP2) %>% 
-    filter(Genus == Genus[i]) %>% 
+    filter(Genus == Gen) %>% 
     slice(1) %>% 
     droplevels()
   
   gen <- as.data.frame(NRSGenP2) %>% 
-    filter(Genus == Genus[i]) %>% 
+    filter(Genus == Gen) %>% 
     droplevels() 
   
   gen <- NRSZsamp %>% 
@@ -505,13 +525,16 @@ NRSCop2 <- NRSZdat %>%
   summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(NRSCop2$Species)) {
+  Taxon <- NRSCop2 %>% select(Species) %>% unique()
+  Taxon <- as.character(Taxon$Species[i] %>% droplevels())
+  
   Dates <- as.data.frame(NRSCop2) %>% 
-    filter(Species == Species[i]) %>% 
+    filter(Species == Taxon) %>% 
     slice(1) %>% 
     droplevels()
   
   copes <- as.data.frame(NRSCop2) %>% 
-    filter(Species == Species[i]) %>% 
+    filter(Species == Taxon) %>% 
     droplevels() 
   
   copes <- NRSZsamp %>% 
@@ -570,13 +593,16 @@ NRSnCop2 <- NRSZdat %>%
   summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(NRSnCop2$Species)) {
+  Taxon <- NRSnCop2 %>% select(Species) %>% unique()
+  Taxon <- as.character(Taxon$Species[i] %>% droplevels())
+
   Dates <- as.data.frame(NRSnCop2) %>%
-    filter(Species == Species[i]) %>% 
+    filter(Species == Taxon) %>% 
     slice(1) %>% 
     droplevels()
   
   ncopes <- as.data.frame(NRSnCop2) %>% 
-    filter(Species == Species[i]) %>% 
+    filter(Species == Taxon) %>% 
     droplevels() 
   
   ncopes <- NRSZsamp %>% left_join(ncopes, by = "Sample") %>%

@@ -7696,7 +7696,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 1568,149031,Navicula cf. 60-80 µm length,Pennate diatom,(null),(null),183.25,1026178.01047120418848167539267015706806
 1568,149045,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,340.31,340314.136125654450261780104712041884817
 1568,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,78.53,277561.9437172774869109947643979057591623
-1568,450726,Palmerina spp.,Centric diatom,Palmerina,spp.,26.18,6888333571.116928446771378708551483420577
+1568,450726,Palmerina spp.,Centric diatom,Palmerina,spp.,26.18,44409910994.7643979057591623036649214659
 1568,149181,Pleurosigma spp. < 150 µm,Pennate diatom,Pleurosigma,spp.,26.18,157068.062827225130890052356020942408377
 1568,149168,Proboscia alata,Centric diatom,Proboscia,alata,52.36,3474664.33246073298429319371727748691099
 1568,109566,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,26.18,53593.4419720767888307155322862129144852
@@ -13320,7 +13320,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 8105,109553,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,25.33,1955615.90273556231003039513677811550152
 8105,149153,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,101.32,20263.4245187436676798378926038500506586
 8105,163344,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,50.66,97780795.13677811550151975683890577507598
-8105,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),25.33,7161679.33130699088145896656534954407295
+8105,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,25.33,7161679.33130699088145896656534954407295
 8105,109545,Scrippsiella spp.,Dinoflagellate,Scrippsiella,spp.,50.66,238722.6443768996960486322188449848024316
 8105,177604,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,3672.75,2102848.09365501519756838905775075987842
 8105,146203,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),75.99,477445.2887537993920972644376899696048624
@@ -13407,7 +13407,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 8244,109553,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,25,1930192.89600000000000000000000000000001
 8244,341672,Protorhabdonella simplex,Ciliate,Protorhabdonella,simplex,50,6544979.16666666666666666666666666666669
 8244,163344,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,25,48254822.4
-8244,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),50,14137155
+8244,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,50,14137155
 8244,177604,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,3250,1860803.026875
 8244,837456,Tripos kofoidii,Dinoflagellate,Tripos (Ceratium),kofoidii,25,143989.5416666666666666666666666666666667
 8244,146203,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),4705.88,1419259.48235294117647058823529411764706
@@ -13900,7 +13900,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 8628,163344,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,50.1,96703050.90180360721442885771543086172345
 8628,183576,Rhabdonella spp.,Ciliate,Rhabdonella,spp.,50.1,6558095.35738142952571810287241148964598
 8628,149116,Rhizosolenia imbricata,Centric diatom,Rhizosolenia,imbricata,50.1,14165485.97194388777555110220440881763527
-8628,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),75.15,21248228.95791583166332665330661322645291
+8628,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,75.15,21248228.95791583166332665330661322645291
 8628,149115,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,175.35,7932672.14428857715430861723446893787573
 8628,148912,Thalassiosira spp. 40-60 µm,Centric diatom,Thalassiosira,spp.,25.05,491857.1518036072144288577154308617234469
 8628,177604,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,6563.13,3757749.2912074148296593186372745490982
@@ -14237,8 +14237,8 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 8855,149033,Gyrosigma spp.,Pennate diatom,Gyrosigma,spp.,23.36,1642815.42056074766355140186915887850467
 8855,157438,Helicotheca spp.,Centric diatom,Helicotheca,spp.,23.36,2229574.67873831775700934579439252336449
 8855,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,23.36,99436.2781103971962616822429906542056075
-8855,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus (no flagellates),140.19,1321229.4392523364485981308411214953271
-8855,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),350.47,3303073.59813084112149532710280373831776
+8855,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus,140.19,1321229.4392523364485981308411214953271
+8855,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,350.47,3303073.59813084112149532710280373831776
 8855,149321,Lithodesmium spp.,Centric diatom,Lithodesmium,spp.,23.36,23364485.98130841121495327102803738317757
 8855,149031,Navicula cf. <20 µm length,Pennate diatom,(null),(null),934.58,343457.9439252336448598130841121495327104
 8855,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,93.46,382300.1849688473520249221183800623052953
@@ -14759,7 +14759,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 9284,146222,Flagellate <10 µm fusiform,Flagellate,(null),(null),3030.3,198332.7020202020202020202020202020202027
 9284,146222,Flagellate <10 µm round,Flagellate,(null),(null),114141.41,7470531.77609427609427609427609427609426
 9284,109519,Gonyaulax spp.,Dinoflagellate,Gonyaulax,spp.,25.25,7884.4190697601010101010101010101010101
-9284,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),252.53,2379992.42424242424242424242424242424243
+9284,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,252.53,2379992.42424242424242424242424242424243
 9284,156505,Phalacroma rotundatum,Dinoflagellate,Phalacroma,rotundatum,25.25,763580.9027777777777777777777777777777777
 9284,110300,Prorocentrum gracile,Dinoflagellate,Prorocentrum,gracile,25.25,115694.0761784511784511784511784511784512
 9284,109566,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,75.76,155096.172979797979797979797979797979798
@@ -14847,7 +14847,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 9345,17329,Prasinophytes,Flagellate,(null),(null),6923.08,1812455.76923076923076923076923076923078
 9345,115057,Prymnesiophytes,Flagellate,(null),(null),769.23,402767.9487179487179487179487179487179483
 9345,183576,Rhabdonella spp.,Ciliate,Rhabdonella,spp.,200,26179916.66666666666666666666666666666676
-9345,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),200,56548620
+9345,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,200,56548620
 9345,109545,Scrippsiella spp.,Dinoflagellate,Scrippsiella,spp.,100,471238.5
 9345,840626,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,100,28274310.00000000000000000000000000000012
 9345,146203,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),17692.31,5335869.78461538461538461538461538461539
@@ -15163,8 +15163,8 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 9545,248063,Haslea wawrikae,Pennate diatom,Haslea,wawrikae,50,294524.0625
 9545,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,25,415475.2775
 9545,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,575,2447126.804296875
-9545,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus (no flagellates),50,471238.5
-9545,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),50,471238.5
+9545,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus,50,471238.5
+9545,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,50,471238.5
 9545,180390,Lyrella spp.,Pennate diatom,Lyrella,spp.,50,1256636
 9545,149031,Navicula cf. 100-120 µm length,Pennate diatom,(null),(null),25,343750
 9545,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),500,656250
@@ -15247,7 +15247,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 9575,149113,Guinardia striata,Centric diatom,Guinardia,striata,66.67,5654861.99999999999999999999999999999999
 9575,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,33.33,553967.0366666666666666666666666666666661
 9575,573475,Hemiaulus indicus,Centric diatom,Hemiaulus,indicus,66.67,4300836.71
-9575,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),2333.33,21991129.99999999999999999999999999999997
+9575,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,2333.33,21991129.99999999999999999999999999999997
 9575,292726,Lioloma cf. spp.,Pennate diatom,Lioloma cf.,spp.,1100,10312500
 9575,149045,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,500,500000
 9575,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,33.33,117809.6249999999999999999999999999999999
@@ -15437,7 +15437,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 9712,160584,Heterosigma cf. spp.,Flagellate,Heterosigma cf.,spp.,111.11,174532.777777777777777777777777777777778
 9712,149135,Lauderia annulata < 70 µm length,Centric diatom,Lauderia,annulata,185.19,6544979.16666666666666666666666666666666
 9712,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,370.37,1576249.14930555555555555555555555555555
-9712,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),111.11,1047196.66666666666666666666666666666667
+9712,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,111.11,1047196.66666666666666666666666666666667
 9712,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),259.26,340277.7777777777777777777777777777777774
 9712,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),37.04,76388.8888888888888888888888888888888889
 9712,149031,Navicula cf. 60-80 µm length,Pennate diatom,(null),(null),37.04,207407.4074074074074074074074074074074074
@@ -15801,7 +15801,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10003,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,48.54,806748.111650485436893203883495145631068
 10003,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,242.72,22698369.01092233009708737864077669902914
 10003,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,291.26,1239574.5737257281553398058252427184466
-10003,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),24.27,228756.5533980582524271844660194174757281
+10003,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,24.27,228756.5533980582524271844660194174757281
 10003,149039,Leptocylindrus minimus,Centric diatom,Leptocylindrus,minimus,97.09,34313.4830097087378640776699029126213592
 10003,149145,Meuniera membranacea,Pennate diatom,Meuniera,meuniera,339.81,8006479.3689320388349514563106796116505
 10003,149150,Nitzschia longissima,Pennate diatom,Nitzschia,longissima,145.63,713192.6213592233009708737864077669902907
@@ -15872,7 +15872,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10035,248063,Haslea wawrikae,Pennate diatom,Haslea,wawrikae,35.09,206683.5526315789473684210526315789473682
 10035,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,70.18,1166246.39298245614035087719298245614035
 10035,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,175.44,746644.3338815789473684210526315789473708
-10035,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),210.53,1984162.10526315789473684210526315789474
+10035,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,210.53,1984162.10526315789473684210526315789474
 10035,149039,Leptocylindrus minimus,Centric diatom,Leptocylindrus,minimus,105.26,37203.0394736842105263157894736842105262
 10035,157052,Mastogloia spp.,Pennate diatom,Mastogloia,spp.,35.09,372030.3947368421052631578947368421052628
 10035,149145,Meuniera membranacea,Pennate diatom,Meuniera,meuniera,175.44,4133671.05263157894736842105263157894738
@@ -15927,7 +15927,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10051,163248,Hemiaulus spp.,Centric diatom,Hemiaulus,spp.,48.54,700566.9447815533980582524271844660194175
 10051,149135,Lauderia annulata < 70 µm length,Centric diatom,Lauderia,annulata,97.09,3431348.30097087378640776699029126213592
 10051,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,728.16,3098936.43431432038834951456310679611651
-10051,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),582.52,5490157.28155339805825242718446601941747
+10051,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,582.52,5490157.28155339805825242718446601941747
 10051,149039,Leptocylindrus minimus,Centric diatom,Leptocylindrus,minimus,679.61,240194.3810679611650485436893203883495145
 10051,149145,Meuniera membranacea,Pennate diatom,Meuniera,meuniera,145.63,3431348.30097087378640776699029126213592
 10051,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),97.09,200242.7184466019417475728155339805825243
@@ -15984,7 +15984,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10067,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,364.08,2859456.91747572815533980582524271844661
 10067,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,48.54,806748.111650485436893203883495145631068
 10067,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,48.54,206595.762287621359223300970873786407767
-10067,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),48.54,457513.1067961165048543689320388349514563
+10067,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,48.54,457513.1067961165048543689320388349514563
 10067,149031,Navicula cf. 140-160 µm length,Pennate diatom,(null),(null),24.27,455097.0873786407766990291262135922330096
 10067,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),24.27,50060.6796116504854368932038834951456311
 10067,573498,Neostreptotheca subindica,Centric diatom,Neostreptotheca,subindica,48.54,10485436.89320388349514563106796116504854
@@ -16099,7 +16099,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10113,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,510.2,8479087.29591836734693877551020408163266
 10113,149135,Lauderia annulata > 70 µm length,Centric diatom,Lauderia,annulata,4931.97,1708239562.499999999999999999999999999999
 10113,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,5782.31,24608787.73915816326530612244897959183675
-10113,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus (no flagellates),1190.48,11219964.28571428571428571428571428571432
+10113,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus,1190.48,11219964.28571428571428571428571428571432
 10113,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),510.2,1052295.91836734693877551020408163265306
 10113,149031,Navicula cf. 60-80 µm length,Pennate diatom,(null),(null),340.14,1904761.90476190476190476190476190476191
 10113,149095,Odontella sinensis,Centric diatom,Odontella,sinensis,170.07,64114081.6326530612244897959183673469388
@@ -16401,7 +16401,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10300,149132,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,746.83,146638816.280806572068707991038088125467
 10300,109476,Gyrodinium spp.,Dinoflagellate,Gyrodinium,spp.,5974.61,619402359.970126960418222554144884241971
 10300,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,11949.22,50854341.48618371919342793129200896191198
-10300,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),2987.3,28154652.72591486183719193427931292008965
+10300,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,2987.3,28154652.72591486183719193427931292008965
 10300,149039,Leptocylindrus minimus,Centric diatom,Leptocylindrus,minimus,2987.3,1055799.47722180731889469753547423450336
 10300,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),1493.65,3080657.20687079910380881254667662434653
 10300,149031,Navicula cf. 60-80 µm length,Pennate diatom,(null),(null),1493.65,8364451.08289768483943241224794622852876
@@ -16561,8 +16561,8 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10377,149112,Guinardia delicatula,Centric diatom,Guinardia,delicatula,2427.18,19329928.76213592233009708737864077669903
 10377,149113,Guinardia striata,Centric diatom,Guinardia,striata,127.75,10835836.73990802248339294839039345937662
 10377,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,3704.65,15766518.70089741951967296882984159427697
-10377,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus (no flagellates),766.48,7223891.15993868165559529892692897291774
-10377,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),383.24,3611945.57996934082779764946346448645886
+10377,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus,766.48,7223891.15993868165559529892692897291774
+10377,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,383.24,3611945.57996934082779764946346448645886
 10377,149039,Leptocylindrus minimus,Centric diatom,Leptocylindrus,minimus,383.24,135447.9592488502810424118548799182422074
 10377,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),127.75,263477.2611139499233520694941236586612168
 10377,149045,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,127.75,127746.550843127235564639754726622381196
@@ -16590,7 +16590,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10392,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,26.04,204530.5989583333333333333333333333333336
 10392,163250,Hemiaulus sinensis,Centric diatom,Hemiaulus,sinensis,52.08,1308995.83333333333333333333333333333333
 10392,163248,Hemiaulus spp.,Centric diatom,Hemiaulus,spp.,26.04,375824.9755859375
-10392,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),364.58,3436114.0625
+10392,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,364.58,3436114.0625
 10392,149342,Licmophora spp. < 150 µm,Pennate diatom,Licmophora,spp.,26.04,317262.3263888888888888888888888888888881
 10392,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),52.08,107421.875
 10392,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,104.17,368155.0781250000000000000000000000000012
@@ -16605,7 +16605,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10392,149152,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,52.08,15625
 10392,163344,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,26.04,50265440.00000000000000000000000000000001
 10392,341673,Rhabdonella amor,Ciliate,Rhabdonella,amor,52.08,6817686.63194444444444444444444444444447
-10392,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),52.08,14726203.125
+10392,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,52.08,14726203.125
 10392,149115,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,182.29,8246673.75000000000000000000000000000002
 10392,109545,Scrippsiella spp.,Dinoflagellate,Scrippsiella,spp.,78.13,368155.078125
 10392,149093,Thalassionema nitzschioides,Pennate diatom,Thalassionema,nitzschioides,78.13,68359.375
@@ -16632,7 +16632,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10407,149132,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,101.01,19833270.2020202020202020202020202020202
 10407,109476,Gyrodinium spp.,Dinoflagellate,Gyrodinium,spp.,505.05,52359833.33333333333333333333333333333333
 10407,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,404.04,1719544.52651515151515151515151515151515
-10407,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),1414.14,13327957.57575757575757575757575757575757
+10407,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,1414.14,13327957.57575757575757575757575757575757
 10407,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),202.02,265151.5151515151515151515151515151515151
 10407,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),101.01,208333.3333333333333333333333333333333333
 10407,148899,Pennate diatom 10 - 25 µm,Pennate diatom,(null),(null),101.01,21212.1212121212121212121212121212121212
@@ -16643,7 +16643,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10407,149153,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,909.09,181818.1818181818181818181818181818181818
 10407,149152,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,505.05,151515.1515151515151515151515151515151515
 10407,109555,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,101.01,35706338.78754208754208754208754208754209
-10407,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),101.01,28559909.09090909090909090909090909090909
+10407,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,101.01,28559909.09090909090909090909090909090909
 10407,149116,Rhizosolenia imbricata group,Centric diatom,Rhizosolenia,cf. imbricata,202.02,57119818.18181818181818181818181818181818
 10407,149115,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,1717.17,77682952.72727272727272727272727272727272
 10407,163780,Tintinnopsis spp.,Ciliate,Tintinnopsis,spp.,101.01,1189996.21212121212121212121212121212121
@@ -16860,7 +16860,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10557,109566,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,25.77,52764.6774054982817869415807560137457045
 10557,149153,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,128.87,25773.1958762886597938144329896907216494
 10557,163344,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,180.41,348230677.113402061855670103092783505154
-10557,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),154.64,43723159.7938144329896907216494845360825
+10557,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,154.64,43723159.7938144329896907216494845360825
 10557,149115,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,77.32,3497852.7835051546391752577319587628866
 10557,183566,Salpingella spp.,Ciliate,Salpingella,spp.,25.77,728719.3298969072164948453608247422680437
 10557,109545,Scrippsiella spp.,Dinoflagellate,Scrippsiella,spp.,77.32,364359.6649484536082474226804123711340206
@@ -16891,7 +16891,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10567,149113,Guinardia striata,Centric diatom,Guinardia,striata,181.82,15422350.90909090909090909090909090909092
 10567,248063,Haslea wawrikae,Pennate diatom,Haslea,wawrikae,181.82,1070996.59090909090909090909090909090909
 10567,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,1363.64,5803462.77698863636363636363636363636364
-10567,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),272.73,2570391.81818181818181818181818181818182
+10567,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,272.73,2570391.81818181818181818181818181818182
 10567,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),90.91,187500
 10567,17329,Prasinophytes,Flagellate,(null),(null),956.94,250525.5183413078149920255183413078149928
 10567,149168,Proboscia alata,Centric diatom,Proboscia,alata,454.55,30166403.97727272727272727272727272727276
@@ -16957,7 +16957,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10614,149168,Proboscia alata,Centric diatom,Proboscia,alata,25.13,1667489.66708542713567839195979899497487
 10614,149153,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,150.75,30150.7537688442211055276381909547738694
 10614,149152,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,75.38,22613.065326633165829145728643216080402
-10614,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),25.13,7104097.98994974874371859296482412060302
+10614,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,25.13,7104097.98994974874371859296482412060302
 10614,149117,Rhizosolenia pungens,Centric diatom,Rhizosolenia,pungens,25.13,8880122.48743718592964824120603015075377
 10614,149115,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,25.13,1136655.67839195979899497487437185929648
 10614,109545,Scrippsiella spp.,Dinoflagellate,Scrippsiella,spp.,25.13,118401.6331658291457286432160804020100503
@@ -17133,7 +17133,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10704,163344,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,101.01,194968979.393939393939393939393939393939
 10704,341673,Rhabdonella amor,Ciliate,Rhabdonella,amor,25.25,3305545.03367003367003367003367003367005
 10704,149116,Rhizosolenia imbricata,Centric diatom,Rhizosolenia,imbricata,126.26,35699886.36363636363636363636363636363629
-10704,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),50.51,14279954.54545454545454545454545454545455
+10704,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,50.51,14279954.54545454545454545454545454545455
 10704,149116,Rhizosolenia imbricata group,Centric diatom,Rhizosolenia,cf. imbricata,151.52,42839863.63636363636363636363636363636377
 10704,149117,Rhizosolenia pungens,Centric diatom,Rhizosolenia,pungens,101.01,35699886.36363636363636363636363636363636
 10704,109545,Scrippsiella spp.,Dinoflagellate,Scrippsiella,spp.,25.25,118999.6212121212121212121212121212121212
@@ -17284,7 +17284,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10754,231788,Karenia spp.,Dinoflagellate,Karenia,spp.,25,188272.0331080795000000000000000000000003
 10754,101190,Laboea spp.,Ciliate,Laboea,spp.,50,955082.629875000000000000000000000000005
 10754,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,200,851174.540625
-10754,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus (no flagellates),50,471238.5
+10754,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus,50,471238.5
 10754,232069,Mesodinium rubrum,Ciliate,Mesodinium,rubrum,25,95425.7962499999999999999999999999999999
 10754,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),25,11250
 10754,115088,Phaeocystis spp. (solitary),Flagellate,Phaeocystis,spp.,500,56548.62
@@ -17312,7 +17312,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10767,109392,Gymnodinioid dinoflagellate 10-20 µm,Dinoflagellate,(null),(null),250,184306.6133333333333333333333333333333335
 10767,109476,Gyrodinium spp. 40-60 µm,Dinoflagellate,Gyrodinium,spp.,175,4810559.6875
 10767,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,50,212793.63515625
-10767,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),50,471238.5
+10767,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,50,471238.5
 10767,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),25,51562.5
 10767,149031,Navicula cf. 80-100 µm length,Pennate diatom,(null),(null),25,157500
 10767,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,75,306795.8984374999999999999999999999999995
@@ -17358,7 +17358,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10785,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,283.51,2226642.39690721649484536082474226804124
 10785,109476,Gyrodinium spp. 40-60 µm,Dinoflagellate,Gyrodinium,spp.,206.19,5667817.01030927835051546391752577319588
 10785,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,2087.63,8884682.70497744845360824742268041237113
-10785,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),283.51,2671970.87628865979381443298969072164948
+10785,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,283.51,2671970.87628865979381443298969072164948
 10785,149039,Leptocylindrus minimus,Centric diatom,Leptocylindrus,minimus,103.09,36435.9664948453608247422680412371134021
 10785,149342,Licmophora spp. < 150 µm,Pennate diatom,Licmophora,spp.,103.09,1255966.32302405498281786941580756013745
 10785,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),103.09,135309.2783505154639175257731958762886599
@@ -17494,7 +17494,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10859,148899,Pennate diatom 50 - 75 µm,Pennate diatom,(null),(null),50,37500
 10859,149168,Proboscia alata,Centric diatom,Proboscia,alata,600,39819653.25
 10859,163344,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,2050,3956895436.8
-10859,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),100,28274310
+10859,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,100,28274310
 10859,149115,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,1250,56548620
 10859,149069,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,50,25132720
 10859,149092,Thalassionema spp. > 100 µm length,Pennate diatom,Thalassionema,spp.,350,11025000
@@ -17668,7 +17668,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 10982,149112,Guinardia delicatula,Centric diatom,Guinardia,delicatula,45.45,361996.8477272727272727272727272727272727
 10982,109392,Gymnodinioid dinoflagellate 10-20 µm,Dinoflagellate,(null),(null),136.36,100530.8799999999999999999999999999999998
 10982,109476,Gyrodinium spp. 40-60 µm,Dinoflagellate,Gyrodinium,spp.,386.36,10620716.19318181818181818181818181818181
-10982,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),45.45,428398.6363636363636363636363636363636363
+10982,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,45.45,428398.6363636363636363636363636363636363
 10982,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),45.45,59659.0909090909090909090909090909090909
 10982,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,181.82,642597.9545454545454545454545454545454552
 10982,148899,Pennate diatom 75 - 100 µm,Pennate diatom,(null),(null),22.73,23863.6363636363636363636363636363636364
@@ -18146,7 +18146,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11197,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,29.15,228978.8629737609329446064139941690962104
 11197,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,58.31,5452902.64285714285714285714285714285715
 11197,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,466.47,1985246.74198250728862973760932944606414
-11197,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),145.77,1373873.17784256559766763848396501457726
+11197,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,145.77,1373873.17784256559766763848396501457726
 11197,149039,Leptocylindrus minimus,Centric diatom,Leptocylindrus,minimus,466.47,164864.7813411078717201166180758017492715
 11197,149031,Navicula cf. 100-120 µm length,Pennate diatom,(null),(null),29.15,400874.6355685131195335276967930029154523
 11197,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),145.77,191326.5306122448979591836734693877551027
@@ -18194,7 +18194,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11210,109392,Gymnodinioid dinoflagellate 10-20 µm,Dinoflagellate,(null),(null),222.22,163828.1007407407407407407407407407407407
 11210,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,74.07,581775.9259259259259259259259259259259269
 11210,248063,Haslea wawrikae,Pennate diatom,Haslea,wawrikae,148.15,872663.888888888888888888888888888888888
-11210,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),2740.74,25830851.11111111111111111111111111111114
+11210,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,2740.74,25830851.11111111111111111111111111111114
 11210,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),1111.11,1458333.33333333333333333333333333333333
 11210,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),222.22,458333.3333333333333333333333333333333329
 11210,149150,Nitzschia longissima,Pennate diatom,Nitzschia,longissima,74.07,362759.7037037037037037037037037037037039
@@ -18207,7 +18207,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11210,149152,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,1629.63,488888.8888888888888888888888888888888899
 11210,163344,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,74.07,142977251.555555555555555555555555555556
 11210,235763,Rhabdonella spiralis,Ciliate,Rhabdonella,spiralis,74.07,74200128.22827160493827160493827160493855
-11210,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),74.07,20943933.33333333333333333333333333333334
+11210,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,74.07,20943933.33333333333333333333333333333334
 11210,149116,Rhizosolenia imbricata group,Centric diatom,Rhizosolenia,cf. imbricata,74.07,20943933.33333333333333333333333333333334
 11210,149115,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,1629.63,73722645.33333333333333333333333333333349
 11210,109545,Scrippsiella spp.,Dinoflagellate,Scrippsiella,spp.,74.07,349065.5555555555555555555555555555555557
@@ -18329,7 +18329,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11266,149112,Guinardia delicatula,Centric diatom,Guinardia,delicatula,95.24,758469.5857142857142857142857142857142857
 11266,149132,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,476.19,93499702.38095238095238095238095238095234
 11266,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,394285.71,1678029808.660714285714285714285714285714
-11266,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),952.38,8975971.42857142857142857142857142857142
+11266,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,952.38,8975971.42857142857142857142857142857142
 11266,149039,Leptocylindrus minimus,Centric diatom,Leptocylindrus,minimus,476.19,168299.4642857142857142857142857142857142
 11266,149145,Meuniera membranacea,Pennate diatom,Meuniera,meuniera,190.48,4487985.7142857142857142857142857142857
 11266,109921,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,47.62,3116656746.031746031746031746031746031741
@@ -18438,7 +18438,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11307,149113,Guinardia striata,Centric diatom,Guinardia,striata,24.63,2089234.72906403940886699507389162561576
 11307,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,73.89,6910143.86637931034482758620689655172414
 11307,101190,Laboea spp.,Ciliate,Laboea,spp.,49.26,940968.1082512315270935960591133004926157
-11307,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus (no flagellates),24.63,232137.1921182266009852216748768472906404
+11307,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus,24.63,232137.1921182266009852216748768472906404
 11307,149342,Licmophora spp. < 150 µm,Pennate diatom,Licmophora,spp.,98.52,1200283.08702791461412151067323481116584
 11307,149031,Navicula cf. <20 µm length,Pennate diatom,(null),(null),24.63,9051.724137931034482758620689655172413794
 11307,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,172.41,705277.9274425287356321839080459770114917
@@ -18823,7 +18823,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11518,109392,Gymnodinioid dinoflagellate 20-30 µm,Dinoflagellate,(null),(null),82.9,162776.6839378238341968911917098445595854
 11518,101264,Laboea strobila,Ciliate,Laboea,strobila,82.9,1583556.69202072538860103626943005181348
 11518,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,1077.72,4586640.01165803108808290155440414507772
-11518,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),41.45,390664.0414507772020725388601036269430052
+11518,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,41.45,390664.0414507772020725388601036269430052
 11518,149039,Leptocylindrus minimus,Centric diatom,Leptocylindrus,minimus,207.25,73249.5077720207253886010362694300518136
 11518,232069,Mesodinium rubrum,Ciliate,Mesodinium,rubrum,82.9,316437.8735751295336787564766839378238337
 11518,149145,Meuniera membranacea,Pennate diatom,Meuniera,meuniera,331.61,7813280.8290155440414507772020725388601
@@ -18864,7 +18864,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11553,109476,Gyrodinium spp.,Dinoflagellate,Gyrodinium,spp.,25.25,2617991.66666666666666666666666666666667
 11553,149033,Gyrosigma spp.,Pennate diatom,Gyrosigma,spp.,25.25,1775568.18181818181818181818181818181818
 11553,101190,Laboea spp.,Ciliate,Laboea,spp.,50.51,964729.9291666666666666666666666666666718
-11553,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),656.57,6187980.30303030303030303030303030303031
+11553,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,656.57,6187980.30303030303030303030303030303031
 11553,179320,Mesodinium spp.,Ciliate,Mesodinium,spp.,151.52,578338.15909090909090909090909090909091
 11553,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),479.8,989583.3333333333333333333333333333333338
 11553,148899,Pennate diatom 75 - 100 µm,Pennate diatom,(null),(null),378.79,397727.272727272727272727272727272727273
@@ -18872,7 +18872,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11553,149168,Proboscia alata,Centric diatom,Proboscia,alata,25.25,1675911.33207070707070707070707070707071
 11553,109553,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,25.25,1949689.7939393939393939393939393939394
 11553,163344,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,25.25,48742244.84848484848484848484848484848484
-11553,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),25.25,7139977.27272727272727272727272727272727
+11553,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,25.25,7139977.27272727272727272727272727272727
 11553,109545,Scrippsiella spp.,Dinoflagellate,Scrippsiella,spp.,25.25,118999.6212121212121212121212121212121212
 11553,177604,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,2525.25,1445845.39772727272727272727272727272727
 11553,840627,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,25.25,528887.205387205387205387205387205387207
@@ -18906,7 +18906,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11566,163344,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,76.92,148476376.615384615384615384615384615385
 11566,183576,Rhabdonella spp.,Ciliate,Rhabdonella,spp.,51.28,6712799.14529914529914529914529914529917
 11566,573572,Rhizosolenia fallax,Centric diatom,Rhizosolenia,fallax,51.28,5670972.71794871794871794871794871794872
-11566,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),76.92,21749469.23076923076923076923076923076923
+11566,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,76.92,21749469.23076923076923076923076923076923
 11566,149069,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,128.21,64442871.79487179487179487179487179487169
 11566,149092,Thalassionema spp. < 100 µm length,Pennate diatom,Thalassionema,spp.,205.13,102564.1025641025641025641025641025641025
 11566,163780,Tintinnopsis spp.,Ciliate,Tintinnopsis,spp.,102.56,1208303.84615384615384615384615384615385
@@ -18947,7 +18947,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11579,149152,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,128.21,38461.5384615384615384615384615384615384
 11579,163342,Pseudosolenia spp. ~30 µm cell width,Centric diatom,Pseudosolenia,spp.,1051.28,371553432.692307692307692307692307692308
 11579,110332,Pyrocystis noctiluca,Dinoflagellate,Pyrocystis,noctiluca,51.28,1933286.15384615384615384615384615384615
-11579,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),410.26,115997169.230769230769230769230769230769
+11579,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,410.26,115997169.230769230769230769230769230769
 11579,149116,Rhizosolenia imbricata group,Centric diatom,Rhizosolenia,cf. imbricata,282.05,79748053.84615384615384615384615384615383
 11579,149115,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,128.21,5799858.46153846153846153846153846153845
 11579,183566,Salpingella spp.,Ciliate,Salpingella,spp.,25.64,724982.3076923076923076923076923076923102
@@ -19093,7 +19093,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11651,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,37558.69,624188210.32863849765258215962441314554
 11651,163250,Hemiaulus sinensis,Centric diatom,Hemiaulus,sinensis,268.28,6742513.74916163648558014755197853789403
 11651,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,4024.14,17126248.30231388329979879275653923541249
-11651,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),1877.93,17699098.59154929577464788732394366197183
+11651,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,1877.93,17699098.59154929577464788732394366197183
 11651,149039,Leptocylindrus minimus,Centric diatom,Leptocylindrus,minimus,804.83,284449.7987927565392354124748490945674042
 11651,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),804.83,1659959.75855130784708249496981891348088
 11651,17329,Prasinophytes,Flagellate,(null),(null),3755.87,983283.2550860719874804381846635367762179
@@ -19122,7 +19122,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11667,157438,Helicotheca spp.,Centric diatom,Helicotheca,spp.,340.83,32524129.60122699386503067484662576687115
 11667,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,852.08,3626340.06742075664621676891615541922291
 11667,149230,Leptocylindrus mediterraneus,Centric diatom,Leptocylindrus,mediterraneus,340.83,3212259.71370143149284253578732106339468
-11667,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),1022.49,9636779.14110429447852760736196319018405
+11667,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,1022.49,9636779.14110429447852760736196319018405
 11667,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),170.42,351482.6175869120654396728016359918200407
 11667,17329,Prasinophytes,Flagellate,(null),(null),511.25,133844.1547375596455351056578050443081124
 11667,149168,Proboscia alata,Centric diatom,Proboscia,alata,852.08,56549155.37661895023858214042263122017726
@@ -19283,7 +19283,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11803,157438,Helicotheca spp.,Centric diatom,Helicotheca,spp.,25.77,2459427.73840206185567010309278350515464
 11803,101264,Laboea strobila,Ciliate,Laboea,strobila,25.77,492310.63395618556701030927835051546392
 11803,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,515.46,2193748.81604381443298969072164948453608
-11803,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),25.77,242906.4432989690721649484536082474226804
+11803,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,25.77,242906.4432989690721649484536082474226804
 11803,149145,Meuniera membranacea,Pennate diatom,Meuniera,meuniera,283.51,6679927.1907216494845360824742268041237
 11803,109921,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,20.62,1349480240.549828178694158075601374570445
 11803,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,51.55,210856.287585910652920962199312714776632
@@ -19350,7 +19350,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11835,109476,Gyrodinium spp.,Dinoflagellate,Gyrodinium,spp.,97.47,10104529.23976608187134502923976608187135
 11835,248063,Haslea wawrikae,Pennate diatom,Haslea,wawrikae,97.47,574120.9795321637426900584795321637426901
 11835,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,1364.52,5807233.70796783625730994152046783625731
-11835,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),1559.45,14697497.07602339181286549707602339181286
+11835,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,1559.45,14697497.07602339181286549707602339181286
 11835,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),97.47,201023.391812865497076023391812865497076
 11835,164116,Odontella mobiliensis,Centric diatom,Odontella,mobiliensis,97.47,28706048.9766081871345029239766081871345
 11835,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),974.66,438596.4912280701754385964912280701754388
@@ -19384,7 +19384,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11851,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,146.63,2436805.14662756598240469208211143695015
 11851,163250,Hemiaulus sinensis,Centric diatom,Hemiaulus,sinensis,97.75,2456766.37341153470185728250244379276637
 11851,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,3910.07,16640753.48240469208211143695014662756598
-11851,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),97.75,921287.39002932551319648093841642228739
+11851,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,97.75,921287.39002932551319648093841642228739
 11851,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),48.88,21994.1348973607038123167155425219941349
 11851,149168,Proboscia alata,Centric diatom,Proboscia,alata,342.13,22705895.46676441837732160312805474095795
 11851,149153,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,7575.76,1515151.51515151515151515151515151515152
@@ -19413,7 +19413,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11867,149132,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,425.53,83552925.53191489361702127659574468085111
 11867,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,212.77,3535959.80851063829787234042553191489362
 11867,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,8297.87,35314688.38763297872340425531914893617021
-11867,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),425.53,4010540.42553191489361702127659574468085
+11867,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,425.53,4010540.42553191489361702127659574468085
 11867,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),212.77,279255.3191489361702127659574468085106384
 11867,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),425.53,877659.5744680851063829787234042553191494
 11867,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,212.77,751976.32978723404255319148936170212766
@@ -19548,7 +19548,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11939,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,198.02,18518273.33168316831683168316831683168317
 11939,149135,Lauderia annulata < 70 µm length,Centric diatom,Lauderia,annulata,66.01,2332863.86138613861386138613861386138614
 11939,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,198.02,842747.0699257425742574257425742574257425
-11939,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus (no flagellates),1287.13,12130892.07920792079207920792079207920792
+11939,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus,1287.13,12130892.07920792079207920792079207920792
 11939,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,330.03,1350036.95682068206820682068206820682068
 11939,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,66.01,233286.3861386138613861386138613861386136
 11939,148899,Pennate diatom 10 - 25 µm,Pennate diatom,(null),(null),66.01,13861.3861386138613861386138613861386138
@@ -19613,7 +19613,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 11976,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,132.01,1036828.38283828382838283828382838283829
 11976,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,66.01,1096964.4290429042904290429042904290429
 11976,101190,Laboea spp.,Ciliate,Laboea,spp.,66.01,1260835.1549504950495049504950495049505
-11976,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),33,311048.5148514851485148514851485148514848
+11976,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,33,311048.5148514851485148514851485148514848
 11976,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,198.02,810022.1740924092409240924092409240924078
 11976,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),1089.11,490099.0099009900990099009900990099009901
 11976,148899,Pennate diatom 50 - 75 µm,Pennate diatom,(null),(null),165.02,123762.3762376237623762376237623762376238
@@ -19711,7 +19711,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12021,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,51.55,4820478.36726804123711340206185567010309
 12021,101264,Laboea strobila,Ciliate,Laboea,strobila,77.32,1476931.90186855670103092783505154639176
 12021,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,180.41,767812.0856153350515463917525773195876272
-12021,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),773.2,7287193.29896907216494845360824742268042
+12021,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,773.2,7287193.29896907216494845360824742268042
 12021,110115,Oxytoxum scolopax,Dinoflagellate,Oxytoxum,scolopax,25.77,151816.5270618556701030927835051546391752
 12021,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,51.55,182179.8324742268041237113402061855670103
 12021,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),206.19,92783.5051546391752577319587628865979382
@@ -19751,7 +19751,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12036,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,254.6,1999597.59547383309759547383309759547383
 12036,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,28.29,470127.6124469589816124469589816124469595
 12036,101264,Laboea strobila,Ciliate,Laboea,strobila,84.87,1621073.77065063649222065063649222065065
-12036,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),84.87,799839.038189533239038189533239038189534
+12036,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,84.87,799839.038189533239038189533239038189534
 12036,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),480.91,216407.3550212164073550212164073550212165
 12036,148899,Pennate diatom 50 - 75 µm,Pennate diatom,(null),(null),84.87,63649.2220650636492220650636492220650637
 12036,109566,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,56.58,115828.542197076850542197076850542197077
@@ -19824,7 +19824,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12067,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,505.05,47230949.6590909090909090909090909090909
 12067,149135,Lauderia annulata > 70 µm length,Centric diatom,Lauderia,annulata,841.75,291549071.969696969696969696969696969697
 12067,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,3872.05,16478968.37910353535353535353535353535352
-12067,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),673.4,6346646.46464646464646464646464646464647
+12067,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,673.4,6346646.46464646464646464646464646464647
 12067,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,168.35,688655.2153479236812570145903479236812586
 12067,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,168.35,594998.1060606060606060606060606060606084
 12067,148899,Pennate diatom 10 - 25 µm,Pennate diatom,(null),(null),673.4,141414.1414141414141414141414141414141415
@@ -20061,7 +20061,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12247,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,300,28055184.0975
 12247,101190,Laboea spp.,Ciliate,Laboea,spp.,100,1910165.25975000000000000000000000000001
 12247,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,900,3830285.4328125
-12247,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),500,4712385
+12247,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,500,4712385
 12247,149145,Meuniera membranacea,Pennate diatom,Meuniera,meuniera,300,7068577.5
 12247,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),400,825000
 12247,148899,Pennate diatom 10 - 25 µm,Pennate diatom,(null),(null),100,21000
@@ -20124,7 +20124,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12346,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,275,2159843.125
 12346,248063,Haslea wawrikae,Pennate diatom,Haslea,wawrikae,25,147262.03125
 12346,101264,Laboea strobila,Ciliate,Laboea,strobila,75,1432623.94481250000000000000000000000001
-12346,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),200,1884954
+12346,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,200,1884954
 12346,149342,Licmophora spp.,Pennate diatom,Licmophora,spp.,25,304571.8333333333333333333333333333333325
 12346,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,50,176714.4375
 12346,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),225,101250
@@ -20159,7 +20159,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12361,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,299.54,2352573.15668202764976958525345622119816
 12361,160584,Heterosigma spp.,Flagellate,Heterosigma,spp.,2442.4,3836503.91705069124423963133640552995393
 12361,101190,Laboea spp.,Ciliate,Laboea,spp.,23.04,440130.2441820276497695852534562211981589
-12361,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),23.04,217160.599078341013824884792626728110599
+12361,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,23.04,217160.599078341013824884792626728110599
 12361,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),92.17,120967.7419354838709677419354838709677419
 12361,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),69.12,142569.1244239631336405529953917050691244
 12361,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,23.04,81435.2246543778801843317972350230414746
@@ -20265,7 +20265,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12407,109392,Gymnodinioid dinoflagellate 10-20 µm,Dinoflagellate,(null),(null),25.64,18903.2423931623931623931623931623931624
 12407,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,76.92,604151.9230769230769230769230769230769238
 12407,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,51.28,4795757.96538461538461538461538461538462
-12407,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),102.56,966643.076923076923076923076923076923081
+12407,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,102.56,966643.076923076923076923076923076923081
 12407,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),333.33,437499.9999999999999999999999999999999996
 12407,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,25.64,104887.486645299145299145299145299145299
 12407,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,76.92,271868.3653846153846153846153846153846154
@@ -20301,7 +20301,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12423,146222,Flagellate <10 µm round,Flagellate,(null),(null),190000,12435460.41666666666666666666666666666665
 12423,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,400,3141590
 12423,101190,Laboea spp.,Ciliate,Laboea,spp.,100,1910165.25975000000000000000000000000001
-12423,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),150,1413715.5
+12423,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,150,1413715.5
 12423,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,50,204530.598958333333333333333333333333333
 12423,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),250,112500
 12423,148899,Pennate diatom 50 - 75 µm,Pennate diatom,(null),(null),150,112500
@@ -20433,7 +20433,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12492,109566,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,67.34,137863.2648709315375982042648709315375983
 12492,149153,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,3636.36,727272.7272727272727272727272727272727272
 12492,149152,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,3434.34,1030303.03030303030303030303030303030303
-12492,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),67.34,19039939.3939393939393939393939393939394
+12492,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,67.34,19039939.3939393939393939393939393939394
 12492,149116,Rhizosolenia imbricata group,Centric diatom,Rhizosolenia,cf. imbricata,67.34,19039939.3939393939393939393939393939394
 12492,149069,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,269.36,135395124.579124579124579124579124579125
 12492,149073,Skeletonema spp.,Centric diatom,Skeletonema,spp.,336.7,138215.856341189674523007856341189674523
@@ -20455,7 +20455,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12507,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,27.47,2569156.05288461538461538461538461538462
 12507,101190,Laboea spp.,Ciliate,Laboea,spp.,109.89,2099082.70302197802197802197802197802199
 12507,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,54.95,233839.1595123626373626373626373626373627
-12507,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),1236.26,11651501.37362637362637362637362637362637
+12507,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,1236.26,11651501.37362637362637362637362637362637
 12507,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),604.4,271978.0219780219780219780219780219780218
 12507,148899,Pennate diatom 50 - 75 µm,Pennate diatom,(null),(null),137.36,103021.9780219780219780219780219780219778
 12507,149181,Pleurosigma spp. < 150 µm,Pennate diatom,Pleurosigma,spp.,27.47,164835.1648351648351648351648351648351648
@@ -20464,7 +20464,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12507,149152,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,164.84,49450.5494505494505494505494505494505495
 12507,163342,Pseudosolenia spp. ~30 µm cell width,Centric diatom,Pseudosolenia,spp.,27.47,9709584.47802197802197802197802197802198
 12507,341673,Rhabdonella amor,Ciliate,Rhabdonella,amor,54.95,7192284.79853479853479853479853479853482
-12507,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),109.89,31070670.32967032967032967032967032967036
+12507,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,109.89,31070670.32967032967032967032967032967036
 12507,149116,Rhizosolenia imbricata group,Centric diatom,Rhizosolenia,cf. imbricata,439.56,124282681.318681318681318681318681318681
 12507,149115,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,82.42,3728480.43956043956043956043956043956044
 12507,183566,Salpingella spp.,Ciliate,Salpingella,spp.,27.47,776766.7582417582417582417582417582417609
@@ -20502,7 +20502,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12522,149153,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,4444.44,888888.8888888888888888888888888888888888
 12522,149152,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,606.06,181818.1818181818181818181818181818181818
 12522,149116,Rhizosolenia imbricata,Centric diatom,Rhizosolenia,imbricata,404.04,114239636.363636363636363636363636363636
-12522,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata (with Richelia),101.01,28559909.09090909090909090909090909090909
+12522,149116,Rhizosolenia imbricata (with Richelia),Centric diatom,Rhizosolenia,imbricata,101.01,28559909.09090909090909090909090909090909
 12522,149117,Rhizosolenia pungens,Centric diatom,Rhizosolenia,pungens,101.01,35699886.36363636363636363636363636363636
 12522,149115,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,505.05,22847927.27272727272727272727272727272727
 12522,149092,Thalassionema spp. < 100 µm length,Pennate diatom,Thalassionema,spp.,404.04,202020.202020202020202020202020202020202
@@ -20609,7 +20609,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12568,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,49.5,822723.3217821782178217821782178217821781
 12568,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,247.52,23147841.664603960396039603960396039604
 12568,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,618.81,2633584.59351794554455445544554455445545
-12568,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),123.76,1166431.93069306930693069306930693069307
+12568,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,123.76,1166431.93069306930693069306930693069307
 12568,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),247.52,324876.237623762376237623762376237623763
 12568,549210,Navicula septentrionalis,Pennate diatom,Navicula,septentrionalis,49.5,1166431.93069306930693069306930693069307
 12568,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,24.75,87482.3948019801980198019801980198019802
@@ -20646,7 +20646,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12584,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,66.01,1096964.4290429042904290429042904290429
 12584,101190,Laboea spp.,Ciliate,Laboea,spp.,198.02,3782505.4648514851485148514851485148515
 12584,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,66.01,280915.6899752475247524752475247524752477
-12584,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),66.01,622097.0297029702970297029702970297029706
+12584,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,66.01,622097.0297029702970297029702970297029706
 12584,149342,Licmophora spp. < 150 µm,Pennate diatom,Licmophora,spp.,198.02,2412450.16501650165016501650165016501649
 12584,549210,Navicula septentrionalis,Pennate diatom,Navicula,septentrionalis,66.01,1555242.57425742574257425742574257425743
 12584,149150,Nitzschia longissima,Pennate diatom,Nitzschia,longissima,66.01,323251.2211221122112211221122112211221124
@@ -20682,7 +20682,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12600,149132,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,300,58904812.5
 12600,149113,Guinardia striata,Centric diatom,Guinardia,striata,300,25446879
 12600,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,31400,133634402.878125
-12600,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),600,5654862
+12600,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,600,5654862
 12600,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,100,353428.875
 12600,148899,Pennate diatom 10 - 25 µm,Pennate diatom,(null),(null),300,63000
 12600,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),100,45000
@@ -20784,7 +20784,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12666,149112,Guinardia delicatula,Centric diatom,Guinardia,delicatula,2000,15927861.3
 12666,149135,Lauderia annulata < 70 µm length,Centric diatom,Lauderia,annulata,2666.67,94247700.00000000000000000000000000000012
 12666,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,18666.67,79442957.12500000000000000000000000000014
-12666,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),2666.67,25132720.00000000000000000000000000000003
+12666,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,2666.67,25132720.00000000000000000000000000000003
 12666,149031,Navicula cf. 100-120 µm length,Pennate diatom,(null),(null),2000,27500000
 12666,110109,Oxytoxum parvum,Dinoflagellate,Oxytoxum,parvum,23333.33,82466737.49999999999999999999999999999988
 12666,109903,Pronoctiluca pelagica,Dinoflagellate,Pronoctiluca,pelagica,666.67,1466075.33333333333333333333333333333333
@@ -20817,7 +20817,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12682,248063,Haslea wawrikae,Pennate diatom,Haslea,wawrikae,397.61,2342139.66202783300198807157057654075547
 12682,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,198.81,3303978.34990059642147117296222664015904
 12682,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,8349.9,35536114.02211729622266401590457256461233
-12682,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),596.42,5621135.18886679920477137176938369781312
+12682,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,596.42,5621135.18886679920477137176938369781312
 12682,149168,Proboscia alata,Centric diatom,Proboscia,alata,198.81,13194053.42942345924453280318091451292243
 12682,149153,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,8349.9,1669980.11928429423459244532803180914513
 12682,149152,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,27634.19,8290258.44930417495029821073558648111331
@@ -20976,7 +20976,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12804,146222,Flagellate <10 µm round,Flagellate,(null),(null),90000,5890481.24999999999999999999999999999999
 12804,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,250,1963493.75
 12804,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,6550,27875966.20546875
-12804,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),950,8953531.5
+12804,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,950,8953531.5
 12804,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),150,67500
 12804,148899,Pennate diatom > 100 µm,Pennate diatom,(null),(null),300,450000
 12804,149168,Proboscia alata,Centric diatom,Proboscia,alata,150,9954913.3125
@@ -21035,7 +21035,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12834,146222,Flagellate <10 µm round,Flagellate,(null),(null),195223.26,12777321.73762547594323295257874697127032
 12834,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,560.75,4404098.13084112149532710280373831775702
 12834,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,62.31,5826621.82710280373831775700934579439253
-12834,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),186.92,1761639.25233644859813084112149532710281
+12834,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,186.92,1761639.25233644859813084112149532710281
 12834,149031,Navicula cf. 60-80 µm length,Pennate diatom,(null),(null),62.31,348909.6573208722741433021806853582554519
 12834,109921,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,9.35,611680295.950155763239875389408099688473
 12834,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,249.22,880819.6261682242990654205607476635514016
@@ -21117,7 +21117,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12880,163250,Hemiaulus sinensis,Centric diatom,Hemiaulus,sinensis,33.67,846219.5286195286195286195286195286195279
 12880,101190,Laboea spp.,Ciliate,Laboea,spp.,33.67,643153.2861111111111111111111111111111139
 12880,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,101.01,429886.1316287878787878787878787878787878
-12880,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),33.67,317332.3232323232323232323232323232323229
+12880,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,33.67,317332.3232323232323232323232323232323229
 12880,149150,Nitzschia longissima,Pennate diatom,Nitzschia,longissima,33.67,164890.7744107744107744107744107744107743
 12880,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),404.04,181818.1818181818181818181818181818181818
 12880,149181,Pleurosigma spp. < 150 µm,Pennate diatom,Pleurosigma,spp.,33.67,202020.2020202020202020202020202020202018
@@ -21156,7 +21156,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12896,101190,Laboea spp.,Ciliate,Laboea,spp.,24.51,468177.7597426470588235294117647058823554
 12896,149135,Lauderia annulata < 70 µm length,Centric diatom,Lauderia,annulata,98.04,3464988.97058823529411764705882352941176
 12896,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,49.02,208621.2109375
-12896,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),49.02,461998.5294117647058823529411764705882353
+12896,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,49.02,461998.5294117647058823529411764705882353
 12896,149342,Licmophora spp. < 150 µm,Pennate diatom,Licmophora,spp.,24.51,298599.8366013071895424836601307189542476
 12896,549210,Navicula septentrionalis,Pennate diatom,Navicula,septentrionalis,24.51,577498.1617647058823529411764705882352941
 12896,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,24.51,86624.7242647058823529411764705882352941
@@ -21222,7 +21222,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 12929,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,151.52,14169284.89772727272727272727272727272732
 12929,101190,Laboea spp.,Ciliate,Laboea,spp.,75.76,1447094.89375000000000000000000000000001
 12929,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,984.85,4191389.78338068181818181818181818181818
-12929,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),50.51,475998.4848484848484848484848484848484849
+12929,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,50.51,475998.4848484848484848484848484848484849
 12929,149150,Nitzschia longissima,Pennate diatom,Nitzschia,longissima,25.25,123668.0808080808080808080808080808080808
 12929,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),631.31,284090.909090909090909090909090909090909
 12929,148899,Pennate diatom > 100 µm,Pennate diatom,(null),(null),25.25,37878.7878787878787878787878787878787879
@@ -21404,7 +21404,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13137,146222,Flagellate <10 µm round,Flagellate,(null),(null),250000,16362447.91666666666666666666666666666664
 13137,101264,Laboea strobila,Ciliate,Laboea,strobila,125,2387706.57468750000000000000000000000001
 13137,149135,Lauderia annulata < 70 µm length,Centric diatom,Lauderia,annulata,25,883572.1875
-13137,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),50,471238.5
+13137,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,50,471238.5
 13137,232069,Mesodinium rubrum,Ciliate,Mesodinium,rubrum,300,1145109.555
 13137,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),25,51562.5
 13137,149031,Navicula cf. 60-80 µm length,Pennate diatom,(null),(null),50,280000
@@ -21475,7 +21475,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13185,146222,Flagellate <10 µm round,Flagellate,(null),(null),160000,10471966.66666666666666666666666666666665
 13185,109476,Gyrodinium spp.,Dinoflagellate,Gyrodinium,spp.,75,7775435.25
 13185,101264,Laboea strobila,Ciliate,Laboea,strobila,125,2387706.57468750000000000000000000000001
-13185,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),125,1178096.25
+13185,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,125,1178096.25
 13185,232069,Mesodinium rubrum,Ciliate,Mesodinium,rubrum,425,1622238.53625
 13185,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),125,257812.5
 13185,450616,Neostreptotheca spp.,Centric diatom,Neostreptotheca,spp.,50,10800000
@@ -21516,7 +21516,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13200,101190,Laboea spp.,Ciliate,Laboea,spp.,28.57,545761.5027857142857142857142857142857177
 13200,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,342.86,1459156.35535714285714285714285714285714
 13200,149230,Leptocylindrus mediterraneus,Centric diatom,Leptocylindrus,mediterraneus,85.71,807837.4285714285714285714285714285714294
-13200,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),28.57,269279.1428571428571428571428571428571431
+13200,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,28.57,269279.1428571428571428571428571428571431
 13200,149039,Leptocylindrus minimus,Centric diatom,Leptocylindrus,minimus,85.71,30293.9035714285714285714285714285714286
 13200,232069,Mesodinium rubrum,Ciliate,Mesodinium,rubrum,142.86,545290.264285714285714285714285714285714
 13200,149145,Meuniera membranacea,Pennate diatom,Meuniera,meuniera,685.71,16156748.57142857142857142857142857142858
@@ -21561,7 +21561,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13215,149113,Guinardia striata,Centric diatom,Guinardia,striata,25,2120573.25
 13215,109476,Gyrodinium spp.,Dinoflagellate,Gyrodinium,spp.,75,7775435.25
 13215,101190,Laboea spp.,Ciliate,Laboea,spp.,50,955082.629875000000000000000000000000005
-13215,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),25,235619.25
+13215,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,25,235619.25
 13215,232069,Mesodinium rubrum,Ciliate,Mesodinium,rubrum,175,667980.573749999999999999999999999999999
 13215,149145,Meuniera membranacea,Pennate diatom,Meuniera,meuniera,200,4712385
 13215,149031,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),25,51562.5
@@ -21598,7 +21598,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13232,163250,Hemiaulus sinensis,Centric diatom,Hemiaulus,sinensis,200,5026544
 13232,149135,Lauderia annulata < 70 µm length,Centric diatom,Lauderia,annulata,2400,84822930
 13232,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,800,3404698.1625
-13232,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),1400,13194678
+13232,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,1400,13194678
 13232,232069,Mesodinium rubrum,Ciliate,Mesodinium,rubrum,300,1145109.555
 13232,149145,Meuniera membranacea,Pennate diatom,Meuniera,meuniera,1500,35342887.5
 13232,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),200,90000
@@ -21635,7 +21635,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13247,109476,Gyrodinium spp.,Dinoflagellate,Gyrodinium,spp.,76.19,7898854.85714285714285714285714285714286
 13247,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,228.57,3798631.10857142857142857142857142857144
 13247,101190,Laboea spp.,Ciliate,Laboea,spp.,38.1,727682.0037142857142857142857142857142896
-13247,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),457.14,4308466.28571428571428571428571428571428
+13247,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,457.14,4308466.28571428571428571428571428571428
 13247,232069,Mesodinium rubrum,Ciliate,Mesodinium,rubrum,723.81,2762804.00571428571428571428571428571428
 13247,110115,Oxytoxum scolopax,Dinoflagellate,Oxytoxum,scolopax,38.1,224399.2857142857142857142857142857142857
 13247,149181,Pleurosigma spp. < 150 µm,Pennate diatom,Pleurosigma,spp.,38.1,228571.4285714285714285714285714285714286
@@ -21897,7 +21897,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13358,163249,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,181.82,3021638.38181818181818181818181818181818
 13358,149135,Lauderia annulata < 70 µm length,Centric diatom,Lauderia,annulata,484.85,17135945.45454545454545454545454545454546
 13358,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,121.21,515863.3579545454545454545454545454545446
-13358,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),60.61,571198.1818181818181818181818181818181821
+13358,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,60.61,571198.1818181818181818181818181818181821
 13358,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,60.61,247915.8775252525252525252525252525252523
 13358,148899,Pennate diatom 10 - 25 µm,Pennate diatom,(null),(null),303.03,63636.3636363636363636363636363636363638
 13358,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),909.09,409090.9090909090909090909090909090909091
@@ -22049,7 +22049,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13421,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,25.64,201383.9743589743589743589743589743589746
 13421,248063,Haslea wawrikae,Pennate diatom,Haslea,wawrikae,25.64,151037.9807692307692307692307692307692308
 13421,157440,Helicotheca tamesis,Centric diatom,Helicotheca,tamesis,25.64,1540587.40384615384615384615384615384615
-13421,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),25.64,241660.7692307692307692307692307692307692
+13421,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,25.64,241660.7692307692307692307692307692307692
 13421,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,25.64,104887.486645299145299145299145299145299
 13421,148899,Pennate diatom 10 - 25 µm,Pennate diatom,(null),(null),51.28,10769.2307692307692307692307692307692308
 13421,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),307.69,138461.5384615384615384615384615384615386
@@ -22164,8 +22164,8 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13468,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,163.27,15268127.39999999999999999999999999999996
 13468,101190,Laboea spp.,Ciliate,Laboea,spp.,81.63,1559318.57938775510204081632653061224491
 13468,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,204.08,868545.4496173469387755102040816326530633
-13468,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus (no flagellates),122.45,1154053.4693877551020408163265306122449
-13468,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),285.71,2692791.42857142857142857142857142857143
+13468,149230,Leptocylindrus mediterraneus (no flagellates),Centric diatom,Leptocylindrus,mediterraneus,122.45,1154053.4693877551020408163265306122449
+13468,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,285.71,2692791.42857142857142857142857142857143
 13468,149150,Nitzschia longissima,Pennate diatom,Nitzschia,longissima,40.82,199888
 13468,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,122.45,432770.0510204081632653061224489795918357
 13468,148899,Pennate diatom 10 - 25 µm,Pennate diatom,(null),(null),40.82,8571.428571428571428571428571428571428571
@@ -22205,7 +22205,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13483,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,175.44,1377890.35087719298245614035087719298246
 13483,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,140.35,13125232.32631578947368421052631578947365
 13483,101190,Laboea spp.,Ciliate,Laboea,spp.,140.35,2680933.69789473684210526315789473684211
-13483,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),140.35,1322774.73684210526315789473684210526315
+13483,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,140.35,1322774.73684210526315789473684210526315
 13483,149150,Nitzschia longissima,Pennate diatom,Nitzschia,longissima,245.61,1202834.80701754385964912280701754385965
 13483,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),771.93,347368.4210526315789473684210526315789474
 13483,149181,Pleurosigma spp. < 150 µm,Pennate diatom,Pleurosigma,spp.,35.09,210526.3157894736842105263157894736842103
@@ -22240,7 +22240,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13498,109392,Gymnodinioid dinoflagellate 10-20 µm,Dinoflagellate,(null),(null),104.17,76794.4222222222222222222222222222222225
 13498,(null),Gyrodinium spp. 10-20 µm,Dinoflagellate,Gyrodinium,spp.,26.04,(null)
 13498,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,338.54,31659495.94335937500000000000000000000003
-13498,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),130.21,1227183.59375
+13498,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,130.21,1227183.59375
 13498,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),130.21,170898.4374999999999999999999999999999996
 13498,149150,Nitzschia longissima,Pennate diatom,Nitzschia,longissima,78.13,382598.125
 13498,109528,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,52.08,184077.5390625
@@ -22330,6 +22330,46 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13544,148912,Thalassiosira spp. 40-60 µm,Centric diatom,Thalassiosira,spp.,210.53,4133671.05263157894736842105263157894738
 13544,177604,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,736.84,421882.4676315789473684210526315789473685
 13544,146203,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1263.16,7936648.42105263157894736842105263157893
+13862,149118,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,532.39,3278180.86956521739130434782608695652174
+13862,(null),Centric diatom 20-30 µm,Centric diatom,(null),(null),709.85,3136014.86246672582076308784383318544809
+13862,148985,Chaetoceros spp. 20-30 µm,Centric diatom,Chaetoceros,spp.,88.73,522669.1437444543034605146406388642413488
+13862,11,Ciliate (Inc. tintinnid),Ciliate,(null),(null),1774.62,18148234.1577935522034900916888494528245
+13862,148989,Cocconeis spp.,Pennate diatom,Cocconeis,spp.,177.46,412281.4205856255545696539485359361135755
+13862,427448,Codonellopsis cf. ostenfeldi,Ciliate,Codonellopsis,cf. ostenfeldi,88.73,7061840.87548062703342206447796509908311
+13862,204197,Codonellopsis spp.,Ciliate,Codonellopsis,spp.,88.73,7061840.87548062703342206447796509908311
+13862,148899,Cylindrical diatom,Centric diatom,(null),(null),354.92,557513.7533274179236912156166814551907715
+13862,149004,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,11268.86,2253771.07364685004436557231588287488908
+13862,179688,Cymatosira lorenziana,Centric diatom,Cymatosira,lorenziana,88.73,15433.6734693877551020408163265306122449
+13862,196834,Dictyocysta spp.,Ciliate,Dictyocysta,spp.,88.73,176546.0218870156758355516119491274770778
+13862,109662,Dinophysis tripos,Dinoflagellate,Dinophysis,tripos,88.73,3606417.09183673469387755102040816326531
+13862,149023,Ditylum brightwellii > 40 µm width,Centric diatom,Ditylum,brightwellii,266.19,29813664.59627329192546583850931677018637
+13862,1410,Foraminifera,Foraminifera,(null),(null),177.46,743351.6711032238982549541555752735876942
+13862,149132,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,177.46,34844609.58296362023070097604259094942322
+13862,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,354.92,1510513.8254214729370008873114463176575
+13862,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),88.73,116459.6273291925465838509316770186335404
+13862,149150,Nitzschia longissima,Pennate diatom,Nitzschia,longissima,266.19,1303617.39130434782608695652173913043478
+13862,164116,Odontella mobiliensis,Centric diatom,Odontella,mobiliensis,354.92,104533828.74889086069210292812777284827
+13862,415724,Ormosella spp.,Ciliate,Ormosella,spp.,177.46,1580551.49068322981366459627329192546584
+13862,148899,Pennate diatom 10 - 25 µm,Pennate diatom,(null),(null),354.92,74534.1614906832298136645962732919254658
+13862,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),709.85,319432.1206743566992014196983141082519967
+13862,148899,Pennate diatom 50 - 75 µm,Pennate diatom,(null),(null),443.66,332741.7923691215616681455190771960958298
+13862,149181,Pleurosigma spp. < 150 µm,Pennate diatom,Pleurosigma,spp.,177.46,1064773.73558118899733806566104702750665
+13862,149181,Pleurosigma spp. > 450 µm,Pennate diatom,Pleurosigma,spp.,88.73,13420585.62555456965394853593611357586513
+13862,149168,Proboscia alata ~ 50 µm cell width,Centric diatom,Proboscia,alata,88.73,87111523.95740905057675244010647737355814
+13862,149153,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,1774.62,354924.5785270629991126885536823425022184
+13862,149152,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,798.58,239574.0905057675244010647737355811889976
+13862,196811,Rhizosolenia bergonii,Centric diatom,Rhizosolenia,bergonii,88.73,139378438.331854480922803904170363797693
+13862,149115,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,1330.97,60211485.35936113575865128660159716060326
+13862,149069,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,177.46,89202200.53238686779059449866903283052344
+13862,149093,Thalassionema nitzschioides,Pennate diatom,Thalassionema,nitzschioides,8961.85,7841614.90683229813664596273291925465838
+13862,149092,Thalassionema spp. < 100 µm length,Pennate diatom,Thalassionema,spp.,798.58,399290.150842945874001774622892635314996
+13862,149092,Thalassionema spp. > 100 µm length,Pennate diatom,Thalassionema,spp.,2573.2,81055900.62111801242236024844720496894408
+13862,148912,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,532.39,3763217.83496007098491570541259982253771
+13862,148912,Thalassiosira spp. 40-60 µm,Centric diatom,Thalassiosira,spp.,177.46,3484460.95829636202307009760425909494232
+13862,163780,Tintinnopsis spp.,Ciliate,Tintinnopsis,spp.,88.73,1045338.2874889086069210292812777284827
+13862,177604,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,4436.56,2540172.03859804791481810115350488021296
+13862,842517,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,10.2,414337.252551020408163265306122448979592
+13862,146203,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1330.97,8362706.29991126885536823425022182786155
 13879,109470,Alexandrium spp.,Dinoflagellate,Alexandrium,spp.,133.33,321698.8159999999999999999999999999999992
 13879,11,Ciliate (naked < 25µm),Ciliate,(null),(null),266.67,1396262.22222222222222222222222222222222
 13879,17638,Cryptophyta < 10 µm length,Flagellate,(null),(null),116666.67,91629708.3333333333333333333333333333336
@@ -22377,7 +22417,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 13911,149113,Guinardia striata,Centric diatom,Guinardia,striata,350.92,29765912.97227745935197099075915311732371
 13911,109476,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,116.97,918701.0176628845479003392209615159667823
 13911,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,3743.13,15930275.64627441806059188209147268686396
-13911,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),116.97,1102441.22119546145748040706515381916014
+13911,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,116.97,1102441.22119546145748040706515381916014
 13911,375970,Octactis octonaria,Silicoflagellate,Octactis,octonaria,584.86,2392450.56683042851015713338792061449682
 13911,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),467.89,210550.941630600070183647210200023394549
 13911,148899,Pennate diatom 50 - 75 µm,Pennate diatom,(null),(null),467.89,350918.2360510001169727453503333723242483
@@ -22437,7 +22477,7 @@ SAMPLE,APHIA_ID,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,CELL_PER_LITRE,BIOVOLUME_UM
 14004,418540,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,170.07,15904299.37500000000000000000000000000001
 14004,101190,Laboea spp.,Ciliate,Laboea,spp.,340.14,6497160.74744897959183673469387755102045
 14004,149106,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,1700.68,7237878.74681122448979591836734693877553
-14004,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus (with flagellates),340.14,3205704.08163265306122448979591836734694
+14004,149230,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,340.14,3205704.08163265306122448979591836734694
 14004,149031,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),510.2,669642.8571428571428571428571428571428574
 14004,148899,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),850.34,382653.0612244897959183673469387755102043
 14004,149168,Proboscia alata,Centric diatom,Proboscia,alata,340.14,22573499.57482993197278911564625850340137
