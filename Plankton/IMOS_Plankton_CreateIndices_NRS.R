@@ -42,6 +42,7 @@ CTD <- getCTD() %>%
   group_by(NRScode) %>% 
   summarise(CTD_SST_C = mean(CTDTemperature, na.rm = TRUE),
             CTDChlF_mgm3 = mean(CTDChlF_mgm3, na.rm = TRUE),
+            CTDSalinity = mean(CTDSalinity, na.rm = TRUE),
             .groups = "drop") %>%
   untibble()
 
@@ -161,7 +162,7 @@ Pigments <- read_csv(paste0(rawD,.Platform$file.sep,"nrs_pigments.csv"), na = "(
 # ggplot(data = dat, aes(x = Year, y = SampleDepth_m)) + geom_point()
 
 # Total Zooplankton Abundance
-ZooData <- getNRSZooSamples() %>% 
+ZooData <- getNRSSamples() %>% 
   left_join(getNRSZooData(), by = "Sample")
 
 TZoo <- ZooData %>% 
@@ -176,7 +177,8 @@ TCope <- ZooData %>%
             .groups = "drop")
 
 # Total Zooplankton Biomass
-ZBiomass <- getNRSZooBiomass()
+ZBiomass <- getNRSSamples() %>% select(c(NRScode, Biomass_mgm3)) %>% 
+  mutate(SampleDepth_m = "WC")
 
 # Bring in copepod information table with sizes etc.
 ZInfo <- get_ZooInfo() 
@@ -205,7 +207,7 @@ HCrat <- ZooData %>%
 # Diversity, evenness etc.     
 
 # Bring in plankton data
-ZooCount <- getNRSZooSamples() %>% 
+ZooCount <- getNRSSamples() %>% 
   left_join(getNRSZooCount(), by = "NRScode")
 
 n <- ZooCount %>% 
@@ -230,7 +232,7 @@ CopepodEvenness <- n %>%
   mutate(CopepodEvenness = ShannonCopepodDiversity / log(NoCopepodSpecies_Sample))
 
 # Total Phyto abundance
-PhytoData <- getNRSPhytoSamples() %>% 
+PhytoData <- getNRSSamples() %>% 
   left_join(getNRSPhytoData(), by = "Sample") %>% 
   filter(TaxonGroup != 'Other')
 

@@ -25,8 +25,9 @@ get_NRSTrips <- function(){
 
 # Bring in all NRS samples
 getNRSSamples <- function(){
-    NRSSamp <- read_csv(paste0(rawD,.Platform$file.sep,"PSampNRS.csv"), na = "(null)") %>% 
-      rename(Sample = SAMPLE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATE, NRScode = NRS_CODE) %>%
+    NRSSamp <- read_csv(paste0(rawD,.Platform$file.sep,"SampNRS.csv"), na = "(null)") %>% 
+      rename(Sample = SAMPLE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATE, 
+             NRScode = NRS_CODE, Biomass_mgm3 = BIOMASS_MGM3) %>%
       mutate(Year = year(SampleDateLocal),
              Month = month(SampleDateLocal),
              Day = day(SampleDateLocal),
@@ -48,17 +49,6 @@ getNRSPhytoChangeLog <- function(){
     rename(TaxonName = TAXON_NAME, StartDate = START_DATE, ParentName = PARENT_NAME)
   return(NRSPcl)
 }
-
-# Bring in all NRS zooplankton samples
-# getNRSZooSamples <- function(){
-#   NRSZsamp <- read_csv(paste0(rawD,.Platform$file.sep,"ZSampNRS.csv"), na = "(null)") %>% 
-#     rename(Sample = SAMPLE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATE, NRScode = NRS_CODE) %>%
-#     mutate(Year = year(SampleDateLocal),
-#            Month = month(SampleDateLocal),
-#            Day = day(SampleDateLocal),
-#            Time_24hr = str_sub(SampleDateLocal, -8, -1)) # hms doesn"t seem to work on 00:00:00 times
-#   return(NRSZsamp)
-# }
 
 # Bring in zooplankton  abundance data
 getNRSZooData <- function(){
@@ -82,16 +72,6 @@ getNRSZooChangeLog <- function(){
   NRSZcl <- read_csv(paste0(rawD,.Platform$file.sep,"ChangeLogNRSZ.csv"), na = "(null)") %>%
     rename(TaxonName = TAXON_NAME, StartDate = START_DATE, ParentName = PARENT_NAME)
   return(NRSZcl)
-}
-
-# Bring in Zooplankton biomass
-getNRSZooBiomass <- function(){
-  ZBiomass <-  read_csv(paste0(rawD,.Platform$file.sep,"nrs_biomass.csv"), na = "(null)") %>% 
-  rename(NRScode = NRS_CODE, Biomass_mgm3 = BIOMASS_MGM3) %>% 
-  mutate(SampleDepth_m = "WC",
-         NRScode = gsub('^.{3}|.{9}$', '', NRScode)) %>% 
-  untibble()
-  return(ZBiomass)
 }
 
 # Bring in copepod information table with sizes etc.

@@ -21,14 +21,14 @@ source("IMOS_Plankton_functions.R")
 #### NRS Phytoplankton #### #################################################################################################################################
 
 # Bring in all NRS phytoplankton samples, data and changelog
-NRSPsamp <- getNRSPhytoSamples()
+NRSSamp <- getNRSSamples()
 NRSPdat <- getNRSPhytoData()
 NRSPcl <- getNRSPhytoChangeLog()
 
 #### Raw Phytoplankton ####
 
-NRSRawP1 <- left_join(NRSPsamp, NRSPdat, by = "Sample") %>% 
-  select(-c(TaxonGroup, Genus, Species, Biovolume_uM3_L)) %>% 
+NRSRawP1 <- left_join(NRSSamp, NRSPdat, by = "Sample") %>% 
+  select(-c(TaxonGroup, Genus, Species, Biovolume_uM3_L, APHIA_ID)) %>% 
   arrange(-desc(TaxonName)) 
 
 NRSRawP <- NRSRawP1 %>% 
@@ -46,7 +46,7 @@ NRSHTGP1 <- NRSPdat %>%
   summarise(Cells_L = sum(Cells_L, na.rm = TRUE), .groups = "drop") %>%
   filter(!TaxonGroup %in% c("Other","Coccolithophore", "Diatom","Protozoa")) 
 
-NRSHTGP1 <- NRSPsamp %>% 
+NRSHTGP1 <- NRSSamp %>% 
   left_join(NRSHTGP1, by = "Sample") %>% 
   mutate(TaxonGroup = ifelse(is.na(TaxonGroup), "Ciliate", TaxonGroup),
          Cells_L = ifelse(is.na(Cells_L), 0, Cells_L)) %>% 
@@ -75,7 +75,7 @@ NRSGenP1 <- NRSPdat %>%
   summarise(Cells_L = sum(Cells_L, na.rm = TRUE), .groups = "drop") %>% 
   drop_na(Genus) 
 
-NRSGenP1 <- NRSPsamp %>% 
+NRSGenP1 <- NRSSamp %>% 
   left_join(NRSGenP1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          Genus = ifelse(is.na(Genus), "Acanthoica", Genus),
@@ -105,7 +105,7 @@ for (i in 1:nlevels(NRSGenP2$Genus)) {
     filter(Genus == Gen) %>% 
     droplevels() 
   
-  gen <- NRSPsamp %>% 
+  gen <- NRSSamp %>% 
     left_join(gen, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            Genus = replace(Genus, is.na(Genus), Dates$Genus),
@@ -147,7 +147,7 @@ NRSSpecP1 <- NRSPdat %>%
   group_by(Sample, TaxonName) %>% 
   summarise(Cells_L = sum(Cells_L, na.rm = TRUE), .groups = "drop")
 
-NRSSpecP1 <- NRSPsamp %>% 
+NRSSpecP1 <- NRSSamp %>% 
   left_join(NRSSpecP1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          TaxonName = ifelse(is.na(TaxonName), "Paralia sulcata", TaxonName),
@@ -179,7 +179,7 @@ for (i in 1:nlevels(NRSSpecP2$TaxonName)) {
     filter(TaxonName == Taxon) %>% 
     droplevels() 
   
-  spec <- NRSPsamp %>% 
+  spec <- NRSSamp %>% 
     left_join(spec, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            TaxonName = replace(TaxonName, is.na(TaxonName), Dates$TaxonName),
@@ -213,7 +213,7 @@ NRSHTGPB1 <- NRSPdat %>%
   summarise(BioV_um3_L = sum(Biovolume_uM3_L, na.rm = TRUE), .groups = "drop") %>%
   filter(!TaxonGroup %in% c("Other","Coccolithophore", "Diatom","Protozoa")) 
 
-NRSHTGPB1 <- NRSPsamp %>% 
+NRSHTGPB1 <- NRSSamp %>% 
   left_join(NRSHTGPB1, by = "Sample") %>% 
   mutate(TaxonGroup = ifelse(is.na(TaxonGroup), "Ciliate", TaxonGroup),
          BioV_um3_L = ifelse(is.na(BioV_um3_L), 0, BioV_um3_L)) %>% 
@@ -242,7 +242,7 @@ NRSGenPB1 <- NRSPdat %>%
   summarise(BioV_um3_L = sum(Biovolume_uM3_L, na.rm = TRUE), .groups = "drop") %>% 
   drop_na(Genus) 
 
-NRSGenPB1 <- NRSPsamp %>% 
+NRSGenPB1 <- NRSSamp %>% 
   left_join(NRSGenPB1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          Genus = ifelse(is.na(Genus), "Acanthoica", Genus),
@@ -273,7 +273,7 @@ for (i in 1:nlevels(NRSGenPB2$Genus)) {
     filter(Genus == Gen) %>% 
     droplevels() 
   
-  gen <- NRSPsamp %>% 
+  gen <- NRSSamp %>% 
     left_join(gen, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            Genus = replace(Genus, is.na(Genus), Dates$Genus),
@@ -320,7 +320,7 @@ NRSSpecPB1 <- NRSPdat %>%
   group_by(Sample, TaxonName) %>% 
   summarise(BioV_um3_L = sum(Biovolume_uM3_L, na.rm = TRUE), .groups = "drop")
 
-NRSSpecPB1 <- NRSPsamp %>% 
+NRSSpecPB1 <- NRSSamp %>% 
   left_join(NRSSpecPB1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          TaxonName = ifelse(is.na(TaxonName), "Paralia sulcata", TaxonName),
@@ -359,7 +359,7 @@ for (i in 1:nlevels(NRSSpecPB2$TaxonName)) {
     filter(TaxonName == Taxon) %>% 
     droplevels() 
   
-  spec <- NRSPsamp %>% 
+  spec <- NRSSamp %>% 
     left_join(spec, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            TaxonName = replace(TaxonName, is.na(TaxonName), Dates$TaxonName),
@@ -387,13 +387,13 @@ fwrite(NRSSpecPB, file = paste0(outD,.Platform$file.sep,"NRS_phytoBioV_species_m
 
 #### NRS Zooplankton #### #################################################################################################################################
 # Bring in all NRS zooplankton samples, data and changelog
-NRSZsamp <- getNRSZooSamples()
+NRSSamp <- getNRSSamples()
 NRSZdat <- getNRSZooData()
 NRSZcl <- getNRSZooChangeLog()
 
 #### Raw Zooplankton ####
 
-NRSRawZ1 <- left_join(NRSZsamp, NRSZdat, by = "Sample") %>% 
+NRSRawZ1 <- left_join(NRSSamp, NRSZdat, by = "Sample") %>% 
   select(-c(Sample, Copepod, TaxonGroup, Genus, Species)) %>% 
   arrange(-desc(TaxonName)) 
 
@@ -402,7 +402,7 @@ NRSRawZ <- NRSRawZ1 %>%
   arrange(desc(SampleDateLocal)) %>% 
   mutate(SampleDateLocal = as.character(SampleDateLocal))
 
-fwrite(NRSRawP, file = paste0(outD,.Platform$file.sep,"NRS_zoop_raw_mat.csv"), row.names = FALSE)
+fwrite(NRSRawZ, file = paste0(outD,.Platform$file.sep,"NRS_zoop_raw_mat.csv"), row.names = FALSE)
 
 #### Higher Trophic Groups ####
 nrsHTGZ1 <- NRSZdat %>% 
@@ -410,7 +410,7 @@ nrsHTGZ1 <- NRSZdat %>%
   summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") %>%
   filter(!TaxonGroup %in% c("Other")) 
 
-nrsHTGZ1 <-  NRSZsamp %>% 
+nrsHTGZ1 <-  NRSSamp %>% 
   left_join(nrsHTGZ1, by = "Sample") %>% 
   mutate(TaxonGroup = ifelse(is.na(TaxonGroup), "Copepod", TaxonGroup),
          ZAbund_m3 = ifelse(is.na(ZAbund_m3), 0, ZAbund_m3)) %>% arrange(-desc(TaxonGroup))
@@ -439,7 +439,7 @@ NRSGenZ1 <- NRSZdat %>%
   summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") %>% 
   drop_na(Genus) 
 
-NRSGenZ1 <- NRSZsamp %>% left_join(NRSGenZ1, by = "Sample") %>% 
+NRSGenZ1 <- NRSSamp %>% left_join(NRSGenZ1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          Genus = ifelse(is.na(Genus), "Acanthoica", word(Genus,1)), # bin subgenera together
          ZAbund_m3 = ifelse(is.na(ZAbund_m3), 0, ZAbund_m3))  %>% 
@@ -469,7 +469,7 @@ for (i in 1:nlevels(NRSGenP2$Genus)) {
     filter(Genus == Gen) %>% 
     droplevels() 
   
-  gen <- NRSZsamp %>% 
+  gen <- NRSSamp %>% 
     left_join(gen, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            Genus = replace(Genus, is.na(Genus), Dates$Genus),
@@ -511,7 +511,7 @@ NRSCop1 <- NRSZdat %>%
   group_by(Sample, Species) %>% 
   summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop")
 
-NRSCop1 <- NRSZsamp %>% left_join(NRSCop1, by = "Sample") %>% 
+NRSCop1 <- NRSSamp %>% left_join(NRSCop1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          Species = ifelse(is.na(Species), "Calanus Australis", Species), # avoids nulls in pivot
          ZAbund_m3 = ifelse(is.na(ZAbund_m3), 0, ZAbund_m3)) %>%  # avoids nulls in pivot
@@ -543,7 +543,7 @@ for (i in 1:nlevels(NRSCop2$Species)) {
     filter(Species == Taxon) %>% 
     droplevels() 
   
-  copes <- NRSZsamp %>% 
+  copes <- NRSSamp %>% 
     left_join(copes, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            Species = replace(Species, is.na(Species), Dates$Species),
@@ -579,7 +579,7 @@ NRSnCop1 <- NRSZdat %>%
   group_by(Sample, Species) %>% 
   summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop")
 
-NRSnCop1 <- NRSZsamp %>% left_join(NRSnCop1, by = "Sample") %>% 
+NRSnCop1 <- NRSSamp %>% left_join(NRSnCop1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          Species = ifelse(is.na(Species), "Calanus Australis", Species), # avoids nulls in pivot
          ZAbund_m3 = ifelse(is.na(ZAbund_m3), 0, ZAbund_m3)) %>%  # avoids nulls in pivot
@@ -611,7 +611,7 @@ for (i in 1:nlevels(NRSnCop2$Species)) {
     filter(Species == Taxon) %>% 
     droplevels() 
   
-  ncopes <- NRSZsamp %>% left_join(ncopes, by = "Sample") %>%
+  ncopes <- NRSSamp %>% left_join(ncopes, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            Species = replace(Species, is.na(Species), Dates$Species),
            ZAbund_m3 = replace(ZAbund_m3, StartDate>SampleDateLocal, -999), 
