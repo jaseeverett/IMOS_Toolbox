@@ -364,6 +364,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 889,Calanoid j,COPEPOD,Copepod,(null),(null),487.226
 1082,Calanoid j,COPEPOD,Copepod,(null),(null),353.6318
 1085,Calanoid j,COPEPOD,Copepod,(null),(null),511.406
+1088,Calanoid j,COPEPOD,Copepod,(null),(null),2298.6067
 1010,Calanoid j,COPEPOD,Copepod,(null),(null),32.5341
 1001,Calanoid j,COPEPOD,Copepod,(null),(null),207.464
 1015,Calanoid j,COPEPOD,Copepod,(null),(null),644.3957
@@ -548,6 +549,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 728,Ctenocalanus vanus m,COPEPOD,Copepod,Ctenocalanus,vanus,3.5363
 747,Ctenocalanus vanus m,COPEPOD,Copepod,Ctenocalanus,vanus,1.7682
 859,Ctenocalanus vanus m,COPEPOD,Copepod,Ctenocalanus,vanus,4.7151
+1070,Ctenocalanus vanus m,COPEPOD,Copepod,Ctenocalanus,vanus,1.489
 1001,Ctenocalanus vanus m,COPEPOD,Copepod,Ctenocalanus,vanus,4.7151
 21,Delibus nudus f,COPEPOD,Copepod,Delibus,nudus,0.3536
 386,Delibus nudus f,COPEPOD,Copepod,Delibus,nudus,28.2905
@@ -719,6 +721,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 897,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,14.1453
 877,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,15.717
 1078,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,35.3632
+1088,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,88.4079
 1003,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,19.289
 1001,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,9.4302
 1046,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,2.5719
@@ -1398,6 +1401,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 907,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,6.2868
 910,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,495.0845
 893,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,10.4009
+1086,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,43.5239
 992,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,53.0448
 1066,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,4.2436
 1063,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,35.3632
@@ -1605,6 +1609,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 879,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),42.4358
 903,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),120.2348
 982,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),61.2962
+1070,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),56.5811
 987,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),167.1714
 1012,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),307.6597
 1066,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),31.1196
@@ -2422,6 +2427,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 524,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,3.8861
 732,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,6.4297
 815,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,6.4297
+1070,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,1.489
 112,Undinula vulgaris m,COPEPOD,Copepod,Undinula,vulgaris,7.0726
 146,Undinula vulgaris m,COPEPOD,Copepod,Undinula,vulgaris,13.6012
 404,Undinula vulgaris m,COPEPOD,Copepod,Undinula,vulgaris,6.8006
@@ -2562,6 +2568,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 985,Bivalve,NON-COPEPOD,Mollusc,(null),(null),38.4382
 888,Bivalve,NON-COPEPOD,Mollusc,(null),(null),7.0726
 992,Bivalve,NON-COPEPOD,Mollusc,(null),(null),35.3632
+1088,Bivalve,NON-COPEPOD,Mollusc,(null),(null),1458.7312
 987,Bivalve,NON-COPEPOD,Mollusc,(null),(null),12.8593
 1002,Bivalve,NON-COPEPOD,Mollusc,(null),(null),19.289
 1065,Bivalve,NON-COPEPOD,Mollusc,(null),(null),7.0726
@@ -2649,7 +2656,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 913,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),84.8716
 983,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),21.2179
 1085,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),32.6429
+1086,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),97.9288
 1069,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),16.9743
+1088,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),132.6119
 1000,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),18.8604
 1001,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),4.7151
 1073,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),57.867
@@ -3124,6 +3133,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 787,Ostracod,NON-COPEPOD,Ostracod,(null),(null),12.8593
 843,Ostracod,NON-COPEPOD,Ostracod,(null),(null),3.2148
 902,Ostracod,NON-COPEPOD,Ostracod,(null),(null),9.6445
+1088,Ostracod,NON-COPEPOD,Ostracod,(null),(null),397.8358
 36,Pentacrinoid larvae,NON-COPEPOD,Echinoderm,(null),(null),70.7264
 188,Pentacrinoid larvae,NON-COPEPOD,Echinoderm,(null),(null),0.5894
 512,Pentacrinoid larvae,NON-COPEPOD,Echinoderm,(null),(null),3.5363
@@ -3399,6 +3409,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 903,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),14.1453
 981,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),10.609
 984,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),15.3753
+1070,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),11.9118
 1002,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),6.4297
 1014,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),17.6816
 1022,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),40.8037
@@ -3770,6 +3781,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 855,Canthocalanus pauper f,COPEPOD,Copepod,Canthocalanus,pauper,13.2612
 913,Canthocalanus pauper f,COPEPOD,Copepod,Canthocalanus,pauper,14.1453
 984,Canthocalanus pauper f,COPEPOD,Copepod,Canthocalanus,pauper,7.6876
+1080,Canthocalanus pauper f,COPEPOD,Copepod,Canthocalanus,pauper,8.8408
+1086,Canthocalanus pauper f,COPEPOD,Copepod,Canthocalanus,pauper,5.4405
 991,Canthocalanus pauper f,COPEPOD,Copepod,Canthocalanus,pauper,7.0726
 293,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,3.2148
 135,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,2.6195
@@ -3793,6 +3806,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 773,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,7.0726
 762,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,7.0726
 865,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,14.1453
+1080,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,8.8408
 1083,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,27.2024
 133,Centropages australiensis f,COPEPOD,Copepod,Centropages,australiensis,0.8841
 283,Centropages australiensis f,COPEPOD,Copepod,Centropages,australiensis,0.442
@@ -4279,6 +4293,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 127,Calocalanus contractus f,COPEPOD,Copepod,Calocalanus,contractus,5.239
 490,Physonectae,NON-COPEPOD,Cnidarian,(null),(null),13.0975
 1000,Physonectae,NON-COPEPOD,Cnidarian,(null),(null),9.4302
+1070,Liriope tetraphylla,NON-COPEPOD,Cnidarian,Liriope,tetraphylla,1.489
 801,Lensia subtiloides,NON-COPEPOD,Cnidarian,Lensia,subtiloides,14.1453
 470,Tortanus (Tortanus) barbatus j,COPEPOD,Copepod,Tortanus (Tortanus),barbatus,13.6012
 619,Tortanus (Tortanus) barbatus j,COPEPOD,Copepod,Tortanus (Tortanus),barbatus,13.6012
@@ -4312,6 +4327,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 301,Onychocorycaeus catus f,COPEPOD,Copepod,Onychocorycaeus,catus,2.5719
 524,Onychocorycaeus catus f,COPEPOD,Copepod,Onychocorycaeus,catus,3.8861
 680,Onychocorycaeus catus f,COPEPOD,Copepod,Onychocorycaeus,catus,6.4297
+1086,Onychocorycaeus catus f,COPEPOD,Copepod,Onychocorycaeus,catus,5.4405
 425,Eucalanus spp.,COPEPOD,Copepod,Eucalanus,spp.,68.0061
 456,Ditrichocorycaeus andrewsi f,COPEPOD,Copepod,Ditrichocorycaeus,andrewsi,3.6741
 495,Ditrichocorycaeus andrewsi f,COPEPOD,Copepod,Ditrichocorycaeus,andrewsi,7.3673
@@ -4580,6 +4596,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 986,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,16.3215
 882,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,7.0726
 886,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,3.8438
+1086,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,27.2024
+1070,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,2.978
 990,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,7.0726
 1013,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,7.0726
 1014,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,17.6816
@@ -4727,6 +4745,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 882,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,127.3074
 888,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,21.2179
 889,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,3.9292
+1088,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,132.6119
 1004,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,38.578
 1010,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,5.6581
 1000,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,33.0056
@@ -4981,6 +5000,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 829,Oithona tenuis f,COPEPOD,Copepod,Oithona,tenuis,3.5363
 973,Oithona tenuis f,COPEPOD,Copepod,Oithona,tenuis,6.4297
 981,Oithona tenuis f,COPEPOD,Copepod,Oithona,tenuis,3.5363
+1086,Oithona tenuis f,COPEPOD,Copepod,Oithona,tenuis,5.4405
 415,Oithona attenuata stocky f,COPEPOD,Copepod,Oithona,attenuata stocky,4.2864
 371,Oithona attenuata stocky f,COPEPOD,Copepod,Oithona,attenuata stocky,185.2357
 429,Oithona attenuata stocky f,COPEPOD,Copepod,Oithona,attenuata stocky,28.2905
@@ -5147,6 +5167,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 640,Isopod j,NON-COPEPOD,Isopod,(null),(null),1.4145
 702,Isopod j,NON-COPEPOD,Isopod,(null),(null),23.5755
 862,Isopod j,NON-COPEPOD,Isopod,(null),(null),15.717
+1088,Isopod j,NON-COPEPOD,Isopod,(null),(null),44.204
 403,Euconchoecia spp.,NON-COPEPOD,Ostracod,Euconchoecia,spp.,13.6012
 488,Euconchoecia spp.,NON-COPEPOD,Ostracod,Euconchoecia,spp.,5.3045
 495,Euconchoecia spp.,NON-COPEPOD,Ostracod,Euconchoecia,spp.,29.4693
@@ -5180,6 +5201,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 983,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),17.6816
 985,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),7.6876
 1079,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),8.8408
+1080,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),26.5224
 1004,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),57.867
 1066,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),9.9017
 998,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),10.609
@@ -5260,6 +5282,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 871,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,12.8593
 902,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,38.578
 984,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,53.8135
+1080,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,53.0448
+1086,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,5.4405
 1066,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,7.0726
 994,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,26.5224
 1023,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,4.7151
@@ -5300,6 +5324,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 781,Ophiopluteus,NON-COPEPOD,Echinoderm,(null),(null),14.1453
 848,Ophiopluteus,NON-COPEPOD,Echinoderm,(null),(null),7.8585
 862,Ophiopluteus,NON-COPEPOD,Echinoderm,(null),(null),15.717
+1070,Ophiopluteus,NON-COPEPOD,Echinoderm,(null),(null),4.4669
 999,Ophiopluteus,NON-COPEPOD,Echinoderm,(null),(null),14.1453
 541,Nyctiphanes australis FIII,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,25.933
 915,Nyctiphanes australis FV,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,0.943
@@ -5401,6 +5426,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 786,Triconia spp. f,COPEPOD,Copepod,Triconia,spp.,15.717
 869,Triconia spp. f,COPEPOD,Copepod,Triconia,spp.,6.4297
 982,Triconia spp. f,COPEPOD,Copepod,Triconia,spp.,4.7151
+1080,Triconia spp. f,COPEPOD,Copepod,Triconia,spp.,26.5224
 53,Euchaeta concinna f,COPEPOD,Copepod,Euchaeta,concinna,6.8006
 307,Euchaeta concinna f,COPEPOD,Copepod,Euchaeta,concinna,13.6012
 375,Euchaeta concinna f,COPEPOD,Copepod,Euchaeta,concinna,0.6801
@@ -5717,6 +5743,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 886,Calanoid j,COPEPOD,Copepod,(null),(null),146.0653
 888,Calanoid j,COPEPOD,Copepod,(null),(null),318.2686
 1078,Calanoid j,COPEPOD,Copepod,(null),(null),1591.3431
+1086,Calanoid j,COPEPOD,Copepod,(null),(null),897.6807
+1070,Calanoid j,COPEPOD,Copepod,(null),(null),47.6472
 989,Calanoid j,COPEPOD,Copepod,(null),(null),424.3582
 1003,Calanoid j,COPEPOD,Copepod,(null),(null),327.9131
 1005,Calanoid j,COPEPOD,Copepod,(null),(null),4083.8769
@@ -5850,6 +5878,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 198,Cosmocalanus darwinii m,COPEPOD,Copepod,Cosmocalanus,darwinii,2.3575
 78,Cosmocalanus darwinii m,COPEPOD,Copepod,Cosmocalanus,darwinii,3.2148
 8,Cosmocalanus darwinii m,COPEPOD,Copepod,Cosmocalanus,darwinii,0.4715
+1086,Cosmocalanus darwinii m,COPEPOD,Copepod,Cosmocalanus,darwinii,5.4405
 80,Ctenocalanus vanus f,COPEPOD,Copepod,Ctenocalanus,vanus,3.0311
 295,Ctenocalanus vanus f,COPEPOD,Copepod,Ctenocalanus,vanus,6.4297
 121,Ctenocalanus vanus f,COPEPOD,Copepod,Ctenocalanus,vanus,7.0726
@@ -6065,6 +6094,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 916,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,0.2549
 979,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,25.2594
 981,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,21.2179
+1080,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,17.6816
+1086,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,5.4405
 1011,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,28.2905
 996,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,14.1453
 1074,Euterpina acutifrons m,COPEPOD,Copepod,Euterpina,acutifrons,12.8593
@@ -6126,6 +6157,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 847,Clausocalanus jobei f (>1.2mm),COPEPOD,Copepod,Clausocalanus,jobei,7.0726
 859,Clausocalanus jobei f (>1.2mm),COPEPOD,Copepod,Clausocalanus,jobei,4.7151
 885,Clausocalanus jobei f (>1.2mm),COPEPOD,Copepod,Clausocalanus,jobei,3.5363
+1070,Clausocalanus jobei f (>1.2mm),COPEPOD,Copepod,Clausocalanus,jobei,1.489
 1012,Clausocalanus jobei f (>1.2mm),COPEPOD,Copepod,Clausocalanus,jobei,3.5363
 136,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),1.7682
 66,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),12.8593
@@ -6232,6 +6264,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 903,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,7.0726
 985,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,92.2518
 886,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,38.4382
+1080,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,8.8408
 1011,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,28.2905
 1014,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,28.2905
 993,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,53.0448
@@ -6649,6 +6682,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 984,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,30.7506
 881,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,28.2905
 992,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,53.0448
+1070,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,2.978
 994,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,53.0448
 1021,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,40.8037
 169,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,2.3575
@@ -6678,6 +6712,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 900,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,6.4297
 903,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,21.2179
 886,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,19.2191
+1080,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,8.8408
 1003,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,45.0077
 1011,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,297.0507
 1014,Microsetella norvegica m,COPEPOD,Copepod,Microsetella,norvegica,3.5363
@@ -6890,6 +6925,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 882,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),233.397
 888,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),360.7044
 889,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),337.9148
+1080,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),362.4726
 1002,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),225.0384
 1001,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),155.598
 1016,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),510.8015
@@ -7613,6 +7649,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 404,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,20.4018
 363,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,7.8585
 631,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,5.4405
+1086,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,5.4405
 303,Undinula vulgaris m,COPEPOD,Copepod,Undinula,vulgaris,3.5363
 4,Undinula vulgaris m,COPEPOD,Copepod,Undinula,vulgaris,1.1788
 76,Undinula vulgaris m,COPEPOD,Copepod,Undinula,vulgaris,0.1768
@@ -7653,6 +7690,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 631,Barnacle nauplii,NON-COPEPOD,Cirripedia,(null),(null),5.4405
 874,Barnacle nauplii,NON-COPEPOD,Cirripedia,(null),(null),3.5363
 1069,Barnacle nauplii,NON-COPEPOD,Cirripedia,(null),(null),1.4145
+1070,Barnacle nauplii,NON-COPEPOD,Cirripedia,(null),(null),2.978
 1004,Barnacle nauplii,NON-COPEPOD,Cirripedia,(null),(null),6.4297
 1013,Barnacle nauplii,NON-COPEPOD,Cirripedia,(null),(null),3.5363
 1022,Barnacle nauplii,NON-COPEPOD,Cirripedia,(null),(null),13.6012
@@ -7850,6 +7888,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 899,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),96.445
 874,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),21.2179
 883,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),42.4358
+1080,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),53.0448
 992,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),123.7711
 987,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),6.4297
 990,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),14.1453
@@ -8509,6 +8548,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 720,Eucalanidae j,COPEPOD,Copepod,(null),(null),7.8585
 679,Eucalanidae j,COPEPOD,Copepod,(null),(null),12.8593
 908,Eucalanidae j,COPEPOD,Copepod,(null),(null),10.7161
+1088,Eucalanidae j,COPEPOD,Copepod,(null),(null),44.204
 1006,Eucalanidae j,COPEPOD,Copepod,(null),(null),330.0563
 284,Eucalanus elongatus f,COPEPOD,Copepod,Eucalanus,elongatus,3.2148
 28,Labidocera spp. j,COPEPOD,Copepod,Labidocera,spp.,6.8006
@@ -8582,6 +8622,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 873,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),78.5848
 974,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),2.5719
 874,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),10.609
+1080,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),26.5224
+1088,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),132.6119
 284,Rhincalanus nasutus m,COPEPOD,Copepod,Rhincalanus,nasutus,3.2148
 431,Sapphirina opalina m,COPEPOD,Copepod,Sapphirina,opalina,0.2829
 64,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,133.5942
@@ -8642,6 +8684,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 877,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,15.717
 871,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,25.7187
 984,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,53.8135
+1080,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,44.204
 1069,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,1.4145
 1000,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,18.8604
 1046,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,7.7156
@@ -8803,6 +8846,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 710,Oncaea scottodicarloi f,COPEPOD,Copepod,Oncaea,scottodicarloi,12.8593
 981,Oncaea scottodicarloi f,COPEPOD,Copepod,Oncaea,scottodicarloi,3.5363
 985,Oncaea scottodicarloi f,COPEPOD,Copepod,Oncaea,scottodicarloi,7.6876
+1070,Oncaea scottodicarloi f,COPEPOD,Copepod,Oncaea,scottodicarloi,1.489
 1003,Oncaea scottodicarloi f,COPEPOD,Copepod,Oncaea,scottodicarloi,6.4297
 1073,Oncaea scottodicarloi f,COPEPOD,Copepod,Oncaea,scottodicarloi,19.289
 1046,Oncaea scottodicarloi f,COPEPOD,Copepod,Oncaea,scottodicarloi,2.5719
@@ -9297,6 +9341,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 903,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,7.0726
 974,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,2.5719
 893,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,218.4196
+1080,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,8.8408
 989,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,123.7711
 1012,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,7.0726
 1016,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,23.5755
@@ -9350,6 +9395,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 744,Oithona attenuata typical f,COPEPOD,Copepod,Oithona,attenuata typical,6.8006
 913,Oithona attenuata typical f,COPEPOD,Copepod,Oithona,attenuata typical,42.4358
 986,Oithona attenuata typical f,COPEPOD,Copepod,Oithona,attenuata typical,5.4405
+1086,Oithona attenuata typical f,COPEPOD,Copepod,Oithona,attenuata typical,10.881
 1020,Oithona attenuata typical f,COPEPOD,Copepod,Oithona,attenuata typical,13.6012
 637,Subeucalanus subcrassus m,COPEPOD,Copepod,Subeucalanus,subcrassus,3.2148
 125,Macrosetella gracilis j,COPEPOD,Copepod,Macrosetella,gracilis,5.4405
@@ -9594,6 +9640,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 856,Oithona nana f,COPEPOD,Copepod,Oithona,nana,265.2238
 896,Oithona nana f,COPEPOD,Copepod,Oithona,nana,101.0377
 886,Oithona nana f,COPEPOD,Copepod,Oithona,nana,15.3753
+1080,Oithona nana f,COPEPOD,Copepod,Oithona,nana,88.4079
 1003,Oithona nana f,COPEPOD,Copepod,Oithona,nana,64.2967
 1022,Oithona nana f,COPEPOD,Copepod,Oithona,nana,598.4538
 1062,Oithona nana f,COPEPOD,Copepod,Oithona,nana,166.415
@@ -9902,6 +9949,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 677,Ctenophore,NON-COPEPOD,Ctenophore,(null),(null),4.7151
 717,Ctenophore,NON-COPEPOD,Ctenophore,(null),(null),2.2669
 833,Ctenophore,NON-COPEPOD,Ctenophore,(null),(null),25.2594
+1080,Ctenophore,NON-COPEPOD,Ctenophore,(null),(null),8.8408
 1069,Ctenophore,NON-COPEPOD,Ctenophore,(null),(null),1.4145
 990,Ctenophore,NON-COPEPOD,Ctenophore,(null),(null),7.0726
 768,Siphonophore diphyidae,NON-COPEPOD,Cnidarian,(null),(null),41.6037
@@ -10196,6 +10244,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 827,Spinoncaea spp. f,COPEPOD,Copepod,Spinoncaea,spp.,7.0726
 877,Spinoncaea spp. f,COPEPOD,Copepod,Spinoncaea,spp.,31.4339
 871,Spinoncaea spp. f,COPEPOD,Copepod,Spinoncaea,spp.,6.4297
+1070,Spinoncaea spp. f,COPEPOD,Copepod,Spinoncaea,spp.,1.489
 386,Acartia (Acanthacartia) fossae m,COPEPOD,Copepod,Acartia (Acanthacartia),fossae,28.2905
 463,Acartia (Acanthacartia) fossae m,COPEPOD,Copepod,Acartia (Acanthacartia),fossae,31.4339
 738,Acartia (Acanthacartia) fossae m,COPEPOD,Copepod,Acartia (Acanthacartia),fossae,7.8585
@@ -10246,6 +10295,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 865,Isopod j,NON-COPEPOD,Isopod,(null),(null),14.1453
 850,Isopod j,NON-COPEPOD,Isopod,(null),(null),1.4145
 858,Isopod j,NON-COPEPOD,Isopod,(null),(null),17.6816
+1086,Isopod j,NON-COPEPOD,Isopod,(null),(null),5.4405
 1015,Isopod j,NON-COPEPOD,Isopod,(null),(null),15.717
 418,Euconchoecia spp.,NON-COPEPOD,Ostracod,Euconchoecia,spp.,25.6255
 478,Euconchoecia spp.,NON-COPEPOD,Ostracod,Euconchoecia,spp.,3.6457
@@ -10314,6 +10364,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 560,Oncaea media m,COPEPOD,Copepod,Oncaea,media,3.5363
 420,Brachiopoda larvae,NON-COPEPOD,Brachiopod,(null),(null),48.2225
 883,Brachiopoda larvae,NON-COPEPOD,Brachiopod,(null),(null),14.1453
+1070,Rotifera,NON-COPEPOD,Rotifer,(null),(null),1.489
 650,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,12.3771
 625,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,2.8291
 668,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,22.0038
@@ -10324,6 +10375,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 872,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,7.0726
 906,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,15.717
 889,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,7.8585
+1070,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,7.4449
 991,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,7.0726
 1002,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,6.4297
 1013,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,10.609
@@ -10390,6 +10442,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 865,Euconchoecia aculeata,NON-COPEPOD,Ostracod,Euconchoecia,aculeata,42.4358
 870,Euconchoecia aculeata,NON-COPEPOD,Ostracod,Euconchoecia,aculeata,6.4297
 880,Clausidiid j,COPEPOD,Copepod,(null),(null),28.2905
+1080,Clausidiid j,COPEPOD,Copepod,(null),(null),8.8408
+1088,Clausidiid j,COPEPOD,Copepod,(null),(null),44.204
 993,Clausidiid j,COPEPOD,Copepod,(null),(null),35.3632
 794,Thysanoessa gregaria adult,NON-COPEPOD,Euphausiid,Thysanoessa,gregaria,1.5717
 834,Thysanoessa gregaria adult,NON-COPEPOD,Euphausiid,Thysanoessa,gregaria,0.7858
@@ -10462,6 +10516,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 899,Clione spp. ,NON-COPEPOD,Mollusc,Clione,spp.,6.4297
 1138,Ctenocalanus spp. f,COPEPOD,Copepod,Ctenocalanus,spp.,51.866
 127,Onychocorycaeus giesbrechti f,COPEPOD,Copepod,Onychocorycaeus,giesbrechti,2.6195
+1080,Onychocorycaeus giesbrechti f,COPEPOD,Copepod,Onychocorycaeus,giesbrechti,8.8408
 175,Urocorycaeus furcifer m,COPEPOD,Copepod,Urocorycaeus,furcifer,3.5363
 494,Urocorycaeus furcifer m,COPEPOD,Copepod,Urocorycaeus,furcifer,0.3929
 804,Urocorycaeus furcifer m,COPEPOD,Copepod,Urocorycaeus,furcifer,6.4297
@@ -10928,6 +10983,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 986,Corycaeidae j,COPEPOD,Copepod,(null),(null),16.3215
 881,Corycaeidae j,COPEPOD,Copepod,(null),(null),84.8716
 883,Corycaeidae j,COPEPOD,Copepod,(null),(null),70.7264
+1070,Corycaeidae j,COPEPOD,Copepod,(null),(null),4.4669
 1002,Corycaeidae j,COPEPOD,Copepod,(null),(null),32.1483
 1005,Corycaeidae j,COPEPOD,Copepod,(null),(null),91.2598
 1066,Corycaeidae j,COPEPOD,Copepod,(null),(null),9.9017
@@ -11075,6 +11131,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 879,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,35.3632
 975,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,12.8593
 980,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,21.2179
+1080,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,44.204
 1084,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,5.4405
 1005,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,45.6299
 1006,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,94.3018
@@ -11297,6 +11354,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 1078,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),247.5423
 1085,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),10.881
 992,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),70.7264
+1088,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),839.8755
 1000,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),14.1453
 1046,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),2.5719
 10,Thalia democratica agg,NON-COPEPOD,Thaliacean,Thalia,democratica,45.2649
@@ -11572,6 +11630,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 872,Calanid CV,COPEPOD,Copepod,(null),(null),7.0726
 909,Calanid CV,COPEPOD,Copepod,(null),(null),14.1453
 973,Calanid CV,COPEPOD,Copepod,(null),(null),6.4297
+1070,Calanid CV,COPEPOD,Copepod,(null),(null),1.489
 1004,Calanid CV,COPEPOD,Copepod,(null),(null),12.8593
 1053,Calanid CV,COPEPOD,Copepod,(null),(null),14.1453
 981,Calanoides carinatus f,COPEPOD,Copepod,Calanoides,carinatus,3.5363
@@ -11843,6 +11902,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 898,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,2.3575
 899,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,6.4297
 974,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,12.8593
+1088,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,44.204
 1005,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,319.4094
 999,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,4.7151
 995,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,17.6816
@@ -12040,6 +12100,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 975,Nauplii calanoid,COPEPOD,Copepod,(null),(null),360.0615
 986,Nauplii calanoid,COPEPOD,Copepod,(null),(null),125.1313
 1078,Nauplii calanoid,COPEPOD,Copepod,(null),(null),477.4029
+1070,Nauplii calanoid,COPEPOD,Copepod,(null),(null),99.7614
 1002,Nauplii calanoid,COPEPOD,Copepod,(null),(null),276.4758
 1005,Nauplii calanoid,COPEPOD,Copepod,(null),(null),182.5196
 1012,Nauplii calanoid,COPEPOD,Copepod,(null),(null),106.0895
@@ -12287,7 +12348,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 985,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,384.3824
 888,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,247.5423
 893,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,488.844
+1086,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,255.703
 992,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,813.3531
+1088,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,1547.1391
 1002,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,199.3197
 994,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,937.1243
 1149,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,245.1847
@@ -12321,6 +12384,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 909,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,10.609
 973,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,25.7187
 1079,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,8.8408
+1088,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,44.204
 1002,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,12.8593
 1003,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,19.289
 1022,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,13.6012
@@ -12404,6 +12468,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 899,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,90.0154
 986,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,10.881
 874,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,38.8995
+1080,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,123.7711
+1086,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,38.0834
 992,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,141.4527
 1003,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,83.5857
 31,Oncaea media complex f,COPEPOD,Copepod,Oncaea,media complex,0.0433
@@ -12590,6 +12656,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 847,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,7.0726
 858,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,17.6816
 889,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,3.9292
+1080,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,70.7264
 1082,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,249.8998
 1083,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,54.4049
 991,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,7.0726
@@ -12799,6 +12866,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 902,Temora spp. j,COPEPOD,Copepod,Temora,spp.,3.2148
 980,Temora spp. j,COPEPOD,Copepod,Temora,spp.,3.5363
 981,Temora spp. j,COPEPOD,Copepod,Temora,spp.,3.5363
+1080,Temora spp. j,COPEPOD,Copepod,Temora,spp.,70.7264
+1070,Temora spp. j,COPEPOD,Copepod,Temora,spp.,1.489
 1011,Temora spp. j,COPEPOD,Copepod,Temora,spp.,7.0726
 1073,Temora spp. j,COPEPOD,Copepod,Temora,spp.,12.8593
 1074,Temora spp. j,COPEPOD,Copepod,Temora,spp.,32.1483
@@ -12999,6 +13068,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 914,Bivalve,NON-COPEPOD,Mollusc,(null),(null),40.8037
 916,Bivalve,NON-COPEPOD,Mollusc,(null),(null),0.2549
 1079,Bivalve,NON-COPEPOD,Mollusc,(null),(null),17.6816
+1086,Bivalve,NON-COPEPOD,Mollusc,(null),(null),27.2024
 990,Bivalve,NON-COPEPOD,Mollusc,(null),(null),28.2905
 1010,Bivalve,NON-COPEPOD,Mollusc,(null),(null),1.4145
 994,Bivalve,NON-COPEPOD,Mollusc,(null),(null),123.7711
@@ -13630,6 +13700,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 901,Ostracod,NON-COPEPOD,Ostracod,(null),(null),6.4297
 974,Ostracod,NON-COPEPOD,Ostracod,(null),(null),2.5719
 284,Pentacrinoid larvae,NON-COPEPOD,Echinoderm,(null),(null),22.5038
+1070,Pentacrinoid larvae,NON-COPEPOD,Echinoderm,(null),(null),1.489
 104,Penilia avirostris,NON-COPEPOD,Cladoceran,Penilia,avirostris,334.5469
 103,Penilia avirostris,NON-COPEPOD,Cladoceran,Penilia,avirostris,480.9392
 175,Penilia avirostris,NON-COPEPOD,Cladoceran,Penilia,avirostris,1.7682
@@ -13684,6 +13755,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 701,Polychaete,NON-COPEPOD,Polychaete,(null),(null),7.8585
 738,Polychaete,NON-COPEPOD,Polychaete,(null),(null),7.8585
 846,Polychaete,NON-COPEPOD,Polychaete,(null),(null),7.8585
+1070,Polychaete,NON-COPEPOD,Polychaete,(null),(null),2.978
 999,Polychaete,NON-COPEPOD,Polychaete,(null),(null),9.4302
 1064,Polychaete,NON-COPEPOD,Polychaete,(null),(null),2.3575
 1065,Polychaete,NON-COPEPOD,Polychaete,(null),(null),0.3929
@@ -13802,6 +13874,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 1062,Eucalanidae j,COPEPOD,Copepod,(null),(null),62.4056
 464,Labidocera spp. j,COPEPOD,Copepod,Labidocera,spp.,7.8585
 619,Labidocera spp. j,COPEPOD,Copepod,Labidocera,spp.,13.6012
+1088,Labidocera spp. j,COPEPOD,Copepod,Labidocera,spp.,44.204
 640,Lucicutia spp. j,COPEPOD,Copepod,Lucicutia,spp.,1.4145
 729,Lucicutia spp. j,COPEPOD,Copepod,Lucicutia,spp.,3.5363
 667,Lucicutia spp. j,COPEPOD,Copepod,Lucicutia,spp.,10.609
@@ -14187,6 +14260,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 900,Candacia spp. j,COPEPOD,Copepod,Candacia,spp.,6.4297
 911,Candacia spp. j,COPEPOD,Copepod,Candacia,spp.,14.1453
 888,Candacia spp. j,COPEPOD,Copepod,Candacia,spp.,7.0726
+1086,Candacia spp. j,COPEPOD,Copepod,Candacia,spp.,10.881
 154,Canthocalanus pauper f,COPEPOD,Copepod,Canthocalanus,pauper,11.7877
 53,Canthocalanus pauper f,COPEPOD,Copepod,Canthocalanus,pauper,13.6012
 23,Canthocalanus pauper f,COPEPOD,Copepod,Canthocalanus,pauper,3.2003
@@ -14300,6 +14374,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 847,Clausocalanus arcuicornis f,COPEPOD,Copepod,Clausocalanus,arcuicornis,21.2179
 857,Clausocalanus arcuicornis f,COPEPOD,Copepod,Clausocalanus,arcuicornis,7.0726
 973,Clausocalanus arcuicornis f,COPEPOD,Copepod,Clausocalanus,arcuicornis,12.8593
+1086,Clausocalanus arcuicornis f,COPEPOD,Copepod,Clausocalanus,arcuicornis,38.0834
+1070,Clausocalanus arcuicornis f,COPEPOD,Copepod,Clausocalanus,arcuicornis,1.489
 1016,Clausocalanus arcuicornis f,COPEPOD,Copepod,Clausocalanus,arcuicornis,7.8585
 11,Clausocalanus arcuicornis m,COPEPOD,Copepod,Clausocalanus,arcuicornis,1.4145
 54,Clausocalanus arcuicornis m,COPEPOD,Copepod,Clausocalanus,arcuicornis,15.717
@@ -14421,6 +14497,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 980,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,3.5363
 886,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,3.8438
 889,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,7.8585
+1086,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,10.881
 1002,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,6.4297
 1064,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,4.7151
 499,Clytemnestra scutellata f,COPEPOD,Copepod,Clytemnestra,scutellata,0.221
@@ -14652,6 +14729,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 763,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,7.0726
 776,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,7.8585
 901,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,6.4297
+1080,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,17.6816
 1069,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,1.4145
 1075,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,6.4297
 1077,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,8.8408
@@ -14850,6 +14928,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 877,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,31.4339
 882,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,7.0726
 1078,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,53.0448
+1080,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,17.6816
 1002,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,6.4297
 1001,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,282.9054
 1011,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,198.0338
@@ -14904,6 +14983,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 889,Oithona nana f,COPEPOD,Copepod,Oithona,nana,3.9292
 1084,Oithona nana f,COPEPOD,Copepod,Oithona,nana,54.4049
 992,Oithona nana f,COPEPOD,Copepod,Oithona,nana,26.5224
+1088,Oithona nana f,COPEPOD,Copepod,Oithona,nana,88.4079
 987,Oithona nana f,COPEPOD,Copepod,Oithona,nana,32.1483
 1002,Oithona nana f,COPEPOD,Copepod,Oithona,nana,90.0154
 1006,Oithona nana f,COPEPOD,Copepod,Oithona,nana,235.7545
@@ -15113,6 +15193,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 875,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,7.0726
 985,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,30.7506
 1079,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,70.7264
+1080,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,26.5224
 1082,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,4.7151
 990,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,31.8269
 1024,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,11.7877
@@ -15380,6 +15461,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 461,Oithona attenuata stocky f,COPEPOD,Copepod,Oithona,attenuata stocky,3.2148
 554,Oithona attenuata stocky f,COPEPOD,Copepod,Oithona,attenuata stocky,92.2518
 811,Oithona attenuata stocky f,COPEPOD,Copepod,Oithona,attenuata stocky,261.9495
+1088,Oithona attenuata stocky f,COPEPOD,Copepod,Oithona,attenuata stocky,309.4278
 710,Acrocalanus spp. j,COPEPOD,Copepod,Acrocalanus,spp.,6.4297
 386,Branchiostoma spp.,NON-COPEPOD,Cephalochordate,Branchiostoma,spp.,28.2905
 403,Branchiostoma spp.,NON-COPEPOD,Cephalochordate,Branchiostoma,spp.,13.6012
@@ -15397,6 +15479,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 912,Paracalanus denudatus f,COPEPOD,Copepod,Paracalanus,denudatus,28.2905
 986,Paracalanus denudatus f,COPEPOD,Copepod,Paracalanus,denudatus,5.4405
 881,Paracalanus denudatus f,COPEPOD,Copepod,Paracalanus,denudatus,37.7207
+1080,Paracalanus denudatus f,COPEPOD,Copepod,Paracalanus,denudatus,8.8408
+1088,Paracalanus denudatus f,COPEPOD,Copepod,Paracalanus,denudatus,88.4079
 376,Kelleria spp. m,COPEPOD,Copepod,Kelleria,spp.,6.4297
 698,Caridea zoea,NON-COPEPOD,Decapod,(null),(null),1.5717
 705,Caridea zoea,NON-COPEPOD,Decapod,(null),(null),15.717
@@ -15583,6 +15667,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 900,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),19.289
 881,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),28.2905
 1078,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),35.3632
+1070,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),1.489
 991,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),7.0726
 1010,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),1.4145
 1012,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),21.2179
@@ -15623,6 +15708,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 761,Tintinnopsis spp.,NON-COPEPOD,Ciliophora,Tintinnopsis,spp.,83.2075
 506,Brachiopoda larvae,NON-COPEPOD,Brachiopod,(null),(null),14.7347
 549,Desmopterus spp.,NON-COPEPOD,Mollusc,Desmopterus,spp.,7.1803
+1070,Desmopterus spp.,NON-COPEPOD,Mollusc,Desmopterus,spp.,1.489
 822,Oncaeidae f,COPEPOD,Copepod,(null),(null),14.434
 663,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,3.5363
 639,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,24.7542
@@ -15707,6 +15793,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 780,Ophiopluteus,NON-COPEPOD,Echinoderm,(null),(null),169.7433
 809,Ophiopluteus,NON-COPEPOD,Echinoderm,(null),(null),28.2905
 868,Ophiopluteus,NON-COPEPOD,Echinoderm,(null),(null),12.8593
+1088,Ophiopluteus,NON-COPEPOD,Echinoderm,(null),(null),44.204
 987,Ophiopluteus,NON-COPEPOD,Echinoderm,(null),(null),6.4297
 1013,Ophiopluteus,NON-COPEPOD,Echinoderm,(null),(null),14.1453
 561,Nyctiphanes australis FV,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,1.3472
@@ -16248,6 +16335,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 973,Corycaeidae j,COPEPOD,Copepod,(null),(null),45.0077
 901,Corycaeidae j,COPEPOD,Copepod,(null),(null),12.8593
 1079,Corycaeidae j,COPEPOD,Copepod,(null),(null),114.9303
+1080,Corycaeidae j,COPEPOD,Copepod,(null),(null),61.8856
 1085,Corycaeidae j,COPEPOD,Copepod,(null),(null),5.4405
 987,Corycaeidae j,COPEPOD,Copepod,(null),(null),12.8593
 1020,Corycaeidae j,COPEPOD,Copepod,(null),(null),81.6073
@@ -16413,6 +16501,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 905,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,15.717
 881,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,198.0338
 888,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,21.2179
+1088,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,176.8159
 991,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,28.2905
 1005,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,479.114
 994,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,106.0895
@@ -17067,6 +17156,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 982,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,4.7151
 889,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,3.9292
 1079,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,44.204
+1086,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,27.2024
 1004,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,122.1637
 993,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,17.6816
 1062,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,20.8019
@@ -17185,6 +17275,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 755,Nannocalanus minor f,COPEPOD,Copepod,Nannocalanus,minor,3.1434
 815,Nannocalanus minor f,COPEPOD,Copepod,Nannocalanus,minor,9.6445
 868,Nannocalanus minor f,COPEPOD,Copepod,Nannocalanus,minor,6.4297
+1070,Nannocalanus minor f,COPEPOD,Copepod,Nannocalanus,minor,1.489
 80,Nannocalanus minor m,COPEPOD,Copepod,Nannocalanus,minor,1.0104
 5,Nannocalanus minor m,COPEPOD,Copepod,Nannocalanus,minor,3.2148
 188,Nannocalanus minor m,COPEPOD,Copepod,Nannocalanus,minor,0.5894
@@ -17604,6 +17695,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 893,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,10.4009
 1084,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,92.4883
 1069,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,25.4615
+1070,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,22.3346
 1002,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,64.2967
 1072,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,77.156
 1024,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,9.4302
@@ -18012,6 +18104,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 911,Temora turbinata f,COPEPOD,Copepod,Temora,turbinata,21.2179
 983,Temora turbinata f,COPEPOD,Copepod,Temora,turbinata,3.5363
 889,Temora turbinata f,COPEPOD,Copepod,Temora,turbinata,7.8585
+1070,Temora turbinata f,COPEPOD,Copepod,Temora,turbinata,1.489
 11,Temora turbinata m,COPEPOD,Copepod,Temora,turbinata,2.8291
 285,Temora turbinata m,COPEPOD,Copepod,Temora,turbinata,19.289
 294,Temora turbinata m,COPEPOD,Copepod,Temora,turbinata,22.5038
@@ -18541,6 +18634,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 972,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),1070.3256
 985,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),7.6876
 883,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),169.7433
+1070,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),1.489
 991,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),49.5085
 1002,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),83.5857
 1073,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),57.867
@@ -18709,6 +18803,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 901,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),51.4374
 981,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),70.7264
 1083,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),380.8342
+1086,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),179.5361
+1070,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),2.978
+1088,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),88.4079
 1000,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),386.6374
 1012,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),35.3632
 1073,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),257.1868
@@ -18904,6 +19001,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 486,Clausocalanus parapergens f,COPEPOD,Copepod,Clausocalanus,parapergens,1.0478
 679,Clausocalanus parapergens f,COPEPOD,Copepod,Clausocalanus,parapergens,3.2148
 773,Clausocalanus parapergens f,COPEPOD,Copepod,Clausocalanus,parapergens,7.0726
+1070,Clausocalanus parapergens f,COPEPOD,Copepod,Clausocalanus,parapergens,1.489
 284,Agetus spp. f,COPEPOD,Copepod,Agetus,spp.,12.8593
 181,Eucalanidae j,COPEPOD,Copepod,(null),(null),10.609
 180,Eucalanidae j,COPEPOD,Copepod,(null),(null),19.289
@@ -18967,6 +19065,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 869,Parvocalanus crassirostris m,COPEPOD,Copepod,Parvocalanus,crassirostris,12.8593
 984,Parvocalanus crassirostris m,COPEPOD,Copepod,Parvocalanus,crassirostris,7.6876
 893,Parvocalanus crassirostris m,COPEPOD,Copepod,Parvocalanus,crassirostris,114.4103
+1088,Parvocalanus crassirostris m,COPEPOD,Copepod,Parvocalanus,crassirostris,176.8159
 993,Parvocalanus crassirostris m,COPEPOD,Copepod,Parvocalanus,crassirostris,106.0895
 42,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),31.4339
 51,Polychaete larvae,NON-COPEPOD,Polychaete,(null),(null),39.2924
@@ -19082,6 +19181,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 973,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,32.1483
 902,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,38.578
 1078,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,282.9054
+1088,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,397.8358
 1006,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,47.1509
 1014,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,3.5363
 1074,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,25.7187
@@ -19279,6 +19379,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 786,Oncaea waldemari f,COPEPOD,Copepod,Oncaea,waldemari,7.8585
 884,Oncaea waldemari f,COPEPOD,Copepod,Oncaea,waldemari,7.8585
 974,Oncaea waldemari f,COPEPOD,Copepod,Oncaea,waldemari,2.5719
+1088,Oncaea waldemari f,COPEPOD,Copepod,Oncaea,waldemari,44.204
 69,Ditrichocorycaeus anglicus m,COPEPOD,Copepod,Ditrichocorycaeus,anglicus,6.4297
 524,Ditrichocorycaeus anglicus m,COPEPOD,Copepod,Ditrichocorycaeus,anglicus,3.8861
 527,Clausocalanus minor f,COPEPOD,Copepod,Clausocalanus,minor,4.5337
@@ -19579,6 +19680,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 629,Ditrichocorycaeus erythraeus m,COPEPOD,Copepod,Ditrichocorycaeus,erythraeus,2.2669
 619,Ditrichocorycaeus erythraeus m,COPEPOD,Copepod,Ditrichocorycaeus,erythraeus,13.6012
 696,Ditrichocorycaeus erythraeus m,COPEPOD,Copepod,Ditrichocorycaeus,erythraeus,6.4297
+1080,Ditrichocorycaeus erythraeus m,COPEPOD,Copepod,Ditrichocorycaeus,erythraeus,8.8408
 991,Harpacticoid f,COPEPOD,Copepod,(null),(null),7.0726
 15,Pleuromamma piseki f,COPEPOD,Copepod,Pleuromamma,piseki,0.7073
 448,Pleuromamma piseki f,COPEPOD,Copepod,Pleuromamma,piseki,0.2009
@@ -19973,6 +20075,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 869,Fritillaria pellucida,NON-COPEPOD,Appendicularian,Fritillaria,pellucida,19.289
 910,Fritillaria pellucida,NON-COPEPOD,Appendicularian,Fritillaria,pellucida,7.0726
 974,Fritillaria pellucida,NON-COPEPOD,Appendicularian,Fritillaria,pellucida,7.7156
+1070,Fritillaria pellucida,NON-COPEPOD,Appendicularian,Fritillaria,pellucida,5.9559
 990,Fritillaria pellucida,NON-COPEPOD,Appendicularian,Fritillaria,pellucida,7.0726
 1010,Fritillaria pellucida,NON-COPEPOD,Appendicularian,Fritillaria,pellucida,4.2436
 1011,Fritillaria pellucida,NON-COPEPOD,Appendicularian,Fritillaria,pellucida,7.0726
@@ -20174,6 +20277,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 914,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,176.8159
 902,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,25.7187
 981,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,10.609
+1088,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,44.204
 987,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,6.4297
 995,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,26.5224
 141,Acartia (Acanthacartia) tonsa m,COPEPOD,Copepod,Acartia (Acanthacartia),tonsa,9.8231
@@ -20573,6 +20677,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 773,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,28.2905
 872,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,7.0726
 914,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,13.6012
+1070,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,4.4669
 1002,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,6.4297
 1011,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,14.1453
 1066,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,1.4145
@@ -20631,6 +20736,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 739,Caridea zoea,NON-COPEPOD,Decapod,(null),(null),7.0726
 761,Caridea zoea,NON-COPEPOD,Decapod,(null),(null),41.6037
 1078,Caridea zoea,NON-COPEPOD,Decapod,(null),(null),17.6816
+1080,Caridea zoea,NON-COPEPOD,Decapod,(null),(null),17.6816
 1015,Caridea zoea,NON-COPEPOD,Decapod,(null),(null),15.717
 1062,Caridea zoea,NON-COPEPOD,Decapod,(null),(null),20.8019
 483,Pilidium larvae,NON-COPEPOD,Nemertean,(null),(null),3.2148
@@ -20645,6 +20751,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 903,Sulculeolaria spp.,NON-COPEPOD,Cnidarian,Sulculeolaria,spp.,7.0726
 309,Ostracod gravid,NON-COPEPOD,Ostracod,(null),(null),15.5443
 308,Ostracod gravid,NON-COPEPOD,Ostracod,(null),(null),8.37
+1088,Ditrichocorycaeus minimus m,COPEPOD,Copepod,Ditrichocorycaeus,minimus,44.204
 308,Cyttarocylis spp.,NON-COPEPOD,Ciliophora,Cyttarocylis,spp.,2.0925
 387,Cyttarocylis spp.,NON-COPEPOD,Ciliophora,Cyttarocylis,spp.,3.9292
 445,Cyttarocylis spp.,NON-COPEPOD,Ciliophora,Cyttarocylis,spp.,19.8918
@@ -20856,6 +20963,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 622,Pluteus larva,NON-COPEPOD,Echinoderm,(null),(null),10.881
 767,Pluteus larva,NON-COPEPOD,Echinoderm,(null),(null),6.4297
 879,Pluteus larva,NON-COPEPOD,Echinoderm,(null),(null),56.5811
+1070,Pluteus larva,NON-COPEPOD,Echinoderm,(null),(null),2.978
 783,Fritillaria haplostoma,NON-COPEPOD,Appendicularian,Fritillaria,haplostoma,56.5811
 801,Fritillaria haplostoma,NON-COPEPOD,Appendicularian,Fritillaria,haplostoma,254.6149
 791,Leptomedusae,NON-COPEPOD,Cnidarian,(null),(null),22.102
@@ -21031,6 +21139,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 869,Pareucalanus spp. j,COPEPOD,Copepod,Pareucalanus,spp.,12.8593
 974,Pareucalanus spp. j,COPEPOD,Copepod,Pareucalanus,spp.,10.2875
 1149,Ctenocalanus spp. f,COPEPOD,Copepod,Ctenocalanus,spp.,18.8604
+1080,Lensia conoidea,NON-COPEPOD,Cnidarian,Lensia,conoidea,8.8408
 521,Subeucalanus mucronatus f,COPEPOD,Copepod,Subeucalanus,mucronatus,5.239
 499,Urocorycaeus furcifer m,COPEPOD,Copepod,Urocorycaeus,furcifer,0.221
 87,Farranula carinata f,COPEPOD,Copepod,Farranula,carinata,3.2148
@@ -21113,6 +21222,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 1079,Ditrichocorycaeus dahli m,COPEPOD,Copepod,Ditrichocorycaeus,dahli,8.8408
 1084,Ditrichocorycaeus dahli m,COPEPOD,Copepod,Ditrichocorycaeus,dahli,5.4405
 1085,Ditrichocorycaeus dahli m,COPEPOD,Copepod,Ditrichocorycaeus,dahli,5.4405
+1088,Ditrichocorycaeus dahli m,COPEPOD,Copepod,Ditrichocorycaeus,dahli,44.204
 1004,Ditrichocorycaeus dahli m,COPEPOD,Copepod,Ditrichocorycaeus,dahli,6.4297
 437,Stomatopod,NON-COPEPOD,Decapod,(null),(null),7.0726
 744,Stomatopod,NON-COPEPOD,Decapod,(null),(null),13.6012
@@ -21515,7 +21625,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 857,Corycaeidae j,COPEPOD,Copepod,(null),(null),212.1791
 909,Corycaeidae j,COPEPOD,Copepod,(null),(null),10.609
 985,Corycaeidae j,COPEPOD,Copepod,(null),(null),61.5012
+1086,Corycaeidae j,COPEPOD,Copepod,(null),(null),70.7264
 1069,Corycaeidae j,COPEPOD,Copepod,(null),(null),1.4145
+1088,Corycaeidae j,COPEPOD,Copepod,(null),(null),707.2636
 994,Corycaeidae j,COPEPOD,Copepod,(null),(null),159.1343
 909,Cosmocalanus darwinii f,COPEPOD,Copepod,Cosmocalanus,darwinii,17.6816
 984,Cosmocalanus darwinii f,COPEPOD,Copepod,Cosmocalanus,darwinii,7.6876
@@ -21645,6 +21757,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 761,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,41.6037
 867,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,16.6415
 883,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,14.1453
+1086,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,5.4405
 1001,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,51.866
 1016,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,7.8585
 69,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,32.1483
@@ -21911,6 +22024,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 877,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,251.4715
 902,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,3.2148
 1078,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,17.6816
+1086,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,5.4405
 1004,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,19.289
 1013,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,31.8269
 1054,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,2.0208
@@ -22371,6 +22485,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 908,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,21.4322
 901,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,12.8593
 893,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,10.4009
+1080,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,17.6816
 1069,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,1.0104
 1054,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,1.3472
 1073,Microsetella norvegica f,COPEPOD,Copepod,Microsetella,norvegica,25.7187
@@ -22600,6 +22715,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 975,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),347.2021
 980,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),67.19
 886,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),88.4079
+1086,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),76.1668
 991,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),339.4865
 1000,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),207.464
 1013,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),102.5532
@@ -22776,6 +22892,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 981,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,120.2348
 982,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,127.3074
 886,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,42.2821
+1070,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,58.0701
 990,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,282.9054
 989,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,1025.5322
 1001,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,377.2073
@@ -22998,6 +23115,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 985,Paracalanus aculeatus f,COPEPOD,Copepod,Paracalanus,aculeatus,15.3753
 986,Paracalanus aculeatus f,COPEPOD,Copepod,Paracalanus,aculeatus,103.3693
 883,Paracalanus aculeatus f,COPEPOD,Copepod,Paracalanus,aculeatus,14.1453
+1080,Paracalanus aculeatus f,COPEPOD,Copepod,Paracalanus,aculeatus,44.204
 1084,Paracalanus aculeatus f,COPEPOD,Copepod,Paracalanus,aculeatus,10.881
 992,Paracalanus aculeatus f,COPEPOD,Copepod,Paracalanus,aculeatus,8.8408
 1004,Paracalanus aculeatus f,COPEPOD,Copepod,Paracalanus,aculeatus,12.8593
@@ -23467,8 +23585,10 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 902,Bivalve,NON-COPEPOD,Mollusc,(null),(null),32.1483
 874,Bivalve,NON-COPEPOD,Mollusc,(null),(null),7.0726
 1078,Bivalve,NON-COPEPOD,Mollusc,(null),(null),618.8556
+1080,Bivalve,NON-COPEPOD,Mollusc,(null),(null),35.3632
 1082,Bivalve,NON-COPEPOD,Mollusc,(null),(null),28.2905
 1084,Bivalve,NON-COPEPOD,Mollusc,(null),(null),10.881
+1070,Bivalve,NON-COPEPOD,Mollusc,(null),(null),5.9559
 991,Bivalve,NON-COPEPOD,Mollusc,(null),(null),14.1453
 1000,Bivalve,NON-COPEPOD,Mollusc,(null),(null),9.4302
 1011,Bivalve,NON-COPEPOD,Mollusc,(null),(null),42.4358
@@ -23777,6 +23897,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 669,Fish larvae,NON-COPEPOD,Fish,(null),(null),7.8585
 876,Fish larvae,NON-COPEPOD,Fish,(null),(null),15.717
 983,Fish larvae,NON-COPEPOD,Fish,(null),(null),3.5363
+1086,Fish larvae,NON-COPEPOD,Fish,(null),(null),5.4405
 1010,Fish larvae,NON-COPEPOD,Fish,(null),(null),2.8291
 102,Fish j,NON-COPEPOD,Fish,(null),(null),3.5363
 367,Fish j,NON-COPEPOD,Fish,(null),(null),6.4297
@@ -23840,6 +23961,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 980,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),3.5363
 986,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),5.4405
 1069,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),65.0683
+1088,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),44.204
 1013,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),3.5363
 993,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),17.6816
 1022,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),40.8037
@@ -24498,6 +24620,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 831,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,14.1453
 864,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,7.8585
 877,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,15.717
+1080,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,8.8408
 1069,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,1.0104
 1010,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,1.4145
 560,Acrocalanus spp. i,COPEPOD,Copepod,Acrocalanus,spp.,3.5363
@@ -24542,6 +24665,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 82,Urocorycaeus lautus m,COPEPOD,Copepod,Urocorycaeus,lautus,3.2148
 488,Urocorycaeus lautus m,COPEPOD,Copepod,Urocorycaeus,lautus,1.7682
 500,Urocorycaeus lautus m,COPEPOD,Copepod,Urocorycaeus,lautus,1.4145
+1070,Urocorycaeus lautus m,COPEPOD,Copepod,Urocorycaeus,lautus,1.489
 357,Calycophoran,NON-COPEPOD,Cnidarian,(null),(null),16.9743
 561,Calycophoran,NON-COPEPOD,Cnidarian,(null),(null),0.6736
 628,Calycophoran,NON-COPEPOD,Cnidarian,(null),(null),5.4405
@@ -25196,6 +25320,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 863,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,3.1434
 912,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,56.5811
 985,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,7.6876
+1070,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,2.978
 1003,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,6.4297
 1004,Aglaura hemistoma,NON-COPEPOD,Cnidarian,Aglaura,hemistoma,12.8593
 373,Oithona attenuata typical f,COPEPOD,Copepod,Oithona,attenuata typical,27.2024
@@ -25306,6 +25431,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 687,Ditrichocorycaeus andrewsi f,COPEPOD,Copepod,Ditrichocorycaeus,andrewsi,13.6012
 703,Ditrichocorycaeus andrewsi f,COPEPOD,Copepod,Ditrichocorycaeus,andrewsi,3.5363
 791,Ditrichocorycaeus andrewsi f,COPEPOD,Copepod,Ditrichocorycaeus,andrewsi,44.204
+1088,Ditrichocorycaeus andrewsi f,COPEPOD,Copepod,Ditrichocorycaeus,andrewsi,44.204
 700,Onychocorycaeus pacificus m,COPEPOD,Copepod,Onychocorycaeus,pacificus,3.5363
 910,Onychocorycaeus pacificus m,COPEPOD,Copepod,Onychocorycaeus,pacificus,7.0726
 979,Lucifer spp. f,NON-COPEPOD,Decapod,Lucifer,spp.,25.2594
@@ -25420,6 +25546,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 822,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,28.8679
 798,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,31.4339
 874,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,77.799
+1070,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,25.3126
 999,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,179.1734
 1015,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,15.717
 182,Oithona nana f,COPEPOD,Copepod,Oithona,nana,6.4297
@@ -25637,6 +25764,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 872,Paroithona spp. f,COPEPOD,Copepod,Paroithona,spp.,21.2179
 876,Paroithona spp. f,COPEPOD,Copepod,Paroithona,spp.,15.717
 877,Paroithona spp. f,COPEPOD,Copepod,Paroithona,spp.,31.4339
+1080,Paroithona spp. f,COPEPOD,Copepod,Paroithona,spp.,8.8408
 150,Cladoceran j,NON-COPEPOD,Cladoceran,(null),(null),2.2102
 169,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,8.2514
 293,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,22.5038
@@ -25797,6 +25925,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 633,Ctenophore,NON-COPEPOD,Ctenophore,(null),(null),13.6012
 904,Ctenophore,NON-COPEPOD,Ctenophore,(null),(null),7.8585
 888,Ctenophore,NON-COPEPOD,Ctenophore,(null),(null),7.0726
+1070,Ctenophore,NON-COPEPOD,Ctenophore,(null),(null),1.489
 480,Siphonophore diphyidae,NON-COPEPOD,Cnidarian,(null),(null),3.1434
 672,Siphonophore diphyidae,NON-COPEPOD,Cnidarian,(null),(null),2.3575
 806,Siphonophore diphyidae,NON-COPEPOD,Cnidarian,(null),(null),4.7151
@@ -25940,6 +26069,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 871,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,12.8593
 983,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,3.5363
 882,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,14.1453
+1086,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,16.3215
 1013,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,7.0726
 1072,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,77.156
 1075,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,1022.3174
@@ -26085,6 +26215,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 982,Oncaea zernovi complex f,COPEPOD,Copepod,Oncaea,zernovi complex,11.7877
 983,Oncaea zernovi complex f,COPEPOD,Copepod,Oncaea,zernovi complex,14.1453
 1079,Oncaea zernovi complex f,COPEPOD,Copepod,Oncaea,zernovi complex,8.8408
+1070,Oncaea zernovi complex f,COPEPOD,Copepod,Oncaea,zernovi complex,7.4449
 1014,Oncaea zernovi complex f,COPEPOD,Copepod,Oncaea,zernovi complex,7.0726
 1066,Oncaea zernovi complex f,COPEPOD,Copepod,Oncaea,zernovi complex,8.4872
 491,Spinoncaea spp. f,COPEPOD,Copepod,Spinoncaea,spp.,7.8585
@@ -26147,11 +26278,13 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 873,Isopod j,NON-COPEPOD,Isopod,(null),(null),15.717
 899,Isopod j,NON-COPEPOD,Isopod,(null),(null),6.4297
 1079,Isopod j,NON-COPEPOD,Isopod,(null),(null),8.8408
+1080,Isopod j,NON-COPEPOD,Isopod,(null),(null),8.8408
 1006,Isopod j,NON-COPEPOD,Isopod,(null),(null),47.1509
 470,Euconchoecia spp.,NON-COPEPOD,Ostracod,Euconchoecia,spp.,13.6012
 774,Euconchoecia spp.,NON-COPEPOD,Ostracod,Euconchoecia,spp.,4.7151
 848,Euconchoecia spp.,NON-COPEPOD,Ostracod,Euconchoecia,spp.,15.717
 984,Euconchoecia spp.,NON-COPEPOD,Ostracod,Euconchoecia,spp.,76.8765
+1088,Euconchoecia spp.,NON-COPEPOD,Ostracod,Euconchoecia,spp.,132.6119
 1006,Euconchoecia spp.,NON-COPEPOD,Ostracod,Euconchoecia,spp.,188.6036
 638,Conchoecia spp.,NON-COPEPOD,Ostracod,Conchoecia,spp.,12.8593
 661,Conchoecia spp.,NON-COPEPOD,Ostracod,Conchoecia,spp.,22.102
@@ -26265,8 +26398,10 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 730,Euconchoecia aculeata,NON-COPEPOD,Ostracod,Euconchoecia,aculeata,3.5363
 766,Euconchoecia aculeata,NON-COPEPOD,Ostracod,Euconchoecia,aculeata,12.8593
 767,Euconchoecia aculeata,NON-COPEPOD,Ostracod,Euconchoecia,aculeata,6.4297
+1080,Euconchoecia aculeata,NON-COPEPOD,Ostracod,Euconchoecia,aculeata,70.7264
 1066,Euconchoecia aculeata,NON-COPEPOD,Ostracod,Euconchoecia,aculeata,1.4145
 1084,Clausidiid j,COPEPOD,Copepod,(null),(null),5.4405
+1086,Clausidiid j,COPEPOD,Copepod,(null),(null),10.881
 531,Triconia dentipes complex m,COPEPOD,Copepod,Triconia,dentipes complex,4.7151
 514,Triconia denticula f,COPEPOD,Copepod,Triconia,denticula,1.4145
 981,Triconia denticula f,COPEPOD,Copepod,Triconia,denticula,3.5363
@@ -26620,6 +26755,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 755,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,1.5717
 770,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,0.1813
 827,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,7.0726
+1070,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,1.489
 1053,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,28.2905
 86,Clausocalanus spp. f,COPEPOD,Copepod,Clausocalanus,spp.,2.6522
 298,Clausocalanus spp. f,COPEPOD,Copepod,Clausocalanus,spp.,3.2148
@@ -26903,6 +27039,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 769,Ctenocalanus vanus f,COPEPOD,Copepod,Ctenocalanus,vanus,14.1453
 796,Ctenocalanus vanus f,COPEPOD,Copepod,Ctenocalanus,vanus,3.5363
 973,Ctenocalanus vanus f,COPEPOD,Copepod,Ctenocalanus,vanus,6.4297
+1070,Ctenocalanus vanus f,COPEPOD,Copepod,Ctenocalanus,vanus,2.978
 283,Ctenocalanus vanus m,COPEPOD,Copepod,Ctenocalanus,vanus,0.442
 499,Ctenocalanus vanus m,COPEPOD,Copepod,Ctenocalanus,vanus,0.221
 545,Ctenocalanus vanus m,COPEPOD,Copepod,Ctenocalanus,vanus,1.8135
@@ -26934,6 +27071,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 767,Delibus nudus f,COPEPOD,Copepod,Delibus,nudus,6.4297
 779,Delibus nudus f,COPEPOD,Copepod,Delibus,nudus,47.1509
 844,Delibus nudus f,COPEPOD,Copepod,Delibus,nudus,7.0726
+1086,Delibus nudus f,COPEPOD,Copepod,Delibus,nudus,5.4405
 291,Delibus nudus m,COPEPOD,Copepod,Delibus,nudus,1.6074
 429,Delibus nudus m,COPEPOD,Copepod,Delibus,nudus,14.1453
 122,Eucalanus spp. j,COPEPOD,Copepod,Eucalanus,spp.,19.289
@@ -27464,6 +27602,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 494,Calanid CV,COPEPOD,Copepod,(null),(null),0.3929
 902,Calanid CV,COPEPOD,Copepod,(null),(null),3.2148
 974,Calanid CV,COPEPOD,Copepod,(null),(null),5.1437
+1086,Calanid CV,COPEPOD,Copepod,(null),(null),5.4405
 1002,Calanid CV,COPEPOD,Copepod,(null),(null),6.4297
 1003,Calanid CV,COPEPOD,Copepod,(null),(null),6.4297
 126,Calanoides carinatus f,COPEPOD,Copepod,Calanoides,carinatus,1.0104
@@ -27490,6 +27629,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 196,Calocalanus plumulosus f,COPEPOD,Copepod,Calocalanus,plumulosus,0.1088
 677,Calocalanus plumulosus f,COPEPOD,Copepod,Calocalanus,plumulosus,4.7151
 793,Calocalanus plumulosus f,COPEPOD,Copepod,Calocalanus,plumulosus,0.943
+1080,Calocalanus plumulosus f,COPEPOD,Copepod,Calocalanus,plumulosus,8.8408
 1138,Calocalanus plumulosus f,COPEPOD,Copepod,Calocalanus,plumulosus,4.7151
 184,Candacia ethiopica f,COPEPOD,Copepod,Candacia,ethiopica,2.1432
 427,Candacia ethiopica f,COPEPOD,Copepod,Candacia,ethiopica,1.943
@@ -27981,6 +28121,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 1078,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),388.995
 1084,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),157.7742
 992,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),901.7611
+1088,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),44.204
 990,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),233.397
 1010,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),4.2436
 1011,Nauplii poecilostomatoida / cyclopoid,COPEPOD,Copepod,(null),(null),56.5811
@@ -28161,6 +28302,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 911,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,325.3413
 986,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,457.0011
 874,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,258.1512
+1080,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,503.9253
 1015,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,267.1885
 1054,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,29.6377
 182,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,6.4297
@@ -28187,6 +28329,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 833,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,50.5188
 901,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,19.289
 981,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,7.0726
+1086,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,10.881
 1072,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,12.8593
 286,Oncaea clevei complex m,COPEPOD,Copepod,Oncaea,clevei complex,8.5729
 290,Oncaea clevei complex m,COPEPOD,Copepod,Oncaea,clevei complex,9.6445
@@ -28742,6 +28885,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 767,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,6.4297
 780,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,28.2905
 781,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,6.2868
+1080,Undinula vulgaris f,COPEPOD,Copepod,Undinula,vulgaris,8.8408
 187,Undinula vulgaris m,COPEPOD,Copepod,Undinula,vulgaris,6.4297
 140,Undinula vulgaris m,COPEPOD,Copepod,Undinula,vulgaris,7.8585
 436,Undinula vulgaris m,COPEPOD,Copepod,Undinula,vulgaris,106.0895
@@ -29618,6 +29762,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 807,Cavoliniidae shell,NON-COPEPOD,Mollusc,(null),(null),21.2179
 844,Cavoliniidae shell,NON-COPEPOD,Mollusc,(null),(null),14.1453
 899,Cavoliniidae shell,NON-COPEPOD,Mollusc,(null),(null),218.6087
+1088,Cavoliniidae shell,NON-COPEPOD,Mollusc,(null),(null),265.2238
 290,Salpidae,NON-COPEPOD,Thaliacean,(null),(null),12.8593
 165,Salpidae,NON-COPEPOD,Thaliacean,(null),(null),0.3152
 64,Salpidae,NON-COPEPOD,Thaliacean,(null),(null),23.5755
@@ -29826,6 +29971,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 896,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,75.7782
 979,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,176.8159
 985,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,53.8135
+1086,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,5.4405
 1015,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,15.717
 1076,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,53.0448
 192,Copilia mirabilis f,COPEPOD,Copepod,Copilia,mirabilis,2.1432
@@ -29850,6 +29996,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 776,Calocalanus spp. j,COPEPOD,Copepod,Calocalanus,spp.,7.8585
 887,Calocalanus spp. j,COPEPOD,Copepod,Calocalanus,spp.,11.3162
 899,Calocalanus spp. j,COPEPOD,Copepod,Calocalanus,spp.,6.4297
+1080,Calocalanus spp. j,COPEPOD,Copepod,Calocalanus,spp.,35.3632
 1003,Calocalanus spp. j,COPEPOD,Copepod,Calocalanus,spp.,12.8593
 1076,Calocalanus spp. j,COPEPOD,Copepod,Calocalanus,spp.,17.6816
 300,Calocalanus spp. m,COPEPOD,Copepod,Calocalanus,spp.,6.4297
@@ -29892,6 +30039,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 856,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,300.587
 857,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,21.2179
 899,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,32.1483
+1086,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,48.9644
+1070,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,1.489
 1016,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,7.8585
 1063,Oithona plumifera f,COPEPOD,Copepod,Oithona,plumifera,70.7264
 29,Oncaea venusta medium no hump f,COPEPOD,Copepod,Oncaea,venusta medium no hump,0.5894
@@ -30247,6 +30396,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 846,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,15.717
 891,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,4.7151
 985,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,69.1888
+1086,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,32.6429
 1010,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,9.9017
 995,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,61.8856
 996,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,21.2179
@@ -30592,6 +30742,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 773,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,14.1453
 973,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,6.4297
 1084,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,5.4405
+1086,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,5.4405
 989,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,35.3632
 1005,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,68.4449
 305,Oithona longispina f,COPEPOD,Copepod,Oithona,longispina,0.3536
@@ -30642,6 +30793,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 99,Ditrichocorycaeus asiaticus f,COPEPOD,Copepod,Ditrichocorycaeus,asiaticus,0.6045
 435,Ditrichocorycaeus asiaticus f,COPEPOD,Copepod,Ditrichocorycaeus,asiaticus,4.4906
 776,Ditrichocorycaeus asiaticus f,COPEPOD,Copepod,Ditrichocorycaeus,asiaticus,7.8585
+1086,Ditrichocorycaeus asiaticus f,COPEPOD,Copepod,Ditrichocorycaeus,asiaticus,5.4405
 20,Onychocorycaeus catus f,COPEPOD,Copepod,Onychocorycaeus,catus,2.8291
 522,Onychocorycaeus catus f,COPEPOD,Copepod,Onychocorycaeus,catus,13.6012
 523,Onychocorycaeus catus f,COPEPOD,Copepod,Onychocorycaeus,catus,6.8006
@@ -30858,6 +31010,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 981,Oithona nana f,COPEPOD,Copepod,Oithona,nana,14.1453
 983,Oithona nana f,COPEPOD,Copepod,Oithona,nana,38.8995
 893,Oithona nana f,COPEPOD,Copepod,Oithona,nana,83.2075
+1070,Oithona nana f,COPEPOD,Copepod,Oithona,nana,2.978
 1004,Oithona nana f,COPEPOD,Copepod,Oithona,nana,70.7264
 1005,Oithona nana f,COPEPOD,Copepod,Oithona,nana,68.4449
 1021,Oithona nana f,COPEPOD,Copepod,Oithona,nana,435.2391
@@ -31074,6 +31227,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 863,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,18.8604
 912,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,56.5811
 972,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,9.4302
+1086,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,38.0834
 1001,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,18.8604
 994,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,17.6816
 903,Copilia spp. f,COPEPOD,Copepod,Copilia,spp.,7.0726
@@ -31665,6 +31819,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 672,Oncaea spp. m >0.7mm,COPEPOD,Copepod,Oncaea,spp.,9.4302
 829,Oncaea spp. m >0.7mm,COPEPOD,Copepod,Oncaea,spp.,7.0726
 855,Oncaea spp. m >0.7mm,COPEPOD,Copepod,Oncaea,spp.,4.4204
+1070,Oncaea spp. m >0.7mm,COPEPOD,Copepod,Oncaea,spp.,1.489
 987,Oncaea spp. m >0.7mm,COPEPOD,Copepod,Oncaea,spp.,6.4297
 1004,Oncaea spp. m >0.7mm,COPEPOD,Copepod,Oncaea,spp.,6.4297
 702,Agalma spp.,NON-COPEPOD,Cnidarian,Agalma,spp.,7.8585
@@ -31748,6 +31903,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 865,Plastic blue strand,NON BIOLOGICAL,Other,(null),(null),14.1453
 898,Plastic blue strand,NON BIOLOGICAL,Other,(null),(null),1.1788
 871,Plastic blue strand,NON BIOLOGICAL,Other,(null),(null),19.289
+1070,Plastic blue strand,NON BIOLOGICAL,Other,(null),(null),1.489
 1011,Plastic blue strand,NON BIOLOGICAL,Other,(null),(null),7.0726
 1138,Plastic blue strand,NON BIOLOGICAL,Other,(null),(null),23.5755
 651,Plastic red strand,NON BIOLOGICAL,Other,(null),(null),1.5717
@@ -32144,6 +32300,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 914,Calanoid j,COPEPOD,Copepod,(null),(null),516.8465
 916,Calanoid j,COPEPOD,Copepod,(null),(null),9.4302
 982,Calanoid j,COPEPOD,Copepod,(null),(null),84.8716
+1080,Calanoid j,COPEPOD,Copepod,(null),(null),813.3531
 987,Calanoid j,COPEPOD,Copepod,(null),(null),597.9592
 1072,Calanoid j,COPEPOD,Copepod,(null),(null),977.3097
 998,Calanoid j,COPEPOD,Copepod,(null),(null),99.0169
@@ -32836,6 +32993,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 862,Bestiolina similis f,COPEPOD,Copepod,Bestiolina,similis,15.717
 876,Bestiolina similis f,COPEPOD,Copepod,Bestiolina,similis,15.717
 985,Bestiolina similis f,COPEPOD,Copepod,Bestiolina,similis,23.0629
+1088,Bestiolina similis f,COPEPOD,Copepod,Bestiolina,similis,44.204
 17,Bestiolina similis m,COPEPOD,Copepod,Bestiolina,similis,3.1434
 549,Bestiolina similis m,COPEPOD,Copepod,Bestiolina,similis,3.5902
 554,Bestiolina similis m,COPEPOD,Copepod,Bestiolina,similis,15.3753
@@ -33328,6 +33486,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 876,Nauplii calanoid,COPEPOD,Copepod,(null),(null),125.7358
 982,Nauplii calanoid,COPEPOD,Copepod,(null),(null),18.8604
 893,Nauplii calanoid,COPEPOD,Copepod,(null),(null),312.0281
+1088,Nauplii calanoid,COPEPOD,Copepod,(null),(null),1370.3232
 987,Nauplii calanoid,COPEPOD,Copepod,(null),(null),96.445
 991,Nauplii calanoid,COPEPOD,Copepod,(null),(null),226.3244
 1010,Nauplii calanoid,COPEPOD,Copepod,(null),(null),11.3162
@@ -33438,6 +33597,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 887,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),73.5554
 890,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),7.8585
 1085,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),16.3215
+1086,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),16.3215
 989,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),388.995
 1006,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),330.0563
 1014,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),7.0726
@@ -33679,6 +33839,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 888,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,106.0895
 889,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,15.717
 1078,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,141.4527
+1088,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,88.4079
 987,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,45.0077
 1004,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,70.7264
 1013,Oncaea spp. j,COPEPOD,Copepod,Oncaea,spp.,17.6816
@@ -33913,6 +34074,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 985,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,7.6876
 888,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,7.0726
 1083,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,27.2024
+1086,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,5.4405
 1001,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,4.7151
 1022,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,13.6012
 187,Paracalanus spp. j,COPEPOD,Copepod,Paracalanus,spp.,12.8593
@@ -33969,6 +34131,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 900,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,32.1483
 899,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,32.1483
 974,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,10.2875
+1088,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,2608.0345
 1062,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,1060.8954
 11,Pleuromamma borealis f,COPEPOD,Copepod,Pleuromamma,borealis,2.8291
 1,Pleuromamma borealis f,COPEPOD,Copepod,Pleuromamma,borealis,1.0104
@@ -34299,6 +34462,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 781,Brachyuran zoea,NON-COPEPOD,Decapod,(null),(null),14.1453
 775,Brachyuran zoea,NON-COPEPOD,Decapod,(null),(null),7.8585
 825,Brachyuran zoea,NON-COPEPOD,Decapod,(null),(null),23.5755
+1080,Brachyuran zoea,NON-COPEPOD,Decapod,(null),(null),8.8408
 32,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),4.4204
 79,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),2.0208
 67,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),1.5156
@@ -34447,6 +34611,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 910,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,42.4358
 974,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,46.2936
 983,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,7.0726
+1086,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,5.4405
 987,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,32.1483
 1003,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,70.7264
 1004,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,25.7187
@@ -34819,6 +34984,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 979,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),75.7782
 980,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),99.0169
 886,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),61.5012
+1080,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),238.7015
 1082,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),14.1453
 1084,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),38.0834
 1003,Oikopleuridae,NON-COPEPOD,Appendicularian,(null),(null),411.4988
@@ -35518,6 +35684,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 732,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,6.4297
 537,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,3.2148
 1078,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,17.6816
+1086,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,16.3215
 1076,Canthocalanus pauper m,COPEPOD,Copepod,Canthocalanus,pauper,26.5224
 158,Centropages australiensis f,COPEPOD,Copepod,Centropages,australiensis,2.2102
 280,Centropages australiensis f,COPEPOD,Copepod,Centropages,australiensis,0.2947
@@ -35934,6 +36101,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 871,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,25.7187
 1084,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,27.2024
 1085,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,81.6073
+1086,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,87.0478
+1088,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,176.8159
 1005,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,228.1495
 993,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,247.5423
 1046,Oithona simplex f,COPEPOD,Copepod,Oithona,simplex,20.5749
@@ -36017,6 +36186,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 876,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,15.717
 975,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,6.4297
 979,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,25.2594
+1080,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,8.8408
 1021,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,13.6012
 1076,Ditrichocorycaeus lubbocki f,COPEPOD,Copepod,Ditrichocorycaeus,lubbocki,26.5224
 195,Oithona longispina f,COPEPOD,Copepod,Oithona,longispina,6.4297
@@ -36213,6 +36383,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 901,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,19.289
 982,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,28.2905
 1082,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,61.2962
+1086,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,16.3215
 987,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,6.4297
 1014,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,10.609
 1023,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,259.33
@@ -36773,6 +36944,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 807,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,28.2905
 854,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,18.6122
 875,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,7.0726
+1080,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,8.8408
 1004,Creseis spp.,NON-COPEPOD,Mollusc,Creseis,spp.,6.4297
 56,Canthocalanus pauper CV,COPEPOD,Copepod,Canthocalanus,pauper,7.8585
 298,Canthocalanus pauper CV,COPEPOD,Copepod,Canthocalanus,pauper,6.4297
@@ -36866,6 +37038,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 792,Foraminifera,NON-COPEPOD,Foraminifera,(null),(null),3.5363
 877,Foraminifera,NON-COPEPOD,Foraminifera,(null),(null),15.717
 984,Foraminifera,NON-COPEPOD,Foraminifera,(null),(null),30.7506
+1088,Foraminifera,NON-COPEPOD,Foraminifera,(null),(null),265.2238
 304,Codonellopsis orthoceras,NON-COPEPOD,Ciliophora,Codonellopsis,orthoceras,8.4872
 530,Codonellopsis orthoceras,NON-COPEPOD,Ciliophora,Codonellopsis,orthoceras,3.5363
 696,Codonellopsis orthoceras,NON-COPEPOD,Ciliophora,Codonellopsis,orthoceras,6.4297
@@ -36879,6 +37052,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 1002,Oithona decipiens f,COPEPOD,Copepod,Oithona,decipiens,25.7187
 712,Mesocalanus spp. CV,COPEPOD,Copepod,Mesocalanus,spp.,1.5717
 985,Paracalanus nanus f,COPEPOD,Copepod,Paracalanus,nanus,15.3753
+1080,Paracalanus nanus f,COPEPOD,Copepod,Paracalanus,nanus,26.5224
 767,Haloptilus longicornis f,COPEPOD,Copepod,Haloptilus,longicornis,6.4297
 1002,Haloptilus longicornis f,COPEPOD,Copepod,Haloptilus,longicornis,6.4297
 732,Temora turbinata j,COPEPOD,Copepod,Temora,turbinata,147.8824
@@ -37056,6 +37230,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 840,Tintinnopsis spp.,NON-COPEPOD,Ciliophora,Tintinnopsis,spp.,22.102
 780,Brachiopoda larvae,NON-COPEPOD,Brachiopod,(null),(null),28.2905
 981,Cosmocalanus darwinii CV,COPEPOD,Copepod,Cosmocalanus,darwinii,3.5363
+1070,Cosmocalanus darwinii CV,COPEPOD,Copepod,Cosmocalanus,darwinii,1.489
 640,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,2.8291
 654,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,3.5363
 702,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,39.2924
@@ -37118,6 +37293,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 860,Oncaea spp. m >0.7mm,COPEPOD,Copepod,Oncaea,spp.,9.4302
 1073,Oncaea spp. m >0.7mm,COPEPOD,Copepod,Oncaea,spp.,6.4297
 1076,Oncaea spp. m >0.7mm,COPEPOD,Copepod,Oncaea,spp.,8.8408
+1080,Sergestid zoea,NON-COPEPOD,Decapod,(null),(null),8.8408
 545,Haloptilus spp. j,COPEPOD,Copepod,Haloptilus,spp.,1.8135
 531,Holothurian auricularia larva,NON-COPEPOD,Echinoderm,(null),(null),37.7207
 785,Rhabdonella spiralis,NON-COPEPOD,Ciliophora,Rhabdonella,spiralis,115.734
@@ -37246,6 +37422,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 843,Triconia spp. f,COPEPOD,Copepod,Triconia,spp.,6.4297
 903,Triconia spp. f,COPEPOD,Copepod,Triconia,spp.,7.0726
 1069,Triconia spp. f,COPEPOD,Copepod,Triconia,spp.,1.0104
+1070,Triconia spp. f,COPEPOD,Copepod,Triconia,spp.,1.489
 299,Oncaea venusta medium hump f,COPEPOD,Copepod,Oncaea,venusta medium hump,3.2148
 734,Oncaea venusta medium hump f,COPEPOD,Copepod,Oncaea,venusta medium hump,6.4297
 974,Oncaea venusta medium hump f,COPEPOD,Copepod,Oncaea,venusta medium hump,2.5719
@@ -37323,6 +37500,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 842,Penilia avirostris f,NON-COPEPOD,Cladoceran,Penilia,avirostris,9.4302
 877,Penilia avirostris f,NON-COPEPOD,Cladoceran,Penilia,avirostris,691.5466
 899,Penilia avirostris f,NON-COPEPOD,Cladoceran,Penilia,avirostris,12.8593
+1070,Penilia avirostris f,NON-COPEPOD,Cladoceran,Penilia,avirostris,5.9559
 998,Penilia avirostris f,NON-COPEPOD,Cladoceran,Penilia,avirostris,99.0169
 119,Pseudevadne tergestina f,NON-COPEPOD,Cladoceran,Pseudevadne,tergestina,6.2868
 116,Pseudevadne tergestina f,NON-COPEPOD,Cladoceran,Pseudevadne,tergestina,3.2148
@@ -37417,6 +37595,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 879,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,(null),(null),21.2179
 973,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,(null),(null),19.289
 1082,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,(null),(null),4.7151
+1088,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,(null),(null),44.204
 32,Calanus australis f,COPEPOD,Copepod,Calanus,australis,1.4735
 30,Calanus australis f,COPEPOD,Copepod,Calanus,australis,0.6315
 150,Calanus australis f,COPEPOD,Copepod,Calanus,australis,26.5224
@@ -37761,6 +37940,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 778,Euchaeta spp. j,COPEPOD,Copepod,Euchaeta,spp.,15.717
 841,Euchaeta spp. j,COPEPOD,Copepod,Euchaeta,spp.,3.5363
 855,Euchaeta spp. j,COPEPOD,Copepod,Euchaeta,spp.,26.5224
+1080,Euchaeta spp. j,COPEPOD,Copepod,Euchaeta,spp.,8.8408
 990,Euchaeta spp. j,COPEPOD,Copepod,Euchaeta,spp.,7.0726
 285,Euchaeta spp. f,COPEPOD,Copepod,Euchaeta,spp.,6.4297
 287,Euchaeta spp. f,COPEPOD,Copepod,Euchaeta,spp.,3.2148
@@ -37817,6 +37997,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 982,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,2.3575
 983,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,10.609
 1079,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,26.5224
+1088,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,309.4278
 994,Euterpina acutifrons f,COPEPOD,Copepod,Euterpina,acutifrons,17.6816
 131,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,2.1432
 130,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,3.2148
@@ -37872,6 +38053,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 974,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,25.7187
 983,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,81.3353
 1079,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,17.6816
+1080,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,123.7711
 1069,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,1.4145
 1004,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,6.4297
 1076,Euterpina acutifrons j,COPEPOD,Copepod,Euterpina,acutifrons,17.6816
@@ -38039,6 +38221,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 985,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),15.3753
 986,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),5.4405
 1079,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),61.8856
+1080,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),35.3632
 991,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),35.3632
 1002,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),19.289
 1004,Prosobranch,NON-COPEPOD,Mollusc,(null),(null),19.289
@@ -38125,6 +38308,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 755,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,4.7151
 737,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,4.7151
 906,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,7.8585
+1070,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,1.489
 1054,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,10.7774
 116,Acartia (Acartia) danae m,COPEPOD,Copepod,Acartia (Acartia),danae,3.2148
 435,Acartia (Acartia) danae m,COPEPOD,Copepod,Acartia (Acartia),danae,2.2453
@@ -38738,6 +38922,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 972,Nauplii calanoid,COPEPOD,Copepod,(null),(null),84.8716
 903,Nauplii calanoid,COPEPOD,Copepod,(null),(null),304.1233
 985,Nauplii calanoid,COPEPOD,Copepod,(null),(null),399.7577
+1080,Nauplii calanoid,COPEPOD,Copepod,(null),(null),282.9054
+1086,Nauplii calanoid,COPEPOD,Copepod,(null),(null),70.7264
 1011,Nauplii calanoid,COPEPOD,Copepod,(null),(null),148.5254
 998,Nauplii calanoid,COPEPOD,Copepod,(null),(null),109.6259
 1075,Nauplii calanoid,COPEPOD,Copepod,(null),(null),109.3044
@@ -38855,6 +39041,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 888,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),21.2179
 893,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),20.8019
 1079,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),123.7711
+1080,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),106.0895
 1083,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),54.4049
 1000,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),9.4302
 998,Nauplii harpacticoid,COPEPOD,Copepod,(null),(null),3.5363
@@ -39307,6 +39494,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 761,Paracalanus spp. j,COPEPOD,Copepod,Paracalanus,spp.,20.8019
 777,Paracalanus spp. j,COPEPOD,Copepod,Paracalanus,spp.,31.4339
 809,Paracalanus spp. j,COPEPOD,Copepod,Paracalanus,spp.,14.1453
+1088,Paracalanus spp. j,COPEPOD,Copepod,Paracalanus,spp.,44.204
 991,Paracalanus spp. j,COPEPOD,Copepod,Paracalanus,spp.,7.0726
 53,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,6.8006
 142,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,54.4049
@@ -39333,6 +39521,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 911,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,7.0726
 901,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,25.7187
 1078,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,106.0895
+1080,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,8.8408
 1003,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,12.8593
 994,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,17.6816
 1020,Parvocalanus crassirostris f,COPEPOD,Copepod,Parvocalanus,crassirostris,13.6012
@@ -39385,6 +39574,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 28,Subeucalanus spp. j,COPEPOD,Copepod,Subeucalanus,spp.,13.6012
 78,Subeucalanus spp. j,COPEPOD,Copepod,Subeucalanus,spp.,12.8593
 296,Subeucalanus spp. j,COPEPOD,Copepod,Subeucalanus,spp.,6.4297
+1080,Subeucalanus spp. j,COPEPOD,Copepod,Subeucalanus,spp.,8.8408
 404,Temora discaudata f,COPEPOD,Copepod,Temora,discaudata,6.8006
 517,Temora discaudata f,COPEPOD,Copepod,Temora,discaudata,1.1788
 823,Temora discaudata f,COPEPOD,Copepod,Temora,discaudata,8.0371
@@ -39511,6 +39701,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 148,Gammarid amphipod,NON-COPEPOD,Amphipod,(null),(null),6.8006
 391,Hyperiid amphipod,NON-COPEPOD,Amphipod,(null),(null),1.4735
 498,Hyperiid amphipod,NON-COPEPOD,Amphipod,(null),(null),6.4297
+1080,Hyperiid amphipod,NON-COPEPOD,Amphipod,(null),(null),8.8408
 35,Barnacle nauplii,NON-COPEPOD,Cirripedia,(null),(null),0.0982
 152,Barnacle nauplii,NON-COPEPOD,Cirripedia,(null),(null),0.7367
 64,Barnacle nauplii,NON-COPEPOD,Cirripedia,(null),(null),7.8585
@@ -39734,6 +39925,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 876,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),15.717
 905,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),47.1509
 985,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),7.6876
+1070,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),14.8898
 996,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),3.5363
 1062,Chaetognatha,NON-COPEPOD,Chaetognath,(null),(null),208.0187
 903,Cnidarian larvae,NON-COPEPOD,Cnidarian,(null),(null),7.0726
@@ -39980,6 +40172,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 906,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),31.4339
 910,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),7.0726
 982,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),2.3575
+1080,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),17.6816
 1083,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),27.2024
 1010,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),1.4145
 1001,Fritillariidae,NON-COPEPOD,Appendicularian,(null),(null),245.1847
@@ -40004,12 +40197,14 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 820,Gastropod,NON-COPEPOD,Mollusc,(null),(null),40.8037
 831,Gastropod,NON-COPEPOD,Mollusc,(null),(null),14.1453
 870,Gastropod,NON-COPEPOD,Mollusc,(null),(null),12.8593
+1088,Gastropod,NON-COPEPOD,Mollusc,(null),(null),176.8159
 994,Gastropod,NON-COPEPOD,Mollusc,(null),(null),388.995
 112,Gastropod veliger,NON-COPEPOD,Mollusc,(null),(null),113.1622
 758,Gastropod veliger,NON-COPEPOD,Mollusc,(null),(null),14.1453
 848,Gastropod veliger,NON-COPEPOD,Mollusc,(null),(null),23.5755
 890,Gastropod veliger,NON-COPEPOD,Mollusc,(null),(null),7.8585
 906,Gastropod veliger,NON-COPEPOD,Mollusc,(null),(null),15.717
+1080,Gastropod veliger,NON-COPEPOD,Mollusc,(null),(null),8.8408
 991,Gastropod veliger,NON-COPEPOD,Mollusc,(null),(null),106.0895
 107,Hydromedusae,NON-COPEPOD,Cnidarian,(null),(null),0.6315
 424,Hydromedusae,NON-COPEPOD,Cnidarian,(null),(null),0.9623
@@ -40951,6 +41146,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 841,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,14.1453
 980,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,95.4806
 889,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,43.2217
+1080,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,8.8408
 1013,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,3.5363
 1017,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,55.0094
 1063,Clausocalanus furcatus f,COPEPOD,Copepod,Clausocalanus,furcatus,21.2179
@@ -41553,6 +41749,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 874,Oithona nana f,COPEPOD,Copepod,Oithona,nana,3.5363
 888,Oithona nana f,COPEPOD,Copepod,Oithona,nana,28.2905
 1083,Oithona nana f,COPEPOD,Copepod,Oithona,nana,435.2391
+1086,Oithona nana f,COPEPOD,Copepod,Oithona,nana,10.881
 1012,Oithona nana f,COPEPOD,Copepod,Oithona,nana,10.609
 1077,Oithona nana f,COPEPOD,Copepod,Oithona,nana,70.7264
 51,Doliolum nationalis,NON-COPEPOD,Thaliacean,Doliolum,nationalis,15.717
@@ -41648,6 +41845,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 903,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,21.2179
 974,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,38.578
 975,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,45.0077
+1080,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,26.5224
 991,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,99.0169
 1002,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,90.0154
 1017,Microsetella spp. j,COPEPOD,Copepod,Microsetella,spp.,31.4339
@@ -41698,6 +41896,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 904,Paroithona spp. f,COPEPOD,Copepod,Paroithona,spp.,7.8585
 901,Paroithona spp. f,COPEPOD,Copepod,Paroithona,spp.,6.4297
 974,Paroithona spp. f,COPEPOD,Copepod,Paroithona,spp.,10.2875
+1070,Paroithona spp. f,COPEPOD,Copepod,Paroithona,spp.,1.489
 1046,Paroithona spp. f,COPEPOD,Copepod,Paroithona,spp.,10.2875
 486,Cladoceran j,NON-COPEPOD,Cladoceran,(null),(null),0.5239
 37,Oithona spp. small m,COPEPOD,Copepod,Oithona,spp.,4.4204
@@ -41787,6 +41986,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 835,Farranula rostrata f,COPEPOD,Copepod,Farranula,rostrata,14.1453
 890,Farranula rostrata f,COPEPOD,Copepod,Farranula,rostrata,7.8585
 891,Farranula rostrata f,COPEPOD,Copepod,Farranula,rostrata,14.1453
+1070,Farranula rostrata f,COPEPOD,Copepod,Farranula,rostrata,1.489
 485,Sapphirina angusta m,COPEPOD,Copepod,Sapphirina,angusta,2.3575
 40,Pleuromamma gracilis f,COPEPOD,Copepod,Pleuromamma,gracilis,0.8841
 486,Pleuromamma gracilis f,COPEPOD,Copepod,Pleuromamma,gracilis,0.5239
@@ -41998,6 +42198,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 980,Oncaea media f,COPEPOD,Copepod,Oncaea,media,14.1453
 888,Oncaea media f,COPEPOD,Copepod,Oncaea,media,7.0726
 1078,Oncaea media f,COPEPOD,Copepod,Oncaea,media,35.3632
+1080,Oncaea media f,COPEPOD,Copepod,Oncaea,media,8.8408
 1002,Oncaea media f,COPEPOD,Copepod,Oncaea,media,12.8593
 995,Oncaea media f,COPEPOD,Copepod,Oncaea,media,8.8408
 1064,Oncaea media f,COPEPOD,Copepod,Oncaea,media,4.7151
@@ -42277,6 +42478,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 901,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),25.7187
 888,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),7.0726
 992,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),17.6816
+1088,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),44.204
 1002,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),25.7187
 1072,Globigerinidae,NON-COPEPOD,Foraminifera,(null),(null),25.7187
 386,Pseudodiaptomus aurivillii m,COPEPOD,Copepod,Pseudodiaptomus,aurivillii,14.1453
@@ -42316,6 +42518,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 979,Cypridina spp.,NON-COPEPOD,Ostracod,Cypridina,spp.,25.2594
 159,Pareucalanus attenuatus m,COPEPOD,Copepod,Pareucalanus,attenuatus,2.2453
 25,Pareucalanus attenuatus f,COPEPOD,Copepod,Pareucalanus,attenuatus,7.0726
+1088,Tintinnopsis spp.,NON-COPEPOD,Ciliophora,Tintinnopsis,spp.,44.204
 1065,Oncaea media m,COPEPOD,Copepod,Oncaea,media,0.2526
 827,Oncaeidae f,COPEPOD,Copepod,(null),(null),7.0726
 734,Oncaea spp. m <0.4mm,COPEPOD,Copepod,Oncaea,spp.,12.8593
@@ -42351,6 +42554,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 899,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,25.7187
 985,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,76.8765
 883,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,42.4358
+1070,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,7.4449
 1005,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,319.4094
 995,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,26.5224
 1024,Oncaea spp. m 0.4<>0.7mm,COPEPOD,Copepod,Oncaea,spp.,4.7151
@@ -42439,6 +42643,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,TAXON_GRP01,GENUS,SPECIES,TAXON_PER_M3
 735,Plastic red strand,NON BIOLOGICAL,Other,(null),(null),2.3575
 770,Plastic red strand,NON BIOLOGICAL,Other,(null),(null),0.1813
 898,Plastic red strand,NON BIOLOGICAL,Other,(null),(null),1.1788
+1070,Plastic red strand,NON BIOLOGICAL,Other,(null),(null),1.489
 628,Plastic green strand,NON BIOLOGICAL,Other,(null),(null),5.4405
 713,Plastic clear strand,NON BIOLOGICAL,Other,(null),(null),4.7151
 838,Plastic clear strand,NON BIOLOGICAL,Other,(null),(null),4.7151
