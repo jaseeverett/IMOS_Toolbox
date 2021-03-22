@@ -27,7 +27,7 @@ get_NRSTrips <- function(){
 getNRSSamples <- function(){
     NRSSamp <- read_csv(paste0(rawD,.Platform$file.sep,"SampNRS.csv"), na = "(null)") %>% 
       rename(Sample = SAMPLE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATE, 
-             NRScode = NRS_CODE, Biomass_mgm3 = BIOMASS_MGM3) %>%
+             NRScode = NRS_CODE, Biomass_mgm3 = BIOMASS_MGM3, SampleType = SAMPLETYPE) %>%
       mutate(Year = year(SampleDateLocal),
              Month = month(SampleDateLocal),
              Day = day(SampleDateLocal),
@@ -63,7 +63,7 @@ getNRSZooCount <- function(){
   NRSZcount <- read_csv(paste0(rawD,.Platform$file.sep,"NRS_zoop_count_raw.csv"), na = "(null)") %>%
     dplyr::rename("TaxonName" = "TAXON_NAME", "Copepod" = "TAXON_GROUP", 
                   "TaxonGroup" = "TAXON_GRP01", "NRScode" = "NRS_CODE",
-                  "Genus" = "GENUS", "Species" = "SPECIES", "TaxonCount" = "TAXON_COUNT")
+                  "Genus" = "GENUS", "Species" = "SPECIES", "TaxonCount" = "TAXON_COUNT", SampVolL = SAMPVOLL)
   return(NRSZcount)
 }
 
