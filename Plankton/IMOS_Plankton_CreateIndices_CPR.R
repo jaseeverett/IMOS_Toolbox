@@ -23,9 +23,9 @@ source("IMOS_Plankton_functions.R")
 # ensure we have all trips accounted for 
 # note there are circumstances where a trip won't have a phyto and a zoo samples due to loss of sample etc.
 
-cprTrips <- read_csv(paste0(raw, "SampCPR.csv"), na = "(null)") %>% 
+cprTrips <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "(null)") %>% 
   rename(Sample = SAMPLE, Route = ROUTE, Region = REGION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateUTC = SAMPLEDATEUTC, 
-         SampleType = SAMPLETYPE, Biomass_mgm3 = BIOMASS_MG_M3) %>%
+         SampleType = SAMPLETYPE, Biomass_mgm3 = BIOMASS_MGM3) %>%
   mutate(Year = year(SampleDateUTC),
          Month = month(SampleDateUTC),
          Day = day(SampleDateUTC),

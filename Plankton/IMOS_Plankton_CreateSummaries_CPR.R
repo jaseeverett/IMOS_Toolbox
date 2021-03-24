@@ -18,10 +18,10 @@ output <- "https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Pl
 
 #### CPR Phytoplankton #######################################################################################################################################################
 # Bring in all CPR phytoplankton samples
-cprPsamp <- read_csv(paste0(raw, "SampCPR.csv"), na = "(null)") %>% 
+cprPsamp <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "(null)") %>% 
   rename(Sample = SAMPLE, Route = ROUTE, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateUTC = SAMPLEDATEUTC, SampleType = SAMPLETYPE) %>%
   filter(grepl("P", SampleType)) %>%
-  select(-REGION, -PCI, -SampleType, -BIOMASS_MG_M3) %>%
+  select(-REGION, -PCI, -SampleType, -BIOMASS_MGM3) %>%
   mutate(Year = year(SampleDateUTC),
          Month = month(SampleDateUTC),
          Day = day(SampleDateUTC),
