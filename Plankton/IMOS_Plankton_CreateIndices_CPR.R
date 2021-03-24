@@ -13,10 +13,9 @@ suppressPackageStartupMessages({
   library(tidyverse)
 })
 
-rawD <- "RawData"
-outD <- "Output"
+raw <- "https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/"
+output <- "https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/Output/"
 get_sat_data <- FALSE
-
 
 source("IMOS_Plankton_functions.R")
 # uses mostly the same raw data from IMOS_PlanktonProducts_Create.R
@@ -24,15 +23,15 @@ source("IMOS_Plankton_functions.R")
 # ensure we have all trips accounted for 
 # note there are circumstances where a trip won't have a phyto and a zoo samples due to loss of sample etc.
 
-cprTrips <- read_csv(paste0(rawD,.Platform$file.sep,"PSampCPR.csv"), na = "(null)") %>% 
-  rename(Sample = SAMPLE, Route = ROUTE, Region = REGION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateUTC = SAMPLEDATEUTC) %>%
+cprTrips <- read_csv(paste0(raw, "SampCPR.csv"), na = "(null)") %>% 
+  rename(Sample = SAMPLE, Route = ROUTE, Region = REGION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateUTC = SAMPLEDATEUTC, 
+         SampleType = SAMPLETYPE, Biomass_mgm3 = BIOMASS_MG_M3) %>%
   mutate(Year = year(SampleDateUTC),
          Month = month(SampleDateUTC),
          Day = day(SampleDateUTC),
          Time_24hr = str_sub(SampleDateUTC, -8, -1), # hms doesn"t seem to work on 00:00:00 times
          SampleDateUTC = as.character(SampleDateUTC)) %>% 
-  select(c(Sample, Latitude:Time_24hr, Region, Route))
-
+  select(c(Sample, Latitude:Time_24hr, Region, Route, PCI, Biomass_mgm3))
 
 mbr <-  readOGR("../General/Shapefiles/marine_regions_2012/")
 mbr <- spTransform(mbr, CRS("+proj=longlat +datum=WGS84"))
@@ -74,8 +73,8 @@ cprTrips <- cprTrips %>%
 
 # ggplot(data = cprTrips, aes(x = Longitude, y = Latitude, colour = BioRegion)) + geom_point()
 
-cprProps <- read_csv(paste0(rawD,.Platform$file.sep,"AllSampCPR.csv"), na = "(null)") %>% 
-  rename(Sample = SAMPLE, ChlorophyllMonthlyClimatology_mg_m3 = CHL_AVG, ChlorophyllSatellite_mg_m3 = CHL, WaterDepth_m = WATERDEPTH_M)
+cprProps <- read_csv(paste0(raw, "CPR_SatData.csv"), na = "(null)") %>% 
+  rename(Sample = SAMPLE, ChlorophyllSatellite_mg_m3 = CHLA, WaterDepth_m = DEPTH_M)
 
 satcpr <- cprTrips %>% 
   rename(Date = SampleDateUTC) 
@@ -134,13 +133,10 @@ HCratCpr <- zoodatacpr %>%
   pivot_wider(values_from = sumdiet, names_from = DIET) %>%
   mutate(HerbivoreCarnivoreCopepodRatio = CO / (CO + CC)) %>% untibble
 
-CPRbiomass <- read_csv(paste0(rawD,.Platform$file.sep,"CPR_biomass.csv"), na = "(null)") %>% 
-  rename(Sample = SAMPLE, Biomass_mgCarbon_m3 = BIOMASS_MG_M3) %>% untibble()
-
 # Diversity, evenness etc.     
 
 # Bring in plankton data
-CPRZcount <- read_csv(paste0(rawD,.Platform$file.sep,"CPR_zoo_count_raw.csv"), na = "(null)") %>%
+CPRZcount <- read_csv(paste0(raw, "CPR_zoo_count_raw.csv"), na = "(null)") %>%
   rename(TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, Sample = SAMPLE,
                 Genus= GENUS, Species = SPECIES, TaxonCount = COUNTS)
 
@@ -260,12 +256,11 @@ DinoEvencpr <- ndinocpr %>%
   mutate(DinoflagellateEvenness = ShannonDinoDiversitycpr / log(NoDinoSpecies_Sample))
 
 # make indices table (nrows must always equal nrows of Trips)
-IndicesCPR <-  cprTrips  %>%
+IndicesCPR <-  cprTrips  %>% 
   left_join(TZoocpr, by = ("Sample")) %>%
   left_join(TCopecpr, by = ("Sample")) %>%
   left_join(ACopeSizeCpr, by = ("Sample")) %>%
   left_join(HCratCpr %>% select(-c('CO', 'CC')), by = ("Sample")) %>% 
-  left_join(CPRbiomass, by = ("Sample")) %>%
   left_join(CopepodEvennessCPR,  by = ("Sample")) %>%
   left_join(PhytoCcpr, by = ("Sample")) %>%
   left_join(TPhytoCpr, by = ("Sample")) %>%
@@ -275,7 +270,7 @@ IndicesCPR <-  cprTrips  %>%
   left_join(DiaEvencpr, by = ("Sample")) %>%
   left_join(DinoEvencpr, by = ("Sample")) %>%   
   left_join(satcpr %>% select(Sample, sst_1d, chl_oc3_1d), by = ("Sample")) %>%  #add once run , GSLA, GSL, UCUR, VCUR
-  select(-Sample)
+  select(-Sample, -SampleType)
 
 # make indices table (nrows must always equal nrows of Trips) - old one for IMOS
 IMOSCPR_ind <-  cprTrips  %>%
@@ -284,7 +279,6 @@ IMOSCPR_ind <-  cprTrips  %>%
   left_join(TCopecpr, by = ("Sample")) %>%
   left_join(ACopeSizeCpr, by = ("Sample")) %>%
   left_join(HCratCpr %>% select(-c('CO', 'CC')), by = ("Sample")) %>% 
-  left_join(CPRbiomass, by = ("Sample")) %>%
   left_join(CopepodEvennessCPR,  by = ("Sample")) %>%
   left_join(PhytoCcpr, by = ("Sample")) %>%
   left_join(TPhytoCpr, by = ("Sample")) %>%
@@ -295,7 +289,7 @@ IMOSCPR_ind <-  cprTrips  %>%
   left_join(DinoEvencpr, by = ("Sample")) %>%   
   select(-Sample)
 
-fwrite(IndicesCPR, file = paste0(outD,.Platform$file.sep,"CPR_Indices.csv"), row.names = FALSE)
+fwrite(IndicesCPR, file = paste0(output, "CPR_Indices.csv"), row.names = FALSE)
 
 # test table
 # n should be 1, replicates or duplicate samples will have values > 1

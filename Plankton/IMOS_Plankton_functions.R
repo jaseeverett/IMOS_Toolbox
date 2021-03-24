@@ -6,7 +6,7 @@ untibble <- function (tibble) {
 ## Functions for bringing in data sets
 ## NRS 
 get_NRSTrips <- function(){
-  NRSTrips <- read_csv(paste0(rawD,.Platform$file.sep,"nrs_trips.csv"), na = "(null)") %>% 
+  NRSTrips <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/nrs_trips.csv", na = "(null)") %>% 
     rename(Station = STATION_NAME, Latitude = Y_COORD, Longitude = X_COORD, SampleDateLocal = TRIP_START_DATETIME_LOCAL, 
            NRScode = NRS_CODE, StationDepth_m = STATION_DEPTH, SampleDepth_m = SAMPLEDEPTH_M, stateCode = STATE_CODE,
            DaylightSavings = DAYLIGHT_SAVINGS_Y_N, UTCoffsetH = UTC_OFFSET_H) %>%
@@ -25,7 +25,7 @@ get_NRSTrips <- function(){
 
 # Bring in all NRS samples
 getNRSSamples <- function(){
-    NRSSamp <- read_csv(paste0(rawD,.Platform$file.sep,"SampNRS.csv"), na = "(null)") %>% 
+    NRSSamp <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/SampNRS.csv", na = "(null)") %>% 
       rename(Sample = SAMPLE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATE, 
              NRScode = NRS_CODE, Biomass_mgm3 = BIOMASS_MGM3, SampleType = SAMPLETYPE) %>%
       mutate(Year = year(SampleDateLocal),
@@ -37,7 +37,7 @@ getNRSSamples <- function(){
 
 # Bring in plankton data
 getNRSPhytoData <- function(){
-  NRSPdat <- read_csv(paste0(rawD,.Platform$file.sep,"NRS_phyto_raw.csv"), na = "(null)") %>%
+  NRSPdat <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_phyto_raw.csv", na = "(null)") %>%
     rename(Sample = SAMPLE, TaxonName = TAXON_NAME, TaxonGroup = TAXON_GROUP, Genus = GENUS, Species = SPECIES, 
            Cells_L = CELL_PER_LITRE, Biovolume_uM3_L = BIOVOLUME_UM3_PER_L)
   return(NRSPdat)
@@ -45,14 +45,14 @@ getNRSPhytoData <- function(){
 
 # Bring in Change Log
 getNRSPhytoChangeLog <- function(){
-  NRSPcl <- read_csv(paste0(rawD,.Platform$file.sep,"ChangeLogNRSP.csv"), na = "(null)") %>%
+  NRSPcl <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/ChangeLogNRSP.csv", na = "(null)") %>%
     rename(TaxonName = TAXON_NAME, StartDate = START_DATE, ParentName = PARENT_NAME)
   return(NRSPcl)
 }
 
 # Bring in zooplankton  abundance data
 getNRSZooData <- function(){
-  NRSZdat <- read_csv(paste0(rawD,.Platform$file.sep,"NRS_zoop_raw.csv"), na = "(null)") %>%
+  NRSZdat <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_zoop_raw.csv", na = "(null)") %>%
     rename(Sample = SAMPLE, TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, 
          Genus = GENUS, Species = SPECIES, ZAbund_m3 = TAXON_PER_M3)
   return(NRSZdat)
@@ -60,7 +60,7 @@ getNRSZooData <- function(){
 
 # Bring in zooplankton  abundance data
 getNRSZooCount <- function(){
-  NRSZcount <- read_csv(paste0(rawD,.Platform$file.sep,"NRS_zoop_count_raw.csv"), na = "(null)") %>%
+  NRSZcount <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_zoop_count_raw.csv", na = "(null)") %>%
     dplyr::rename("TaxonName" = "TAXON_NAME", "Copepod" = "TAXON_GROUP", 
                   "TaxonGroup" = "TAXON_GRP01", "NRScode" = "NRS_CODE",
                   "Genus" = "GENUS", "Species" = "SPECIES", "TaxonCount" = "TAXON_COUNT", SampVolL = SAMPVOLL)
@@ -69,14 +69,14 @@ getNRSZooCount <- function(){
 
 # Bring in Change Log
 getNRSZooChangeLog <- function(){
-  NRSZcl <- read_csv(paste0(rawD,.Platform$file.sep,"ChangeLogNRSZ.csv"), na = "(null)") %>%
+  NRSZcl <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/ChangeLogNRSZ.csv", na = "(null)") %>%
     rename(TaxonName = TAXON_NAME, StartDate = START_DATE, ParentName = PARENT_NAME)
   return(NRSZcl)
 }
 
 # Bring in copepod information table with sizes etc.
 get_ZooInfo <- function(){
-  ZInfo <- read_csv(paste0(rawD,.Platform$file.sep,"taxon_info.csv"), na = "(null)") %>% 
+  ZInfo <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/taxon_info.csv", na = "(null)") %>% 
     dplyr::rename( "TaxonName" = "TAXON_NAME") %>% 
     untibble()
 }
@@ -84,7 +84,7 @@ get_ZooInfo <- function(){
 
 # Bring in chemistry data
 getChemistry <- function(){
-  chemistry <- read_csv(paste0(rawD,.Platform$file.sep,"chemistry.csv"), na = c("(null)", NaN)) %>% 
+  chemistry <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/chemistry.csv", na = c("(null)", NaN)) %>% 
   rename(NRScode = NRS_TRIP_CODE,
          SampleDepth_m = SAMPLE_DEPTH_M, Silicate_umol_L = SILICATE_UMOL_PER_L, Nitrate_umol_L =  NITRATE_UMOL_PER_L,
          Phosphate_umol_L =  PHOSPHATE_UMOL_PER_L, Salinity = SALINITY, 
@@ -123,7 +123,7 @@ getChemistry <- function(){
 
 # get CTD data
 getCTD <- function(){
-  CTD <- read_csv(paste0(rawD,.Platform$file.sep,"nrs_CTD.csv"), na = "(null)",
+  CTD <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/nrs_ctd.csv", na = "(null)",
                 col_types = cols(PRES = col_double(), # columns start with nulls so tidyverse annoyingly assigns col_logical()
                                  PAR = col_double(),
                                  SPEC_CNDC = col_double())) %>% 
