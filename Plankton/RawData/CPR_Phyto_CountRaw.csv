@@ -1,4 +1,4 @@
-SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
+SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOL_L
 2-69,Nematocysts,Other,(null),(null),0,1
 15-1,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 15-69,Foraminifera,Foraminifera,(null),(null),0,1
@@ -444,9 +444,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 13-77,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,3,1
 13-77,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,3,1
 13-25,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
-16-5,Plastic,Other,(null),(null),0,1
 43-29,Amphisolenia spp.,Dinoflagellate,Amphisolenia,spp.,1,1.1
-9-9,Plastic,Other,(null),(null),0,1
 9-13,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,4,1
 9-13,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,4,1
 9-13,Tripos massiliensis,Dinoflagellate,Tripos (Tripoceratium),massiliensis,1,1
@@ -517,12 +515,10 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 43-53,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1.1
 43-53,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1.1
 43-49,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1.1
-43-41,Plastic,Other,(null),(null),0,1.1
 43-41,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1.1
 43-41,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1.1
 43-41,Foraminifera,Foraminifera,(null),(null),0,1.1
 43-37,Foraminifera,Foraminifera,(null),(null),0,1.1
-43-37,Plastic,Other,(null),(null),0,1.1
 43-29,Foraminifera,Foraminifera,(null),(null),0,1.1
 43-29,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1.1
 43-29,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1.1
@@ -530,7 +526,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 43-25,Foraminifera,Foraminifera,(null),(null),0,1.1
 43-21,Foraminifera,Foraminifera,(null),(null),0,1.1
 43-21,Radiolarian,Radiozoa,(null),(null),0,1.1
-43-21,Plastic,Other,(null),(null),0,1.1
 43-21,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1.1
 43-21,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1.1
 43-21,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1.1
@@ -541,7 +536,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 43-1,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1.1
 43-1,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1.1
 43-1,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1.1
-43-1,Plastic,Other,(null),(null),0,1.1
 45-25,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,1,1
 45-29,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,13,1
 45-21,Nematocysts,Other,(null),(null),1,1
@@ -601,7 +595,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 60-13,Filamentous algae (non branching),Cyanobacteria,(null),(null),1,1
 60-13,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,1,1
 60-13,Radiolarian,Radiozoa,(null),(null),1,1
-60-1,Plastic,Other,(null),(null),0,1
 60-17,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 60-5,Tripos massiliensis,Dinoflagellate,Tripos (Tripoceratium),massiliensis,0,1
 60-21,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
@@ -610,7 +603,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 60-5,Paint,Other,(null),(null),0,1
 60-5,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
 60-5,Ciliate (Inc. tintinnid),Ciliate,(null),(null),0,1
-60-5,Plastic,Other,(null),(null),0,1
 61-1,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,3,1
 61-1,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,2,1
 61-1,Spicule,Other,(null),(null),1,1
@@ -829,13 +821,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 69-69,Nematocysts,Other,(null),(null),1,1
 69-5,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1
 60-9,Protoperidinium granii,Dinoflagellate,Protoperidinium,granii,0,1
-60-9,Plastic,Other,(null),(null),0,1
-69-5,Plastic,Other,(null),(null),0,1
 69-9,Codonellopsis orthoceras,Ciliate,Codonellopsis,orthoceras,0,1
 69-9,Foraminifera,Foraminifera,(null),(null),0,1
 69-21,Ciliate (Inc. tintinnid),Ciliate,(null),(null),0,1
-69-21,Plastic,Other,(null),(null),0,1
-69-1,Plastic,Other,(null),(null),0,1
 76-1,Dictyocysta spp.,Ciliate,Dictyocysta,spp.,1,1
 76-9,Egg,Other,(null),(null),1,1
 76-25,Tripos biceps,Dinoflagellate,Tripos (Amphiceratium),biceps,1,1
@@ -1112,14 +1100,12 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 43-21,Proboscia spp.,Centric diatom,Proboscia,spp.,1,1.1
 43-21,Scrippsiella spp.,Dinoflagellate,Scrippsiella,spp.,1,1.1
 43-21,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,3,1.1
-13-65,Plastic,Other,(null),(null),0,1
 16-1,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 16-1,Foraminifera,Foraminifera,(null),(null),0,1
 16-5,Foraminifera,Foraminifera,(null),(null),0,1
 16-1,Favella spp.,Ciliate,Favella,spp.,0,1
 16-5,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 16-5,Cylindrical diatom,Centric diatom,(null),(null),0,1
-16-9,Plastic,Other,(null),(null),0,1
 43-45,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,5,1.1
 9-9,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 9-29,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
@@ -1169,8 +1155,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 43-61,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1.1
 43-45,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1.1
 43-45,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1.1
-43-45,Plastic,Other,(null),(null),0,1.1
-43-25,Plastic,Other,(null),(null),0,1.1
 45-17,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,1,1
 45-17,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,7,1
 60-1,Acantharia,Radiozoa,(null),(null),0,1
@@ -1494,15 +1478,12 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 9-25,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,4,1
 9-25,Guinardia spp.,Centric diatom,Guinardia,spp.,1,1
 9-25,Nematocysts,Other,(null),(null),1,1
-13-73,Plastic,Other,(null),(null),0,1
 13-77,Xystonella spp.,Ciliate,Xystonella,spp.,0,1
 16-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 43-49,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,1,1.1
 43-49,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,4,1.1
 43-49,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,2,1.1
 43-17,Amphisolenia spp.,Dinoflagellate,Amphisolenia,spp.,1,1.1
-9-25,Plastic,Other,(null),(null),0,1
-9-29,Plastic,Other,(null),(null),0,1
 43-49,Dactyliosolen spp.,Centric diatom,Dactyliosolen,spp.,2,1.1
 43-49,Gonyaulax spp.,Dinoflagellate,Gonyaulax,spp.,1,1.1
 43-49,Navicula - shaped,Pennate diatom,(null),(null),2,1.1
@@ -2226,7 +2207,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 53-21,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,1,1
 52-57,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1
 52-57,Fish scales,Other,(null),(null),0,1
-52-57,Plastic,Other,(null),(null),0,1
 52-57,Codonellopsis orthoceras,Ciliate,Codonellopsis,orthoceras,0,1
 53-17,Foraminifera,Foraminifera,(null),(null),0,1
 92-22,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
@@ -2651,7 +2631,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 52-25,Guinardia spp.,Centric diatom,Guinardia,spp.,1,1
 52-25,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,14,1
 52-29,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,6,1
-52-1,Plastic,Other,(null),(null),0,1
 53-5,Lauderia spp.,Centric diatom,Lauderia,spp.,1,1
 53-5,Silicoflagellate 6 points,Silicoflagellate,Dictyocha,spp.,1,1
 53-5,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,1,1
@@ -2885,8 +2864,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 53-37,Nematocysts,Other,(null),(null),1,1
 53-37,Parundella spp.,Ciliate,Parundella,spp.,1,1
 53-37,Silicoflagellate 4 points,Silicoflagellate,Dictyocha,spp.,2,1
-52-17,Plastic,Other,(null),(null),0,1
-53-29,Plastic,Other,(null),(null),0,1
 86-2,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,3,1
 86-2,Pseudo-nitzschia spp.,Pennate diatom,Pseudo-nitzschia,spp.,1,1
 86-2,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,2,1
@@ -3081,9 +3058,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 87-16,Dictyocha speculum,Silicoflagellate,Dictyocha,speculum,2,1
 87-16,Thalassiothrix antarctica,Pennate diatom,Thalassiothrix,antarctica,4,1
 87-17,Pseudo-nitzschia spp.,Pennate diatom,Pseudo-nitzschia,spp.,1,1
-76-17,Plastic,Other,(null),(null),0,1
 74-17,Nematocysts,Other,(null),(null),3,1
-74-29,Plastic,Other,(null),(null),0,1
 75-5,Lauderia spp.,Centric diatom,Lauderia,spp.,2,1
 75-5,Silicoflagellate 6 points,Silicoflagellate,Dictyocha,spp.,1,1
 75-5,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,1,1
@@ -3091,7 +3066,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 53-13,Silicoflagellate 4 points,Silicoflagellate,Dictyocha,spp.,1,1
 53-13,Silicoflagellate 6 points,Silicoflagellate,Dictyocha,spp.,1,1
 52-37,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1
-52-37,Plastic,Other,(null),(null),0,1
 52-65,Codonellopsis orthoceras,Ciliate,Codonellopsis,orthoceras,0,1
 52-65,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1
 52-65,Fish scales,Other,(null),(null),0,1
@@ -3301,7 +3275,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 108-21,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1.01
 108-33,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1.01
 108-25,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1.01
-108-25,Plastic,Other,(null),(null),0,1.01
 176-29,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,4,1
 176-29,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,1,1
 176-29,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,2,1
@@ -3362,10 +3335,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 184-21,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,2,1
 184-29,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 60-21,Paint,Other,(null),(null),0,1
-60-21,Plastic,Other,(null),(null),0,1
 61-9,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 61-9,Paint,Other,(null),(null),0,1
-61-9,Plastic,Other,(null),(null),0,1
 176-65,Actinopoda,Radiozoa,(null),(null),2,1
 176-65,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 176-65,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,2,1
@@ -3378,7 +3349,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 176-65,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
 108-57,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1.01
 108-57,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1.01
-108-73,Plastic,Other,(null),(null),0,1.01
 187-5,Thalassionema nitzschioides,Pennate diatom,Thalassionema,nitzschioides,1,1
 187-9,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,2,1
 179-1,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
@@ -3440,7 +3410,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 127-1,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 127-1,Foraminifera,Foraminifera,(null),(null),1,1
 187-49,Pennate diatom > 10 µm,Pennate diatom,(null),(null),1,1
-127-17,Plastic,Other,(null),(null),0,1
 189-21,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 189-21,Chaetoceros messanense,Centric diatom,Chaetoceros (Hyalochaete),messanense,1,1
 189-21,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,5,1
@@ -3453,9 +3422,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 189-33,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,2,1
 129-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 129-17,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-129-17,Plastic,Other,(null),(null),0,1
 129-21,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-129-21,Plastic,Other,(null),(null),0,1
 129-21,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 129-21,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
 129-21,Tripos ranipes,Dinoflagellate,Tripos (Tripoceratium),ranipes,0,1
@@ -3464,9 +3431,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 129-33,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
 129-33,Tripos pentagonus,Dinoflagellate,Tripos (Ceratium),pentagonus,0,1
 129-33,Foraminifera,Foraminifera,(null),(null),0,1
-129-33,Plastic,Other,(null),(null),0,1
 130-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-130-5,Plastic,Other,(null),(null),0,1
 130-5,Foraminifera,Foraminifera,(null),(null),0,1
 191-1,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1.16
 191-5,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1.16
@@ -3486,7 +3451,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 176-17,Foraminifera,Foraminifera,(null),(null),0,1
 176-17,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 176-17,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-176-17,Plastic,Other,(null),(null),0,1
 176-17,Ornithocercus spp.,Dinoflagellate,Ornithocercus,spp.,0,1
 176-9,Rhabdonella spp.,Ciliate,Rhabdonella,spp.,0,1
 194-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,1,1
@@ -3515,31 +3479,23 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 194-33,Unid dinoflagellate > 10 µm,Dinoflagellate,(null),(null),1,1
 194-9,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 194-29,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-194-37,Plastic,Other,(null),(null),0,1
 194-41,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 194-41,Rhabdonella spp.,Ciliate,Rhabdonella,spp.,1,1
 194-41,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
 194-37,Proboscia spp.,Centric diatom,Proboscia,spp.,1,1
 194-37,Rhabdonella spp.,Ciliate,Rhabdonella,spp.,1,1
 194-37,Unid dinoflagellate > 10 µm,Dinoflagellate,(null),(null),2,1
-191-53,Plastic,Other,(null),(null),0,1.16
 194-41,Unid dinoflagellate > 10 µm,Dinoflagellate,(null),(null),1,1
-192-1,Plastic,Other,(null),(null),0,1
-192-9,Plastic,Other,(null),(null),0,1
 192-13,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
-192-13,Plastic,Other,(null),(null),0,1
 207-8,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 193-25,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 193-25,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 193-25,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
-193-25,Plastic,Other,(null),(null),0,1
 193-25,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 193-29,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 193-29,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
-193-29,Plastic,Other,(null),(null),0,1
 193-33,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 193-33,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
-193-33,Plastic,Other,(null),(null),0,1
 209-62,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
 209-62,Chaetoceros criophilus,Centric diatom,Chaetoceros (Phaeoceros),criophilus,1,1
 209-62,Fragilariopsis kerguelensis,Pennate diatom,Fragilariopsis,kerguelensis,5,1
@@ -3586,12 +3542,10 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 61-1,Foraminifera,Foraminifera,(null),(null),0,1
 61-1,Ocelli,Other,(null),(null),0,1
 61-1,Paint,Other,(null),(null),0,1
-61-1,Plastic,Other,(null),(null),0,1
 61-29,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 61-29,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 61-29,Foraminifera,Foraminifera,(null),(null),0,1
 61-29,Paint,Other,(null),(null),0,1
-61-29,Plastic,Other,(null),(null),0,1
 186-17,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,1,1
 108-65,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,0,1.01
 108-65,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1.01
@@ -3606,9 +3560,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 220-21,Dactyliosolen antarcticus,Centric diatom,Dactyliosolen,antarcticus,1,1
 220-21,Dictyocha speculum,Silicoflagellate,Dictyocha,speculum,9,1
 131-17,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-131-17,Plastic,Other,(null),(null),0,1
 131-25,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-131-25,Plastic,Other,(null),(null),0,1
 132-1,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 220-20,Chaetoceros bulbosus,Centric diatom,Chaetoceros,bulbosus,2,1
 220-20,Coccolithophore cf.,Coccolithophore,(null),(null),1,1
@@ -3658,18 +3610,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 213-89,Navicula - shaped,Pennate diatom,(null),(null),1,1
 213-89,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,4,1
 213-89,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
-190-49,Plastic,Other,(null),(null),0,1
-190-25,Plastic,Other,(null),(null),0,1
-187-33,Plastic,Other,(null),(null),0,1
-184-17,Plastic,Other,(null),(null),0,1
-184-25,Plastic,Other,(null),(null),0,1
-170-69,Plastic,Other,(null),(null),0,1
-170-21,Plastic,Other,(null),(null),0,1
-170-25,Plastic,Other,(null),(null),0,1
-169-49,Plastic,Other,(null),(null),0,1
-169-65,Plastic,Other,(null),(null),0,1
-169-37,Plastic,Other,(null),(null),0,1
-183-5,Plastic,Other,(null),(null),0,1
 220-66,Chaetoceros neglectus,Centric diatom,Chaetoceros (Hyalochaete),neglectus,1,1
 220-66,Dactyliosolen tenuijunctus,Centric diatom,Dactyliosolen,tenuijunctus,1,1
 220-66,Dictyocha speculum,Silicoflagellate,Dictyocha,speculum,8,1
@@ -3739,10 +3679,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 213-1,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,8,1
 213-1,Proboscia spp.,Centric diatom,Proboscia,spp.,2,1
 213-1,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),3,1
-213-1,Plastic,Other,(null),(null),0,1
 213-9,Coscinodiscus spp. 150-200 µm,Centric diatom,Coscinodiscus,spp.,0,1
 213-9,Foraminifera,Foraminifera,(null),(null),0,1
-213-9,Plastic,Other,(null),(null),0,1
 220-84,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
 220-84,Chaetoceros peruvianus < 40 µm cell width,Centric diatom,Chaetoceros (Phaeoceros),peruvianus,1,1
 220-84,Fragilariopsis kerguelensis,Pennate diatom,Fragilariopsis,kerguelensis,2,1
@@ -3788,18 +3726,13 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 178-13,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 178-13,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 178-13,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
-178-13,Plastic,Other,(null),(null),0,1
 178-13,Foraminifera,Foraminifera,(null),(null),0,1
 178-21,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
-178-21,Plastic,Other,(null),(null),0,1
 178-29,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
 178-29,Foraminifera,Foraminifera,(null),(null),0,1
-178-29,Plastic,Other,(null),(null),0,1
-178-33,Plastic,Other,(null),(null),0,1
 178-33,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 178-45,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 178-45,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-206-1,Plastic,Other,(null),(null),0,1
 206-61,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,3,1
 206-13,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,4,1
 206-13,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,10,1
@@ -3857,24 +3790,16 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 206-65,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 206-65,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 206-65,Chaetoceros decipiens < 15 µm cell width,Centric diatom,Chaetoceros (Hyalochaete),decipiens,1,1
-206-33,Plastic,Other,(null),(null),0,1
 206-41,Codonellopsis spp.,Ciliate,Codonellopsis,spp.,0,1
 206-65,Lauderia spp.,Centric diatom,Lauderia,spp.,1,1
 206-65,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,6,1
-206-61,Plastic,Other,(null),(null),0,1
 206-69,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
-206-69,Plastic,Other,(null),(null),0,1
-211-33,Plastic,Other,(null),(null),0,1
-211-37,Plastic,Other,(null),(null),0,1
 271-69,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,3,1
 271-29,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,1,1
 271-29,Chaetoceros lorenzianus,Centric diatom,Chaetoceros (Hyalochaete),lorenzianus,1,1
 271-29,Dactyliosolen spp.,Centric diatom,Dactyliosolen,spp.,1,1
 271-29,Diploneis spp.,Pennate diatom,Diploneis,spp.,1,1
 211-1,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-211-1,Plastic,Other,(null),(null),0,1
-211-13,Plastic,Other,(null),(null),0,1
-211-17,Plastic,Other,(null),(null),0,1
 271-29,Foraminifera,Foraminifera,(null),(null),2,1
 271-29,Rhizosolenia bergonii,Centric diatom,Rhizosolenia,bergonii,1,1
 271-29,Rhizosolenia setigera group,Centric diatom,Rhizosolenia,cf. setigera,4,1
@@ -3908,118 +3833,74 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 271-53,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 242-5,Gold balls,Other,(null),(null),20,1
 270-1,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-1,Plastic,Other,(null),(null),0,1
 270-1,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 268-17,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-268-17,Plastic,Other,(null),(null),0,1
 268-17,Foraminifera,Foraminifera,(null),(null),0,1
-268-21,Plastic,Other,(null),(null),0,1
 268-21,Codonellopsis spp.,Ciliate,Codonellopsis,spp.,0,1
-268-25,Plastic,Other,(null),(null),0,1
-268-33,Plastic,Other,(null),(null),0,1
 268-33,Foraminifera,Foraminifera,(null),(null),0,1
 270-17,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 270-17,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 270-17,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-17,Plastic,Other,(null),(null),0,1
 270-17,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,0,1
 270-21,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 270-21,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
-270-21,Plastic,Other,(null),(null),0,1
 268-61,Foraminifera,Foraminifera,(null),(null),0,1
-268-61,Plastic,Other,(null),(null),0,1
 268-65,Foraminifera,Foraminifera,(null),(null),0,1
-268-65,Plastic,Other,(null),(null),0,1
 270-25,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 270-25,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-25,Plastic,Other,(null),(null),0,1
 270-29,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 270-29,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 270-29,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-29,Plastic,Other,(null),(null),0,1
-270-33,Plastic,Other,(null),(null),0,1
-268-53,Plastic,Other,(null),(null),0,1
 268-53,Foraminifera,Foraminifera,(null),(null),0,1
 268-53,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 268-41,Foraminifera,Foraminifera,(null),(null),0,1
-268-41,Plastic,Other,(null),(null),0,1
-268-69,Plastic,Other,(null),(null),0,1
 268-69,Foraminifera,Foraminifera,(null),(null),0,1
 268-73,Foraminifera,Foraminifera,(null),(null),0,1
 270-37,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 270-37,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 270-37,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
-270-37,Plastic,Other,(null),(null),0,1
 270-41,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 270-41,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-41,Plastic,Other,(null),(null),0,1
-207-3,Plastic,Other,(null),(null),0,1
-207-8,Plastic,Other,(null),(null),0,1
-207-9,Plastic,Other,(null),(null),0,1
-207-28,Plastic,Other,(null),(null),0,1
-207-69,Plastic,Other,(null),(null),0,1
 270-45,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-45,Plastic,Other,(null),(null),0,1
 270-45,Paint,Other,(null),(null),0,1
 270-49,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 270-49,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 239-5,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 239-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 239-5,Codonellopsis spp.,Ciliate,Codonellopsis,spp.,0,1
-239-5,Plastic,Other,(null),(null),0,1
-239-1,Plastic,Other,(null),(null),0,1
 239-9,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 239-9,Tintinnopsis spp.,Ciliate,Tintinnopsis,spp.,0,1
 239-9,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-239-9,Plastic,Other,(null),(null),0,1
 270-53,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-53,Plastic,Other,(null),(null),0,1
 270-57,Paint,Other,(null),(null),0,1
-270-57,Plastic,Other,(null),(null),0,1
 270-61,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 270-61,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-270-61,Plastic,Other,(null),(null),0,1
-239-13,Plastic,Other,(null),(null),0,1
 239-13,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 239-13,Foraminifera,Foraminifera,(null),(null),0,1
 239-13,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 239-17,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-239-17,Plastic,Other,(null),(null),0,1
 239-17,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 239-17,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 239-29,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-239-29,Plastic,Other,(null),(null),0,1
 239-29,Xystonella spp.,Ciliate,Xystonella,spp.,0,1
 270-65,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 270-65,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
-270-65,Plastic,Other,(null),(null),0,1
 270-69,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 270-69,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 270-69,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 270-69,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-69,Plastic,Other,(null),(null),0,1
-239-37,Plastic,Other,(null),(null),0,1
 239-37,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 239-37,Foraminifera,Foraminifera,(null),(null),0,1
 239-37,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
 270-73,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-73,Plastic,Other,(null),(null),0,1
-239-21,Plastic,Other,(null),(null),0,1
 244-9,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-244-9,Plastic,Other,(null),(null),0,1
 270-77,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 270-77,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 270-77,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-77,Plastic,Other,(null),(null),0,1
 270-81,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-270-81,Plastic,Other,(null),(null),0,1
-270-85,Plastic,Other,(null),(null),0,1
 270-89,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 270-89,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
-270-89,Plastic,Other,(null),(null),0,1
-244-17,Plastic,Other,(null),(null),0,1
 244-41,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-244-41,Plastic,Other,(null),(null),0,1
 93-8,Trichotoxon reinboldii,Pennate diatom,Trichotoxon,reinboldii,1,1
 93-8,Fragilariopsis kerguelensis,Pennate diatom,Fragilariopsis,kerguelensis,1,1
 93-9,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
@@ -4552,7 +4433,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 61-13,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 61-13,Foraminifera,Foraminifera,(null),(null),0,1
 61-13,Paint,Other,(null),(null),0,1
-61-13,Plastic,Other,(null),(null),0,1
 61-21,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 61-21,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 61-21,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
@@ -4560,19 +4440,15 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 61-21,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 61-21,Foraminifera,Foraminifera,(null),(null),0,1
 61-21,Paint,Other,(null),(null),0,1
-61-21,Plastic,Other,(null),(null),0,1
 61-25,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 61-25,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 61-25,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1
 61-25,Foraminifera,Foraminifera,(null),(null),0,1
 61-25,Paint,Other,(null),(null),0,1
-61-25,Plastic,Other,(null),(null),0,1
 179-13,Thalassionema nitzschioides,Pennate diatom,Thalassionema,nitzschioides,1,1
 130-9,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
-132-13,Plastic,Other,(null),(null),0,1
 132-1,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,1,1
 129-33,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),2,1
-108-77,Plastic,Other,(null),(null),0,1.01
 129-25,Tripos biceps,Dinoflagellate,Tripos (Amphiceratium),biceps,1,1
 129-29,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 129-29,Flagellate <10 µm fusiform,Flagellate,(null),(null),1,1
@@ -4580,13 +4456,10 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 129-29,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,2,1
 129-25,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,3,1
 194-1,Foraminifera,Foraminifera,(null),(null),0,1
-131-5,Plastic,Other,(null),(null),0,1
 127-9,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 194-1,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 194-1,Tripos symmetricus,Dinoflagellate,Tripos (Tripoceratium),symmetricus,0,1
 194-13,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-194-13,Plastic,Other,(null),(null),0,1
-194-17,Plastic,Other,(null),(null),0,1
 194-17,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 194-17,Codonellopsis spp.,Ciliate,Codonellopsis,spp.,0,1
 177-1,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
@@ -4595,11 +4468,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 177-5,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 177-5,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
 177-5,Foraminifera,Foraminifera,(null),(null),0,1
-177-5,Plastic,Other,(null),(null),0,1
 177-9,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 177-9,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
 177-9,Foraminifera,Foraminifera,(null),(null),0,1
-177-9,Plastic,Other,(null),(null),0,1
 177-65,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,3,1
 177-65,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,2,1
 177-65,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,1,1
@@ -4640,10 +4511,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 177-37,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 61-5,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 61-5,Paint,Other,(null),(null),0,1
-61-5,Plastic,Other,(null),(null),0,1
 177-45,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 177-45,Foraminifera,Foraminifera,(null),(null),0,1
-177-45,Plastic,Other,(null),(null),0,1
 178-81,Asterionellopsis glacialis,Pennate diatom,Asterionellopsis,glacialis,4,1
 178-69,Tripos biceps,Dinoflagellate,Tripos (Amphiceratium),biceps,8,1
 178-69,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,2,1
@@ -4680,11 +4549,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 177-61,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
 177-69,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
 177-69,Foraminifera,Foraminifera,(null),(null),0,1
-177-69,Plastic,Other,(null),(null),0,1
 177-69,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 177-69,Radiolarian,Radiozoa,(null),(null),0,1
-177-77,Plastic,Other,(null),(null),0,1
-177-81,Plastic,Other,(null),(null),0,1
 215-1,Ciliate (Inc. tintinnid),Ciliate,(null),(null),1,1
 215-2,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,1,1
 215-2,Fragilariopsis spp.,Pennate diatom,Fragilariopsis,spp.,1,1
@@ -5000,7 +4866,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 220-25,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
 220-25,Thalassiothrix antarctica,Pennate diatom,Thalassiothrix,antarctica,5,1
 108-65,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1.01
-108-65,Plastic,Other,(null),(null),0,1.01
 187-21,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,1,1
 177-1,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
 209-9,Chaetoceros criophilus,Centric diatom,Chaetoceros (Phaeoceros),criophilus,1,1
@@ -5280,10 +5145,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 220-64,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,2,1
 211-12,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,20,1
 211-41,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-211-41,Plastic,Other,(null),(null),0,1
 211-45,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-211-45,Plastic,Other,(null),(null),0,1
-211-49,Plastic,Other,(null),(null),0,1
 211-20,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,20,1
 211-44,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,20,1
 211-24,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,20,1
@@ -5295,12 +5157,10 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 211-68,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 211-8,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,12,1
 65-5,Actinopoda,Radiozoa,(null),(null),0,1
-65-5,Plastic,Other,(null),(null),0,1
 65-13,Actinopoda,Radiozoa,(null),(null),0,1
 65-17,Actinopoda,Radiozoa,(null),(null),0,1
 65-17,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 65-17,Paint,Other,(null),(null),0,1
-65-17,Plastic,Other,(null),(null),0,1
 244-45,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 244-41,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,2,1
 244-41,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,1,1
@@ -5356,13 +5216,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 270-21,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,1,1
 270-21,Nematocysts,Other,(null),(null),1,1
 270-37,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,1,1
-64-21,Plastic,Other,(null),(null),0,1
 64-25,Paint,Other,(null),(null),0,1
-64-25,Plastic,Other,(null),(null),0,1
 64-25,Actinopoda,Radiozoa,(null),(null),0,1
-64-29,Plastic,Other,(null),(null),0,1
 65-1,Actinopoda,Radiozoa,(null),(null),0,1
-65-1,Plastic,Other,(null),(null),0,1
 244-33,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 244-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,4,1
 244-5,Tripos spp.,Dinoflagellate,Tripos,spp.,4,1
@@ -5480,12 +5336,10 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 54-21,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 268-41,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 268-53,Asterionella spp.,Pennate diatom,Asterionella,spp.,1,1
-54-37,Plastic,Other,(null),(null),0,1
 53-89,Codonellopsis orthoceras,Ciliate,Codonellopsis,orthoceras,0,1
 54-5,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,2,1
 54-5,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,2,1
 54-9,Silicoflagellate 4 points,Silicoflagellate,Dictyocha,spp.,1,1
-54-17,Plastic,Other,(null),(null),0,1
 54-13,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 53-81,Thalassiosira eccentrica,Centric diatom,Thalassiosira,eccentrica,0,1
 53-93,Codonellopsis orthoceras,Ciliate,Codonellopsis,orthoceras,0,1
@@ -5689,8 +5543,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 240-37,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,3,1
 240-37,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,11,1
 60-17,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
-191-49,Plastic,Other,(null),(null),0,1.16
-192-21,Plastic,Other,(null),(null),0,1
 178-57,Tripos furca type,Dinoflagellate,Tripos (Ceratium),furca type,1,1
 178-57,Tripos lineatus,Dinoflagellate,Tripos (Ceratium),lineatus,1,1
 178-57,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,2,1
@@ -5995,7 +5847,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 221-26,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,1,1
 221-28,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,1,1
 213-41,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
-213-41,Plastic,Other,(null),(null),0,1
 213-13,Foraminifera,Foraminifera,(null),(null),1,1
 213-13,Nematocysts,Other,(null),(null),1,1
 213-13,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,1,1
@@ -6022,7 +5873,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 213-25,Nematocysts,Other,(null),(null),1,1
 213-29,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 213-29,Foraminifera,Foraminifera,(null),(null),0,1
-213-29,Plastic,Other,(null),(null),0,1
 221-29,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,1,1
 221-24,Proboscia alata,Centric diatom,Proboscia,alata,1,1
 221-29,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
@@ -6078,14 +5928,12 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 221-54,Coccolithophore cf.,Coccolithophore,(null),(null),1,1
 221-54,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,1,1
 221-55,Chaetoceros peruvianus < 40 µm cell width,Centric diatom,Chaetoceros (Phaeoceros),peruvianus,1,1
-213-77,Plastic,Other,(null),(null),0,1
 221-62,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 221-62,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,1,1
 221-65,Nitzschia bicapitata,Pennate diatom,Nitzschia,bicapitata,1,1
 221-66,Coccolithophore cf.,Coccolithophore,(null),(null),1,1
 221-66,Corethron pennatum,Centric diatom,Corethron,pennatum,1,1
 221-66,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
-206-29,Plastic,Other,(null),(null),0,1
 211-37,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,20,1
 211-33,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,20,1
 211-29,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,19,1
@@ -6100,7 +5948,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 65-9,Actinopoda,Radiozoa,(null),(null),0,1
 65-9,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 65-9,Foraminifera,Foraminifera,(null),(null),0,1
-65-9,Plastic,Other,(null),(null),0,1
 244-37,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,1,1
 240-45,Acantharia,Radiozoa,(null),(null),1,1
 240-45,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,2,1
@@ -6250,7 +6097,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 244-13,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 244-13,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 244-13,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,7,1
-271-1,Plastic,Other,(null),(null),0,1
 271-5,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 271-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 271-5,Foraminifera,Foraminifera,(null),(null),0,1
@@ -6258,61 +6104,45 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 271-9,Foraminifera,Foraminifera,(null),(null),0,1
 271-9,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,0,1
 271-13,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-271-13,Plastic,Other,(null),(null),0,1
 271-13,Foraminifera,Foraminifera,(null),(null),0,1
-271-5,Plastic,Other,(null),(null),0,1
-271-9,Plastic,Other,(null),(null),0,1
 271-17,Tripos biceps,Dinoflagellate,Tripos (Amphiceratium),biceps,0,1
 271-17,Acantharia,Radiozoa,(null),(null),0,1
 271-17,Ceratocorys horrida,Dinoflagellate,Ceratocorys,horrida,0,1
-271-21,Plastic,Other,(null),(null),0,1
-271-25,Plastic,Other,(null),(null),0,1
 271-25,Rhabdonella spp.,Ciliate,Rhabdonella,spp.,0,1
 271-25,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 271-25,Foraminifera,Foraminifera,(null),(null),0,1
 271-29,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 271-41,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-271-29,Plastic,Other,(null),(null),0,1
 271-41,Tripos spp.,Dinoflagellate,Tripos,spp.,0,1
-271-41,Plastic,Other,(null),(null),0,1
-271-37,Plastic,Other,(null),(null),0,1
 271-37,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 271-37,Foraminifera,Foraminifera,(null),(null),0,1
 271-33,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 271-33,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 271-33,Foraminifera,Foraminifera,(null),(null),0,1
-271-33,Plastic,Other,(null),(null),0,1
 271-57,Tripos spp.,Dinoflagellate,Tripos,spp.,0,1
 270-1,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 270-1,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 270-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 270-9,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 270-9,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-9,Plastic,Other,(null),(null),0,1
 270-9,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 270-13,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 270-13,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 270-13,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 270-13,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-270-13,Plastic,Other,(null),(null),0,1
 270-13,Actinopoda,Radiozoa,(null),(null),0,1
 271-65,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 271-65,Foraminifera,Foraminifera,(null),(null),0,1
 271-65,Amphisolenia spp.,Dinoflagellate,Amphisolenia,spp.,0,1
 271-69,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 271-69,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-271-69,Plastic,Other,(null),(null),0,1
 268-1,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 268-1,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-268-1,Plastic,Other,(null),(null),0,1
 268-1,Foraminifera,Foraminifera,(null),(null),0,1
 268-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 268-5,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
-268-5,Plastic,Other,(null),(null),0,1
 268-9,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-268-9,Plastic,Other,(null),(null),0,1
 268-13,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-268-13,Plastic,Other,(null),(null),0,1
 51-65,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 51-65,Lauderia spp.,Centric diatom,Lauderia,spp.,1,1
 51-65,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
@@ -6353,7 +6183,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 51-5,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1
 51-5,Foraminifera,Foraminifera,(null),(null),0,1
 51-21,Foraminifera,Foraminifera,(null),(null),0,1
-51-25,Plastic,Other,(null),(null),0,1
 51-49,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 51-49,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 51-49,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
@@ -6614,13 +6443,10 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 77-13,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,1,1
 77-37,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,1,1
 77-33,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,2,1
-77-93,Plastic,Other,(null),(null),0,1
 77-93,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 77-29,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,1,1
 77-93,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 77-93,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-77-1,Plastic,Other,(null),(null),0,1
-77-5,Plastic,Other,(null),(null),0,1
 77-9,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 68-33,Codonellopsis orthoceras,Ciliate,Codonellopsis,orthoceras,0,1
 43-13,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,1,1.1
@@ -6679,10 +6505,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 77-25,Nematocysts,Other,(null),(null),1,1
 77-25,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,1,1
 77-57,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-77-81,Plastic,Other,(null),(null),0,1
 77-85,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 77-85,Foraminifera,Foraminifera,(null),(null),0,1
-77-85,Plastic,Other,(null),(null),0,1
 77-89,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 77-89,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 82-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
@@ -6715,7 +6539,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 82-45,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 82-45,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1
 82-53,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
-77-17,Plastic,Other,(null),(null),0,1
 77-17,Tripos spp.,Dinoflagellate,Tripos,spp.,0,1
 82-49,Tripos kofoidii,Dinoflagellate,Tripos (Ceratium),kofoidii,1,1
 82-49,Coccolithophore cf.,Coccolithophore,(null),(null),2,1
@@ -6724,10 +6547,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 77-17,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 82-57,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 82-61,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-82-61,Plastic,Other,(null),(null),0,1
 82-21,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 82-21,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-82-21,Plastic,Other,(null),(null),0,1
 82-73,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 82-73,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,1,1
 82-73,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
@@ -6834,12 +6655,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 83-9,Foraminifera,Foraminifera,(null),(null),0,1
 83-13,Foraminifera,Foraminifera,(null),(null),0,1
 83-17,Foraminifera,Foraminifera,(null),(null),0,1
-83-33,Plastic,Other,(null),(null),0,1
 81-17,Tripos massiliensis,Dinoflagellate,Tripos (Tripoceratium),massiliensis,0,1
-83-17,Plastic,Other,(null),(null),0,1
-83-25,Plastic,Other,(null),(null),0,1
 83-61,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-83-65,Plastic,Other,(null),(null),0,1
 83-77,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 81-25,Foraminifera,Foraminifera,(null),(null),0,1
 81-29,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
@@ -6900,7 +6717,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 67-49,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 67-49,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,0,1
 77-61,Tripos spp.,Dinoflagellate,Tripos,spp.,1,1
-77-61,Plastic,Other,(null),(null),1,1
 77-45,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,1,1
 77-69,Tripos furca type,Dinoflagellate,Tripos (Ceratium),furca type,1,1
 62-9,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,6,1
@@ -6941,7 +6757,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 65-5,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
 65-5,Silicoflagellate 4 points,Silicoflagellate,Dictyocha,spp.,1,1
 81-1,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
-83-41,Plastic,Other,(null),(null),0,1
 81-41,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,1,1
 81-37,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 81-37,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
@@ -7269,9 +7084,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 68-41,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,1,1
 68-41,Thalassiosira spp. <10 µm,Centric diatom,Thalassiosira,spp.,3,1
 68-1,Foraminifera,Foraminifera,(null),(null),0,1
-68-1,Plastic,Other,(null),(null),0,1
 68-5,Foraminifera,Foraminifera,(null),(null),0,1
-68-5,Plastic,Other,(null),(null),0,1
 68-5,Acantharia,Radiozoa,(null),(null),0,1
 68-9,Acantharia,Radiozoa,(null),(null),0,1
 68-9,Foraminifera,Foraminifera,(null),(null),0,1
@@ -7475,7 +7288,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 66-53,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 66-53,Codonellopsis spp.,Ciliate,Codonellopsis,spp.,0,1
 66-53,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-66-53,Plastic,Other,(null),(null),0,1
 67-25,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,12,1
 67-29,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,1,1
 67-29,Tripos massiliensis,Dinoflagellate,Tripos (Tripoceratium),massiliensis,1,1
@@ -7497,7 +7309,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 67-33,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 67-33,Tripos furca type,Dinoflagellate,Tripos (Ceratium),furca type,1,1
 67-33,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,1,1
-67-33,Plastic,Other,(null),(null),0,1
 67-57,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 67-57,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 67-33,Nematocysts,Other,(null),(null),1,1
@@ -8445,7 +8256,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 158-83,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
 158-83,Chaetoceros atlanticus,Centric diatom,Chaetoceros (Phaeoceros),atlanticus,1,1
 158-83,Chaetoceros dichaetus,Centric diatom,Chaetoceros (Phaeoceros),dichaeta,1,1
-100-81,Plastic,Other,(null),(null),0,1
 100-101,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 116-9,Nematocysts,Other,(null),(null),1,1
 117-9,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
@@ -8888,9 +8698,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 100-45,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 100-45,Filamentous algae (branching),Cyanobacteria,(null),(null),0,1
 100-69,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-100-73,Plastic,Other,(null),(null),0,1
 100-93,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-100-93,Plastic,Other,(null),(null),0,1
 117-13,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 117-1,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 118-21,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),2,1
@@ -8912,20 +8720,14 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 117-33,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1
 114-37,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 118-5,Tripos furca type,Dinoflagellate,Tripos (Ceratium),furca type,1,1
-116-13,Plastic,Other,(null),(null),0,1
 114-33,Foraminifera,Foraminifera,(null),(null),0,1
 114-33,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 114-29,Foraminifera,Foraminifera,(null),(null),0,1
-114-29,Plastic,Other,(null),(null),0,1
-113-1,Plastic,Other,(null),(null),0,1
 113-1,Foraminifera,Foraminifera,(null),(null),0,1
 119-1,Foraminifera,Foraminifera,(null),(null),0,1
-119-1,Plastic,Other,(null),(null),0,1
-119-5,Plastic,Other,(null),(null),0,1
 119-5,Foraminifera,Foraminifera,(null),(null),0,1
 119-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 119-5,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
-119-9,Plastic,Other,(null),(null),0,1
 119-9,Foraminifera,Foraminifera,(null),(null),0,1
 120-1,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 120-1,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
@@ -9774,7 +9576,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 113-21,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 113-21,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,0,1
 113-21,Foraminifera,Foraminifera,(null),(null),0,1
-113-21,Plastic,Other,(null),(null),0,1
 120-25,Foraminifera,Foraminifera,(null),(null),1,1
 120-29,Foraminifera,Foraminifera,(null),(null),1,1
 120-29,Radiolarian,Radiozoa,(null),(null),1,1
@@ -9807,12 +9608,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 119-21,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
 119-29,Acantharia,Radiozoa,(null),(null),1,1
 119-29,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),3,1
-113-9,Plastic,Other,(null),(null),0,1
 113-9,Foraminifera,Foraminifera,(null),(null),0,1
 113-13,Foraminifera,Foraminifera,(null),(null),0,1
-113-13,Plastic,Other,(null),(null),0,1
 113-29,Climacodium spp.,Centric diatom,Climacodium,spp.,0,1
-113-17,Plastic,Other,(null),(null),0,1
 113-1,Epiplocylis spp.,Ciliate,Epiplocylis,spp.,0,1
 113-5,Foraminifera,Foraminifera,(null),(null),0,1
 155-1,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,2,1
@@ -10097,7 +9895,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 155-35,Proboscia inermis,Centric diatom,Proboscia,inermis,1,1
 155-35,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1
 155-35,Thalassiothrix antarctica,Pennate diatom,Thalassiothrix,antarctica,12,1
-98-5,Plastic,Other,(null),(null),0,1
 100-97,Nematocysts,Other,(null),(null),1,1
 100-69,Nematocysts,Other,(null),(null),7,1
 100-85,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
@@ -10106,7 +9903,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 100-65,Nematocysts,Other,(null),(null),1,1
 100-37,Silicoflagellate 4 points,Silicoflagellate,Dictyocha,spp.,1,1
 100-57,Tripos spp.,Dinoflagellate,Tripos,spp.,0,1
-118-9,Plastic,Other,(null),(null),0,1
 118-1,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 118-13,Foraminifera,Foraminifera,(null),(null),0,1
 118-17,Foraminifera,Foraminifera,(null),(null),0,1
@@ -11305,9 +11101,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 165-3,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,5,1
 165-3,Thalassiothrix antarctica,Pennate diatom,Thalassiothrix,antarctica,1,1
 119-17,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-119-17,Plastic,Other,(null),(null),0,1
 119-21,Foraminifera,Foraminifera,(null),(null),0,1
-119-21,Plastic,Other,(null),(null),0,1
 119-21,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 165-43,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,2,1
 165-43,Chaetoceros pendulus,Centric diatom,Chaetoceros,pendulus,1,1
@@ -11598,7 +11392,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 164-90,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1
 120-29,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 120-29,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-120-29,Plastic,Other,(null),(null),0,1
 120-29,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
 169-53,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,2,1
 169-53,Corethron pennatum,Centric diatom,Corethron,pennatum,1,1
@@ -11863,12 +11656,10 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 135-1,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 135-1,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 135-1,Foraminifera,Foraminifera,(null),(null),0,1
-135-1,Plastic,Other,(null),(null),0,1
 135-41,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 135-41,Proboscia spp.,Centric diatom,Proboscia,spp.,1,1
 135-41,Thalassionema spp.,Pennate diatom,Thalassionema,spp.,1,1
 135-41,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
-165-7,Plastic,Other,(null),(null),0,1
 88-26,Foraminifera,Foraminifera,(null),(null),0,1
 88-28,Foraminifera,Foraminifera,(null),(null),0,1
 88-30,Foraminifera,Foraminifera,(null),(null),0,1
@@ -13320,7 +13111,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 165-19,Guinardia spp.,Centric diatom,Guinardia,spp.,1,1
 165-19,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,2,1
 119-13,Foraminifera,Foraminifera,(null),(null),0,1
-119-13,Plastic,Other,(null),(null),0,1
 165-21,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 165-21,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,3,1
 165-20,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
@@ -13669,7 +13459,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 136-13,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,2,1
 136-9,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
 136-13,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
-135-37,Plastic,Other,(null),(null),0,1
 135-41,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 135-41,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 135-41,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
@@ -13677,7 +13466,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 135-41,Tripos contortus,Dinoflagellate,Tripos (Tripoceratium),contortus,0,1
 135-45,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 135-45,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-135-45,Plastic,Other,(null),(null),0,1
 135-45,Foraminifera,Foraminifera,(null),(null),0,1
 144-1,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,2,1
 144-1,Silicoflagellate,Silicoflagellate,Dictyocha,spp.,4,1
@@ -15713,7 +15501,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 108-21,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,4,1.01
 108-5,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1.01
 108-1,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1.01
-108-45,Plastic,Other,(null),(null),0,1.01
 183-25,Tripos kofoidii,Dinoflagellate,Tripos (Ceratium),kofoidii,1,1
 183-25,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,1,1
 183-25,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,5,1
@@ -15756,8 +15543,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 207-69,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 207-71,Dictyocha speculum,Silicoflagellate,Dictyocha,speculum,1,1
 192-81,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,0,1
-192-73,Plastic,Other,(null),(null),0,1
-192-81,Plastic,Other,(null),(null),0,1
 192-81,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 192-81,Coscinodiscus spp. 300-400 µm,Centric diatom,Coscinodiscus,spp.,0,1
 192-81,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
@@ -16229,18 +16014,13 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 176-61,Radiolarian,Radiozoa,(null),(null),3,1
 176-61,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,3,1
 108-9,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1.01
-108-9,Plastic,Other,(null),(null),0,1.01
-62-1,Plastic,Other,(null),(null),0,1
 63-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1.14
 63-5,Paint,Other,(null),(null),0,1.14
-63-5,Plastic,Other,(null),(null),0,1.14
 63-9,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1.14
 63-9,Paint,Other,(null),(null),0,1.14
-63-9,Plastic,Other,(null),(null),0,1.14
 63-13,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1.14
 63-13,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1.14
 63-13,Paint,Other,(null),(null),0,1.14
-63-13,Plastic,Other,(null),(null),0,1.14
 162-12,Radiolarian,Radiozoa,(null),(null),0,1
 162-21,Radiolarian,Radiozoa,(null),(null),0,1
 162-24,Radiolarian,Radiozoa,(null),(null),0,1
@@ -16273,14 +16053,11 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 63-17,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1.14
 63-17,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1.14
 63-17,Paint,Other,(null),(null),0,1.14
-63-17,Plastic,Other,(null),(null),0,1.14
 63-21,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1.14
 63-25,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1.14
 63-25,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1.14
 63-25,Paint,Other,(null),(null),0,1.14
-63-25,Plastic,Other,(null),(null),0,1.14
 130-1,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-130-1,Plastic,Other,(null),(null),0,1
 178-5,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,1,1
 178-5,Nematocysts,Other,(null),(null),1,1
 178-5,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
@@ -16408,17 +16185,13 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 178-17,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 178-17,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 178-17,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
-178-17,Plastic,Other,(null),(null),0,1
 178-73,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
-178-73,Plastic,Other,(null),(null),0,1
 178-73,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 178-77,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 178-77,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 178-81,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-178-81,Plastic,Other,(null),(null),0,1
 206-13,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 206-13,Foraminifera,Foraminifera,(null),(null),0,1
-206-13,Plastic,Other,(null),(null),0,1
 206-21,Foraminifera,Foraminifera,(null),(null),0,1
 206-1,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 206-1,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
@@ -16426,43 +16199,31 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 206-1,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,4,1
 206-29,Codonellopsis spp.,Ciliate,Codonellopsis,spp.,0,1
 206-29,Foraminifera,Foraminifera,(null),(null),0,1
-206-25,Plastic,Other,(null),(null),0,1
 206-33,Foraminifera,Foraminifera,(null),(null),0,1
-206-49,Plastic,Other,(null),(null),0,1
 206-49,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 206-65,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-206-65,Plastic,Other,(null),(null),0,1
 211-57,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,19,1
 211-53,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,20,1
 211-49,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,20,1
 211-45,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,1,1
 211-45,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,20,1
 211-41,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,20,1
-211-65,Plastic,Other,(null),(null),0,1
 211-69,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 211-69,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-211-69,Plastic,Other,(null),(null),0,1
 211-5,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,1,1
 211-5,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,5,1
 211-5,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
-211-5,Plastic,Other,(null),(null),0,1
-211-9,Plastic,Other,(null),(null),0,1
-211-29,Plastic,Other,(null),(null),0,1
 211-1,Tripos fusus type,Dinoflagellate,Tripos (Amphiceratium),fusus type,1,1
 211-1,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 211-1,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,13,1
 211-1,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 211-37,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-211-53,Plastic,Other,(null),(null),0,1
-211-57,Plastic,Other,(null),(null),0,1
-211-61,Plastic,Other,(null),(null),0,1
 64-21,Paint,Other,(null),(null),0,1
 135-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 135-5,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 135-5,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 135-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 135-5,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-135-5,Plastic,Other,(null),(null),0,1
 135-21,Tripos axialis,Dinoflagellate,Tripos (Tripoceratium),axialis,0,1
 135-21,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 135-21,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
@@ -16555,7 +16316,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 184-9,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,1,1
 184-17,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,1,1
 60-13,Paint,Other,(null),(null),0,1
-60-13,Plastic,Other,(null),(null),0,1
 184-13,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,1,1
 184-13,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 184-13,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,1,1
@@ -16566,7 +16326,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 61-17,Epiplocylis spp.,Ciliate,Epiplocylis,spp.,0,1
 61-17,Foraminifera,Foraminifera,(null),(null),0,1
 61-17,Paint,Other,(null),(null),0,1
-61-17,Plastic,Other,(null),(null),0,1
 176-69,Actinopoda,Radiozoa,(null),(null),5,1
 176-69,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),2,1
 176-69,Unid dinoflagellate > 10 µm,Dinoflagellate,(null),(null),2,1
@@ -16584,25 +16343,18 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 176-73,Radiolarian,Radiozoa,(null),(null),1,1
 176-77,Filamentous algae (non branching),Cyanobacteria,(null),(null),1,1
 108-53,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1.01
-108-53,Plastic,Other,(null),(null),0,1.01
 129-21,Dictyocysta spp.,Ciliate,Dictyocysta,spp.,1,1
 129-21,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,3,1
 132-5,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 187-29,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 64-9,Paint,Other,(null),(null),0,1
-64-9,Plastic,Other,(null),(null),0,1
 64-9,Radiolarian,Radiozoa,(null),(null),0,1
-131-1,Plastic,Other,(null),(null),0,1
-124-9,Plastic,Other,(null),(null),0,1.22
 124-17,Foraminifera,Foraminifera,(null),(null),0,1.22
 124-21,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1.22
-124-21,Plastic,Other,(null),(null),0,1.22
 127-9,Tripos horridus,Dinoflagellate,Tripos (Tripoceratium),horridus,0,1
 127-9,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1
-127-13,Plastic,Other,(null),(null),0,1
 127-25,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 128-17,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-128-17,Plastic,Other,(null),(null),0,1
 189-13,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,4,1
 189-13,Ciliate (Inc. tintinnid),Ciliate,(null),(null),1,1
 189-17,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,8,1
@@ -16626,10 +16378,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 129-29,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 130-13,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 130-13,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-130-13,Plastic,Other,(null),(null),0,1
 130-13,Tripos pentagonus,Dinoflagellate,Tripos (Ceratium),pentagonus,0,1
-128-25,Plastic,Other,(null),(null),0,1
-129-1,Plastic,Other,(null),(null),0,1
 191-13,Dictyocysta spp.,Ciliate,Dictyocysta,spp.,1,1.16
 191-13,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,1,1.16
 191-13,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,1,1.16
@@ -16652,7 +16401,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 176-37,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 176-37,Ceratocorys spp.,Dinoflagellate,Ceratocorys,spp.,0,1
 176-37,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-176-37,Plastic,Other,(null),(null),0,1
 192-81,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 189-73,Tripos lineatus,Dinoflagellate,Tripos (Ceratium),lineatus,1,1
 192-69,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
@@ -16696,7 +16444,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 189-141,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1
 189-141,Undella spp.,Ciliate,Undella,spp.,1,1
 176-1,Foraminifera,Foraminifera,(null),(null),0,1
-176-1,Plastic,Other,(null),(null),0,1
 176-13,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 189-125,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,2,1
 189-125,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,1,1
@@ -16709,9 +16456,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 176-13,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1
 176-13,Foraminifera,Foraminifera,(null),(null),0,1
 176-13,Ornithocercus spp.,Dinoflagellate,Ornithocercus,spp.,0,1
-176-9,Plastic,Other,(null),(null),0,1
 190-1,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
-194-1,Plastic,Other,(null),(null),1,1
 194-1,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 190-1,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,2,1
 190-1,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
@@ -16804,10 +16549,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 190-61,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,1,1
 190-65,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
 190-65,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,1,1
-191-45,Plastic,Other,(null),(null),0,1.16
-192-29,Plastic,Other,(null),(null),0,1
-192-33,Plastic,Other,(null),(null),0,1
-192-49,Plastic,Other,(null),(null),0,1
 192-53,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,0,1
 207-14,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 207-17,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,1,1
@@ -16829,12 +16570,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 207-81,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 207-83,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 193-1,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
-192-65,Plastic,Other,(null),(null),0,1
 192-65,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
 193-17,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
-193-17,Plastic,Other,(null),(null),0,1
 193-9,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-193-9,Plastic,Other,(null),(null),0,1
 177-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 177-5,Tripos furca type,Dinoflagellate,Tripos (Ceratium),furca type,1,1
 177-5,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
@@ -16896,10 +16634,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 177-17,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 177-17,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
 177-17,Foraminifera,Foraminifera,(null),(null),0,1
-177-17,Plastic,Other,(null),(null),0,1
 177-21,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
 177-21,Foraminifera,Foraminifera,(null),(null),0,1
-177-21,Plastic,Other,(null),(null),0,1
 177-41,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 177-41,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 177-45,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
@@ -16907,7 +16643,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 177-65,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 177-65,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 177-65,Foraminifera,Foraminifera,(null),(null),0,1
-177-65,Plastic,Other,(null),(null),0,1
 177-65,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 215-44,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
 215-45,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,1,1
@@ -17075,7 +16810,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 135-17,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 135-17,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 135-17,Foraminifera,Foraminifera,(null),(null),0,1
-135-17,Plastic,Other,(null),(null),0,1
 135-17,Ciliate (Inc. tintinnid),Ciliate,(null),(null),0,1
 135-29,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 135-29,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
@@ -17087,9 +16821,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 170-13,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,1,1
 170-13,Steenstrupiella cf. steenstrupii,Ciliate,Steenstrupiella,cf. steenstrupii,1,1
 135-29,Foraminifera,Foraminifera,(null),(null),0,1
-135-29,Plastic,Other,(null),(null),0,1
 108-1,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1.01
-108-1,Plastic,Other,(null),(null),0,1.01
 108-1,Tripos ranipes,Dinoflagellate,Tripos (Tripoceratium),ranipes,0,1.01
 176-5,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),2,1
 176-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
@@ -17103,27 +16835,22 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 108-93,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1.01
 64-5,Tripos massiliensis,Dinoflagellate,Tripos (Tripoceratium),massiliensis,0,1
 64-13,Paint,Other,(null),(null),0,1
-64-13,Plastic,Other,(null),(null),0,1
 131-1,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 129-9,Tripos horridus,Dinoflagellate,Tripos (Tripoceratium),horridus,0,1
 129-9,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 129-9,Parundella spp.,Ciliate,Parundella,spp.,0,1
-129-9,Plastic,Other,(null),(null),0,1
 129-9,Tripos platycornis,Dinoflagellate,Tripos (Tripoceratium),platycornis,0,1
 129-9,Codonella spp.,Ciliate,Codonella,spp.,0,1
 176-65,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 176-65,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 176-65,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,0,1
 176-65,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-176-65,Plastic,Other,(null),(null),0,1
 176-65,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 176-57,Codonellopsis spp.,Ciliate,Codonellopsis,spp.,0,1
-176-57,Plastic,Other,(null),(null),0,1
 176-29,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 176-29,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 176-29,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,0,1
 176-29,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-191-65,Plastic,Other,(null),(null),0,1.16
 177-49,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 177-49,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 177-49,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
@@ -17330,11 +17057,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 220-12,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,4,1
 220-12,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,4,1
 221-73,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
-213-85,Plastic,Other,(null),(null),0,1
 213-85,Thalassiosira spp. 40-60 µm,Centric diatom,Thalassiosira,spp.,0,1
 213-37,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 213-69,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
-213-69,Plastic,Other,(null),(null),0,1
 221-70,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,1,1
 147-36,Thalassiothrix antarctica,Pennate diatom,Thalassiothrix,antarctica,15,1
 147-36,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,2,1
@@ -17649,7 +17374,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 170-33,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,1,1
 170-33,Ciliate (Inc. tintinnid),Ciliate,(null),(null),1,1
 135-33,Foraminifera,Foraminifera,(null),(null),0,1
-135-33,Plastic,Other,(null),(null),0,1
 136-21,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 136-17,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,1,1
 136-37,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
@@ -17662,19 +17386,15 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 170-57,Daturella spp.,Ciliate,Daturella,spp.,1,1
 170-57,Navicula - shaped,Pennate diatom,(null),(null),3,1
 170-57,Radiolarian,Radiozoa,(null),(null),1,1
-136-37,Plastic,Other,(null),(null),0,1
 108-37,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1.01
 108-41,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,6,1.01
 108-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1.01
 108-5,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1.01
 108-5,Foraminifera,Foraminifera,(null),(null),0,1.01
 108-13,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1.01
-178-1,Plastic,Other,(null),(null),0,1
-213-93,Plastic,Other,(null),(null),0,1
 213-93,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 178-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 178-5,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-178-5,Plastic,Other,(null),(null),0,1
 178-5,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
 178-37,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
 178-37,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
@@ -17682,7 +17402,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 178-37,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 178-37,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 178-37,Foraminifera,Foraminifera,(null),(null),0,1
-178-37,Plastic,Other,(null),(null),0,1
 178-37,Cymatocylis spp.,Ciliate,Cymatocylis,spp.,0,1
 178-57,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 178-57,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
@@ -17693,7 +17412,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 178-61,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 178-61,Coscinodiscus spp. 100-150 µm,Centric diatom,Coscinodiscus,spp.,0,1
 178-61,Foraminifera,Foraminifera,(null),(null),0,1
-178-61,Plastic,Other,(null),(null),0,1
 178-61,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 178-69,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 178-69,Foraminifera,Foraminifera,(null),(null),0,1
@@ -17708,7 +17426,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 170-9,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 170-9,Leptocylindrus mediterraneus,Centric diatom,Leptocylindrus,mediterraneus,4,1
 170-9,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
-136-21,Plastic,Other,(null),(null),0,1
 136-33,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 170-17,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,5,1
 170-17,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,3,1
@@ -17716,7 +17433,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 170-17,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,1,1
 136-33,Foraminifera,Foraminifera,(null),(null),0,1
 60-17,Paint,Other,(null),(null),0,1
-60-17,Plastic,Other,(null),(null),0,1
 183-13,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 183-13,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 183-13,Tripos kofoidii,Dinoflagellate,Tripos (Ceratium),kofoidii,1,1
@@ -17731,7 +17447,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 60-25,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 60-25,Foraminifera,Foraminifera,(null),(null),0,1
 60-25,Paint,Other,(null),(null),0,1
-60-25,Plastic,Other,(null),(null),0,1
 186-1,Tripos kofoidii,Dinoflagellate,Tripos (Ceratium),kofoidii,1,1
 186-1,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,6,1
 186-1,Corethron pennatum,Centric diatom,Corethron,pennatum,1,1
@@ -17744,7 +17459,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 62-5,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 62-5,Gonyaulax spp.,Dinoflagellate,Gonyaulax,spp.,0,1
 62-5,Paint,Other,(null),(null),0,1
-62-5,Plastic,Other,(null),(null),0,1
 62-9,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 62-9,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 62-9,Paint,Other,(null),(null),0,1
@@ -17757,14 +17471,11 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 186-5,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,1,1
 186-5,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,1,1
 186-5,Xystonella spp.,Ciliate,Xystonella,spp.,1,1
-62-9,Plastic,Other,(null),(null),0,1
 62-13,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 62-13,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 62-13,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 62-13,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,0,1
-62-13,Plastic,Other,(null),(null),0,1
 63-1,Paint,Other,(null),(null),0,1.14
-63-1,Plastic,Other,(null),(null),0,1.14
 124-17,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1.22
 187-33,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 124-5,Unid dinoflagellate > 10 µm,Dinoflagellate,(null),(null),1,1.22
@@ -17777,40 +17488,28 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 187-41,Pennate diatom > 10 µm,Pennate diatom,(null),(null),1,1
 64-1,Unid dinoflagellate > 10 µm,Dinoflagellate,(null),(null),0,1
 64-1,Paint,Other,(null),(null),0,1
-64-1,Plastic,Other,(null),(null),0,1
 64-5,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 64-5,Paint,Other,(null),(null),0,1
-64-5,Plastic,Other,(null),(null),0,1
 124-1,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1.22
-124-1,Plastic,Other,(null),(null),0,1.22
 124-5,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1.22
-124-5,Plastic,Other,(null),(null),0,1.22
 124-13,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1.22
-124-13,Plastic,Other,(null),(null),0,1.22
 127-5,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-124-17,Plastic,Other,(null),(null),0,1.22
 125-1,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 125-1,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-125-1,Plastic,Other,(null),(null),0,1
 125-1,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 125-1,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 125-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 125-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 125-5,Foraminifera,Foraminifera,(null),(null),0,1
-125-5,Plastic,Other,(null),(null),0,1
 126-5,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-126-5,Plastic,Other,(null),(null),0,1
 126-5,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 124-17,Trigonium spp.,Centric diatom,Trigonium,spp.,0,1.22
 128-1,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 128-5,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
-128-5,Plastic,Other,(null),(null),0,1
 130-17,Tripos biceps,Dinoflagellate,Tripos (Amphiceratium),biceps,0,1
 130-17,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-130-17,Plastic,Other,(null),(null),0,1
 176-77,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,0,1
 192-25,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
-176-45,Plastic,Other,(null),(null),0,1
 129-1,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 176-57,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 176-57,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
@@ -17870,7 +17569,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 189-137,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
 189-137,Stephanopyxis spp.,Centric diatom,Stephanopyxis,spp.,1,1
 189-137,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
-176-5,Plastic,Other,(null),(null),0,1
 176-13,Ceratocorys spp.,Dinoflagellate,Ceratocorys,spp.,0,1
 176-9,Codonellopsis spp.,Ciliate,Codonellopsis,spp.,0,1
 7-5,Aspergillus sydowii,Other,Aspergillus,sydowii,17,1.0655
@@ -17883,7 +17581,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 194-45,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,1,1
 194-49,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),1,1
 194-45,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),1,1
-194-49,Plastic,Other,(null),(null),1,1
 190-25,Coscinodiscus spp. > 80 µm,Centric diatom,Coscinodiscus,spp.,1,1
 190-25,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,3,1
 190-25,Octactis octonaria,Silicoflagellate,Octactis,octonaria,1,1
@@ -17921,43 +17618,27 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 190-33,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,4,1
 194-21,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 194-33,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-194-5,Plastic,Other,(null),(null),0,1
 194-53,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-191-1,Plastic,Other,(null),(null),0,1.16
-191-5,Plastic,Other,(null),(null),0,1.16
-191-9,Plastic,Other,(null),(null),0,1.16
-191-17,Plastic,Other,(null),(null),0,1.16
-191-29,Plastic,Other,(null),(null),0,1.16
-191-33,Plastic,Other,(null),(null),0,1.16
-191-41,Plastic,Other,(null),(null),0,1.16
-191-57,Plastic,Other,(null),(null),0,1.16
-192-45,Plastic,Other,(null),(null),0,1
 207-53,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 269-29,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,1,1
-244-65,Plastic,Other,(null),(null),0,1
 244-65,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,0,1
 269-29,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,1,1
 269-29,Nematocysts,Other,(null),(null),1,1
 269-29,Tintinnina ,Ciliate,(null),(null),1,1
-269-17,Plastic,Other,(null),(null),0,1
 242-21,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-321-17,Plastic,Other,(null),(null),0,1.021
 305-1,Paint,Other,(null),(null),0,1
-242-21,Plastic,Other,(null),(null),0,1
 242-21,Foraminifera,Foraminifera,(null),(null),0,1
 242-21,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 242-21,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 242-25,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
 242-21,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,0,1
 242-21,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,0,1
-242-25,Plastic,Other,(null),(null),0,1
 242-25,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,0,1
 242-25,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 242-25,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 242-25,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,0,1
 242-25,Filamentous algae (non branching),Cyanobacteria,(null),(null),0,1
 242-25,Tripos fusus type,Dinoflagellate,Tripos (Amphiceratium),fusus type,0,1
-302-1,Plastic,Other,(null),(null),0,1
 302-1,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 302-1,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 302-1,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
@@ -17974,21 +17655,13 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 302-81,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
 302-85,Tintinnina ,Ciliate,(null),(null),0,1
 302-85,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
-305-13,Plastic,Other,(null),(null),0,1
 305-17,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,0,1
-305-17,Plastic,Other,(null),(null),0,1
 305-21,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,0,1
-305-21,Plastic,Other,(null),(null),0,1
 305-25,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,0,1
 305-25,Paint,Other,(null),(null),0,1
-305-25,Plastic,Other,(null),(null),0,1
 305-29,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,0,1
-305-29,Plastic,Other,(null),(null),0,1
 305-33,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,0,1
-305-33,Plastic,Other,(null),(null),0,1
 305-37,Paint,Other,(null),(null),0,1
-305-37,Plastic,Other,(null),(null),0,1
-302-25,Plastic,Other,(null),(null),0,1
 302-25,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 302-25,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 302-25,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
@@ -17999,14 +17672,11 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 302-49,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 302-49,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 302-49,Acantharia,Radiozoa,(null),(null),0,1
-302-49,Plastic,Other,(null),(null),0,1
-302-61,Plastic,Other,(null),(null),0,1
 302-61,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 302-61,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 302-61,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 302-77,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 302-77,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-302-77,Plastic,Other,(null),(null),0,1
 296-1,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,3,1
 296-1,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,2,1
 296-1,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,3,1
@@ -18113,7 +17783,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 302-65,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 296-41,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1,1
 305-49,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,2,1
-305-41,Plastic,Other,(null),(null),0,1
 296-45,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,2,1
 296-45,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,2,1
 305-45,Proboscia alata,Centric diatom,Proboscia,alata,1,1
@@ -18158,15 +17827,11 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 305-73,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1
 305-81,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 302-89,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-302-89,Plastic,Other,(null),(null),0,1
 302-89,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 302-89,Tintinnina ,Ciliate,(null),(null),0,1
-296-1,Plastic,Other,(null),(null),0,1
-296-5,Plastic,Other,(null),(null),0,1
 296-17,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 296-17,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 296-17,Foraminifera,Foraminifera,(null),(null),0,1
-299-65,Plastic,Other,(null),(null),0,1
 302-61,Cyanobacteria,Cyanobacteria,(null),(null),1,1
 302-61,Nematocysts,Other,(null),(null),1,1
 302-61,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
@@ -18189,9 +17854,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 302-29,Skeletonema spp.,Centric diatom,Skeletonema,spp.,1,1
 302-29,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,20,1
 302-29,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,20,1
-296-25,Plastic,Other,(null),(null),0,1
 296-9,Foraminifera,Foraminifera,(null),(null),0,1
-296-9,Plastic,Other,(null),(null),0,1
 296-9,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,0,1
 296-9,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 296-9,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
@@ -18199,21 +17862,16 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 296-13,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 296-13,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
 296-13,Foraminifera,Foraminifera,(null),(null),0,1
-296-13,Plastic,Other,(null),(null),0,1
 296-29,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 296-29,Foraminifera,Foraminifera,(null),(null),0,1
-296-29,Plastic,Other,(null),(null),0,1
 296-29,Ceratocorys spp.,Dinoflagellate,Ceratocorys,spp.,0,1
 321-37,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,0,1.021
-321-37,Plastic,Other,(null),(null),0,1.021
-305-57,Plastic,Other,(null),(null),0,1
 305-85,Tripos horridus,Dinoflagellate,Tripos (Tripoceratium),horridus,1,1
 302-29,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,2,1
 305-85,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 305-89,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,1,1
 305-89,Nematocysts,Other,(null),(null),3,1
 305-73,Paint,Other,(null),(null),0,1
-305-77,Plastic,Other,(null),(null),0,1
 308-5,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,2,1
 308-5,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 308-5,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,1,1
@@ -18241,25 +17899,18 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 308-25,Nematocysts,Other,(null),(null),1,1
 308-25,Skeletonema spp.,Centric diatom,Skeletonema,spp.,1,1
 308-25,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1
-308-21,Plastic,Other,(null),(null),0,1
-308-45,Plastic,Other,(null),(null),0,1
 308-29,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 308-29,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,2,1
 308-29,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),1,1
 308-29,Pseudo-nitzschia spp.,Pennate diatom,Pseudo-nitzschia,spp.,1,1
 308-29,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
-308-5,Plastic,Other,(null),(null),0,1
 308-13,Tintinnina ,Ciliate,(null),(null),0,1
-321-39,Plastic,Other,(null),(null),0,1.021
-321-38,Plastic,Other,(null),(null),0,1.021
 307-9,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,1,1
 307-9,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 307-9,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
 307-9,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),1,1
 307-1,Paint,Other,(null),(null),0,1
-307-1,Plastic,Other,(null),(null),0,1
 307-5,Paint,Other,(null),(null),0,1
-307-5,Plastic,Other,(null),(null),0,1
 307-17,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
 307-21,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,2,1
 307-21,Diploneis spp.,Pennate diatom,Diploneis,spp.,1,1
@@ -18339,28 +17990,19 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 308-81,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 308-81,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
 308-81,Acantharia,Radiozoa,(null),(null),0,1
-308-81,Plastic,Other,(null),(null),0,1
-308-85,Plastic,Other,(null),(null),0,1
 308-85,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 308-85,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 308-85,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1
 308-85,Acantharia,Radiozoa,(null),(null),0,1
 308-85,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
 296-37,Foraminifera,Foraminifera,(null),(null),0,1
-296-37,Plastic,Other,(null),(null),0,1
 296-37,Ceratocorys spp.,Dinoflagellate,Ceratocorys,spp.,0,1
 296-37,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
 296-37,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 296-37,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 296-37,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-307-9,Plastic,Other,(null),(null),0,1
-308-53,Plastic,Other,(null),(null),0,1
-308-57,Plastic,Other,(null),(null),0,1
 308-61,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-308-61,Plastic,Other,(null),(null),0,1
 308-65,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-308-65,Plastic,Other,(null),(null),0,1
-307-33,Plastic,Other,(null),(null),0,1
 304-37,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,10,1
 304-37,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,4,1
 304-37,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,2,1
@@ -18417,13 +18059,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 304-37,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,12,1
 304-37,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,3,1
 304-37,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,1,1
-307-41,Plastic,Other,(null),(null),0,1
 307-45,Actinopoda,Radiozoa,(null),(null),0,1
-307-45,Plastic,Other,(null),(null),0,1
-307-49,Plastic,Other,(null),(null),0,1
-307-53,Plastic,Other,(null),(null),0,1
-307-57,Plastic,Other,(null),(null),0,1
-307-61,Plastic,Other,(null),(null),0,1
 304-41,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,15,1
 304-41,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,2,1
 304-41,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,2,1
@@ -18432,21 +18068,11 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 304-41,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
 304-41,Thalassionema spp.,Pennate diatom,Thalassionema,spp.,1,1
 304-41,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,6,1
-269-5,Plastic,Other,(null),(null),0,1
 269-9,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
-269-9,Plastic,Other,(null),(null),0,1
 300-45,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-300-45,Plastic,Other,(null),(null),0,1
-305-53,Plastic,Other,(null),(null),0,1
-321-36,Plastic,Other,(null),(null),0,1.021
 305-53,Paint,Other,(null),(null),0,1
-305-65,Plastic,Other,(null),(null),0,1
 305-69,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-305-69,Plastic,Other,(null),(null),0,1
 305-81,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
-305-81,Plastic,Other,(null),(null),0,1
-305-85,Plastic,Other,(null),(null),0,1
-305-89,Plastic,Other,(null),(null),0,1
 296-53,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 296-57,Foraminifera,Foraminifera,(null),(null),0,1
 308-13,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,8,1
@@ -18486,12 +18112,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 308-45,Dictyocysta spp.,Ciliate,Dictyocysta,spp.,1,1
 308-45,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,1,1
 308-45,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1,1
-308-9,Plastic,Other,(null),(null),0,1
-308-13,Plastic,Other,(null),(null),0,1
 308-21,Foraminifera,Foraminifera,(null),(null),0,1
-308-29,Plastic,Other,(null),(null),0,1
-308-41,Plastic,Other,(null),(null),0,1
-296-45,Plastic,Other,(null),(null),0,1
 307-5,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,1,1
 307-1,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1,1
 307-1,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
@@ -18499,12 +18120,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 296-45,Foraminifera,Foraminifera,(null),(null),0,1
 296-45,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 296-41,Foraminifera,Foraminifera,(null),(null),0,1
-296-41,Plastic,Other,(null),(null),0,1
 296-45,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 296-45,Ceratocorys spp.,Dinoflagellate,Ceratocorys,spp.,0,1
-307-17,Plastic,Other,(null),(null),0,1
-307-21,Plastic,Other,(null),(null),0,1
-307-37,Plastic,Other,(null),(null),0,1
 308-49,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 308-49,Dictyocysta spp.,Ciliate,Dictyocysta,spp.,1,1
 308-49,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1,1
@@ -18581,7 +18198,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 304-77,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,1,1
 304-33,Xystonella spp.,Ciliate,Xystonella,spp.,1,1
 304-77,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,3,1
-321-41,Plastic,Other,(null),(null),0,1.021
 304-45,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,2,1
 304-77,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,2,1
 304-77,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
@@ -18596,7 +18212,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 304-45,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,1,1
 304-53,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,6,1
 304-53,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,1,1
-321-42,Plastic,Other,(null),(null),0,1.021
 304-37,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 304-69,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,8,1
 304-49,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,11,1
@@ -18660,7 +18275,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 304-69,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,9,1
 304-37,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 304-37,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-304-37,Plastic,Other,(null),(null),0,1
 304-81,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 304-81,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,3,1
 304-77,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,19,1
@@ -18684,16 +18298,12 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 304-73,Tintinnina ,Ciliate,(null),(null),1,1
 304-73,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,1,1
 304-81,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,8,1
-321-43,Plastic,Other,(null),(null),0,1.021
 304-85,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,1,1
 304-85,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,2,1
 304-85,Dinophysis acuminata,Dinoflagellate,Dinophysis,acuminata,1,1
 304-85,Dinophysis dens,Dinoflagellate,Dinophysis,dens,1,1
 304-85,Thalassiosira spp. <10 µm,Centric diatom,Thalassiosira,spp.,12,1
 304-85,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,8,1
-321-44,Plastic,Other,(null),(null),0,1.021
-321-48,Plastic,Other,(null),(null),0,1.021
-321-49,Plastic,Other,(null),(null),0,1.021
 304-93,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,1,1
 304-93,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,4,1
 304-93,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,7,1
@@ -18719,10 +18329,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 304-45,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 304-45,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 304-45,Tripos gravidus,Dinoflagellate,Tripos (Poroceratium),gravidus,0,1
-304-45,Plastic,Other,(null),(null),0,1
 304-53,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-304-53,Plastic,Other,(null),(null),0,1
-305-61,Plastic,Other,(null),(null),0,1
 307-33,Nematocysts,Other,(null),(null),2,1
 307-37,Nematocysts,Other,(null),(null),1,1
 307-49,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
@@ -18730,14 +18337,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 307-49,Nematocysts,Other,(null),(null),2,1
 307-53,Nematocysts,Other,(null),(null),1,1
 307-61,Nematocysts,Other,(null),(null),1,1
-307-13,Plastic,Other,(null),(null),0,1
-307-25,Plastic,Other,(null),(null),0,1
-307-29,Plastic,Other,(null),(null),0,1
 321-40,Paint,Other,(null),(null),0,1.021
-321-40,Plastic,Other,(null),(null),0,1.021
 304-53,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,0,1
 304-53,Amphisolenia thrinax,Dinoflagellate,Amphisolenia,thrinax,0,1
-321-45,Plastic,Other,(null),(null),0,1.021
 321-50,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1.021
 321-50,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,1,1.021
 321-50,Trichotoxon reinboldii,Pennate diatom,Trichotoxon,reinboldii,5,1.021
@@ -18796,26 +18398,15 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 321-65,Trichotoxon reinboldii,Pennate diatom,Trichotoxon,reinboldii,5,1.021
 321-66,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1.021
 321-66,Trichotoxon reinboldii,Pennate diatom,Trichotoxon,reinboldii,1,1.021
-321-46,Plastic,Other,(null),(null),0,1.021
-321-47,Plastic,Other,(null),(null),0,1.021
-321-54,Plastic,Other,(null),(null),0,1.021
-321-55,Plastic,Other,(null),(null),0,1.021
-321-56,Plastic,Other,(null),(null),0,1.021
-321-57,Plastic,Other,(null),(null),0,1.021
 304-61,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 304-61,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 304-61,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 304-61,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 304-61,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 304-61,Ceratocorys spp.,Dinoflagellate,Ceratocorys,spp.,0,1
-304-61,Plastic,Other,(null),(null),0,1
 304-61,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
-304-17,Plastic,Other,(null),(null),0,1
-304-33,Plastic,Other,(null),(null),0,1
 304-33,Codonellopsis orthoceras,Ciliate,Codonellopsis,orthoceras,0,1
 304-33,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1
-304-49,Plastic,Other,(null),(null),0,1
-304-73,Plastic,Other,(null),(null),0,1
 304-73,Eutintinnus spp.,Ciliate,Eutintinnus,spp.,0,1
 304-73,Codonellopsis spp.,Ciliate,Codonellopsis,spp.,0,1
 304-73,Cyttarocylis spp.,Ciliate,Cyttarocylis,spp.,0,1
@@ -18823,7 +18414,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 304-77,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 304-77,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
 304-77,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-304-77,Plastic,Other,(null),(null),0,1
 304-69,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
 304-69,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 304-69,Tripos contortus,Dinoflagellate,Tripos (Tripoceratium),contortus,0,1
@@ -18831,7 +18421,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 304-69,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 304-69,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 304-69,Ceratocorys spp.,Dinoflagellate,Ceratocorys,spp.,0,1
-304-69,Plastic,Other,(null),(null),0,1
 304-69,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 304-69,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 304-69,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
@@ -18841,16 +18430,12 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 304-85,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 304-85,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 304-85,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-304-85,Plastic,Other,(null),(null),0,1
 304-85,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 304-81,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
 304-81,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 304-81,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-304-81,Plastic,Other,(null),(null),0,1
 304-89,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 304-89,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,0,1
-321-58,Plastic,Other,(null),(null),0,1.021
-321-63,Plastic,Other,(null),(null),0,1.021
 321-67,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,2,1.021
 321-67,Nematocysts,Other,(null),(null),1,1.021
 321-67,Proboscia alata,Centric diatom,Proboscia,alata,1,1.021
@@ -18863,8 +18448,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 321-71,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,2,1.021
 321-71,Corethron spp.,Centric diatom,Corethron,spp.,1,1.021
 321-71,Trichotoxon reinboldii,Pennate diatom,Trichotoxon,reinboldii,7,1.021
-321-71,Plastic,Other,(null),(null),0,1.021
-321-64,Plastic,Other,(null),(null),0,1.021
 306-1,Diploneis spp.,Pennate diatom,Diploneis,spp.,1,1
 306-9,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 306-9,Nematocysts,Other,(null),(null),4,1
@@ -18960,10 +18543,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 306-69,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,1,1
 306-69,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,2,1
 306-69,Proboscia spp.,Centric diatom,Proboscia,spp.,1,1
-321-66,Plastic,Other,(null),(null),0,1.021
 306-81,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
 306-81,Thalassiothrix cf. spp.,Pennate diatom,Thalassiothrix,cf. spp.,1,1
-321-70,Plastic,Other,(null),(null),0,1.021
 321-72,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,3,1.021
 321-72,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1.021
 321-72,Dictyocha speculum,Silicoflagellate,Dictyocha,speculum,2,1.021
@@ -18981,11 +18562,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 321-79,Corethron spp.,Centric diatom,Corethron,spp.,2,1.021
 321-79,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1.021
 244-29,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-244-29,Plastic,Other,(null),(null),0,1
 65-21,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-244-49,Plastic,Other,(null),(null),0,1
 244-45,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-244-45,Plastic,Other,(null),(null),0,1
 244-57,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 244-61,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 244-61,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
@@ -18993,32 +18571,19 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 244-61,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 244-61,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 244-61,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,0,1
-244-61,Plastic,Other,(null),(null),0,1
 65-25,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-65-25,Plastic,Other,(null),(null),0,1
 65-29,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-65-29,Plastic,Other,(null),(null),0,1
-297-17,Plastic,Other,(null),(null),0,1
 297-17,Eutintinnus spp.,Ciliate,Eutintinnus,spp.,0,1
 297-21,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 297-21,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-297-21,Plastic,Other,(null),(null),0,1
 297-21,Foraminifera,Foraminifera,(null),(null),0,1
-297-1,Plastic,Other,(null),(null),0,1
 297-5,Ciliate (Inc. tintinnid),Ciliate,(null),(null),0,1
 297-25,Tripos spp.,Dinoflagellate,Tripos,spp.,0,1
-297-25,Plastic,Other,(null),(null),0,1
-244-81,Plastic,Other,(null),(null),0,1
-65-33,Plastic,Other,(null),(null),0,1
 269-13,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1
 269-17,Nematocysts,Other,(null),(null),1,1
 269-25,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,1,1
 269-25,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,1,1
-269-1,Plastic,Other,(null),(null),0,1
 269-65,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
-269-13,Plastic,Other,(null),(null),0,1
-269-21,Plastic,Other,(null),(null),0,1
-269-25,Plastic,Other,(null),(null),0,1
 269-73,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,4,1
 269-73,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,5,1
 269-73,Tripos lineatus,Dinoflagellate,Tripos (Ceratium),lineatus,2,1
@@ -19032,7 +18597,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 269-37,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,1,1
 269-37,Radiolarian,Radiozoa,(null),(null),1,1
 269-37,Unid dinoflagellate > 10 µm,Dinoflagellate,(null),(null),1,1
-269-33,Plastic,Other,(null),(null),0,1
 300-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,2,1
 300-5,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,5,1
 300-5,Tripos spp.,Dinoflagellate,Tripos,spp.,1,1
@@ -19041,10 +18605,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 300-5,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 300-5,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),1,1
 300-5,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
-269-37,Plastic,Other,(null),(null),0,1
-269-41,Plastic,Other,(null),(null),0,1
 300-5,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
-300-9,Plastic,Other,(null),(null),0,1
 298-1,Coccolithophore cf.,Coccolithophore,(null),(null),1,1
 298-1,Hemiaulus spp.,Centric diatom,Hemiaulus,spp.,1,1
 298-5,Ceratocorys spp.,Dinoflagellate,Ceratocorys,spp.,1,1
@@ -19098,7 +18659,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 298-85,Dictyocysta spp.,Ciliate,Dictyocysta,spp.,1,1
 298-77,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 298-85,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
-269-45,Plastic,Other,(null),(null),0,1
 321-1,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1.021
 321-16,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,1,1.021
 321-16,Coccolithophore cf.,Coccolithophore,(null),(null),1,1.021
@@ -19109,35 +18669,16 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 321-18,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,1,1.021
 321-25,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1.021
 321-26,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,2,1.021
-269-53,Plastic,Other,(null),(null),0,1
-269-61,Plastic,Other,(null),(null),0,1
-269-65,Plastic,Other,(null),(null),0,1
 300-49,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
-300-49,Plastic,Other,(null),(null),0,1
 298-1,Acantharia,Radiozoa,(null),(null),0,1
-298-1,Plastic,Other,(null),(null),0,1
-299-1,Plastic,Other,(null),(null),0,1
 299-5,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-299-5,Plastic,Other,(null),(null),0,1
-298-29,Plastic,Other,(null),(null),0,1
-299-9,Plastic,Other,(null),(null),0,1
-299-13,Plastic,Other,(null),(null),0,1
-299-29,Plastic,Other,(null),(null),0,1
 299-29,Paint,Other,(null),(null),0,1
-299-37,Plastic,Other,(null),(null),0,1
-299-41,Plastic,Other,(null),(null),0,1
 321-25,Corethron spp.,Centric diatom,Corethron,spp.,1,1.021
-299-53,Plastic,Other,(null),(null),0,1
-240-5,Plastic,Other,(null),(null),0,1
 240-9,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
-240-9,Plastic,Other,(null),(null),0,1
-299-77,Plastic,Other,(null),(null),0,1
 299-85,Paint,Other,(null),(null),0,1
-299-85,Plastic,Other,(null),(null),0,1
 240-25,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 240-25,Foraminifera,Foraminifera,(null),(null),0,1
 240-25,Tintinnina ,Ciliate,(null),(null),0,1
-240-29,Plastic,Other,(null),(null),0,1
 240-29,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 240-29,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 240-37,Tintinnina ,Ciliate,(null),(null),0,1
@@ -19178,17 +18719,12 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 321-40,Skeletonema pseudocostatum,Centric diatom,Skeletonema,pseudocostatum,2,1.021
 321-40,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1.021
 321-40,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,1,1.021
-321-22,Plastic,Other,(null),(null),0,1.021
-321-23,Plastic,Other,(null),(null),0,1.021
 240-41,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-240-41,Plastic,Other,(null),(null),0,1
 240-41,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,0,1
 240-41,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 240-41,Trichodesmium thiebautii,Cyanobacteria,Trichodesmium,thiebautii,0,1
 242-1,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-242-5,Plastic,Other,(null),(null),0,1
 240-45,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-240-45,Plastic,Other,(null),(null),0,1
 302-13,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,5,1
 302-13,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,2,1
 302-13,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,7,1
@@ -19212,28 +18748,18 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 302-13,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
 302-13,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,2,1
 244-29,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-244-33,Plastic,Other,(null),(null),0,1
 244-45,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-244-57,Plastic,Other,(null),(null),0,1
 244-73,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 244-73,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 244-73,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,0,1
-244-73,Plastic,Other,(null),(null),0,1
 297-13,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 297-13,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 297-13,Codonellopsis spp.,Ciliate,Codonellopsis,spp.,0,1
 297-13,Ceratocorys horrida,Dinoflagellate,Ceratocorys,horrida,0,1
-297-13,Plastic,Other,(null),(null),0,1
-297-9,Plastic,Other,(null),(null),0,1
-297-5,Plastic,Other,(null),(null),0,1
 244-77,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-244-77,Plastic,Other,(null),(null),0,1
 244-81,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-297-37,Plastic,Other,(null),(null),0,1
 65-37,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-65-37,Plastic,Other,(null),(null),0,1
 65-41,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-65-41,Plastic,Other,(null),(null),0,1
 269-33,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,3,1
 269-33,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,3,1
 269-33,Coccolithophore cf.,Coccolithophore,(null),(null),1,1
@@ -19249,7 +18775,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 269-69,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,3,1
 269-69,Radiolarian,Radiozoa,(null),(null),2,1
 269-69,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,2,1
-269-29,Plastic,Other,(null),(null),0,1
 300-21,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 269-41,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,1,1
 269-41,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,1,1
@@ -19280,7 +18805,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 300-41,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,1,1
 300-41,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 269-57,Thalassionema spp. < 100 µm length,Pennate diatom,Thalassionema,spp.,1,1
-269-69,Plastic,Other,(null),(null),0,1
 300-29,Dictyocha spp.,Silicoflagellate,Dictyocha,spp.,1,1
 300-29,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,3,1
 269-57,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,1,1
@@ -19304,53 +18828,27 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 269-61,Thalassionema spp. < 100 µm length,Pennate diatom,Thalassionema,spp.,3,1
 269-61,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,2,1
 300-1,Tripos spp.,Dinoflagellate,Tripos,spp.,0,1
-300-53,Plastic,Other,(null),(null),0,1
-300-57,Plastic,Other,(null),(null),0,1
 300-61,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-300-61,Plastic,Other,(null),(null),0,1
-300-65,Plastic,Other,(null),(null),0,1
-300-73,Plastic,Other,(null),(null),0,1
 300-69,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
-300-69,Plastic,Other,(null),(null),0,1
-300-77,Plastic,Other,(null),(null),0,1
 300-81,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-300-81,Plastic,Other,(null),(null),0,1
 300-85,Bellerochea spp.,Centric diatom,Bellerochea,spp.,0,1
-300-85,Plastic,Other,(null),(null),0,1
 300-89,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 300-89,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 300-89,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-300-89,Plastic,Other,(null),(null),0,1
-299-21,Plastic,Other,(null),(null),0,1
-299-25,Plastic,Other,(null),(null),0,1
-298-69,Plastic,Other,(null),(null),0,1
 298-69,Foraminifera,Foraminifera,(null),(null),0,1
-298-73,Plastic,Other,(null),(null),0,1
 298-49,Tintinnina ,Ciliate,(null),(null),0,1
-299-33,Plastic,Other,(null),(null),0,1
-298-77,Plastic,Other,(null),(null),0,1
-298-81,Plastic,Other,(null),(null),0,1
 240-1,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,2,1
 240-1,Tripos spp.,Dinoflagellate,Tripos,spp.,2,1
 240-1,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 240-1,Climacodium spp.,Centric diatom,Climacodium,spp.,2,1
 240-1,Guinardia spp.,Centric diatom,Guinardia,spp.,1,1
 240-1,Lauderia spp.,Centric diatom,Lauderia,spp.,1,1
-240-1,Plastic,Other,(null),(null),13,1
 240-1,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,1,1
 240-1,Rhizosolenia bergonii,Centric diatom,Rhizosolenia,bergonii,1,1
 240-1,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,1,1
-298-85,Plastic,Other,(null),(null),0,1
-299-45,Plastic,Other,(null),(null),0,1
-299-49,Plastic,Other,(null),(null),0,1
-299-57,Plastic,Other,(null),(null),0,1
-299-61,Plastic,Other,(null),(null),0,1
-299-69,Plastic,Other,(null),(null),0,1
 240-9,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,0,1
 240-21,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
 240-21,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-240-21,Plastic,Other,(null),(null),0,1
-299-81,Plastic,Other,(null),(null),0,1
 240-25,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 240-29,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 240-37,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
@@ -19362,14 +18860,12 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 321-19,Trichotoxon reinboldii,Pennate diatom,Trichotoxon,reinboldii,1,1.021
 321-20,Trichotoxon reinboldii,Pennate diatom,Trichotoxon,reinboldii,1,1.021
 242-1,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
-242-1,Plastic,Other,(null),(null),0,1
 240-45,Tintinnina ,Ciliate,(null),(null),0,1
 302-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 302-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,1,1
 302-5,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 302-5,Leptocylindrus spp.,Centric diatom,Leptocylindrus,spp.,4,1
 302-5,Nematocysts,Other,(null),(null),2,1
-302-5,Plastic,Other,(null),(null),1,1
 302-5,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,4,1
 302-5,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,20,1
 302-5,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,20,1
@@ -19438,7 +18934,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 302-17,Lauderia spp.,Centric diatom,Lauderia,spp.,2,1
 302-17,Leptocylindrus spp.,Centric diatom,Leptocylindrus,spp.,7,1
 302-17,Navicula - shaped,Pennate diatom,(null),(null),3,1
-302-17,Plastic,Other,(null),(null),1,1
 302-17,Proboscia spp.,Centric diatom,Proboscia,spp.,1,1
 302-17,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,2,1
 302-17,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,12,1
@@ -19450,20 +18945,14 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 302-89,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,3,1
 302-89,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,6,1
 302-89,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,1,1
-321-24,Plastic,Other,(null),(null),0,1.021
-321-26,Plastic,Other,(null),(null),0,1.021
-321-28,Plastic,Other,(null),(null),0,1.021
-321-32,Plastic,Other,(null),(null),0,1.021
 244-69,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,0,1
 244-69,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 244-69,Foraminifera,Foraminifera,(null),(null),0,1
-244-69,Plastic,Other,(null),(null),0,1
 244-69,Peridinium spp.,Dinoflagellate,Peridinium,spp.,0,1
 244-69,Radiolarian,Radiozoa,(null),(null),0,1
 244-69,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,0,1
 244-69,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,0,1
 65-45,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-65-45,Plastic,Other,(null),(null),0,1
 300-81,Tripos lunula,Dinoflagellate,Tripos (Tripoceratium),lunula,1,1
 300-89,Tripos biceps,Dinoflagellate,Tripos (Amphiceratium),biceps,1,1
 299-5,Tripos spp.,Dinoflagellate,Tripos,spp.,1,1
@@ -19513,17 +19002,12 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 299-81,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 299-81,Nematocysts,Other,(null),(null),4,1
 299-85,Amphora spp.,Pennate diatom,Amphora,spp.,1,1
-269-57,Plastic,Other,(null),(null),0,1
 299-85,Nematocysts,Other,(null),(null),1,1
 299-85,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
 321-2,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,0,1.021
 269-57,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,0,1
 299-81,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
-300-41,Plastic,Other,(null),(null),0,1
-298-5,Plastic,Other,(null),(null),0,1
 321-21,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1.021
-321-16,Plastic,Other,(null),(null),0,1.021
-299-73,Plastic,Other,(null),(null),0,1
 321-21,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,1,1.021
 321-21,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),1,1.021
 321-22,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1.021
@@ -19589,8 +19073,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 302-49,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,4,1
 302-37,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 302-37,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
-302-33,Plastic,Other,(null),(null),0,1
-302-29,Plastic,Other,(null),(null),0,1
 302-29,Radiolarian,Radiozoa,(null),(null),0,1
 302-9,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 302-13,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
@@ -19614,18 +19096,13 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 302-53,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,4,1
 302-53,Thalassiosira spp.,Centric diatom,Thalassiosira,spp.,10,1
 302-57,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,6,1
-302-13,Plastic,Other,(null),(null),0,1
 302-53,Thalassiothrix spp.,Pennate diatom,Thalassiothrix,spp.,11,1
 302-53,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,1,1
-321-33,Plastic,Other,(null),(null),0,1.021
-321-35,Plastic,Other,(null),(null),0,1.021
 302-45,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
 302-45,Radiolarian,Radiozoa,(null),(null),0,1
-302-45,Plastic,Other,(null),(null),0,1
 302-41,Radiolarian,Radiozoa,(null),(null),0,1
 302-41,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 302-41,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-305-9,Plastic,Other,(null),(null),0,1
 302-53,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 321-43,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1.021
 321-43,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1.021
@@ -19696,7 +19173,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 305-37,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,5,1
 305-41,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 242-29,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
-242-29,Plastic,Other,(null),(null),0,1
 242-29,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,0,1
 242-29,Trichodesmium thiebautii,Cyanobacteria,Trichodesmium,thiebautii,0,1
 305-41,Eucampia spp.,Centric diatom,Eucampia,spp.,1,1
@@ -19717,13 +19193,10 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 206-5,Pennate diatom 10 - 25 µm,Pennate diatom,(null),(null),1,1
 206-5,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,9,1
 242-29,Foraminifera,Foraminifera,(null),(null),0,1
-242-9,Plastic,Other,(null),(null),0,1
 242-9,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 302-57,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,0,1
-302-57,Plastic,Other,(null),(null),0,1
 302-57,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 302-57,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
-242-13,Plastic,Other,(null),(null),0,1
 242-13,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 242-13,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
 242-13,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
@@ -20037,7 +19510,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 359-5,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,6,1
 359-5,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,12,1
 359-5,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),2,1
-321-83,Plastic,Other,(null),(null),0,1.021
 359-9,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,1,1
 359-9,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,20,1
 359-9,Tripos lineatus/pentagonus complex,Dinoflagellate,Tripos (Ceratium),lineatus/pentagonus,1,1
@@ -20263,7 +19735,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 344-25,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 344-25,Globigerinidae,Foraminifera,(null),(null),1,1
 344-25,Nitzschia cf. bicapitata,Pennate diatom,Nitzschia,cf. bicapitata,1,1
-344-25,Plastic,Other,(null),(null),1,1
 344-25,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 344-1,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,0,1
 344-1,Tripos candelabrum,Dinoflagellate,Tripos (Ceratium),candelabrum,0,1
@@ -20292,10 +19763,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 321-81,Pennate diatom > 10 µm,Pennate diatom,(null),(null),1,1.021
 321-81,Trichotoxon reinboldii,Pennate diatom,Trichotoxon,reinboldii,3,1.021
 306-33,Coscinodiscus spp.,Centric diatom,Coscinodiscus,spp.,0,1
-306-33,Plastic,Other,(null),(null),0,1
-321-68,Plastic,Other,(null),(null),0,1.021
-306-41,Plastic,Other,(null),(null),0,1
-306-45,Plastic,Other,(null),(null),0,1
 304-93,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,0,1
 306-37,Foraminifera,Foraminifera,(null),(null),0,1
 301-37,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
@@ -20344,7 +19811,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 301-37,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 301-1,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 301-5,Foraminifera,Foraminifera,(null),(null),0,1
-301-9,Plastic,Other,(null),(null),0,1
 324-21,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 324-21,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 324-21,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,1,1
@@ -20359,12 +19825,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 324-21,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,1,1
 324-21,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,1,1
 324-21,Proboscia alata,Centric diatom,Proboscia,alata,1,1
-324-1,Plastic,Other,(null),(null),0,1
 324-1,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 324-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-324-5,Plastic,Other,(null),(null),0,1
 324-9,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-324-17,Plastic,Other,(null),(null),0,1
 324-21,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,4,1
 324-29,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,2,1
 324-29,Tripos hexacanthus,Dinoflagellate,Tripos (Tripoceratium),hexacanthus,2,1
@@ -20384,16 +19847,11 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 324-29,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
 324-29,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 324-29,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
-324-25,Plastic,Other,(null),(null),0,1
 324-25,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-324-29,Plastic,Other,(null),(null),0,1
-324-33,Plastic,Other,(null),(null),0,1
 324-33,Foraminifera,Foraminifera,(null),(null),0,1
 324-37,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 324-41,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-324-45,Plastic,Other,(null),(null),0,1
 324-21,Steenstrupiella spp.,Ciliate,Steenstrupiella,spp.,1,1
-321-78,Plastic,Other,(null),(null),0,1.021
 325-13,Coccolithophore cf.,Coccolithophore,(null),(null),1,1
 325-13,Nematocysts,Other,(null),(null),1,1
 325-13,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,3,1
@@ -20436,8 +19894,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 324-81,Coccolithophore cf.,Coccolithophore,(null),(null),1,1
 324-81,Navicula - shaped,Pennate diatom,(null),(null),1,1
 324-81,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1,1
-324-53,Plastic,Other,(null),(null),0,1
-324-57,Plastic,Other,(null),(null),0,1
 324-65,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 324-65,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 324-69,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
@@ -20445,8 +19901,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 324-73,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 324-77,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 324-77,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-324-77,Plastic,Other,(null),(null),0,1
-324-81,Plastic,Other,(null),(null),0,1
 315-51,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 315-50,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 315-49,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
@@ -20538,15 +19992,11 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 322-5,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
 321-82,Trichotoxon reinboldii,Pennate diatom,Trichotoxon,reinboldii,3,1.021
 321-83,Trichotoxon reinboldii,Pennate diatom,Trichotoxon,reinboldii,2,1.021
-306-29,Plastic,Other,(null),(null),0,1
-306-53,Plastic,Other,(null),(null),0,1
 306-57,Tripos furca type,Dinoflagellate,Tripos (Ceratium),furca type,0,1
-306-61,Plastic,Other,(null),(null),0,1
 306-65,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 301-13,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,3,1
 301-13,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),1,1
 301-13,Nematocysts,Other,(null),(null),1,1
-301-13,Plastic,Other,(null),(null),1,1
 301-13,Radiolarian,Radiozoa,(null),(null),1,1
 301-13,Spicule,Other,(null),(null),1,1
 301-21,Amphisolenia spp.,Dinoflagellate,Amphisolenia,spp.,1,1
@@ -20554,7 +20004,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 301-21,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,1,1
 301-33,Amphisolenia thrinax,Dinoflagellate,Amphisolenia,thrinax,0,1
 301-33,Pyrocystis spp.,Dinoflagellate,Pyrocystis,spp.,0,1
-301-37,Plastic,Other,(null),(null),0,1
 301-13,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1,1
 301-21,Cyanobacteria coccoid chain,Cyanobacteria,(null),(null),1,1
 301-21,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
@@ -20566,9 +20015,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 301-37,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 301-37,Tripos biceps,Dinoflagellate,Tripos (Amphiceratium),biceps,0,1
 301-21,Tintinnina ,Ciliate,(null),(null),1,1
-301-1,Plastic,Other,(null),(null),0,1
 301-21,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1,1
-301-5,Plastic,Other,(null),(null),0,1
 301-9,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 324-5,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,1,1
 324-5,Coccolithophore cf.,Coccolithophore,(null),(null),1,1
@@ -20715,14 +20162,11 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 324-73,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 324-77,Dictyocysta spp.,Ciliate,Dictyocysta,spp.,1,1
 324-69,Coccolithophore cf.,Coccolithophore,(null),(null),3,1
-324-69,Plastic,Other,(null),(null),1,1
 324-69,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,2,1
 324-69,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 324-69,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1,1
 324-69,Unid dinoflagellate 30 - 50 µm,Dinoflagellate,(null),(null),2,1
 324-53,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-324-61,Plastic,Other,(null),(null),0,1
-324-65,Plastic,Other,(null),(null),0,1
 324-69,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 324-85,Coccolithophore cf.,Coccolithophore,(null),(null),3,1
 324-85,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),1,1
@@ -20731,7 +20175,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 324-85,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,2,1
 324-85,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 324-69,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
-324-73,Plastic,Other,(null),(null),0,1
 324-77,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 324-77,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,0,1
 324-77,Foraminifera,Foraminifera,(null),(null),0,1
@@ -21050,8 +20493,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 325-45,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
 325-45,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 325-45,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
-306-25,Plastic,Other,(null),(null),0,1
-306-69,Plastic,Other,(null),(null),0,1
 301-5,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,1,1
 301-5,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 301-5,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
@@ -21078,7 +20519,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 301-5,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1,1
 301-29,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),1,1
 301-29,Nematocysts,Other,(null),(null),3,1
-301-29,Plastic,Other,(null),(null),1,1
 301-41,Tripos biceps,Dinoflagellate,Tripos (Amphiceratium),biceps,1,1
 301-41,Tripos lineatus,Dinoflagellate,Tripos (Ceratium),lineatus,2,1
 301-41,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,2,1
@@ -21088,10 +20528,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 301-41,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,1,1
 301-53,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 301-29,Spicule,Other,(null),(null),3,1
-301-53,Plastic,Other,(null),(null),0,1
 301-29,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),5,1
 301-49,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
-301-49,Plastic,Other,(null),(null),0,1
 301-21,Amphisolenia bidentata,Dinoflagellate,Amphisolenia,bidentata,0,1
 301-21,Tripos muelleri type,Dinoflagellate,Tripos (Tripoceratium),muelleri type,0,1
 301-21,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
@@ -21099,22 +20537,17 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 301-21,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 301-21,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 301-21,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-301-21,Plastic,Other,(null),(null),0,1
 301-25,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 301-25,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
-301-25,Plastic,Other,(null),(null),0,1
 301-33,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 301-33,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 301-33,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 301-33,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
-301-33,Plastic,Other,(null),(null),0,1
 301-41,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 301-41,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 301-41,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 301-41,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
-301-41,Plastic,Other,(null),(null),0,1
 301-57,Radiolarian,Radiozoa,(null),(null),0,1
-301-57,Plastic,Other,(null),(null),0,1
 301-57,Amphisolenia thrinax,Dinoflagellate,Amphisolenia,thrinax,0,1
 301-57,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 301-57,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
@@ -21485,7 +20918,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 332-21,Lioloma cf. spp.,Pennate diatom,Lioloma cf.,spp.,2,1
 332-21,Navicula cf. 20-40 µm length,Pennate diatom,(null),(null),1,1
 332-21,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),1,1
-332-21,Plastic,Other,(null),(null),1,1
 332-21,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,2,1
 332-21,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,4,1
 332-21,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
@@ -21613,7 +21045,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 324-37,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 324-37,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 324-41,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
-324-41,Plastic,Other,(null),(null),0,1
 324-45,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 315-15,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
 315-12,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
@@ -21995,7 +21426,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 373-61,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
 373-61,Tripos spp.,Dinoflagellate,Tripos,spp.,1,1
 373-69,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,1,1
-373-73,Plastic,Other,(null),(null),1,1
 373-73,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
 373-69,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 373-73,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
@@ -22361,7 +21791,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 358-97,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,1,1
 358-97,Thalassiosira spp. <10 µm,Centric diatom,Thalassiosira,spp.,6,1
 358-101,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,1,1
-358-101,Plastic,Other,(null),(null),1,1
 358-105,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
 358-109,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 358-101,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
@@ -22426,7 +21855,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 339-29,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),1,1
 339-29,Navicula cf. 60-80 µm length,Pennate diatom,(null),(null),1,1
 339-29,Nitzschia spp.,Pennate diatom,Nitzschia,spp.,1,1
-339-29,Plastic,Other,(null),(null),1,1
 339-29,Proboscia spp.,Centric diatom,Proboscia,spp.,2,1
 339-25,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,1,1
 339-37,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,9,1
@@ -23153,7 +22581,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 245-69,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
 245-73,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,1,1
 245-73,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
-245-73,Plastic,Other,(null),(null),1,1
 245-73,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
 245-77,Scrippsiella spp.,Dinoflagellate,Scrippsiella,spp.,1,1
 245-77,Tripos biceps,Dinoflagellate,Tripos (Amphiceratium),biceps,2,1
@@ -23894,7 +23321,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 316-51,Tripos lineatus/pentagonus complex,Dinoflagellate,Tripos (Ceratium),lineatus/pentagonus,7,1
 316-51,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),1,1
 373-5,Guinardia spp.,Centric diatom,Guinardia,spp.,1,1
-373-5,Plastic,Other,(null),(null),1,1
 373-25,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,1,1
 373-29,Guinardia spp.,Centric diatom,Guinardia,spp.,1,1
 373-29,Nematocysts,Other,(null),(null),1,1
@@ -24357,7 +23783,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 400-21,Thalassiosira spp. <10 µm,Centric diatom,Thalassiosira,spp.,1,1
 402-1,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,3,1
 402-1,Guinardia spp.,Centric diatom,Guinardia,spp.,1,1
-402-1,Plastic,Other,(null),(null),1,1
 400-17,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,2,1
 400-17,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
 400-17,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,1,1
@@ -25227,7 +24652,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 404-41,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,2,1
 404-45,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,4,1
 404-45,Coccolithophore cf.,Coccolithophore,(null),(null),1,1
-404-45,Plastic,Other,(null),(null),1,1
 404-45,Proboscia spp.,Centric diatom,Proboscia,spp.,3,1
 404-45,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,1,1
 404-45,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,3,1
@@ -25722,7 +25146,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 404-1,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,2,1
 404-1,Guinardia spp.,Centric diatom,Guinardia,spp.,1,1
 404-1,Nitzschia cf. bicapitata,Pennate diatom,Nitzschia,cf. bicapitata,1,1
-404-1,Plastic,Other,(null),(null),1,1
 404-1,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,13,1
 404-1,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,5,1
 404-1,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,2,1
@@ -26518,7 +25941,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 426-57,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,1,1
 426-61,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,1,1
 426-61,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,6,1
-426-53,Plastic,Other,(null),(null),1,1
 426-61,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,2,1
 426-61,Dadayiella spp.,Ciliate,Dadayiella,spp.,1,1
 426-61,Gazelletta hexanema,Radiozoa,Gazelletta,hexanema,1,1
@@ -27068,7 +26490,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 427-25,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
 427-29,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
 427-29,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
-427-33,Plastic,Other,(null),(null),1,1
 427-53,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,2,1
 427-29,Thalassiosira spp. 40-60 µm,Centric diatom,Thalassiosira,spp.,1,1
 391-49,Codonellopsis pusilla,Ciliate,Codonellopsis,pusilla,1,1
@@ -29147,7 +28568,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 448-41,Guinardia striata,Centric diatom,Guinardia,striata,1,1
 448-41,Navicula cf. 40-60 µm length,Pennate diatom,(null),(null),1,1
 448-37,Tripos macroceros type,Dinoflagellate,Tripos (Tripoceratium),macroceros type,1,1
-448-41,Plastic,Other,(null),(null),4,1
 448-41,Proboscia spp.,Centric diatom,Proboscia,spp.,5,1
 448-41,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,1,1
 448-41,Thalassionema nitzschioides,Pennate diatom,Thalassionema,nitzschioides,2,1
@@ -29168,7 +28588,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 448-53,Rhizosolenia setigera group,Centric diatom,Rhizosolenia,cf. setigera,1,1
 448-41,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,1,1
 448-57,Oxytoxum scolopax,Dinoflagellate,Oxytoxum,scolopax,1,1
-448-57,Plastic,Other,(null),(null),1,1
 448-57,Rhizosolenia setigera group,Centric diatom,Rhizosolenia,cf. setigera,2,1
 448-53,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 448-57,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,2,1
@@ -29178,7 +28597,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 448-57,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,1,1
 448-61,Leptocylindrus spp.,Centric diatom,Leptocylindrus,spp.,1,1
 448-61,Nematocysts,Other,(null),(null),9,1
-448-61,Plastic,Other,(null),(null),6,1
 448-61,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 446-49,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,0,1
 446-49,Tripos carriensis,Dinoflagellate,Tripos (Tripoceratium),carriensis,0,1
@@ -29186,7 +28604,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 448-69,Acantharia,Radiozoa,(null),(null),3,1
 448-69,Eutintinnus spp.,Ciliate,Eutintinnus,spp.,1,1
 448-69,Oxytoxum scolopax,Dinoflagellate,Oxytoxum,scolopax,1,1
-448-69,Plastic,Other,(null),(null),2,1
 448-69,Proboscia spp.,Centric diatom,Proboscia,spp.,2,1
 448-69,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,1,1
 448-69,Protoperidinium spp.,Dinoflagellate,Protoperidinium,spp.,2,1
@@ -29417,7 +28834,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 446-33,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,2,1
 446-33,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,1,1
 446-37,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,2,1
-446-37,Plastic,Other,(null),(null),1,1
 446-37,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,1,1
 446-37,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
 446-37,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,15,1
@@ -29960,7 +29376,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 457-61,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,5,1
 457-61,Tripos fusus,Dinoflagellate,Tripos (Amphiceratium),fusus,1,1
 457-65,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,1,1
-457-65,Plastic,Other,(null),(null),1,1
 457-65,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,4,1
 457-65,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,1,1
 457-21,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
@@ -31478,7 +30893,6 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 459-13,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,1,1
 459-13,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,1,1
 459-21,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,2,1
-459-21,Plastic,Other,(null),(null),1,1
 459-21,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,1,1
 478-13,Chaetoceros (Hyalochaete),Centric diatom,Chaetoceros (Hyalochaete),spp.,1,1
 478-13,Thalassiosira spp. 10-20 µm,Centric diatom,Thalassiosira,spp.,10,1
@@ -37336,6 +36750,9 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 560-57,Tripos massiliensis,Dinoflagellate,Tripos (Tripoceratium),massiliensis,0,1
 560-57,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 560-61,Tripos massiliensis,Dinoflagellate,Tripos (Tripoceratium),massiliensis,0,1
+569-1,Chaetoceros (Phaeoceros),Centric diatom,Chaetoceros (Phaeoceros),spp.,1,1
+569-1,Navicula - shaped,Pennate diatom,(null),(null),1,1
+569-1,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,13,1
 519-9,Tripos macroceros type,Dinoflagellate,Tripos (Tripoceratium),macroceros type,0,1
 519-17,Tripos macroceros type,Dinoflagellate,Tripos (Tripoceratium),macroceros type,0,1
 518-89,Amphisolenia bidentata,Dinoflagellate,Amphisolenia,bidentata,0,1
@@ -39779,8 +39196,13 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 326-5,Thalassionema nitzschioides,Pennate diatom,Thalassionema,nitzschioides,2,1
 326-13,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,1,1
 326-21,Coccolithophore cf.,Coccolithophore,(null),(null),1,1
+569-2,Chaetoceros dichaetus,Centric diatom,Chaetoceros (Phaeoceros),dichaeta,1,1
 326-5,Tripos macroceros type,Dinoflagellate,Tripos (Tripoceratium),macroceros type,1,1
 326-21,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,1,1
+569-2,Chaetoceros peruvianus < 40 µm cell width,Centric diatom,Chaetoceros (Phaeoceros),peruvianus,1,1
+569-2,Foraminifera,Foraminifera,(null),(null),1,1
+569-2,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,8,1
+569-2,Phaeocystis cf. spp. (colony <50 um),Flagellate,cf. Phaeocystis,spp.,2,1
 518-17,Tripos muelleri,Dinoflagellate,Tripos (Tripoceratium),muelleri,0,1
 518-17,Pyrophacus spp.,Dinoflagellate,Pyrophacus,spp.,0,1
 518-17,Tripos macroceros,Dinoflagellate,Tripos (Tripoceratium),macroceros,0,1
@@ -42864,6 +42286,8 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,COUNTS,SAMPVOLL
 560-89,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,0,1
 560-89,Navicula cf. 80-100 µm length,Pennate diatom,(null),(null),0,1
 560-89,Bacillaria spp.,Pennate diatom,Bacillaria,spp.,0,1
+569-2,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,2,1
+569-2,Thalassiothrix antarctica,Pennate diatom,Thalassiothrix,antarctica,4,1
 553-52,Chaetoceros dichaetus,Centric diatom,Chaetoceros (Phaeoceros),dichaeta,1,1
 553-52,Corethron spp.,Centric diatom,Corethron,spp.,1,1
 553-52,Dactyliosolen spp.,Centric diatom,Dactyliosolen,spp.,1,1

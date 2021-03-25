@@ -28,8 +28,8 @@ cprPsamp <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "(null)") %>%
          Time_24hr = str_sub(SampleDateUTC, -8, -1)) # hms doesn"t seem to work on 00:00:00 times
 
 # Bring in plankton data
-cprPdat <- read_csv(paste0(raw, "CPR_phyto_raw.csv"), na = "(null)") %>%
-  rename(Sample = SAMPLE, TaxonName = TAXON_NAME, TaxonGroup = TAXON_GROUP, Genus = GENUS, Species = SPECIES, PAbun_m3 = PHYTO_ABUNDANCE_M3, BioVolume_um3_m3 = BIOVOL_UM3_M3)
+cprPdat <- read_csv(paste0(raw, "CPR_Phyto_Raw.csv"), na = "(null)") %>%
+  rename(Sample = SAMPLE, TaxonName = TAXON_NAME, TaxonGroup = TAXON_GROUP, Genus = GENUS, Species = SPECIES, PAbun_m3 = PHYTO_ABUNDANCE_M3, BioVolume_um3m3 = BIOVOL_UM3M3)
 
 # Bring in Change Log
 cprPcl <- read_csv(paste0(raw, "ChangeLogCPRP.csv"), na = "(null)") %>%
@@ -217,20 +217,20 @@ fwrite(cprSpecP, file = paste0(output, "CPR_phyto_species_mat.csv"), row.names =
 #### CPR PHYTO BIOV HTG ####
 
 cprHTGPB1 <- cprPdat %>% group_by(Sample, TaxonGroup) %>% 
-  summarise(PBioV_um3_m3 = sum(BioVolume_um3_m3, na.rm = TRUE), .groups = "drop") %>%
+  summarise(PBioV_um3m3 = sum(BioVolume_um3m3, na.rm = TRUE), .groups = "drop") %>%
   filter(!TaxonGroup %in% c("Other","Coccolithophore", "Diatom","Protozoa"))
 
 cprHTGPB1 <-  cprPsamp %>% left_join(cprHTGPB1, by = "Sample") %>% 
   mutate(TaxonGroup = ifelse(is.na(TaxonGroup), "Ciliate", TaxonGroup),
-         PBioV_um3_m3 = ifelse(is.na(PBioV_um3_m3), 0, PBioV_um3_m3)) %>% 
+         PBioV_um3m3 = ifelse(is.na(PBioV_um3m3), 0, PBioV_um3m3)) %>% 
   arrange(-desc(TaxonGroup))
 
 cprHTGPB <-  cprHTGPB1 %>% 
-  pivot_wider(names_from = TaxonGroup, values_from = PBioV_um3_m3, values_fill = list(PBioV_um3_m3 = 0)) %>% 
+  pivot_wider(names_from = TaxonGroup, values_from = PBioV_um3m3, values_fill = list(PBioV_um3m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) %>% 
   select(-Sample)
 
-fwrite(cprHTGPB, file = paste0(output, "CPR_phytoBioV_HTG_mat.csv"), row.names = FALSE)
+fwrite(cprHTGPB, file = paste0(output, "CPR_Phyto_BioVolHTGMat.csv"), row.names = FALSE)
 
 #### CPR PHYTO BIOV GENUS ####
 
@@ -245,16 +245,16 @@ clg <- cprPcl %>% mutate(genus1 = word(TaxonName, 1),
 cprGenPB1 <- cprPdat %>% 
   filter(!TaxonName %in% levels(as.factor(clg$TaxonName))) %>% 
   group_by(Sample, Genus) %>% 
-  summarise(PBioV_um3_m3 = sum(BioVolume_um3_m3, na.rm = TRUE), .groups = "drop") %>% 
+  summarise(PBioV_um3m3 = sum(BioVolume_um3m3, na.rm = TRUE), .groups = "drop") %>% 
   drop_na(Genus)
 
 cprGenPB1 <- cprPsamp %>% 
   left_join(cprGenPB1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          Genus = ifelse(is.na(Genus), "Acanthoica", Genus),
-         PBioV_um3_m3 = ifelse(is.na(PBioV_um3_m3), 0, PBioV_um3_m3)) %>% 
+         PBioV_um3m3 = ifelse(is.na(PBioV_um3m3), 0, PBioV_um3m3)) %>% 
   group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Genus) %>%
-  summarise(PBioV_um3_m3 = sum(PBioV_um3_m3), .groups = "drop") %>% 
+  summarise(PBioV_um3m3 = sum(PBioV_um3m3), .groups = "drop") %>% 
   as.data.frame()
 
 # add change log species with -999 for NA"s and real absences as 0"s
@@ -263,7 +263,7 @@ cprGenPB2 <- cprPdat %>%
   left_join(cprPcl, by = "TaxonName") %>%
   mutate(Genus = as_factor(Genus)) %>% drop_na(Genus) %>%
   group_by(Sample, StartDate, Genus) %>% 
-  summarise(PBioV_um3_m3 = sum(BioVolume_um3_m3, na.rm = TRUE), .groups = "drop") 
+  summarise(PBioV_um3m3 = sum(BioVolume_um3m3, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(cprGenPB2$Genus)) {
   Gen <- cprGenPB2 %>% select(Genus) %>% unique()
@@ -282,10 +282,10 @@ for (i in 1:nlevels(cprGenPB2$Genus)) {
     left_join(gen, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            Genus = replace(Genus, is.na(Genus), Dates$Genus),
-           PBioV_um3_m3 = replace(PBioV_um3_m3, StartDate>SampleDateUTC, -999), 
-           PBioV_um3_m3 = replace(PBioV_um3_m3, StartDate<SampleDateUTC & is.na(PBioV_um3_m3), 0)) %>% 
+           PBioV_um3m3 = replace(PBioV_um3m3, StartDate>SampleDateUTC, -999), 
+           PBioV_um3m3 = replace(PBioV_um3m3, StartDate<SampleDateUTC & is.na(PBioV_um3_m3), 0)) %>% 
     group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Genus) %>%
-    summarise(PBioV_um3_m3 = sum(PBioV_um3_m3), .groups = "drop") %>% 
+    summarise(PBioV_um3m3 = sum(PBioV_um3m3), .groups = "drop") %>% 
     as.data.frame()     
   
   cprGenPB1 <- rbind(cprGenPB1, gen)
@@ -293,16 +293,16 @@ for (i in 1:nlevels(cprGenPB2$Genus)) {
 
 cprGenPB1 <- cprGenPB1 %>% 
   group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Genus) %>%
-  summarise(PBioV_um3_m3 = max(PBioV_um3_m3), .groups = "drop") %>% 
+  summarise(PBioV_um3m3 = max(PBioV_um3m3), .groups = "drop") %>% 
   arrange(-desc(Genus)) %>% 
   as.data.frame() 
 # select maximum value of duplicates, but leave -999 for all other occurences as not regularly identified
 
 cprGenPB <-  cprGenPB1 %>% 
-  pivot_wider(names_from = Genus, values_from = PBioV_um3_m3, values_fill = list(PBioV_um3_m3 = 0)) %>% 
+  pivot_wider(names_from = Genus, values_from = PBioV_um3m3, values_fill = list(PBioV_um3m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
-fwrite(cprGenPB, file = paste0(output, "CPR_phytoBioV_genus_mat.csv"), row.names = FALSE)
+fwrite(cprGenPB, file = paste0(output, "CPR_Phyto_BioVolGenusMat.csv"), row.names = FALSE)
 
 #### CPR PHYTO BIOV SPECIES ####
 
@@ -317,15 +317,15 @@ cprSpecPB1 <- cprPdat %>%
   filter(!TaxonName %in% levels(as.factor(clg$TaxonName))
          & Species != "spp." & !is.na(Species) & !grepl("cf.", Species)) %>% 
   group_by(Sample, TaxonName) %>% 
-  summarise(PBioV_um3_m3 = sum(BioVolume_um3_m3, na.rm = TRUE), .groups = "drop")
+  summarise(PBioV_um3m3 = sum(BioVolume_um3m3, na.rm = TRUE), .groups = "drop")
 
 cprSpecPB1 <- cprPsamp %>% 
   left_join(cprSpecPB1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          TaxonName = ifelse(is.na(TaxonName), "Paralia sulcata", TaxonName),
-         PBioV_um3_m3 = ifelse(is.na(PBioV_um3_m3), 0, PBioV_um3_m3))  %>% 
+         PBioV_um3m3 = ifelse(is.na(PBioV_um3m3), 0, PBioV_um3_m3))  %>% 
   group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, TaxonName) %>%
-  summarise(PBioV_um3_m3 = sum(PBioV_um3_m3), .groups = "drop") %>% 
+  summarise(PBioV_um3m3 = sum(PBioV_um3m3), .groups = "drop") %>% 
   as.data.frame()
 
 # add change log species with -999 for NA"s and real absences as 0"s
@@ -338,7 +338,7 @@ cprSpecPB2 <- cprPdat %>%
   mutate(TaxonName = as_factor(TaxonName)) %>% 
   drop_na(TaxonName) %>%
   group_by(Sample, StartDate, TaxonName) %>% 
-  summarise(PBioV_um3_m3 = sum(BioVolume_um3_m3, na.rm = TRUE), .groups = "drop") 
+  summarise(PBioV_um3m3 = sum(BioVolume_um3m3, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(cprSpecPB2$TaxonName)) {
   Spe <- cprSpecPB2 %>% select(TaxonName) %>% unique()
@@ -357,26 +357,26 @@ for (i in 1:nlevels(cprSpecPB2$TaxonName)) {
     left_join(spec, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            TaxonName = replace(TaxonName, is.na(TaxonName), Dates$TaxonName),
-           PBioV_um3_m3 = replace(PBioV_um3_m3, StartDate>SampleDateUTC, -999), 
-           PBioV_um3_m3 = replace(PBioV_um3_m3, StartDate<SampleDateUTC & is.na(PBioV_um3_m3), 0)) %>% 
+           PBioV_um3m3 = replace(PBioV_um3m3, StartDate>SampleDateUTC, -999), 
+           PBioV_um3m3 = replace(PBioV_um3m3, StartDate<SampleDateUTC & is.na(PBioV_um3m3), 0)) %>% 
     group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, TaxonName) %>%
-    summarise(PBioV_um3_m3 = sum(PBioV_um3_m3), .groups = "drop") %>% 
+    summarise(PBioV_um3m3 = sum(PBioV_um3m3), .groups = "drop") %>% 
     as.data.frame()     
   cprSpecPB1 <- rbind(cprSpecPB1, spec)
 }
 
 cprSpecPB1 <- cprSpecPB1 %>% 
   group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, TaxonName) %>%
-  summarise(PBioV_um3_m3 = max(PBioV_um3_m3), .groups = "drop") %>% 
+  summarise(PBioV_um3m3 = max(PBioV_um3m3), .groups = "drop") %>% 
   arrange(-desc(TaxonName)) %>% 
   as.data.frame() 
 
 # select maximum value of duplicates, but leave -999 for all other occurences as not regularly identified
 cprSpecPB <-  cprSpecPB1 %>% 
-  pivot_wider(names_from = TaxonName, values_from = PBioV_um3_m3, values_fill = list(PBioV_um3_m3 = 0)) %>% 
+  pivot_wider(names_from = TaxonName, values_from = PBioV_um3m3, values_fill = list(PBioV_um3m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
-fwrite(cprSpecPB, file = paste0(output, "CPR_phytoBioV_species_mat.csv"), row.names = FALSE)
+fwrite(cprSpecPB, file = paste0(output, "CPR_Phyto_BioVolSpeciesMat.csv"), row.names = FALSE)
 
 #### CPR Zoopplankton #### ################################################################################################################################
 # Bring in all CPR zooplankton samples
