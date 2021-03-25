@@ -48,7 +48,7 @@ getNRSPhytoData <- function(){
 
 # Bring in Change Log
 getNRSPhytoChangeLog <- function(){
-  NRSPcl <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/ChangeLogNRSP.csv", na = "(null)") %>%
+  NRSPcl <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_Phyto_ChangeLog.csv", na = "(null)") %>%
     rename(TaxonName = TAXON_NAME, StartDate = START_DATE, ParentName = PARENT_NAME)
   return(NRSPcl)
 }
