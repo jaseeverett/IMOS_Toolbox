@@ -381,7 +381,7 @@ fwrite(cprSpecPB, file = paste0(output, "CPR_Phyto_BioVolSpeciesMat.csv"), row.n
 #### CPR Zoopplankton #### ################################################################################################################################
 # Bring in all CPR zooplankton samples
 cprZsamp <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "(null)") %>% 
-  rename(Sample = SAMPLE, Route = ROUTE, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateUTC = SAMPLEDATEUTC, SampleType = SAMPLETYPE) %>%
+  rename(Sample = SAMPLE, Route = ROUTE, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateUTC = SAMPLEDATEUTC, SampleType = SAMPLETYPE, TripCode = TRIP_CODE) %>%
   filter(grepl("Z", SampleType)) %>%
   select(-REGION, -PCI, -SampleType, -BIOMASS_MGM3) %>%
   mutate(Year = year(SampleDateUTC),
@@ -392,7 +392,7 @@ cprZsamp <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "(null)") %>%
 # Bring in plankton summary data
 cprZdat <- read_csv(paste0(raw, "CPR_Zoop_Raw.csv"), na = "(null)") %>%
   rename(Sample = SAMPLE, TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01,
-         Genus = GENUS, Species = SPECIES, ZAbun_m3 = ZOOP_ABUNDANCE_M3)
+         Genus = GENUS, Species = SPECIES, ZAbund_m3 = ZOOP_ABUNDANCE_M3)
 
 # Bring in Change Log
 cprZcl <- read_csv(paste0(raw, "CPR_Zoop_ChangeLog.csv"), na = "(null)") %>%
@@ -400,32 +400,45 @@ cprZcl <- read_csv(paste0(raw, "CPR_Zoop_ChangeLog.csv"), na = "(null)") %>%
 
 #### CPR ZOOP RAW ####
 cprRawZ1 <- left_join(cprZsamp, cprZdat, by = "Sample") %>% 
-  select(-c("Copepod", "TaxonGroup", "Genus", "Species")) %>% 
+  select(-c("Copepod", "TaxonGroup", "Genus", "Species", 'SPCODE')) %>% 
   arrange(-desc(TaxonName)) %>%
   mutate(TaxonName = ifelse(is.na(TaxonName), "No taxa found", TaxonName))
 
 cprRawZ <- cprRawZ1 %>% 
-  pivot_wider(names_from = TaxonName, values_from = ZAbun_m3, values_fill = list(ZAbun_m3 = 0)) %>% 
+  pivot_wider(names_from = TaxonName, values_from = ZAbund_m3, values_fill = list(ZAbund_m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) %>%
   select(-"No taxa found") %>% 
   select(-Sample)
 
-fwrite(cprRawZ, file = paste0(output, "CPR_Zoop_RawMat.csv"), row.names = FALSE)
+fwrite(cprRawZ, file = paste0(outD, "CPR_Zoop_RawMat.csv"), row.names = FALSE)
+
+### Sex and stage binned
+
+CPRIdsZ <- left_join(cprZsamp, cprZdat, by = "Sample") %>%
+  mutate(TaxonName = ifelse(is.na(Genus), TaxonName, paste0(Genus, ' ', Species))) %>%
+  group_by(TripCode, Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, TaxonName) %>%
+  summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE)) %>%
+  arrange(-desc(TaxonName))  %>% 
+  pivot_wider(names_from = TaxonName, values_from = ZAbund_m3, values_fill = list(ZAbund_m3 = 0)) %>% 
+  arrange(desc(SampleDateUTC)) %>% 
+  mutate(SampleDateLocal = as.character(SampleDateUTC))
+
+fwrite(CPRIdsZ, file = paste0(outD,.Platform$file.sep,"CPR_Zoop_IDsMat.csv"), row.names = FALSE)
 
 #### CPR ZOOP HTG ####
 cprHTGZ1 <- cprZdat %>% 
   group_by(Sample, TaxonGroup) %>% 
-  summarise(ZAbun_m3 = sum(ZAbun_m3, na.rm = TRUE), .groups = "drop") %>%
+  summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") %>%
   filter(!TaxonGroup %in% c("Other")) 
 
 cprHTGZ1 <- cprZsamp %>% 
   left_join(cprHTGZ1, by = "Sample") %>% 
   mutate(TaxonGroup = ifelse(is.na(TaxonGroup), "Copepod", TaxonGroup),
-         ZAbun_m3 = ifelse(is.na(ZAbun_m3), 0, ZAbun_m3)) %>% 
+         ZAbund_m3 = ifelse(is.na(ZAbund_m3), 0, ZAbund_m3)) %>% 
   arrange(-desc(TaxonGroup))
 
 cprHTGZ <-  cprHTGZ1 %>% 
-  pivot_wider(names_from = TaxonGroup, values_from = ZAbun_m3, values_fill = list(ZAbun_m3 = 0)) %>% 
+  pivot_wider(names_from = TaxonGroup, values_from = ZAbund_m3, values_fill = list(ZAbund_m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) %>% 
   select(-Sample)
 
@@ -444,16 +457,16 @@ clgz <- cprZcl %>%
 cprGenZ1 <- cprZdat %>% 
   filter(!TaxonName %in% levels(as.factor(clgz$TaxonName))) %>% 
   group_by(Sample, Genus) %>% 
-  summarise(ZAbun_m3 = sum(ZAbun_m3, na.rm = TRUE), .groups = "drop") %>% 
+  summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") %>% 
   drop_na(Genus) 
 
 cprGenZ1 <- cprZsamp %>% 
   left_join(cprGenZ1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          Genus = ifelse(is.na(Genus), "Calanus", Genus),
-         ZAbun_m3 = ifelse(is.na(ZAbun_m3), 0, ZAbun_m3)) %>% 
+         ZAbund_m3 = ifelse(is.na(ZAbund_m3), 0, ZAbund_m3)) %>% 
   group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Genus) %>%
-  summarise(ZAbun_m3 = sum(ZAbun_m3), .groups = "drop") %>% 
+  summarise(ZAbund_m3 = sum(ZAbund_m3), .groups = "drop") %>% 
   as.data.frame()
 
 # add change log species with -999 for NA"s and real absences as 0"s
@@ -463,7 +476,7 @@ cprGenZ2 <- cprZdat %>%
   mutate(Genus = as_factor(Genus)) %>% 
   drop_na(Genus) %>%
   group_by(Sample, StartDate, Genus) %>% 
-  summarise(ZAbun_m3 = sum(ZAbun_m3, na.rm = TRUE), .groups = "drop") 
+  summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(cprGenZ2$Genus)) {
   Gen <- cprGenZ2 %>% select(Genus) %>% unique()
@@ -482,23 +495,23 @@ for (i in 1:nlevels(cprGenZ2$Genus)) {
     left_join(genz, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Datesz$StartDate),
            Genus = replace(Genus, is.na(Genus), Datesz$Genus),
-           ZAbun_m3 = replace(ZAbun_m3, StartDate>SampleDateUTC, -999), 
-           ZAbun_m3 = replace(ZAbun_m3, StartDate<SampleDateUTC & is.na(ZAbun_m3), 0)) %>% 
+           ZAbund_m3 = replace(ZAbund_m3, StartDate>SampleDateUTC, -999), 
+           ZAbund_m3 = replace(ZAbund_m3, StartDate<SampleDateUTC & is.na(ZAbund_m3), 0)) %>% 
     group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Genus) %>%
-    summarise(ZAbun_m3 = sum(ZAbun_m3), .groups = "drop") %>% 
+    summarise(ZAbund_m3 = sum(ZAbund_m3), .groups = "drop") %>% 
     as.data.frame()     
   cprGenZ1 <- rbind(cprGenZ1, genz)
 }
 
 cprGenZ1 <- cprGenZ1 %>% 
   group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Genus) %>%
-  summarise(ZAbun_m3 = max(ZAbun_m3), .groups = "drop") %>% 
+  summarise(ZAbund_m3 = max(ZAbund_m3), .groups = "drop") %>% 
   arrange(-desc(Genus)) %>% 
   as.data.frame() 
 # select maximum value of duplicates, but leave -999 for all other occurrences as not regularly identified
 
 cprGenZ <-  cprGenZ1 %>% 
-  pivot_wider(names_from = Genus, values_from = ZAbun_m3, values_fill = list(ZAbun_m3 = 0)) %>% 
+  pivot_wider(names_from = Genus, values_from = ZAbund_m3, values_fill = list(ZAbund_m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
 fwrite(cprGenZ, file = paste0(output, "CPR_Zoop_GenusMat.csv"), row.names = FALSE)
@@ -521,15 +534,15 @@ cprCop1 <- cprZdat %>%
            !grepl("grp", Species)) %>% 
   mutate(Species = paste0(Genus," ", word(Species,1))) %>% # bin complexes
   group_by(Sample, Species) %>% 
-  summarise(ZAbun_m3 = sum(ZAbun_m3, na.rm = TRUE), .groups = "drop")
+  summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop")
 
 cprCop1 <- cprZsamp %>% 
   left_join(cprCop1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          Species = ifelse(is.na(Species), "Calanus Australis", Species), # avoids nulls in pivot
-         ZAbun_m3 = ifelse(is.na(ZAbun_m3), 0, ZAbun_m3)) %>% # avoids nulls in pivot
+         ZAbund_m3 = ifelse(is.na(ZAbund_m3), 0, ZAbund_m3)) %>% # avoids nulls in pivot
   group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Species) %>%
-  summarise(ZAbun_m3 = sum(ZAbun_m3), .groups = "drop") %>% 
+  summarise(ZAbund_m3 = sum(ZAbund_m3), .groups = "drop") %>% 
   as.data.frame()
 
 # add change log species with -999 for NA"s and real absences as 0"s
@@ -540,7 +553,7 @@ cprCop2 <- cprZdat %>%
   left_join(cprZcl, by = "TaxonName") %>%
   mutate(Species = as_factor(Species)) %>% drop_na(Species) %>%
   group_by(Sample, StartDate, Species) %>% 
-  summarise(ZAbun_m3 = sum(ZAbun_m3, na.rm = TRUE), .groups = "drop") 
+  summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(cprCop2$Species)) {
   Spe <- cprCop2 %>% select(Species) %>% unique()
@@ -559,23 +572,23 @@ for (i in 1:nlevels(cprCop2$Species)) {
     left_join(copes, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            Species = replace(Species, is.na(Species), Dates$Species),
-           ZAbun_m3 = replace(ZAbun_m3, StartDate>SampleDateUTC, -999), 
-           ZAbun_m3 = replace(ZAbun_m3, StartDate<SampleDateUTC & is.na(ZAbun_m3), 0)) %>% 
+           ZAbund_m3 = replace(ZAbund_m3, StartDate>SampleDateUTC, -999), 
+           ZAbund_m3 = replace(ZAbund_m3, StartDate<SampleDateUTC & is.na(ZAbund_m3), 0)) %>% 
     group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Species) %>%
-    summarise(ZAbun_m3 = sum(ZAbun_m3), .groups = "drop") %>% 
+    summarise(ZAbund_m3 = sum(ZAbund_m3), .groups = "drop") %>% 
     as.data.frame()     
   cprCop1 <- rbind(cprCop1, copes)
 }
 
 cprCop1 <- cprCop1 %>% 
   group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Species) %>%
-  summarise(ZAbun_m3 = max(ZAbun_m3), .groups = "drop") %>% 
+  summarise(ZAbund_m3 = max(ZAbund_m3), .groups = "drop") %>% 
   arrange(-desc(Species)) %>% 
   as.data.frame() 
 # select maximum value of duplicates, but leave -999 for all other occurrences as not regularly identified
 
 cprCop <- cprCop1 %>% 
-  pivot_wider(names_from = Species, values_from = ZAbun_m3, values_fill = list(ZAbun_m3 = 0)) %>% 
+  pivot_wider(names_from = Species, values_from = ZAbund_m3, values_fill = list(ZAbund_m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
 fwrite(cprCop, file = paste0(output, "CPR_Zoop_CopesMat.csv"), row.names = FALSE)
@@ -589,15 +602,15 @@ cprnCop1 <- cprZdat %>%
          & Species != "spp." & !is.na(Species) & !grepl("cf.", Species) & !grepl("grp", Species)) %>% 
   mutate(Species = paste0(Genus," ", word(Species,1))) %>% # bin complexes
   group_by(Sample, Species) %>% 
-  summarise(ZAbun_m3 = sum(ZAbun_m3, na.rm = TRUE), .groups = "drop")
+  summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop")
 
 cprnCop1 <- cprZsamp %>% 
   left_join(cprnCop1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          Species = ifelse(is.na(Species), "Evadne spinifera", Species),
-         ZAbun_m3 = ifelse(is.na(ZAbun_m3), 0, ZAbun_m3)) %>% 
+         ZAbund_m3 = ifelse(is.na(ZAbund_m3), 0, ZAbund_m3)) %>% 
   group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Species) %>%
-  summarise(ZAbun_m3 = sum(ZAbun_m3), .groups = "drop") %>% 
+  summarise(ZAbund_m3 = sum(ZAbund_m3), .groups = "drop") %>% 
   as.data.frame()
 
 # add change log species with -999 for NA"s and real absences as 0"s
@@ -609,7 +622,7 @@ cprnCop2 <- cprZdat %>%
   mutate(Species = as_factor(Species)) %>% 
   drop_na(Species) %>% 
   group_by(Sample, StartDate, Species) %>% 
-  summarise(ZAbun_m3 = sum(ZAbun_m3, na.rm = TRUE), .groups = "drop") 
+  summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") 
 
 for (i in 1:nlevels(cprnCop2$Species)) {
   Spe <- cprnCop2 %>% select(Species) %>% unique()
@@ -628,22 +641,22 @@ for (i in 1:nlevels(cprnCop2$Species)) {
     left_join(ncopes, by = "Sample") %>%
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            Species = replace(Species, is.na(Species), Dates$Species),
-           ZAbun_m3 = replace(ZAbun_m3, StartDate>SampleDateUTC, -999), 
-           ZAbun_m3 = replace(ZAbun_m3, StartDate<SampleDateUTC & is.na(ZAbun_m3), 0)) %>% 
+           ZAbund_m3 = replace(ZAbund_m3, StartDate>SampleDateUTC, -999), 
+           ZAbund_m3 = replace(ZAbund_m3, StartDate<SampleDateUTC & is.na(ZAbund_m3), 0)) %>% 
     group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Species) %>%
-    summarise(ZAbun_m3 = sum(ZAbun_m3), .groups = "drop") %>% 
+    summarise(ZAbund_m3 = sum(ZAbund_m3), .groups = "drop") %>% 
     as.data.frame()     
   cprnCop1 <- rbind(cprnCop1, ncopes)
 }
 
 cprnCop1 <- cprnCop1 %>% 
   group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Species) %>%
-  summarise(ZAbun_m3 = max(ZAbun_m3), .groups = "drop") %>% 
+  summarise(ZAbund_m3 = max(ZAbund_m3), .groups = "drop") %>% 
   arrange(-desc(Species)) %>% as.data.frame() 
 # select maximum value of duplicates, but leave -999 for all other occurrences as not regularly identified
 
 cprnCop <-  cprnCop1 %>% 
-  pivot_wider(names_from = Species, values_from = ZAbun_m3, values_fill = list(ZAbun_m3 = 0)) %>% 
+  pivot_wider(names_from = Species, values_from = ZAbund_m3, values_fill = list(ZAbund_m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
 fwrite(cprnCop, file = paste0(output, "CPR_Zoop_NoncopesMat.csv"), row.names = FALSE)

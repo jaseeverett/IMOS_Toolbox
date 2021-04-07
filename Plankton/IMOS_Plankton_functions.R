@@ -1,3 +1,10 @@
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(lubridate)
+  library(lutz)
+  library(data.table)
+})
+
 ## Functions for operating
 untibble <- function (tibble) {
   data.frame(unclass(tibble), check.names = FALSE, stringsAsFactors = FALSE)
@@ -27,7 +34,7 @@ get_NRSTrips <- function(){
 getNRSSamples <- function(){
     NRSSamp <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_Samp.csv", na = "(null)") %>% 
       rename(Sample = SAMPLE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATELOCAL, 
-             NRScode = NRS_CODE, Biomass_mgm3 = BIOMASS_MGM3, SampleType = SAMPLETYPE) %>%
+             NRScode = TRIP_CODE, Biomass_mgm3 = BIOMASS_MGM3, SampleType = SAMPLETYPE) %>%
       mutate(Year = year(SampleDateLocal),
              Month = month(SampleDateLocal),
              Day = day(SampleDateLocal),
