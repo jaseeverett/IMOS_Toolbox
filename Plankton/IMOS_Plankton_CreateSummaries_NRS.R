@@ -28,7 +28,7 @@ NRSPcl <- getNRSPhytoChangeLog()
 #### Raw Phytoplankton ####
 
 NRSRawP1 <- left_join(NRSSamp, NRSPdat, by = "Sample") %>% 
-  select(-c(TaxonGroup, Genus, Species, Biovolume_uM3L, APHIA_ID)) %>% 
+  select(-c(TaxonGroup, Genus, Species, BIOMASS_MGM3, Biovolume_uM3L, APHIA_ID)) %>% 
   arrange(-desc(TaxonName)) 
 
 NRSRawP <- NRSRawP1 %>% 
