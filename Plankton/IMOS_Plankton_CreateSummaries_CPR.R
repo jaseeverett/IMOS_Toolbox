@@ -13,8 +13,8 @@ suppressPackageStartupMessages({
   library(data.table)
 })
 
-raw <- "https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/"
-output <- "https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/Output/"
+rawD <- "RawData"
+outD <- "Output"
 
 #### CPR Phytoplankton #######################################################################################################################################################
 # Bring in all CPR phytoplankton samples
@@ -38,7 +38,7 @@ cprPcl <- read_csv(paste0(raw, "CPR_Phyto_ChangeLog.csv"), na = "(null)") %>%
 #### CPR PHYTO RAW ####
 
 cprRawP1 <- left_join(cprPsamp, cprPdat, by = "Sample") %>% 
-  select(c(2:10,14)) %>% 
+  select(c(Sample:TaxonName,PAbun_m3)) %>% 
   arrange(-desc(TaxonName)) %>%
   mutate(TaxonName = ifelse(is.na(TaxonName), "No taxa found", TaxonName)) # for segments where no phyto was found
 
@@ -47,7 +47,8 @@ cprRawP <- cprRawP1 %>%
   arrange(desc(SampleDateUTC)) %>%
   select(-"No taxa found")
 
-fwrite(cprRawP, file = paste0(output, "CPR_Phyto_RawMat.csv"), row.names = FALSE)
+fwrite(cprRawP, file = paste0(outD,.Platform$file.sep,"CPR_Phyto_RawMat.csv"), row.names = FALSE)
+rm(cprRawP1)
 
 #### CPR PHYTO ABUND HTG ####
 
@@ -65,7 +66,8 @@ cprHTGP <-  cprHTGP1 %>%
   arrange(desc(SampleDateUTC)) %>% 
   select(-Sample)
 
-fwrite(cprHTGP, file = paste0(output, "CPR_Phyto_HTGMat.csv"), row.names = FALSE)
+fwrite(cprHTGP, file = paste0(outD,.Platform$file.sep,"CPR_Phyto_HTGMat.csv"), row.names = FALSE)
+rm(cprHTGP1)
 
 #### CPR PHYTO ABUND GENUS ####
 
@@ -131,13 +133,14 @@ cprGenP1 <- cprGenP1 %>%
   summarise(PAbun_m3 = max(PAbun_m3), .groups = "drop") %>% 
   arrange(-desc(Genus)) %>% 
   as.data.frame() 
-# select maximum value of duplicates, but leave -999 for all other occurences as not regularly identified
+# select maximum value of duplicates, but leave -999 for all other occurrences as not regularly identified
 
 cprGenP <-  cprGenP1 %>% 
   pivot_wider(names_from = Genus, values_from = PAbun_m3, values_fill = list(PAbun_m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
-fwrite(cprGenP, file = paste0(output, "CPR_Phyto_GenusMat.csv"), row.names = FALSE)
+fwrite(cprGenP, file = paste0(outD,.Platform$file.sep,"CPR_Phyto_GenusMat.csv"), row.names = FALSE)
+rm(cprGenP1, cprGenP2)
 
 #### CPR PHYTO ABUND SPECIES ####
 
@@ -211,7 +214,8 @@ cprSpecP <-  cprSpecP1 %>%
   pivot_wider(names_from = TaxonName, values_from = PAbun_m3, values_fill = list(PAbun_m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
-fwrite(cprSpecP, file = paste0(output, "CPR_Phyto_SpeciesMat.csv"), row.names = FALSE)
+fwrite(cprSpecP, file = paste0(outD,.Platform$file.sep,"CPR_Phyto_SpeciesMat.csv"), row.names = FALSE)
+rm(cprSpecP1, cprSpecP2)
 
 ###################################################################
 #### CPR PHYTO BIOV HTG ####
@@ -230,7 +234,8 @@ cprHTGPB <-  cprHTGPB1 %>%
   arrange(desc(SampleDateUTC)) %>% 
   select(-Sample)
 
-fwrite(cprHTGPB, file = paste0(output, "CPR_Phyto_BioVolHTGMat.csv"), row.names = FALSE)
+fwrite(cprHTGPB, file = paste0(outD,.Platform$file.sep,"CPR_Phyto_BioVolHTGMat.csv"), row.names = FALSE)
+rm(cprHTGPB1)
 
 #### CPR PHYTO BIOV GENUS ####
 
@@ -283,7 +288,7 @@ for (i in 1:nlevels(cprGenPB2$Genus)) {
     mutate(StartDate = replace(StartDate, is.na(StartDate), Dates$StartDate),
            Genus = replace(Genus, is.na(Genus), Dates$Genus),
            PBioV_um3m3 = replace(PBioV_um3m3, StartDate>SampleDateUTC, -999), 
-           PBioV_um3m3 = replace(PBioV_um3m3, StartDate<SampleDateUTC & is.na(PBioV_um3_m3), 0)) %>% 
+           PBioV_um3m3 = replace(PBioV_um3m3, StartDate<SampleDateUTC & is.na(PBioV_um3m3), 0)) %>% 
     group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, Genus) %>%
     summarise(PBioV_um3m3 = sum(PBioV_um3m3), .groups = "drop") %>% 
     as.data.frame()     
@@ -302,7 +307,8 @@ cprGenPB <-  cprGenPB1 %>%
   pivot_wider(names_from = Genus, values_from = PBioV_um3m3, values_fill = list(PBioV_um3m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
-fwrite(cprGenPB, file = paste0(output, "CPR_Phyto_BioVolGenusMat.csv"), row.names = FALSE)
+fwrite(cprGenPB, file = paste0(outD,.Platform$file.sep,"CPR_Phyto_BioVolGenusMat.csv"), row.names = FALSE)
+rm(cprGenPB1, cprGenPB2, clg, gen)
 
 #### CPR PHYTO BIOV SPECIES ####
 
@@ -323,7 +329,7 @@ cprSpecPB1 <- cprPsamp %>%
   left_join(cprSpecPB1, by = "Sample") %>% 
   mutate(StartDate = ymd("2007-12-19"),
          TaxonName = ifelse(is.na(TaxonName), "Paralia sulcata", TaxonName),
-         PBioV_um3m3 = ifelse(is.na(PBioV_um3m3), 0, PBioV_um3_m3))  %>% 
+         PBioV_um3m3 = ifelse(is.na(PBioV_um3m3), 0, PBioV_um3m3))  %>% 
   group_by(Route, Latitude, Longitude, SampleDateUTC, Year, Month, Day, Time_24hr, TaxonName) %>%
   summarise(PBioV_um3m3 = sum(PBioV_um3m3), .groups = "drop") %>% 
   as.data.frame()
@@ -376,7 +382,8 @@ cprSpecPB <-  cprSpecPB1 %>%
   pivot_wider(names_from = TaxonName, values_from = PBioV_um3m3, values_fill = list(PBioV_um3m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
-fwrite(cprSpecPB, file = paste0(output, "CPR_Phyto_BioVolSpeciesMat.csv"), row.names = FALSE)
+fwrite(cprSpecPB, file = paste0(outD,.Platform$file.sep,"CPR_Phyto_BioVolSpeciesMat.csv"), row.names = FALSE)
+rm(cprSpecPB1, cprSpecPB2, cls, spec)
 
 #### CPR Zoopplankton #### ################################################################################################################################
 # Bring in all CPR zooplankton samples
@@ -410,7 +417,8 @@ cprRawZ <- cprRawZ1 %>%
   select(-"No taxa found") %>% 
   select(-Sample)
 
-fwrite(cprRawZ, file = paste0(outD, "CPR_Zoop_RawMat.csv"), row.names = FALSE)
+fwrite(cprRawZ, file = paste0(outD,.Platform$file.sep,"CPR_Zoop_RawMat.csv"), row.names = FALSE)
+rm(cprRawZ1)
 
 ### Sex and stage binned
 
@@ -442,7 +450,8 @@ cprHTGZ <-  cprHTGZ1 %>%
   arrange(desc(SampleDateUTC)) %>% 
   select(-Sample)
 
-fwrite(cprHTGZ, file = paste0(output, "CPR_Zoop_HTGMat.csv"), row.names = FALSE)
+fwrite(cprHTGZ, file = paste0(outD,.Platform$file.sep,"CPR_Zoop_HTGMat.csv"), row.names = FALSE)
+rm(cprHTGZ1)
 
 #### CPR ZOOP GENUS ####
 
@@ -514,7 +523,8 @@ cprGenZ <-  cprGenZ1 %>%
   pivot_wider(names_from = Genus, values_from = ZAbund_m3, values_fill = list(ZAbund_m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
-fwrite(cprGenZ, file = paste0(output, "CPR_Zoop_GenusMat.csv"), row.names = FALSE)
+fwrite(cprGenZ, file = paste0(outD,.Platform$file.sep,"CPR_Zoop_GenusMat.csv"), row.names = FALSE)
+rm(cprGenZ1, cprGenZ2, clgz, genz, Datesz)
 
 #### CPR ZOOP COPEPODS ####
 
@@ -591,7 +601,8 @@ cprCop <- cprCop1 %>%
   pivot_wider(names_from = Species, values_from = ZAbund_m3, values_fill = list(ZAbund_m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
-fwrite(cprCop, file = paste0(output, "CPR_Zoop_CopesMat.csv"), row.names = FALSE)
+fwrite(cprCop, file = paste0(outD,.Platform$file.sep,"CPR_Zoop_CopesMat.csv"), row.names = FALSE)
+rm(cprCop1, cprCop2, clc)
 
 #### CPR ZOOP NON-COPEPODS ####
 
@@ -659,5 +670,5 @@ cprnCop <-  cprnCop1 %>%
   pivot_wider(names_from = Species, values_from = ZAbund_m3, values_fill = list(ZAbund_m3 = 0)) %>% 
   arrange(desc(SampleDateUTC)) 
 
-fwrite(cprnCop, file = paste0(output, "CPR_Zoop_NoncopesMat.csv"), row.names = FALSE)
-
+fwrite(cprnCop, file = paste0(outD,.Platform$file.sep,"CPR_Zoop_NoncopesMat.csv"), row.names = FALSE)
+rm(cprnCop1, cprnCop2)
