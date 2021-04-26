@@ -12104,7 +12104,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 564,Cyanobacteria coccoid chain,Cyanobacteria,(null),(null),146537,2018.16,1056707.0299360914900773629330642448705
 564,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,25.23,5045.408678102926337033299697275479313824
 564,Dactyliosolen fragilissimus <150 µm length,Centric diatom,Dactyliosolen,fragilissimus,149310,1412.71,35505356.20585267406659939455095862764884
-564,Eutintinnus cf. lususundae,Ciliate,Eutintinnus,cf. lususundae,247939,100.91,3566386.22603430877901109989909182643792
+564,Eutintinnus cf. lusus-undae,Ciliate,Eutintinnus,cf. lusus-undae,247939,100.91,3566386.22603430877901109989909182643792
 564,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,2803,183456.0815861269948050977314347647344628
 564,Flagellate <10 µm round,Flagellate,(null),(null),146222,32935.31,2155608.95863699218895989834435848562993
 564,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,149132,100.91,19813256.8113017154389505549949545913218
@@ -17350,7 +17350,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 827,Dactyliosolen fragilissimus <150 µm length,Centric diatom,Dactyliosolen,fragilissimus,149310,77.32,1943251.54639175257731958762886597938144
 827,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,157463,51.55,210856.287585910652920962199312714776632
 827,Diploneis spp.,Pennate diatom,Diploneis,spp.,149018,25.77,714144.9432989690721649484536082474226803
-827,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,25.77,2996170.00927835051546391752577319587629
+827,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,25.77,2996170.00927835051546391752577319587629
 827,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,2209.13,144587.1686303387334315169366715758468339
 827,Flagellate <10 µm round,Flagellate,(null),(null),146222,134020.62,8771621.56357388316151202749140893470789
 827,Fragilariopsis spp.,Pennate diatom,Fragilariopsis,spp.,149313,103.09,144529.3337628865979381443298969072164949
@@ -18140,7 +18140,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 855,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,2623.91,524781.3411078717201166180758017492711368
 855,Dactyliosolen phuketensis,Centric diatom,Dactyliosolen,phuketensis,248064,116.62,4396394.16909620991253644314868804664723
 855,Diploneis spp.,Pennate diatom,Diploneis,spp.,149018,29.15,807837.4285714285714285714285714285714294
-855,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,58.31,6778507.07638483965014577259475218658893
+855,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,58.31,6778507.07638483965014577259475218658893
 855,Flagellate <10 µm round,Flagellate,(null),(null),146222,180890.54,11839248.02875695732838589981447124304264
 855,Gymnodinioid dinoflagellate 10-20 µm,Dinoflagellate,(null),(null),109392,29.15,21493.4826044703595724003887269193391643
 855,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,109476,29.15,228978.8629737609329446064139941690962104
@@ -18221,7 +18221,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 857,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,103.09,20618.5567010309278350515463917525773196
 857,Dactyliosolen spp.,Centric diatom,Dactyliosolen,spp.,149309,618.56,30363305.41237113402061855670103092783507
 857,Eucampia zodiacus,Centric diatom,Eucampia,zodiacus,149131,25.77,971625.7731958762886597938144329896907215
-857,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,25.77,2996170.00927835051546391752577319587629
+857,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,25.77,2996170.00927835051546391752577319587629
 857,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,4123.71,269896.0481099656357388316151202749140903
 857,Flagellate <10 µm round,Flagellate,(null),(null),146222,20618.56,1349480.24054982817869415807560137457045
 857,Guinardia spp.,Centric diatom,Guinardia,spp.,149111,103.09,2591002.06185567010309278350515463917526
@@ -18485,7 +18485,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 865,Cyanobacteria coccoid chain,Cyanobacteria,(null),(null),146537,1346.8,705182.9405162738496071829405162738496047
 865,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,740.74,148148.1481481481481481481481481481481482
 865,Dactyliosolen phuketensis,Centric diatom,Dactyliosolen,phuketensis,248064,269.36,10154634.34343434343434343434343434343437
-865,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,202.02,23485130.57777777777777777777777777777778
+865,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,202.02,23485130.57777777777777777777777777777778
 865,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,2020.2,132221.8013468013468013468013468013468018
 865,Flagellate <10 µm round,Flagellate,(null),(null),146222,99494.95,6511923.71632996632996632996632996632996
 865,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,109476,67.34,528887.2053872053872053872053872053872063
@@ -18840,7 +18840,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 879,Chrysophyceae,Flagellate,(null),(null),146230,507.61,398678.9340101522842639593908629441624368
 879,Ciliate (naked < 25µm),Ciliate,(null),(null),11,456.85,2392073.60406091370558375634517766497461
 879,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,157463,25.38,103822.639065143824027072758037225042301
-879,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,25.38,2950543.05482233502538071065989847715736
+879,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,25.38,2950543.05482233502538071065989847715736
 879,Eutintinnus spp.,Ciliate,Eutintinnus,spp.,183543,25.38,897027.6015228426395939086294416243654821
 879,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,2030.46,132892.978003384094754653130287648054146
 879,Flagellate <10 µm round,Flagellate,(null),(null),146222,18274.11,1196036.80203045685279187817258883248731
@@ -18889,7 +18889,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 881,Cryptophyta < 10 µm length,Flagellate,(null),(null),17638,512.82,402767.9487179487179487179487179487179489
 881,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,153.85,30769.2307692307692307692307692307692308
 881,Epiplocylis spp.,Ciliate,Epiplocylis,spp.,183562,51.28,1449964.61538461538461538461538461538462
-881,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,25.64,2980805.03487179487179487179487179487179
+881,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,25.64,2980805.03487179487179487179487179487179
 881,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,8205.13,537023.9316239316239316239316239316239335
 881,Flagellate <10 µm round,Flagellate,(null),(null),146222,110769.23,7249823.07692307692307692307692307692307
 881,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,149132,102.56,20138397.43589743589743589743589743589752
@@ -18923,7 +18923,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 882,Cryptophyta < 10 µm length,Flagellate,(null),(null),17638,3418.8,2685119.65811965811965811965811965811966
 882,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,1153.85,230769.2307692307692307692307692307692308
 882,Diploneis spp.,Pennate diatom,Diploneis,spp.,149018,51.28,1420965.32307692307692307692307692307692
-882,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,102.56,11923220.13948717948717948717948717948723
+882,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,102.56,11923220.13948717948717948717948717948723
 882,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,4273.5,279699.9643874643874643874643874643874656
 882,Flagellate <10 µm round,Flagellate,(null),(null),146222,165811.97,10852358.61823361823361823361823361823363
 882,Guinardia striata,Centric diatom,Guinardia,striata,149113,51.28,4349893.84615384615384615384615384615385
@@ -19085,7 +19085,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 887,Ciliate (naked < 25µm),Ciliate,(null),(null),11,1341.38,7023451.82204337133914598703331097697294
 887,Cryptophyta < 10 µm length,Flagellate,(null),(null),17638,1877.93,1474924.88262910798122065727699530516432
 887,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,2146.21,429242.1193829644533869885982562038900076
-887,Eutintinnus cf. lususundae,Ciliate,Eutintinnus,cf. lususundae,247939,268.28,9481659.95975855130784708249496981891347
+887,Eutintinnus cf. lusus-undae,Ciliate,Eutintinnus,cf. lusus-undae,247939,268.28,9481659.95975855130784708249496981891347
 887,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,7511.74,491641.6275430359937402190923317683881081
 887,Flagellate <10 µm round,Flagellate,(null),(null),146222,68544.6,4486229.85133020344287949921752738654146
 887,Guinardia spp.,Centric diatom,Guinardia,spp.,149111,16633.13,418035852.448021462105969148222669349428
@@ -19201,7 +19201,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 891,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,825.24,165048.5436893203883495145631067961165048
 891,Dactyliosolen phuketensis,Centric diatom,Dactyliosolen,phuketensis,248064,24.27,915026.2135922330097087378640776699029125
 891,Euglenida,Flagellate,(null),(null),582209,24.27,195872.7988470873786407766990291262135923
-891,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,24.27,2821635.83398058252427184466019417475728
+891,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,24.27,2821635.83398058252427184466019417475728
 891,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,3883.5,254173.9482200647249190938511326860841433
 891,Flagellate <10 µm round,Flagellate,(null),(null),146222,59223.3,3876152.71035598705501618122977346278316
 891,Gyrodinium spp. 40-60 µm,Dinoflagellate,Gyrodinium,spp.,109476,121.36,3336033.07038834951456310679611650485437
@@ -19276,7 +19276,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 897,Dactyliosolen phuketensis,Centric diatom,Dactyliosolen,phuketensis,248064,257.73,9716257.73195876288659793814432989690722
 897,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,157463,25.77,105428.143792955326460481099656357388316
 897,Eucampia zodiacus,Centric diatom,Eucampia,zodiacus,149131,77.32,2914877.31958762886597938144329896907216
-897,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,25.77,2996170.00927835051546391752577319587629
+897,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,25.77,2996170.00927835051546391752577319587629
 897,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,68728.52,4498267.46849942726231386025200458190152
 897,Flagellate <10 µm round,Flagellate,(null),(null),146222,266323.02,17430786.44043528064146620847651775486829
 897,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,149132,412.37,80968814.43298969072164948453608247422685
@@ -19457,7 +19457,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 904,Cryptophyta < 10 µm length,Flagellate,(null),(null),17638,11337.87,8904733.56009070294784580498866213151928
 904,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,897.96,179591.8367346938775510204081632653061224
 904,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,157463,81.63,333927.5085034013605442176870748299319722
-904,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,40.82,4744954.95346938775510204081632653061224
+904,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,40.82,4744954.95346938775510204081632653061224
 904,Flagellate <10 µm round,Flagellate,(null),(null),146222,224489.8,14692810.37414965986394557823129251700678
 904,Grammatophora spp.,Pennate diatom,Grammatophora,spp.,149335,40.82,163265.3061224489795918367346938775510204
 904,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,109476,204.08,1602852.04081632653061224489795918367348
@@ -19540,7 +19540,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 906,Dictyocysta elegans,Ciliate,Dictyocysta,elegans,235766,33,65665.7975797579757975797579757975797579
 906,Diploneis spp.,Pennate diatom,Diploneis,spp.,149018,33,914482.6336633663366336633663366336633654
 906,Ditylum brightwellii < 40 µm width,Centric diatom,Ditylum,brightwellii,149023,33,825082.5082508250825082508250825082508243
-906,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,33,3836679.74785478547854785478547854785478
+906,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,33,3836679.74785478547854785478547854785478
 906,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,1980.2,129603.5478547854785478547854785478547859
 906,Flagellate <10 µm round,Flagellate,(null),(null),146222,87623.76,5734956.99257425742574257425742574257425
 906,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,149132,132.01,25920709.57095709570957095709570957095709
@@ -19605,7 +19605,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 907,Dactyliosolen fragilissimus <150 µm length,Centric diatom,Dactyliosolen,fragilissimus,149310,132.01,3317850.82508250825082508250825082508251
 907,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,157463,132.01,540014.7827282728272827282728272827282719
 907,Diploneis spp.,Pennate diatom,Diploneis,spp.,149018,132.01,3657930.53465346534653465346534653465346
-907,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,33,3836679.74785478547854785478547854785478
+907,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,33,3836679.74785478547854785478547854785478
 907,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,1980.2,129603.5478547854785478547854785478547859
 907,Flagellate <10 µm round,Flagellate,(null),(null),146222,70297.03,4600925.94884488448844884488448844884488
 907,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,149132,33,6480177.39273927392739273927392739273927
@@ -19812,7 +19812,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 913,Cylindrical diatom,Centric diatom,(null),(null),148899,168.35,264443.6026936026936026936026936026936037
 913,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,2356.9,471380.4713804713804713804713804713804708
 913,Dactyliosolen fragilissimus <150 µm length,Centric diatom,Dactyliosolen,fragilissimus,149310,505.05,12693292.92929292929292929292929292929293
-913,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,336.7,39141884.29629629629629629629629629629621
+913,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,336.7,39141884.29629629629629629629629629629621
 913,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,1010.1,66110.9006734006734006734006734006734009
 913,Flagellate <10 µm round,Flagellate,(null),(null),146222,84343.43,5520260.20622895622895622895622895622894
 913,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,149132,841.75,165277251.683501683501683501683501683502
@@ -21148,7 +21148,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 1016,Dactyliosolen phuketensis,Centric diatom,Dactyliosolen,phuketensis,248064,49.02,1847994.11764705882352941176470588235294
 1016,Dadayiella ganymedes,Ciliate,Dadayiella,ganymedes,183542,24.51,64166.4624183006535947712418300653594772
 1016,Dictyocha fibula,Silicoflagellate,Dictyocha,fibula,157463,490.2,2005201.95057189542483660130718954248366
-1016,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,24.51,2849298.93039215686274509803921568627451
+1016,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,24.51,2849298.93039215686274509803921568627451
 1016,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,4901.96,320832.3120915032679738562091503267973868
 1016,Flagellate <10 µm round,Flagellate,(null),(null),146222,176470.59,11549963.23529411764705882352941176470586
 1016,Guinardia striata,Centric diatom,Guinardia,striata,149113,73.53,6236980.14705882352941176470588235294118
@@ -21212,7 +21212,7 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 1020,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,328.28,65656.5656565656565656565656565656565656
 1020,Dactyliosolen fragilissimus <150 µm length,Centric diatom,Dactyliosolen,fragilissimus,149310,126.26,3173323.23232323232323232323232323232323
 1020,Dactyliosolen phuketensis,Centric diatom,Dactyliosolen,phuketensis,248064,25.25,951996.9696969696969696969696969696969696
-1020,Eutintinnus lususundae,Ciliate,Eutintinnus,lususundae,247939,75.76,8806923.96666666666666666666666666666667
+1020,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,75.76,8806923.96666666666666666666666666666667
 1020,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,505.05,33055.4503367003367003367003367003367005
 1020,Flagellate <10 µm round,Flagellate,(null),(null),146222,58080.81,3801376.78872053872053872053872053872053
 1020,Guinardia striata,Centric diatom,Guinardia,striata,149113,176.77,14993952.27272727272727272727272727272729
@@ -22506,6 +22506,40 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 1141,Thalassiosira spp. 20-40 µm,Centric diatom,Thalassiosira,spp.,148912,218.18,1542235.09090909090909090909090909090909
 1141,Tripos furca,Dinoflagellate,Tripos (Ceratium),furca,840627,154.55,3236789.69696969696969696969696969696972
 1141,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),146203,690.91,4341106.18181818181818181818181818181818
+1142,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,149118,1142.86,7037161.6
+1142,Cerataulina pelagica,Centric diatom,Cerataulina,pelagica,149619,761.9,31655259.23809523809523809523809523809524
+1142,Chaetoceros brevis/laciniosus,Centric diatom,Chaetoceros (Hyalochaete),brevis/laciniosus,148985,190.48,695631.3576097470238095238095238095238078
+1142,Chaetoceros didymus,Centric diatom,Chaetoceros (Hyalochaete),didymus,149122,571.43,934997.0238095238095238095238095238095233
+1142,Chaetoceros peruvianus < 40 µm cell width,Centric diatom,Chaetoceros (Phaeoceros),peruvianus,178185,190.48,3590388.57142857142857142857142857142856
+1142,Chaetoceros spp. < 10 µm cell width,Centric diatom,Chaetoceros,spp.,148985,761.9,287231.0857142857142857142857142857142858
+1142,Ciliate (naked < 25µm),Ciliate,(null),(null),11,1333.33,6981311.1111111111111111111111111111111
+1142,Climacocylis scalaroides,Ciliate,Climacocylis,scalaroides,417178,190.48,21542331.42857142857142857142857142857137
+1142,Cryptophyta < 10 µm length,Flagellate,(null),(null),17638,952.38,747997.6190476190476190476190476190476187
+1142,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,1142.86,228571.4285714285714285714285714285714286
+1142,Dactyliosolen fragilissimus <150 µm length,Centric diatom,Dactyliosolen,fragilissimus,149310,952.38,23935923.8095238095238095238095238095238
+1142,Dactyliosolen phuketensis,Centric diatom,Dactyliosolen,phuketensis,248064,190.48,7180777.14285714285714285714285714285712
+1142,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,40952.38,2680324.80158730158730158730158730158731
+1142,Flagellate <10 µm round,Flagellate,(null),(null),146222,149523.81,9786302.18253968253968253968253968253967
+1142,Guinardia delicatula,Centric diatom,Guinardia,delicatula,149112,1714.29,13652452.54285714285714285714285714285714
+1142,Guinardia striata,Centric diatom,Guinardia,striata,149113,1333.33,113097240
+1142,Gymnodinioid dinoflagellate 10-20 µm,Dinoflagellate,(null),(null),109392,190.48,140424.0863492063492063492063492063492061
+1142,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,109476,190.48,1495995.23809523809523809523809523809524
+1142,Haslea wawrikae,Pennate diatom,Haslea,wawrikae,248063,190.48,1121996.42857142857142857142857142857143
+1142,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,163249,190.48,3165525.92380952380952380952380952380952
+1142,Hemiaulus sinensis,Centric diatom,Hemiaulus,sinensis,163250,190.48,4787184.76190476190476190476190476190475
+1142,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,149106,33904.76,144294350.696428571428571428571428571429
+1142,Meuniera membranacea,Pennate diatom,Meuniera,meuniera,149145,1714.29,40391871.42857142857142857142857142857142
+1142,Noctiluca scintillans,Dinoflagellate,Noctiluca,scintillans,109921,38.1,2493325396.825396825396825396825396825393
+1142,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),148899,190.48,85714.2857142857142857142857142857142855
+1142,Proboscia alata,Centric diatom,Proboscia,alata,149168,5714.29,379234792.857142857142857142857142857143
+1142,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,109566,380.95,779912.1841269841269841269841269841269845
+1142,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,149153,2666.67,533333.3333333333333333333333333333333334
+1142,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,149152,1333.33,399999.9999999999999999999999999999999999
+1142,Tintinnina ,Ciliate,(null),(null),732976,190.48,1947910.46626984126984126984126984126982
+1142,Tripos vultur,Dinoflagellate,Tripos (Tripoceratium),vultur,838205,9.52,1495995.23809523809523809523809523809524
+1142,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),146203,190.48,1196796.19047619047619047619047619047619
+1142,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),146203,5714.29,1723386.51428571428571428571428571428571
+1142,Xystonella treforti,Ciliate,Xystonella,treforti,196855,190.48,228606772.321428571428571428571428571428
 1143,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,149118,26.32,162039.9052631578947368421052631578947369
 1143,Chaetoceros spp. 10-20 µm,Centric diatom,Chaetoceros,spp.,148985,394.74,1240101.31578947368421052631578947368421
 1143,Ciliate (Inc. tintinnid),Ciliate,(null),(null),11,289.47,2960311.30071271929824561403508771929822
@@ -22772,3 +22806,118 @@ SAMPLE,TAXON_NAME,TAXON_GROUP,GENUS,SPECIES,SPCODE,CELL_L,BIOVOLUME_UM3L
 1198,Thalassiosira spp. 40-60 µm,Centric diatom,Thalassiosira,spp.,148912,22.73,446248.5795454545454545454545454545454546
 1198,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),146203,22.73,142799.5454545454545454545454545454545452
 1198,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),146203,3636.36,1096700.50909090909090909090909090909091
+1211,Bacteriastrum furcatum,Centric diatom,Bacteriastrum,furcatum,164110,200,1060286.625
+1211,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,149118,200,1231503.28
+1211,Cerataulina spp.,Centric diatom,Cerataulina,spp.,149236,600,24928516.65
+1211,Chaetoceros didymus,Centric diatom,Chaetoceros (Hyalochaete),didymus,149122,1600,2617991.66666666666666666666666666666667
+1211,Chaetoceros lorenzianus,Centric diatom,Chaetoceros (Hyalochaete),lorenzianus,156617,400,7539816
+1211,Chaetoceros peruvianus < 40 µm cell width,Centric diatom,Chaetoceros (Phaeoceros),peruvianus,178185,400,7539816
+1211,Chaetoceros spp. 10-20 µm,Centric diatom,Chaetoceros,spp.,148985,4000,12566360
+1211,Chaetoceros spp. < 10 µm cell width,Centric diatom,Chaetoceros,spp.,148985,2000,753981.6
+1211,Chrysophyceae,Flagellate,(null),(null),146230,833.33,654497.9166666666666666666666666666666664
+1211,Ciliate (naked 25-50 µm),Ciliate,(null),(null),11,600,25132719.99999999999999999999999999999996
+1211,Corethron pennatum,Centric diatom,Corethron,pennatum,341496,200,5864301.33333333333333333333333333333334
+1211,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,1800,360000
+1211,Dactyliosolen spp.,Centric diatom,Dactyliosolen,spp.,149309,600,29452406.25
+1211,Eutintinnus lusus-undae,Ciliate,Eutintinnus,lusus-undae,247939,200,23250279.272
+1211,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,25000,1636244.79166666666666666666666666666667
+1211,Flagellate <10 µm round,Flagellate,(null),(null),146222,210000,13744456.24999999999999999999999999999998
+1211,Guinardia cylindrus,Centric diatom,Guinardia,cylindrus,163241,600,42411465
+1211,Guinardia striata,Centric diatom,Guinardia,striata,149113,400,33929172
+1211,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,109476,400,3141590
+1211,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,163249,400,6647604.44
+1211,Hemiaulus membranaceus,Centric diatom,Hemiaulus,membranaceus,418540,400,37406912.13
+1211,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,149106,20600,87670977.684375
+1211,Leptocylindrus mediterraneus (with flagellates),Centric diatom,Leptocylindrus,mediterraneus,149230,1600,15079632
+1211,Mesodinium spp.,Ciliate,Mesodinium,spp.,179320,400,1526812.74
+1211,Nitzschia longissima,Pennate diatom,Nitzschia,longissima,149150,600,2938353.6
+1211,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),148899,200,90000
+1211,Prasinophytes,Flagellate,(null),(null),17329,3333.33,872663.8888888888888888888888888888888925
+1211,Proboscia alata,Centric diatom,Proboscia,alata,149168,1600,106185742
+1211,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,149153,8000,1600000
+1211,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,149152,3600,1080000
+1211,Rhabdonella spiralis,Ciliate,Rhabdonella,spiralis,235763,200,200340346.216333333333333333333333333334
+1211,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,149115,1000,45238896
+1211,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,149069,600,301592640
+1211,Scrippsiella spp.,Dinoflagellate,Scrippsiella,spp.,109545,400,1884954
+1211,Tintinnina ,Ciliate,(null),(null),732976,200,2045305.98958333333333333333333333333332
+1211,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,177604,30000,17176643.325
+1211,Tripos falcatus,Dinoflagellate,Tripos (Amphiceratium),falcatus,837220,200,56548620.00000000000000000000000000000024
+1211,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),146203,1400,8796451.99999999999999999999999999999999
+1211,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),146203,19166.67,5780525.60000000000000000000000000000001
+1212,Bacteriastrum elongatum,Centric diatom,Bacteriastrum,elongatum,162916,700,5238699.4996875
+1212,Bacteriastrum furcatum,Centric diatom,Bacteriastrum,furcatum,164110,800,4241146.5
+1212,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,149118,2600,16009542.64
+1212,Chaetoceros didymus,Centric diatom,Chaetoceros (Hyalochaete),didymus,149122,500,818122.3958333333333333333333333333333335
+1212,Chaetoceros lorenzianus,Centric diatom,Chaetoceros (Hyalochaete),lorenzianus,156617,900,16964586
+1212,Chaetoceros spp. 10-20 µm,Centric diatom,Chaetoceros,spp.,148985,3300,10367247
+1212,Chaetoceros spp. 20-30 µm,Centric diatom,Chaetoceros,spp.,148985,400,2356192.5
+1212,Chaetoceros spp. < 10 µm cell width,Centric diatom,Chaetoceros,spp.,148985,13900,5240172.12
+1212,Codonellopsis cf. ostenfeldi,Ciliate,Codonellopsis,cf. ostenfeldi,427448,100,7958694.66666666666666666666666666666666
+1212,Corethron pennatum,Centric diatom,Corethron,pennatum,341496,400,11728602.66666666666666666666666666666668
+1212,Cryptophyta < 10 µm length,Flagellate,(null),(null),17638,2000,1570795
+1212,Cylindrical diatom,Centric diatom,(null),(null),148899,100,157079.5
+1212,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,1800,360000
+1212,Dactyliosolen fragilissimus <150 µm length,Centric diatom,Dactyliosolen,fragilissimus,149310,300,7539816
+1212,Eucampia zodiacus,Centric diatom,Eucampia,zodiacus,149131,200,7539816
+1212,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,1000,65449.7916666666666666666666666666666669
+1212,Flagellate <10 µm round,Flagellate,(null),(null),146222,41000,2683441.45833333333333333333333333333333
+1212,Guinardia flaccida <150 µm length,Centric diatom,Guinardia,flaccida,149132,100,19634937.5
+1212,Guinardia striata,Centric diatom,Guinardia,striata,149113,600,50893758
+1212,Hemiaulus hauckii,Centric diatom,Hemiaulus,hauckii,163249,200,3323802.22
+1212,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,149106,6200,26386410.759375
+1212,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),148899,100,45000
+1212,Pennate diatom 50 - 75 µm,Pennate diatom,(null),(null),148899,300,225000
+1212,Pleurosigma spp. < 150 µm,Pennate diatom,Pleurosigma,spp.,149181,100,600000
+1212,Proboscia alata,Centric diatom,Proboscia,alata,149168,200,13273217.75
+1212,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,149153,6500,1300000
+1212,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,149152,1200,360000
+1212,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,163344,100,193019289.6
+1212,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,149115,300,13571668.8
+1212,Thalassionema spp. < 100 µm length,Pennate diatom,Thalassionema,spp.,149092,200,100000
+1212,Thalassiosira spp. 40-60 µm,Centric diatom,Thalassiosira,spp.,148912,300,5890481.25
+1212,Thalassiosira spp. 60-80 µm,Centric diatom,Thalassiosira,spp.,148912,200,7696895.5
+1212,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,177604,300000,171766433.25
+1212,Tripos teres,Dinoflagellate,Tripos (Ceratium),teres,1381154,10,209439.333333333333333333333333333333334
+1212,Tripos trichoceros,Dinoflagellate,Tripos (Tripoceratium),trichoceros,842517,10,406050.5075
+1212,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),146203,900,5654861.99999999999999999999999999999999
+1213,Bacteriastrum furcatum,Centric diatom,Bacteriastrum,furcatum,164110,350,1855501.59375
+1213,Bacteriastrum spp.,Centric diatom,Bacteriastrum,spp.,149118,1350,8312647.14
+1213,Cerataulina spp.,Centric diatom,Cerataulina,spp.,149236,250,10386881.9375
+1213,Chaetoceros lorenzianus,Centric diatom,Chaetoceros (Hyalochaete),lorenzianus,156617,250,4712385
+1213,Chaetoceros peruvianus < 40 µm cell width,Centric diatom,Chaetoceros (Phaeoceros),peruvianus,178185,50,942477
+1213,Chaetoceros spp. 10-20 µm,Centric diatom,Chaetoceros,spp.,148985,1800,5654862
+1213,Chaetoceros spp. < 10 µm cell width,Centric diatom,Chaetoceros,spp.,148985,2150,810530.22
+1213,Climacocylis scalaroides,Ciliate,Climacocylis,scalaroides,417178,50,5654862
+1213,Climacodium frauenfeldianum,Centric diatom,Climacodium,frauenfeldianum,196804,750,296880255.000000000000000000000000000001
+1213,Cryptophyta < 10 µm length,Flagellate,(null),(null),17638,6000,4712385
+1213,Cylindrical diatom,Centric diatom,(null),(null),148899,100,157079.5
+1213,Cylindrotheca closterium,Pennate diatom,Cylindrotheca,closterium,149004,1900,380000
+1213,Dactyliosolen fragilissimus <150 µm length,Centric diatom,Dactyliosolen,fragilissimus,149310,700,17592904
+1213,Dadayiella ganymedes,Ciliate,Dadayiella,ganymedes,183542,50,130899.5833333333333333333333333333333334
+1213,Eucampia cornuta,Centric diatom,Eucampia,cornuta,248058,300,1413715.5
+1213,Flagellate <10 µm fusiform,Flagellate,(null),(null),146222,3500,229074.2708333333333333333333333333333342
+1213,Flagellate <10 µm round,Flagellate,(null),(null),146222,68000,4450585.83333333333333333333333333333333
+1213,Guinardia striata,Centric diatom,Guinardia,striata,149113,300,25446879
+1213,Gymnodinioid dinoflagellate 10-20 µm,Dinoflagellate,(null),(null),109392,150,110583.9680000000000000000000000000000001
+1213,Gyrodinium spp. 20-40 µm,Dinoflagellate,Gyrodinium,spp.,109476,150,1178096.25
+1213,Haslea wawrikae,Pennate diatom,Haslea,wawrikae,248063,50,294524.0625
+1213,Laboea spp.,Ciliate,Laboea,spp.,101190,100,1910165.25975000000000000000000000000001
+1213,Leptocylindrus danicus,Centric diatom,Leptocylindrus,danicus,149106,3700,15746729.0015625
+1213,Oxytoxum spp.,Dinoflagellate,Oxytoxum,spp.,109528,100,353428.875
+1213,Pennate diatom 10 - 25 µm,Pennate diatom,(null),(null),148899,100,21000
+1213,Pennate diatom 25 - 50 µm,Pennate diatom,(null),(null),148899,550,247500
+1213,Proboscia alata,Centric diatom,Proboscia,alata,149168,1000,66366088.75
+1213,Proboscia alata ~ 50 µm cell width,Centric diatom,Proboscia,alata,149168,250,245436718.75
+1213,Pronoctiluca spp.,Dinoflagellate,Pronoctiluca,spp.,109487,150,157079.5000000000000000000000000000000004
+1213,Prorocentrum spp.,Dinoflagellate,Prorocentrum,spp.,109566,50,102363.4741666666666666666666666666666667
+1213,Pseudo-nitzschia delicatissima complex <=3 µm,Pennate diatom,Pseudo-nitzschia,delicatissima complex,149153,1200,240000
+1213,Pseudo-nitzschia seriata complex >3 µm,Pennate diatom,Pseudo-nitzschia,seriata complex,149152,500,150000
+1213,Pseudosolenia calcar-avis,Centric diatom,Pseudosolenia,calcar-avis,163344,100,193019289.6
+1213,Rhizosolenia fallax,Centric diatom,Rhizosolenia,fallax,573572,150,16587595.2
+1213,Rhizosolenia setigera,Centric diatom,Rhizosolenia,setigera,149115,200,9047779.2
+1213,Rhizosolenia spp.,Centric diatom,Rhizosolenia,spp.,149069,250,125663600
+1213,Thalassionema spp. < 100 µm length,Pennate diatom,Thalassionema,spp.,149092,200,100000
+1213,Trichodesmium spp.,Cyanobacteria,Trichodesmium,spp.,177604,180000,103059859.95
+1213,Unid dinoflagellate 10 - 30 µm,Dinoflagellate,(null),(null),146203,350,2199113
+1213,Unid dinoflagellate < 10 µm,Dinoflagellate,(null),(null),146203,1000,301592.64
