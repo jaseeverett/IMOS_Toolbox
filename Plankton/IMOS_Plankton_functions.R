@@ -131,21 +131,97 @@ getChemistry <- function(){
 }
 
 # get CTD data
+
+## make raw product that should be similar to that produced by AODN
 getCTD <- function(){
-  CTD <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/nrs_ctd.csv", na = "(null)",
-                col_types = cols(PRES = col_double(), # columns start with nulls so tidyverse annoyingly assigns col_logical()
-                                 PAR = col_double(),
-                                 SPEC_CNDC = col_double())) %>% 
-  rename(NRScode = NRS_TRIP_CODE, SampleDepth_m = PRES_REL, CTDDensity_kgm3 = DENS, 
-         CTDTemperature = TEMP, CTDPAR_umolm2s = PAR,
-         CTDConductivity_sm = CNDC, CTDSpecificConductivity_Sm = SPEC_CNDC, 
-         CTDSalinity = PSAL, CTDTurbidity_ntu = TURB, CTDChlF_mgm3 = CHLF) %>%
-  untibble()
-  
-  CTD_remove <- CTD %>% group_by(NRScode) %>% summarise(n = n()) %>%
-    filter(n == 1)
-  CTD <- CTD %>% filter(!NRScode %in% CTD_remove$NRScode) # removing records where CTD length is one value
-  
-  return(CTD)
+      rawCTD <- read_csv("C:/Users/dav649/Documents/GitHub/IMOS_Toolbox/Plankton/RawData/IMOS_-_Australian_National_Mooring_Network_(ANMN)_-_CTD_Profiles.csv", na = "(null)", skip = 29,
+                    col_types = cols(CHLU = col_double(), # columns start with nulls so tidyverse annoyingly assigns col_logical()
+                                     CPHL = col_double(),
+                                     CPHL_quality_control = col_double())) %>%
+      filter(grepl("NRS", site_code)) %>%
+      mutate(NRScode = ifelse(site_code == 'NRSDAR', paste0(site_code, format(time_coverage_start, "%Y%m%d_%H:%M")),
+                              paste0(site_code, format(time_coverage_start, "%Y%m%d"))),
+             StationName = ifelse(site_code == 'NRSDAR', 'Darwin',
+                                  ifelse(site_code == 'NRSYON', 'Yongala',
+                                         ifelse(site_code == 'NRSNSI', 'North Stradbroke Island',
+                                                ifelse(site_code == 'NRSPHB', 'Port Hacking',
+                                                       ifelse(site_code == 'NRSMAI', 'Maria Island',
+                                                                   ifelse(site_code == 'NRSKAI', 'Kangaroo Island',
+                                                                               ifelse(site_code == 'NRSESP', 'Esperance',
+                                                                                           ifelse(site_code == 'NRSROT', 'Rottnest Island', 'Ningaloo'))))))))) %>%
+      rename(CastTime_UTC = time_coverage_start, Latitude = LATITUDE, Longitude = LONGITUDE, Depth_m = DEPTH, Salinity_psu = PSAL,
+             Salinity_flag = PSAL_quality_control, Temperature_degC = TEMP, Temperature_flag = TEMP_quality_control, DissolvedOxygen_umolkg = DOX2,
+             DissolvedOxygen_flag = DOX2_quality_control, Chla_mgm3 = CHLF, Chla_flag = CHLF_quality_control, Turbidity_NTU = TURB, 
+             Turbidity_flag = TURB_quality_control, Pressure_dbar = PRES_REL, Conductivity_Sm = CNDC, Conductivity_flag = CNDC_quality_control,
+             WaterDensity_kgm3 = DENS, WaterDensity_flag = DENS_quality_control) %>%
+      select(file_id, StationName, NRScode, CastTime_UTC, Latitude, Longitude, Depth_m, Salinity_psu, Salinity_flag, Temperature_degC, Temperature_flag,
+             DissolvedOxygen_umolkg, DissolvedOxygen_flag, Chla_mgm3, Chla_flag, Turbidity_NTU, Turbidity_flag, Pressure_dbar, Conductivity_Sm,
+             Conductivity_flag, WaterDensity_kgm3, WaterDensity_flag) %>%
+      mutate(tz = paste("\"", tz_lookup_coords(Latitude, Longitude, method = "fast"),"\""),
+             castTime_Local = with_tz(CastTime_UTC, tz = "Australia/Perth")) %>%
+      filter(!file_id %in% c(2117, 2184, 2186, 2187))
+    
+    NRSSamp <- getNRSSamples()
+    
+    Stations <- NRSSamp %>% select(NRScode) %>% mutate(stations = as.factor(substr(NRScode, 4, 6))) %>% select(stations) %>% unique() 
+    df <- data.frame(file_id = NA, NRScode = NA)
+    
+    for (y in 1:nlevels(Stations$stations)){
+          station  <-  levels(Stations$stations)[[y]]
+          rawCTDCast <- rawCTD %>% select(file_id, CastTime_UTC, NRScode) %>% filter(substr(NRScode, 4, 6) == station) %>% unique()
+          CastTimes <- rawCTDCast$CastTime_UTC
+          Samps <- NRSSamp %>% filter(substr(NRScode, 4, 6) == station) %>% select(SampleDateUTC, NRScode) %>% unique()
+          
+          dateSelect <- function(x){
+            which.min(abs(x - CastTimes))
+          }
+          
+          DateMatch <- sapply(Samps$SampleDateUTC, dateSelect) 
+          Samps$SampLevel <-  DateMatch
+          Samps$CastTime_UTC <- Samps$SampleDateUTC
+          
+          for (i in 1:nrow(Samps)){
+            j <- Samps$SampLevel[[i]]
+            Samps$CastTime_UTC[i] <- CastTimes[[j]]
+          }
+          
+          Samps <- Samps %>% mutate(DateDiff = abs(CastTime_UTC - SampleDateUTC) / 3600,
+                                              DateDiff = ifelse(DateDiff > 3 & station != 'NSI', NA, 
+                                                                ifelse(DateDiff > 15 & station %in% c('NSI', 'KAI'), NA, DateDiff))) 
+            
+          SampsMatch <- rawCTDCast %>% filter(substr(NRScode, 4, 6) == station) %>% select(CastTime_UTC, file_id) %>% unique()
+          
+          CastMatch <- Samps %>% drop_na(DateDiff) %>% inner_join(SampsMatch, by = 'CastTime_UTC') %>% select(file_id, NRScode)
+          
+          df <- df %>% rbind(CastMatch)
+          }
+    
+    rawCTD <- rawCTD %>% select(-NRScode) %>% left_join(df, by = 'file_id')
+    
+    return(rawCTD)
 }
+
+# 
+# missingCode <- rawCTD %>% filter(is.na(NRScode)) %>% select(StationName, CastTime_UTC, file_id) %>% unique()
+# 
+# NRSaddCTD <- NRSSamp %>% left_join(df, by = 'NRScode')
+# NRSmissingCTD <- NRSaddCTD %>% filter(is.na(file_id))
+
+# getCTD <- function(){
+#   CTD <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/nrs_ctd.csv", na = "(null)",
+#                 col_types = cols(PRES = col_double(), # columns start with nulls so tidyverse annoyingly assigns col_logical()
+#                                  PAR = col_double(),
+#                                  SPEC_CNDC = col_double())) %>% 
+#   rename(NRScode = NRS_TRIP_CODE, SampleDepth_m = PRES_REL, CTDDensity_kgm3 = DENS, 
+#          CTDTemperature = TEMP, CTDPAR_umolm2s = PAR,
+#          CTDConductivity_sm = CNDC, CTDSpecificConductivity_Sm = SPEC_CNDC, 
+#          CTDSalinity = PSAL, CTDTurbidity_ntu = TURB, CTDChlF_mgm3 = CHLF) %>%
+#   untibble()
+#   
+#   CTD_remove <- CTD %>% group_by(NRScode) %>% summarise(n = n()) %>%
+#     filter(n == 1)
+#   CTD <- CTD %>% filter(!NRScode %in% CTD_remove$NRScode) # removing records where CTD length is one value
+#   
+#   return(CTD)
+# }
 

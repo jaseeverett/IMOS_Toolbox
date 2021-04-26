@@ -38,17 +38,19 @@ dNRSdat <- distinct(NRSdat, NRScode, .keep_all = TRUE) %>%  # Distinct rows for 
 
 # SST and Chlorophyll from CTD
 CTD <- getCTD() %>%
-  filter(SampleDepth_m < 15) %>% # take average of top 10m as a surface value for SST and CHL, this is removing 17 casts as of nov 2020
+  filter(Depth_m < 15) %>% # take average of top 10m as a surface value for SST and CHL, this is removing 17 casts as of nov 2020
   group_by(NRScode) %>% 
-  summarise(CTD_SST_C = mean(CTDTemperature, na.rm = TRUE),
-            CTDChlF_mgm3 = mean(CTDChlF_mgm3, na.rm = TRUE),
-            CTDSalinity = mean(CTDSalinity, na.rm = TRUE),
+  summarise(CTD_SST_C = mean(Temperature_degC, na.rm = TRUE),
+            CTDChla_mgm3 = mean(Chla_mgm3, na.rm = TRUE),
+            CTDSalinity_psu = mean(Salinity_psu, na.rm = TRUE),
             .groups = "drop") %>%
   untibble()
 
 # data set for calculating MLD
 CTD_MLD <- getCTD() %>% 
-  select(NRScode, CTDTemperature, CTDSalinity, CTDChlF_mgm3, SampleDepth_m)
+  select(NRScode, Temperature_degC, Chla_mgm3, Salinity_psu, Depth_m) %>%
+  rename(CTDTemperature = Temperature_degC, CTDSalinity = Salinity_psu, CTDChlF_mgm3 = Chla_mgm3, SampleDepth_m = Depth_m) %>%
+  drop_na(NRScode)
 
 n = nrow(CTD_MLD %>% select(NRScode) %>% unique())
 MLD <- data.frame(NRScode = NA, MLD_temp = as.numeric(NA), MLD_sal = as.numeric(NA), DCM = as.numeric(NA))
@@ -56,8 +58,9 @@ MLD <- data.frame(NRScode = NA, MLD_temp = as.numeric(NA), MLD_sal = as.numeric(
 # MLD by T and S (Ref: Condie & Dunn 2006)
 # DCM from max f from CTD
 for (i in 1:n) {
-  dat <- CTD_MLD %>% select(NRScode) %>% unique() %>% mutate(NRScode = as.factor(NRScode))
+  dat <- CTD_MLD %>% select(NRScode) %>% unique() %>% mutate(NRScode = as.factor(NRScode)) 
   nrscode <- dat$NRScode[[i]] %>% droplevels()
+  nrscode <- 	"NRSROT20100924"
   mldData <- CTD_MLD %>% filter(NRScode == nrscode) %>% arrange(SampleDepth_m)
     
   if (as.character(substr(nrscode, 0,3)) %in% c("DAR", "YON")){
@@ -84,7 +87,7 @@ for (i in 1:n) {
     filter(ranksal == 1)
   MLD_sal <- mld_s$SampleDepth_m
   
-  dcm <- (mldData %>% filter(CTDChlF_mgm3 == max(CTDChlF_mgm3)))$SampleDepth_m 
+  dcm <- (mldData %>% filter(CTDChlF_mgm3 > 0 & CTDChlF_mgm3 == max(CTDChlF_mgm3)))$SampleDepth_m
   dcm[is_empty(dcm)] = NA
   
   MLD <- rbind(MLD, data.frame(NRScode = as.character(nrscode), MLD_temp = MLD_temp, MLD_sal = MLD_sal, DCM = dcm), stringsAsFactors = FALSE)  %>% drop_na(NRScode)    
