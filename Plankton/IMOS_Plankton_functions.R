@@ -136,8 +136,10 @@ getChemistry <- function(){
 getCTD <- function(){
       rawCTD <- read_csv("C:/Users/dav649/Documents/GitHub/IMOS_Toolbox/Plankton/RawData/IMOS_-_Australian_National_Mooring_Network_(ANMN)_-_CTD_Profiles.csv", na = "(null)", skip = 29,
                     col_types = cols(CHLU = col_double(), # columns start with nulls so tidyverse annoyingly assigns col_logical()
+                                     CHLU_quality_control = col_double(),
                                      CPHL = col_double(),
-                                     CPHL_quality_control = col_double())) %>%
+                                     CPHL_quality_control = col_double(),
+                                     cruise_id = col_skip())) %>%
       filter(grepl("NRS", site_code)) %>%
       mutate(NRScode = ifelse(site_code == 'NRSDAR', paste0(site_code, format(time_coverage_start, "%Y%m%d_%H:%M")),
                               paste0(site_code, format(time_coverage_start, "%Y%m%d"))),
@@ -200,6 +202,9 @@ getCTD <- function(){
     
     return(rawCTD)
 }
+
+CTD <- getCTD()
+write_csv(CTD, "RawData/NRS_CTD.csv")
 
 # 
 # missingCode <- rawCTD %>% filter(is.na(NRScode)) %>% select(StationName, CastTime_UTC, file_id) %>% unique()
