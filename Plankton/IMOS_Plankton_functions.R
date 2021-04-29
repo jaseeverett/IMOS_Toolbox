@@ -153,7 +153,7 @@ getCTD <- function(){
                                                                                            ifelse(site_code == 'NRSROT', 'Rottnest Island', 'Ningaloo'))))))))) %>%
       rename(CastTime_UTC = time_coverage_start, Latitude = LATITUDE, Longitude = LONGITUDE, Depth_m = DEPTH, Salinity_psu = PSAL,
              Salinity_flag = PSAL_quality_control, Temperature_degC = TEMP, Temperature_flag = TEMP_quality_control, DissolvedOxygen_umolkg = DOX2,
-             DissolvedOxygen_flag = DOX2_quality_control, Chla_mgm3 = CHLF, Chla_flag = CHLF_quality_control, Turbidity_NTU = TURB, 
+             DissolvedOxygen_flag = DOX2_quality_control, Chla_mgm3 = CPHL, Chla_flag = CPHL_quality_control, Turbidity_NTU = TURB, 
              Turbidity_flag = TURB_quality_control, Pressure_dbar = PRES_REL, Conductivity_Sm = CNDC, Conductivity_flag = CNDC_quality_control,
              WaterDensity_kgm3 = DENS, WaterDensity_flag = DENS_quality_control) %>%
       select(file_id, StationName, NRScode, CastTime_UTC, Latitude, Longitude, Depth_m, Salinity_psu, Salinity_flag, Temperature_degC, Temperature_flag,
