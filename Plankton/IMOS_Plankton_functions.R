@@ -12,29 +12,19 @@ untibble <- function (tibble) {
 
 ## Functions for bringing in data sets
 ## NRS 
-get_NRSTrips <- function(){
-  NRSTrips <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/nrs_trips.csv", na = "(null)") %>% 
-    rename(Station = STATION_NAME, Latitude = Y_COORD, Longitude = X_COORD, SampleDateLocal = TRIP_START_DATETIME_LOCAL, 
-           NRScode = NRS_CODE, StationDepth_m = STATION_DEPTH, SampleDepth_m = SAMPLEDEPTH_M, stateCode = STATE_CODE,
-           DaylightSavings = DAYLIGHT_SAVINGS_Y_N, UTCoffsetH = UTC_OFFSET_H) %>%
-    # select(-SAMPLEDEPTH_M) %>%
-    mutate(Year = year(SampleDateLocal),
-           Month = month(SampleDateLocal),
-           Day = day(SampleDateLocal),
-           Time_24hr = str_sub(SampleDateLocal, -8, -1), # hms doesn"t seem to work on 00:00:00 times
-           tz = tz_lookup_coords(Latitude, Longitude, method = "fast"),
-           SampleDateUTC = with_tz(force_tzs(SampleDateLocal, tz, roll = TRUE), "UTC"),
-           SampleDateLocal = as.character(SampleDateLocal)) %>% 
-    select(-c(tz, DaylightSavings, UTCoffsetH, stateCode)) %>%
-    distinct()
-  return(NRSTrips)
+get_NRSStation <- function(){
+  NRSStation <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_StationInfo.csv", na = "") %>% 
+    rename(Station = STATIONNAME, Latitude = LATITUDE, Longitude = LONGITUDE, NRScode = NRS_CODE, StationDepth_m = STATIONDEPTH_m) %>%
+    filter(PROJECTNAME == "NRS") 
+  return(NRSStation)
 }
 
 # Bring in all NRS samples
-getNRSSamples <- function(){
-    NRSSamp <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_Samp.csv", na = "(null)") %>% 
+getNRSTrips <- function(){
+    NRSSamp <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Trip.csv", na = "") %>% 
       rename(Sample = SAMPLE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATELOCAL, 
              NRScode = TRIP_CODE, Biomass_mgm3 = BIOMASS_MGM3, SampleType = SAMPLETYPE) %>%
+      filter(PROJECTNAME == "NRS") %>%
       mutate(Year = year(SampleDateLocal),
              Month = month(SampleDateLocal),
              Day = day(SampleDateLocal),
@@ -48,7 +38,7 @@ getNRSSamples <- function(){
 
 # Bring in plankton data
 getNRSPhytoData <- function(){
-  NRSPdat <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_Phyto_Raw.csv", na = "(null)") %>%
+  NRSPdat <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Phyto_Raw.csv", na = "") %>%
     rename(Sample = SAMPLE, TaxonName = TAXON_NAME, TaxonGroup = TAXON_GROUP, Genus = GENUS, Species = SPECIES, 
            Cells_L = CELL_L, Biovolume_um3L = BIOVOLUME_UM3L)
   return(NRSPdat)
@@ -56,14 +46,14 @@ getNRSPhytoData <- function(){
 
 # Bring in Change Log
 getNRSPhytoChangeLog <- function(){
-  NRSPcl <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_Phyto_ChangeLog.csv", na = "(null)") %>%
+  NRSPcl <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Phyto_ChangeLog.csv", na = "") %>%
     rename(TaxonName = TAXON_NAME, StartDate = START_DATE, ParentName = PARENT_NAME)
   return(NRSPcl)
 }
 
 # Bring in zooplankton  abundance data
 getNRSZooData <- function(){
-  NRSZdat <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_Zoop_Raw.csv", na = "(null)") %>%
+  NRSZdat <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Zoop_Raw.csv", na = "") %>%
     rename(Sample = SAMPLE, TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, 
          Genus = GENUS, Species = SPECIES, ZAbund_m3 = ZOOP_ABUNDANCE_M3)
   return(NRSZdat)
@@ -71,7 +61,7 @@ getNRSZooData <- function(){
 
 # Bring in zooplankton  abundance data
 getNRSZooCount <- function(){
-  NRSZcount <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_Zoop_CountRaw.csv", na = "(null)") %>%
+  NRSZcount <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Zoop_CountRaw.csv", na = "") %>%
     rename(TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, Sample = SAMPLE,
            Genus = GENUS, Species = SPECIES, TaxonCount = COUNTS, SampVol_L = SAMPVOL_L)
   return(NRSZcount)
@@ -79,14 +69,14 @@ getNRSZooCount <- function(){
 
 # Bring in Change Log
 getNRSZooChangeLog <- function(){
-  NRSZcl <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_Zoop_ChangeLog.csv", na = "(null)") %>%
+  NRSZcl <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Zoop_ChangeLog.csv", na = "") %>%
     rename(TaxonName = TAXON_NAME, StartDate = START_DATE, ParentName = PARENT_NAME)
   return(NRSZcl)
 }
 
 # Bring in copepod information table with sizes etc.
 get_ZooInfo <- function(){
-  ZInfo <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/taxon_info.csv", na = "(null)") %>% 
+  ZInfo <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/taxon_info.csv", na = "") %>% 
     dplyr::rename( "TaxonName" = "TAXON_NAME") %>% 
     untibble()
 }
@@ -94,7 +84,7 @@ get_ZooInfo <- function(){
 
 # Bring in chemistry data
 getChemistry <- function(){
-  chemistry <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_Chemistry.csv", na = c("(null)", NaN)) %>% 
+  chemistry <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Chemistry.csv", na = c("", NaN)) %>% 
   rename(NRScode = TRIP_CODE,
          SampleDepth_m = SAMPLEDEPTH_M, Silicate_umolL = SILICATE_UMOLL, Nitrate_umolL =  NITRATE_UMOLL,
          Phosphate_umolL =  PHOSPHATE_UMOLL, Salinity_PSU = SALINITY_PSU, 
@@ -132,7 +122,7 @@ getChemistry <- function(){
 
 # Bring in picoplankton data
 getPico <- function(){
-  Pico <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/NRS_Picoplankton.csv", na = "(null)") %>%
+  Pico <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Picoplankton.csv", na = "") %>%
   rename(NRScode = TRIP_CODE, SampleDepth_m = SAMPLEDEPTH_M, Replicate = REPLICATE, SampleDate_Local = SAMPLEDATE_LOCAL,
          Prochlorococcus_CellsmL = PROCHLOROCOCCUS_CELLSML, Prochlorococcus_Flag = PROCHLOROCOCCUS_FLAG,
          Synecochoccus_CellsmL = SYNECOCHOCCUS_CELLSML, Synecochoccus_Flag = SYNECOCHOCCUS_FLAG, 
@@ -143,7 +133,7 @@ getPico <- function(){
 
 ## make raw product that should be similar to that produced by AODN
 getCTD <- function(){
-      rawCTD <- read_csv("C:/Users/dav649/Documents/GitHub/IMOS_Toolbox/Plankton/RawData/IMOS_-_Australian_National_Mooring_Network_(ANMN)_-_CTD_Profiles.csv", na = "(null)", skip = 29,
+      rawCTD <- read_csv("C:/Users/dav649/Documents/GitHub/IMOS_Toolbox/Plankton/RawData/IMOS_-_Australian_National_Mooring_Network_(ANMN)_-_CTD_Profiles.csv", na = "", skip = 29,
                     col_types = cols(CHLU = col_double(), # columns start with nulls so tidyverse annoyingly assigns col_logical()
                                      CHLU_quality_control = col_double(),
                                      CPHL = col_double(),
@@ -223,7 +213,7 @@ getCTD <- function(){
 # NRSmissingCTD <- NRSaddCTD %>% filter(is.na(file_id))
 
 # getCTD <- function(){
-#   CTD <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/nrs_ctd.csv", na = "(null)",
+#   CTD <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/nrs_ctd.csv", na = "",
 #                 col_types = cols(PRES = col_double(), # columns start with nulls so tidyverse annoyingly assigns col_logical()
 #                                  PAR = col_double(),
 #                                  SPEC_CNDC = col_double())) %>% 
