@@ -1,0 +1,126 @@
+TAXON_NAME,START_DATE,PARENT_NAME,TRAINING,COMMENTS
+Tripos lunula,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos teres,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Dactyliosolen fragilissimus <150 µm length,2012-08-07 00:00:00,Dactyliosolen fragilissimus,Pru Bonham 2012-03-01,New size classes decided on with Pru Bonham
+Dactyliosolen fragilissimus >150 µm length,2012-08-07 00:00:00,Dactyliosolen fragilissimus,Pru Bonham 2012-03-01,New size classes decided on with Pru Bonham
+Eucampia zodiacus,2008-09-29 00:00:00,Eucampia spp. >100 µm cell length,,Eucampia not previously speciated in NRS samples
+Leptocylindrus mediterraneus (no flagellates),2016-11-01 00:00:00,Leptocylindrus mediterraneus,none required,Added to distinguish between cells with flagellate symbiont and those without
+Leptocylindrus mediterraneus (with flagellates),2016-11-01 00:00:00,Leptocylindrus mediterraneus,none required,Added to distinguish between cells with flagellate symbiont and those without
+Odontella aurita,2008-09-29 00:00:00,Odontella spp. ~50 µm cell length,Pru Bonham 2012-03-01,Odontella not previously speciated in NRS samples
+Odontella mobiliensis,2012-08-07 00:00:00,Odontella spp. ~50 µm cell length,Pru Bonham 2012-03-01,Odontella not previously speciated in NRS samples
+Odontella sinensis,2012-08-07 00:00:00,Odontella spp. ~50 µm cell length,Pru Bonham 2012-03-01,Odontella not previously speciated in NRS samples
+Rhizosolenia imbricata,2015-02-01 00:00:00,Rhizosolenia imbricata group,Hobart phytoplankton workshop Feb2015,R. imbricata group used previously and still used if unsure of identification
+Rhizosolenia setigera,2015-02-01 00:00:00,Rhizosolenia setigera group,Hobart phytoplankton workshop Feb2015,R. setigera group used previously and still used if unsure of identification
+Rhizosolenia styliformis,2008-09-29 00:00:00,Rhizosolenia styliformis group,Hobart phytoplankton workshop Feb2015,R. styliformis group used previously and still used if unsure of identification
+Hemiaulus membranaceus,2012-08-07 00:00:00,Hemiaulus spp.,Pru Bonham 2012-03-01,Hemiaulus not previously speciated in NRS samples
+Tripos cf. pentagonus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos cf. pentagonus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos cf. pentagonus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos cf. pentagonus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos cf. pentagonus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos cf. pentagonus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos cf. pentagonus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos cf. pentagonus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos cf. pentagonus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos cf. pentagonus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos cf. pentagonus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Hemiaulus indicus,2012-08-07 00:00:00,Hemiaulus spp.,Pru Bonham 2012-03-01,Hemiaulus not previously speciated in NRS samples
+Rhizosolenia fallax,2015-02-01 00:00:00,Rhizosolenia fallax group,Hobart phytoplankton workshop Feb2015,R. fallax group used previously and still used if unsure of identification
+Rhizosolenia fallax,2015-02-01 00:00:00,Rhizosolenia fallax group,Hobart phytoplankton workshop Feb2015,R. fallax group used previously and still used if unsure of identification
+Pennate diatom 25 - 50 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 50 - 75 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom > 100 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 10 - 25 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 25 - 50 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 50 - 75 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom > 100 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 10 - 25 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 25 - 50 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 50 - 75 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom > 100 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 10 - 25 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 25 - 50 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 50 - 75 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom > 100 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 10 - 25 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 25 - 50 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 50 - 75 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom > 100 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 10 - 25 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 25 - 50 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 50 - 75 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom > 100 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 10 - 25 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 25 - 50 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 50 - 75 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom > 100 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 10 - 25 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 25 - 50 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 50 - 75 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom > 100 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 10 - 25 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 25 - 50 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 50 - 75 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom > 100 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 10 - 25 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 25 - 50 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 50 - 75 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom > 100 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 10 - 25 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 25 - 50 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 50 - 75 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom > 100 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Pennate diatom 10 - 25 µm,2015-02-11 00:00:00,Pennate diatom > 10 µm,,Better discrimination of sizes
+Rhizosolenia setigera,2015-02-01 00:00:00,Rhizosolenia setigera group,Hobart phytoplankton workshop Feb2015,R. setigera group used previously and still used if unsure of identification
+Rhizosolenia imbricata,2015-02-01 00:00:00,Rhizosolenia imbricata group,Hobart phytoplankton workshop Feb2015,R. imbricata group used previously and still used if unsure of identification
+Rhizosolenia imbricata,2015-02-01 00:00:00,Rhizosolenia imbricata group,Hobart phytoplankton workshop Feb2015,R. imbricata group used previously and still used if unsure of identification
+Rhizosolenia imbricata,2015-02-01 00:00:00,Rhizosolenia imbricata group,Hobart phytoplankton workshop Feb2015,R. imbricata group used previously and still used if unsure of identification
+Leptocylindrus mediterraneus (no flagellates),2016-11-01 00:00:00,Leptocylindrus mediterraneus,none required,Added to distinguish between cells with flagellate symbiont and those without
+Leptocylindrus mediterraneus (with flagellates),2016-11-01 00:00:00,Leptocylindrus mediterraneus,none required,Added to distinguish between cells with flagellate symbiont and those without
+Leptocylindrus mediterraneus (no flagellates),2016-11-01 00:00:00,Leptocylindrus mediterraneus,none required,Added to distinguish between cells with flagellate symbiont and those without
+Leptocylindrus mediterraneus (with flagellates),2016-11-01 00:00:00,Leptocylindrus mediterraneus,none required,Added to distinguish between cells with flagellate symbiont and those without
+Chaetoceros (Hyalochaete),2012-08-07 00:00:00,Chaetoceros spp.,,Chaetoceros subgroups not identified previoulsy in NRS samples
+Chaetoceros (Phaeoceros),2012-08-07 00:00:00,Chaetoceros spp.,,Chaetoceros subgroups not identified previoulsy in NRS samples
+Dactyliosolen fragilissimus <150 µm length,2012-08-07 00:00:00,Dactyliosolen fragilissimus,Pru Bonham 2012-03-01,New size classes decided on with Pru Bonham
+Dactyliosolen fragilissimus >150 µm length,2012-08-07 00:00:00,Dactyliosolen fragilissimus,Pru Bonham 2012-03-01,New size classes decided on with Pru Bonham
+Dactyliosolen fragilissimus <150 µm length,2012-08-07 00:00:00,Dactyliosolen fragilissimus,Pru Bonham 2012-03-01,New size classes decided on with Pru Bonham
+Dactyliosolen fragilissimus >150 µm length,2012-08-07 00:00:00,Dactyliosolen fragilissimus,Pru Bonham 2012-03-01,New size classes decided on with Pru Bonham
+Rhizosolenia styliformis,2008-09-29 00:00:00,Rhizosolenia styliformis group,Hobart phytoplankton workshop Feb2015,R. styliformis group used previously and still used if unsure of identification
+Hemiaulus hauckii,2012-08-07 00:00:00,Hemiaulus spp.,Pru Bonham 2012-03-01,Hemiaulus not previously speciated in NRS samples
+Hemiaulus sinensis,2012-08-07 00:00:00,Hemiaulus spp.,Pru Bonham 2012-03-01,Hemiaulus not previously speciated in NRS samples
+Licmophora ehrenbergii,2012-08-07 00:00:00,Licmophora spp. < 150 µm,,Licmophora not previoulsy speciated in NRS samples
+Phaeocystis spp. (solitary),2012-08-07 00:00:00,Unid dinoflagellate < 10 µm,,Solitary form not previously identified in NRS samples
+Phaeocystis spp. (solitary),2012-08-07 00:00:00,Unid dinoflagellate < 10 µm,,Solitary form not previously identified in NRS samples
+Phaeocystis spp. (solitary),2012-08-07 00:00:00,Unid dinoflagellate < 10 µm,,Solitary form not previously identified in NRS samples
+Phaeocystis spp. (solitary),2012-08-07 00:00:00,Unid dinoflagellate < 10 µm,,Solitary form not previously identified in NRS samples
+Phaeocystis spp. (solitary),2012-08-07 00:00:00,Unid dinoflagellate < 10 µm,,Solitary form not previously identified in NRS samples
+Unid dinoflagellate 30 - 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate > 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 10 - 30 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 30 - 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate > 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 10 - 30 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 30 - 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate > 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 10 - 30 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 30 - 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate > 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 10 - 30 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 30 - 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate > 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 10 - 30 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 30 - 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate > 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 10 - 30 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 30 - 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate > 50 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Unid dinoflagellate 10 - 30 µm,2015-02-01 00:00:00,Unid dinoflagellate > 10 µm,,Better discrimination of sizes
+Tripos tenuis,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos azoricus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos setaceus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos kofoidii,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos vultur,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos biceps,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos concilians,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos declinatus,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples
+Tripos paradoxides,2012-08-07 00:00:00,Tripos spp.,Pru Bonham 2012-03-01,Ceratium not routinely speciated previoulsy in NRS samples

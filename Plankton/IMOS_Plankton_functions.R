@@ -213,8 +213,8 @@ getCTD <- function(){
     return(rawCTD)
 }
 
-CTD <- getCTD() %>% drop_na(NRScode)
-write_csv(CTD, "RawData/NRS_CTD.csv")
+#CTD <- getCTD() %>% drop_na(NRScode)
+#write_csv(CTD, "RawData/NRS_CTD.csv")
 
 # 
 # missingCode <- rawCTD %>% filter(is.na(NRScode)) %>% select(StationName, CastTime_UTC, file_id) %>% unique()
