@@ -24,7 +24,7 @@ getNRSTrips <- function(){
     NRSSamp <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Trip.csv", na = "") %>% 
       rename(Sample = SAMPLE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATELOCAL, 
              NRScode = TRIP_CODE, Biomass_mgm3 = BIOMASS_MGM3, SampleType = SAMPLETYPE) %>%
-      filter(PROJECTNAME == "NRS") %>%
+      filter(PROJECTNAME == "NRS") %>% 
       mutate(Year = year(SampleDateLocal),
              Month = month(SampleDateLocal),
              Day = day(SampleDateLocal),
@@ -76,8 +76,11 @@ getNRSZooChangeLog <- function(){
 
 # Bring in copepod information table with sizes etc.
 get_ZooInfo <- function(){
-  ZInfo <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/taxon_info.csv", na = "") %>% 
-    dplyr::rename( "TaxonName" = "TAXON_NAME") %>% 
+  ZInfo <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/taxon_info.csv", na = "",
+                    col_types = cols(SIZE_MIN_MM = col_double(), # columns start with nulls so tidyverse annoyingly assigns col_logical()
+                                     SIZE_MAX_MM = col_double(),
+                                     SIZE_AVE_MM = col_double())) %>% 
+    rename( "TaxonName" = "TAXON_NAME") %>% 
     untibble()
 }
 
@@ -163,16 +166,16 @@ getCTD <- function(){
              castTime_Local = with_tz(CastTime_UTC, tz = "Australia/Perth")) %>%
       filter(!file_id %in% c(2117, 2184, 2186, 2187))
     
-    NRSSamp <- getNRSSamples()
+    NRSSamp <- getNRSTrips() %>% filter(!grepl('PH4', NRScode))
     
-    Stations <- NRSSamp %>% select(NRScode) %>% mutate(stations = as.factor(substr(NRScode, 4, 6))) %>% select(stations) %>% unique() 
+    Stations <- NRSSamp %>% select(NRScode) %>% mutate(stations = as.factor(substr(NRScode, 1, 3))) %>% select(stations) %>% unique() 
     df <- data.frame(file_id = NA, NRScode = NA)
     
     for (y in 1:nlevels(Stations$stations)){
           station  <-  levels(Stations$stations)[[y]]
           rawCTDCast <- rawCTD %>% select(file_id, CastTime_UTC, NRScode) %>% filter(substr(NRScode, 4, 6) == station) %>% unique()
           CastTimes <- rawCTDCast$CastTime_UTC
-          Samps <- NRSSamp %>% filter(substr(NRScode, 4, 6) == station) %>% select(SampleDateUTC, NRScode) %>% unique()
+          Samps <- NRSSamp %>% filter(substr(NRScode, 1, 3) == station) %>% select(SampleDateUTC, NRScode) %>% unique()
           
           dateSelect <- function(x){
             which.min(abs(x - CastTimes))

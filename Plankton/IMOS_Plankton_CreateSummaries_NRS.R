@@ -21,7 +21,7 @@ source("IMOS_Plankton_functions.R")
 #### NRS Phytoplankton #### #################################################################################################################################
 
 # Bring in all NRS phytoplankton samples, data and changelog
-NRSSamp <- getNRSSamples() %>% select(-Biomass_mgm3)
+NRSSamp <- getNRSTrips() %>% select(-Biomass_mgm3)
 NRSPdat <- getNRSPhytoData()
 NRSPcl <- getNRSPhytoChangeLog()
 

@@ -28,7 +28,7 @@ outD <- "Output"
 # ensure we have all trips accounted for 
 # note there are circumstances where a trip won't have a phyto and a zoo samples due to loss of sample etc.
 
-NRSdat <- getNRSSamples() #ignore warning, 'fast' method does better here than 'accurate'
+NRSdat <- getNRSTrips() #ignore warning, 'fast' method does better here than 'accurate'
   
 dNRSdat <- distinct(NRSdat, NRScode, .keep_all = TRUE) %>%  # Distinct rows for satellite, should be anyway
   rename(Date = SampleDateLocal) %>% 
@@ -145,7 +145,7 @@ Nuts <- getChemistry() %>%
   mutate_all(~ replace(., is.na(.), NA)) %>% 
   untibble()
 
-Pigments <- read_csv(paste0(rawD,.Platform$file.sep,"NRS_Pigments.csv"), na = "(null)") %>% 
+Pigments <- read_csv(paste0(rawD,.Platform$file.sep,"BGC_Pigments.csv"), na = "(null)") %>% 
   select(TRIP_CODE, SAMPLEDEPTH_M, DV_CPHL_A_AND_CPHL_A) %>% 
   rename(NRScode = TRIP_CODE, SampleDepth_m = SAMPLEDEPTH_M, Chla = DV_CPHL_A_AND_CPHL_A) %>%
   filter(SampleDepth_m <= 25) %>% # take average of top 10m as a surface value for SST and CHL
@@ -161,7 +161,7 @@ Pigments <- read_csv(paste0(rawD,.Platform$file.sep,"NRS_Pigments.csv"), na = "(
 # ggplot(data = dat, aes(x = Year, y = SampleDepth_m)) + geom_point()
 
 # Total Zooplankton Abundance
-ZooData <- getNRSSamples() %>% 
+ZooData <- getNRSTrips() %>% 
   left_join(getNRSZooData(), by = "Sample")
 
 TZoo <- ZooData %>% 
@@ -202,7 +202,7 @@ HCrat <- ZooData %>%
 # Diversity, evenness etc.     
 
 # Bring in plankton data
-ZooCount <- getNRSSamples() %>% 
+ZooCount <- getNRSTrips() %>% 
   left_join(getNRSZooCount(), by = "Sample")
 
 n <- ZooCount %>% 
@@ -227,7 +227,7 @@ CopepodEvenness <- n %>%
   mutate(CopepodEvenness = ShannonCopepodDiversity / log(NoCopepodSpecies_Sample))
 
 # Total Phyto abundance
-PhytoData <- getNRSSamples() %>% 
+PhytoData <- getNRSTrips() %>% 
   left_join(getNRSPhytoData(), by = "Sample") %>% 
   filter(TaxonGroup != 'Other')
 
