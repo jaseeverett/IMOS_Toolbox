@@ -18,7 +18,7 @@ outD <- "Output"
 
 #### CPR Phytoplankton #######################################################################################################################################################
 # Bring in all CPR phytoplankton samples
-cprPsamp <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "(null)") %>% 
+cprPsamp <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "") %>% 
   rename(Sample = SAMPLE, Route = ROUTE, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateUTC = SAMPLEDATEUTC, SampleType = SAMPLETYPE) %>%
   filter(grepl("P", SampleType)) %>%
   select(-REGION, -PCI, -SampleType, -BIOMASS_MGM3) %>%
@@ -28,11 +28,11 @@ cprPsamp <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "(null)") %>%
          Time_24hr = str_sub(SampleDateUTC, -8, -1)) # hms doesn"t seem to work on 00:00:00 times
 
 # Bring in plankton data
-cprPdat <- read_csv(paste0(raw, "CPR_Phyto_Raw.csv"), na = "(null)") %>%
+cprPdat <- read_csv(paste0(raw, "CPR_Phyto_Raw.csv"), na = "") %>%
   rename(Sample = SAMPLE, TaxonName = TAXON_NAME, TaxonGroup = TAXON_GROUP, Genus = GENUS, Species = SPECIES, PAbun_m3 = PHYTO_ABUNDANCE_M3, BioVolume_um3m3 = BIOVOL_UM3M3)
 
 # Bring in Change Log
-cprPcl <- read_csv(paste0(raw, "CPR_Phyto_ChangeLog.csv"), na = "(null)") %>%
+cprPcl <- read_csv(paste0(raw, "CPR_Phyto_ChangeLog.csv"), na = "") %>%
   rename(TaxonName = TAXON_NAME, StartDate = START_DATE, ParentName = PARENT_NAME)
 
 #### CPR PHYTO RAW ####
@@ -391,7 +391,7 @@ rm(cprSpecPB1, cprSpecPB2, cls, spec)
 
 #### CPR Zoopplankton #### ################################################################################################################################
 # Bring in all CPR zooplankton samples
-cprZsamp <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "(null)") %>% 
+cprZsamp <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "") %>% 
   rename(Sample = SAMPLE, Route = ROUTE, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateUTC = SAMPLEDATEUTC, SampleType = SAMPLETYPE, TripCode = TRIP_CODE) %>%
   filter(grepl("Z", SampleType)) %>%
   select(-REGION, -PCI, -SampleType, -BIOMASS_MGM3) %>%
@@ -401,12 +401,12 @@ cprZsamp <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "(null)") %>%
          Time_24hr = str_sub(SampleDateUTC, -8, -1)) # hms doesn"t seem to work on 00:00:00 times
 
 # Bring in plankton summary data
-cprZdat <- read_csv(paste0(raw, "CPR_Zoop_Raw.csv"), na = "(null)") %>%
+cprZdat <- read_csv(paste0(raw, "CPR_Zoop_Raw.csv"), na = "") %>%
   rename(Sample = SAMPLE, TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01,
          Genus = GENUS, Species = SPECIES, ZAbund_m3 = ZOOP_ABUNDANCE_M3)
 
 # Bring in Change Log
-cprZcl <- read_csv(paste0(raw, "CPR_Zoop_ChangeLog.csv"), na = "(null)") %>%
+cprZcl <- read_csv(paste0(raw, "CPR_Zoop_ChangeLog.csv"), na = "") %>%
   rename(TaxonName = TAXON_NAME, StartDate = START_DATE, ParentName = PARENT_NAME)
 
 #### CPR ZOOP RAW ####
