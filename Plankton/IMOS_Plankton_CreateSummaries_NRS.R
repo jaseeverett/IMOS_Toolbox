@@ -72,7 +72,7 @@ nrslg <- NRSPcl %>%
 
 # for non change log species
 NRSGenP1 <- NRSPdat %>% 
-  filter(!TaxonName %in% levels(as.factor(nrslg$TaxonName))) %>% 
+  filter(!TaxonName %in% levels(as.factor(nrslg$TaxonName)) & Genus != '') %>% 
   group_by(Sample, Genus) %>% 
   summarise(Cells_L = sum(Cells_L, na.rm = TRUE), .groups = "drop") %>% 
   drop_na(Genus) 
@@ -88,7 +88,7 @@ NRSGenP1 <- NRSSamp %>% filter(grepl('P', SampleType)) %>%
 
 # add change log species with -999 for NA"s and real absences as 0"s
 NRSGenP2 <- NRSPdat %>% 
-  filter(TaxonName %in% levels(as.factor(nrslg$TaxonName))) %>% 
+  filter(TaxonName %in% levels(as.factor(nrslg$TaxonName)) & Genus != '') %>% 
   left_join(NRSPcl, by = "TaxonName") %>%
   mutate(Genus = as_factor(Genus)) %>% 
   drop_na(Genus) %>%
@@ -162,8 +162,8 @@ NRSSpecP1 <- NRSSamp %>% filter(grepl('P', SampleType)) %>%
 # add change log species with -999 for NA"s and real absences as 0"s
 NRSSpecP2 <- NRSPdat %>% 
   mutate(TaxonName = paste0(Genus, ' ', Species)) %>% # remove comments about with flagellates or cilliates etc.
-  filter(TaxonName %in% levels(as.factor(nrsls$TaxonName))
-         & Species != "spp." & !is.na(Species) & !grepl("cf.", Species)) %>% 
+  filter(TaxonName %in% levels(as.factor(nrsls$TaxonName)) & TaxonName != '' &
+         Species != "spp." & Species != "" & !is.na(Species) & !grepl("cf.", Species)) %>% 
   left_join(NRSPcl, by = "TaxonName") %>%
   mutate(TaxonName = as_factor(TaxonName)) %>% 
   drop_na(TaxonName) %>%
@@ -242,7 +242,7 @@ nrslg <- NRSPcl %>%
 
 # for non change log species
 NRSGenPB1 <- NRSPdat %>% 
-  filter(!TaxonName %in% levels(as.factor(nrslg$TaxonName))) %>% 
+  filter(!TaxonName %in% levels(as.factor(nrslg$TaxonName)) & Genus != "") %>% 
   group_by(Sample, Genus) %>% 
   summarise(BioV_um3L = sum(Biovolume_um3L, na.rm = TRUE), .groups = "drop") %>% 
   drop_na(Genus) 
@@ -258,7 +258,7 @@ NRSGenPB1 <- NRSSamp %>% filter(grepl('P', SampleType)) %>%
 
 # add change log species with -999 for NA"s and real absences as 0"s
 NRSGenPB2 <- NRSPdat %>% 
-  filter(TaxonName %in% levels(as.factor(nrslg$TaxonName))) %>% 
+  filter(TaxonName %in% levels(as.factor(nrslg$TaxonName)) & Genus != "") %>% 
   left_join(NRSPcl, by = "TaxonName") %>%
   mutate(Genus = as_factor(Genus)) %>% 
   drop_na(Genus) %>%
@@ -344,9 +344,10 @@ NRSPdat2 <- NRSPdat %>%
 
 NRSSpecPB2 <- NRSPdat %>% 
   filter(TaxonName %in% levels(as.factor(nrsls$TaxonName))
-         & Species != "spp." & !is.na(Species) & !grepl("cf.", Species)) %>% 
+         & Species != "spp." & !is.na(Species) & !grepl("cf.", Species) & Species != "") %>% 
   rbind(NRSPdat2) %>% 
   left_join(NRSPcl, by = "TaxonName") %>%
+  filter(TaxonName != '') %>%
   mutate(TaxonName = as_factor(TaxonName)) %>% 
   drop_na(TaxonName) %>%
   group_by(Sample, StartDate, TaxonName) %>% 
@@ -455,7 +456,7 @@ nrszlg <- NRSZcl %>%
 
 # for non change log species
 NRSGenZ1 <- NRSZdat %>% 
-  filter(!TaxonName %in% levels(as.factor(nrszlg$TaxonName))) %>% 
+  filter(!TaxonName %in% levels(as.factor(nrszlg$TaxonName)) & Genus != "") %>% 
   group_by(Sample, Genus) %>% 
   summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") %>% 
   drop_na(Genus) 
@@ -471,7 +472,7 @@ NRSGenZ1 <- NRSSamp %>% filter(grepl('Z', SampleType)) %>%
 
 # add change log species with -999 for NA"s and real absences as 0"s
 NRSGenP2 <- NRSZdat %>% 
-  filter(TaxonName %in% levels(as.factor(nrszlg$TaxonName))) %>% 
+  filter(TaxonName %in% levels(as.factor(nrszlg$TaxonName)) & Genus != "") %>% 
   left_join(NRSZcl, by = "TaxonName") %>%
   mutate(Genus = as_factor(Genus)) %>% 
   drop_na(Genus) %>%
@@ -547,7 +548,7 @@ NRSCop1 <- NRSSamp %>% filter(grepl('Z', SampleType)) %>%
 # add change log species with -999 for NA"s and real absences as 0"s
 NRSCop2 <- NRSZdat %>% 
   filter(TaxonName %in% levels(as.factor(nrsclc$TaxonName)) & Copepod =="COPEPOD"
-         & Species != "spp." & !is.na(Species)  & 
+         & Species != "spp." & !is.na(Species)  & Species != "" & 
            !grepl("/", Species) & !grepl("cf.", Species) & !grepl("grp", Species)) %>% 
   mutate(Species = paste0(Genus," ", word(Species,1))) %>% # bin complexes
   left_join(NRSZcl, by = "TaxonName") %>%
@@ -617,7 +618,7 @@ NRSnCop1 <- NRSSamp %>% filter(grepl('Z', SampleType)) %>%
 
 # add change log species with -999 for NA"s and real absences as 0"s
 NRSnCop2 <- NRSZdat %>% 
-  filter(TaxonName %in% levels(as.factor(nrsclc$TaxonName)) & Copepod =="NON-COPEPOD"
+  filter(TaxonName %in% levels(as.factor(nrsclc$TaxonName)) & Copepod =="NON-COPEPOD"  & Species != ""
          & Species != "spp." & !is.na(Species) & !grepl("cf.", Species) & !grepl("grp", Species)) %>% 
   mutate(Species = paste0(Genus," ", word(Species,1))) %>% # bin complexes
   left_join(NRSZcl, by = "TaxonName") %>%

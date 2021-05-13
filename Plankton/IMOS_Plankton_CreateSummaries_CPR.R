@@ -83,7 +83,7 @@ cprGenP1 <- cprPdat %>%
   filter(!TaxonName %in% levels(as.factor(clg$TaxonName))) %>% 
   group_by(Sample, Genus) %>% 
   summarise(PAbun_m3 = sum(PAbun_m3, na.rm = TRUE), .groups = "drop") %>% 
-  drop_na(Genus)
+  filter(Genus == "")
 
 cprGenP1 <- cprPsamp %>% 
   left_join(cprGenP1, by = "Sample") %>% 
@@ -98,6 +98,7 @@ cprGenP1 <- cprPsamp %>%
 cprGenP2 <- cprPdat %>% 
   filter(TaxonName %in% levels(as.factor(clg$TaxonName))) %>% 
   left_join(cprPcl, by = "TaxonName") %>%
+  filter(Genus != '') %>%
   mutate(Genus = as_factor(Genus)) %>% drop_na(Genus) %>%
   group_by(Sample, StartDate, Genus) %>% 
   summarise(PAbun_m3 = sum(PAbun_m3, na.rm = TRUE), .groups = "drop") 
@@ -173,6 +174,7 @@ cprSpecP2 <- cprPdat %>%
          & Species != "spp." & !is.na(Species) 
          & !grepl("cf.", Species)) %>% 
   left_join(cprPcl, by = "TaxonName") %>%
+  filter(TaxonName != '') %>%
   mutate(TaxonName = as_factor(TaxonName)) %>% 
   drop_na(TaxonName) %>%
   group_by(Sample, StartDate, TaxonName) %>% 
@@ -248,7 +250,7 @@ clg <- cprPcl %>% mutate(genus1 = word(TaxonName, 1),
 # for non change log species
 
 cprGenPB1 <- cprPdat %>% 
-  filter(!TaxonName %in% levels(as.factor(clg$TaxonName))) %>% 
+  filter(!TaxonName %in% levels(as.factor(clg$TaxonName)) & Genus != '') %>% 
   group_by(Sample, Genus) %>% 
   summarise(PBioV_um3m3 = sum(BioVolume_um3m3, na.rm = TRUE), .groups = "drop") %>% 
   drop_na(Genus)
@@ -266,6 +268,7 @@ cprGenPB1 <- cprPsamp %>%
 cprGenPB2 <- cprPdat %>% 
   filter(TaxonName %in% levels(as.factor(clg$TaxonName))) %>% 
   left_join(cprPcl, by = "TaxonName") %>%
+  filter(Genus != '') %>%
   mutate(Genus = as_factor(Genus)) %>% drop_na(Genus) %>%
   group_by(Sample, StartDate, Genus) %>% 
   summarise(PBioV_um3m3 = sum(BioVolume_um3m3, na.rm = TRUE), .groups = "drop") 
@@ -341,6 +344,7 @@ cprSpecPB2 <- cprPdat %>%
          & Species != "spp." & !is.na(Species) 
          & !grepl("cf.", Species)) %>% 
   left_join(cprPcl, by = "TaxonName") %>%
+  filter(TaxonName != '') %>%
   mutate(TaxonName = as_factor(TaxonName)) %>% 
   drop_na(TaxonName) %>%
   group_by(Sample, StartDate, TaxonName) %>% 
@@ -467,7 +471,7 @@ cprGenZ1 <- cprZdat %>%
   filter(!TaxonName %in% levels(as.factor(clgz$TaxonName))) %>% 
   group_by(Sample, Genus) %>% 
   summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") %>% 
-  drop_na(Genus) 
+  filter(Genus != '') 
 
 cprGenZ1 <- cprZsamp %>% 
   left_join(cprGenZ1, by = "Sample") %>% 
@@ -482,8 +486,8 @@ cprGenZ1 <- cprZsamp %>%
 cprGenZ2 <- cprZdat %>% 
   filter(TaxonName %in% levels(as.factor(clgz$TaxonName))) %>% 
   left_join(cprZcl, by = "TaxonName") %>%
+  filter(Genus != '')  %>%
   mutate(Genus = as_factor(Genus)) %>% 
-  drop_na(Genus) %>%
   group_by(Sample, StartDate, Genus) %>% 
   summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") 
 
@@ -540,6 +544,7 @@ cprCop1 <- cprZdat %>%
            Copepod =="COPEPOD" & 
            Species != "spp." & 
            !is.na(Species) & 
+           Species != '' &
            !grepl("cf.", Species) & 
            !grepl("/", Species) & 
            !grepl("grp", Species)) %>% 
@@ -560,7 +565,7 @@ cprCop1 <- cprZsamp %>%
 cprCop2 <- cprZdat %>% 
   filter(TaxonName %in% levels(as.factor(clc$TaxonName)) & Copepod =="COPEPOD"
          & Species != "spp." & !is.na(Species) & !grepl("cf.", Species) & !grepl("grp", Species)  & 
-         !grepl("/", Species)) %>% 
+         !grepl("/", Species) & Species != '') %>% 
   mutate(Species = paste0(Genus," ", word(Species,1))) %>% # bin complexes
   left_join(cprZcl, by = "TaxonName") %>%
   mutate(Species = as_factor(Species)) %>% drop_na(Species) %>%
@@ -629,11 +634,11 @@ cprnCop1 <- cprZsamp %>%
 # add change log species with -999 for NA"s and real absences as 0"s
 cprnCop2 <- cprZdat %>% 
   filter(TaxonName %in% levels(as.factor(clc$TaxonName)) & Copepod !="COPEPOD"
-         & Species != "spp." & !is.na(Species) & !grepl("cf.", Species) & !grepl("grp", Species)) %>% 
+         & Species != "spp." & Species != '' & !is.na(Species) & !grepl("cf.", Species) & !grepl("grp", Species)) %>% 
   mutate(Species = paste0(Genus," ", word(Species,1))) %>% # bin complexes
   left_join(cprZcl, by = "TaxonName") %>%
-  mutate(Species = as_factor(Species)) %>% 
   drop_na(Species) %>% 
+  mutate(Species = as_factor(Species)) %>% 
   group_by(Sample, StartDate, Species) %>% 
   summarise(ZAbund_m3 = sum(ZAbund_m3, na.rm = TRUE), .groups = "drop") 
 
