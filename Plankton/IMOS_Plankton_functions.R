@@ -93,7 +93,7 @@ getChemistry <- function(){
          Phosphate_umolL =  PHOSPHATE_UMOLL, Salinity_PSU = SALINITY_PSU, 
          Ammonium_umolL =  AMMONIUM_UMOLL,
          Nitrite_umolL =  NITRITE_UMOLL,
-         TCO2_umolkg =  TCO2_UMOLKG,
+         DIC_umolkg =  DIC_UMOLKG,
          TAlkalinity_umolkg =  TALKALINITY_UMOLKG,
          Oxygen_umolL =  OXYGEN_UMOLL) %>% 
   mutate(SampleDepth_m = as.character(SampleDepth_m),
@@ -103,7 +103,7 @@ getChemistry <- function(){
          Nitrate_umolL = ifelse(NITRATE_FLAG %in% c(3,4,9), NA, Nitrate_umolL),
          Nitrite_umolL = ifelse(NITRITE_FLAG %in% c(3,4,9), NA, Nitrite_umolL),
          Oxygen_umolL = ifelse(OXYGEN_FLAG %in% c(3,4,9), NA, Oxygen_umolL),
-         TCO2_umolkg = ifelse(CARBON_FLAG %in% c(3,4,9), NA, TCO2_umolkg),
+         DIC_umolkg = ifelse(CARBON_FLAG %in% c(3,4,9), NA, DIC_umolkg),
          TAlkalinity_umolkg = ifelse(ALKALINITY_FLAG %in% c(3,4,9), NA, TAlkalinity_umolkg),
          Salinity_PSU = ifelse(SALINITY_FLAG %in% c(3,4,9), NA, Salinity_PSU)) %>%
   group_by(NRScode, SampleDepth_m) %>% 
@@ -113,7 +113,7 @@ getChemistry <- function(){
             Nitrate_umolL = mean(Nitrate_umolL, na.rm = TRUE),
             Nitrite_umolL = mean(Nitrite_umolL, na.rm = TRUE),
             Oxygen_umolL = mean(Oxygen_umolL, na.rm = TRUE),
-            TCO2_umolkg = mean(TCO2_umolkg, na.rm = TRUE),
+            DIC_umolkg = mean(DIC_umolkg, na.rm = TRUE),
             TAlkalinity_umolkg = mean(TAlkalinity_umolkg, na.rm = TRUE),
             Salinity_PSU = mean(Salinity_PSU, na.rm = TRUE),
             .groups = "drop") %>% 
