@@ -88,7 +88,9 @@ get_ZooInfo <- function(){
 # Bring in chemistry data
 getChemistry <- function(){
   chemistry <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Chemistry.csv", na = c("", NaN),
-                        col_types = cols(DIC_UMOLKG = col_double())) %>% 
+                        col_types = cols(DIC_UMOLKG = col_double(),
+                                         OXYGEN_UMOLL = col_double(),
+                                         OXYGEN_COMMENTS = col_character())) %>% 
   rename(NRScode = TRIP_CODE,
          SampleDepth_m = SAMPLEDEPTH_M, Silicate_umolL = SILICATE_UMOLL, Nitrate_umolL =  NITRATE_UMOLL,
          Phosphate_umolL =  PHOSPHATE_UMOLL, Salinity_PSU = SALINITY_PSU, 
