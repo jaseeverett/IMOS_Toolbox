@@ -138,7 +138,7 @@ Nuts <- getChemistry() %>%
             Nitrate_umolL = mean(Nitrate_umolL, na.rm = TRUE),
             Nitrite_umolL = mean(Nitrite_umolL, na.rm = TRUE),
             Oxygen_umolL = mean(Oxygen_umolL, na.rm = TRUE),
-            TCO2_umolkg = mean(TCO2_umolkg, na.rm = TRUE),
+            DIC_umolkg = mean(DIC_umolkg, na.rm = TRUE),
             TAlkalinity_umolkg = mean(TAlkalinity_umolkg, na.rm = TRUE),
             Salinity_PSU = mean(Salinity_PSU, na.rm = TRUE),
             .groups = "drop") %>% 
