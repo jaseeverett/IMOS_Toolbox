@@ -14,7 +14,7 @@ untibble <- function (tibble) {
 ## NRS 
 get_NRSStation <- function(){
   NRSStation <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_StationInfo.csv", na = "") %>% 
-    rename(Station = STATIONNAME, Latitude = LATITUDE, Longitude = LONGITUDE, NRScode = NRS_CODE, StationDepth_m = STATIONDEPTH_m) %>%
+    rename(Station = STATIONNAME, Latitude = LATITUDE, Longitude = LONGITUDE, StationDepth_m = STATIONDEPTH_m) %>%
     filter(PROJECTNAME == "NRS") 
   return(NRSStation)
 }
@@ -22,8 +22,8 @@ get_NRSStation <- function(){
 # Bring in all NRS samples
 getNRSTrips <- function(){
     NRSSamp <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Trip.csv", na = "") %>% 
-      rename(Sample = SAMPLE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATELOCAL, 
-             NRScode = TRIP_CODE, Biomass_mgm3 = BIOMASS_MGM3, SampleType = SAMPLETYPE) %>%
+      rename(TripCode = TRIP_CODE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATELOCAL, 
+             TripCode = TRIP_CODE, Biomass_mgm3 = BIOMASS_MGM3, SampleType = SAMPLETYPE) %>%
       filter(PROJECTNAME == "NRS") %>% 
       mutate(Year = year(SampleDateLocal),
              Month = month(SampleDateLocal),
@@ -31,7 +31,7 @@ getNRSTrips <- function(){
              Time_24hr = str_sub(SampleDateLocal, -8, -1), # hms doesn"t seem to work on 00:00:00 times
              tz = tz_lookup_coords(Latitude, Longitude, method = "fast"),
              SampleDateUTC = with_tz(force_tzs(SampleDateLocal, tz, roll = TRUE), "UTC")) %>% 
-      select(NRScode:SampleDateLocal, Year:SampleDateUTC, Biomass_mgm3) %>%
+      select(TripCode:SampleDateLocal, Year:SampleDateUTC, Biomass_mgm3) %>%
       select(-tz)
   return(NRSSamp)
 }
@@ -39,7 +39,7 @@ getNRSTrips <- function(){
 # Bring in plankton data
 getNRSPhytoData <- function(){
   NRSPdat <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Phyto_Raw.csv", na = "") %>%
-    rename(Sample = SAMPLE, TaxonName = TAXON_NAME, TaxonGroup = TAXON_GROUP, Genus = GENUS, Species = SPECIES, 
+    rename(TripCode = TRIP_CODE, TaxonName = TAXON_NAME, TaxonGroup = TAXON_GROUP, Genus = GENUS, Species = SPECIES, 
            Cells_L = CELL_L, Biovolume_um3L = BIOVOLUME_UM3L)
   return(NRSPdat)
 }
@@ -54,7 +54,7 @@ getNRSPhytoChangeLog <- function(){
 # Bring in zooplankton  abundance data
 getNRSZooData <- function(){
   NRSZdat <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Zoop_Raw.csv", na = "") %>%
-    rename(Sample = SAMPLE, TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, 
+    rename(TripCode = TRIP_CODE, TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, 
          Genus = GENUS, Species = SPECIES, ZAbund_m3 = ZOOP_ABUNDANCE_M3)
   return(NRSZdat)
 }
@@ -62,7 +62,7 @@ getNRSZooData <- function(){
 # Bring in zooplankton  abundance data
 getNRSZooCount <- function(){
   NRSZcount <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Zoop_CountRaw.csv", na = "") %>%
-    rename(TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, Sample = SAMPLE,
+    rename(TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, TripCode = TRIP_CODE,
            Genus = GENUS, Species = SPECIES, TaxonCount = COUNTS, SampVol_L = SAMPVOL_L)
   return(NRSZcount)
 }
@@ -91,7 +91,7 @@ getChemistry <- function(){
                         col_types = cols(DIC_UMOLKG = col_double(),
                                          OXYGEN_UMOLL = col_double(),
                                          OXYGEN_COMMENTS = col_character())) %>% 
-  rename(NRScode = TRIP_CODE,
+  rename(TripCode = TRIP_CODE,
          SampleDepth_m = SAMPLEDEPTH_M, Silicate_umolL = SILICATE_UMOLL, Nitrate_umolL =  NITRATE_UMOLL,
          Phosphate_umolL =  PHOSPHATE_UMOLL, Salinity_PSU = SALINITY_PSU, 
          Ammonium_umolL =  AMMONIUM_UMOLL,
@@ -109,7 +109,7 @@ getChemistry <- function(){
          DIC_umolkg = ifelse(CARBON_FLAG %in% c(3,4,9), NA, DIC_umolkg),
          TAlkalinity_umolkg = ifelse(ALKALINITY_FLAG %in% c(3,4,9), NA, TAlkalinity_umolkg),
          Salinity_PSU = ifelse(SALINITY_FLAG %in% c(3,4,9), NA, Salinity_PSU)) %>%
-  group_by(NRScode, SampleDepth_m) %>% 
+  group_by(TripCode, SampleDepth_m) %>% 
    summarise(Silicate_umolL = mean(Silicate_umolL, na.rm = TRUE), # some replicated samples from error picking up PHB data, needs addressing in database
             Phosphate_umolL = mean(Phosphate_umolL, na.rm = TRUE),
             Ammonium_umolL = mean(Ammonium_umolL, na.rm = TRUE),
@@ -129,7 +129,7 @@ getChemistry <- function(){
 # Bring in picoplankton data
 getPico <- function(){
   Pico <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Picoplankton.csv", na = "") %>%
-  rename(NRScode = TRIP_CODE, SampleDepth_m = SAMPLEDEPTH_M, Replicate = REPLICATE, SampleDate_Local = SAMPLEDATE_LOCAL,
+  rename(TripCode = TRIP_CODE, SampleDepth_m = SAMPLEDEPTH_M, Replicate = REPLICATE, SampleDate_Local = SAMPLEDATE_LOCAL,
          Prochlorococcus_CellsmL = PROCHLOROCOCCUS_CELLSML, Prochlorococcus_Flag = PROCHLOROCOCCUS_FLAG,
          Synecochoccus_CellsmL = SYNECOCHOCCUS_CELLSML, Synecochoccus_Flag = SYNECOCHOCCUS_FLAG, 
          Picoeukaryotes_CellsmL = PICOEUKARYOTES_CELLSML, Picoeukaryotes_Flag = PICOEUKARYOTES_FLAG) 
@@ -146,7 +146,7 @@ getCTD <- function(){
                                      CPHL_quality_control = col_double(),
                                      cruise_id = col_skip())) %>%
       filter(grepl("NRS", site_code)) %>%
-      mutate(NRScode = ifelse(site_code == 'NRSDAR', paste0(site_code, format(time_coverage_start, "%Y%m%d_%H:%M")),
+      mutate(TripCode = ifelse(site_code == 'NRSDAR', paste0(site_code, format(time_coverage_start, "%Y%m%d_%H:%M")),
                               paste0(site_code, format(time_coverage_start, "%Y%m%d"))),
              StationName = ifelse(site_code == 'NRSDAR', 'Darwin',
                                   ifelse(site_code == 'NRSYON', 'Yongala',
@@ -162,23 +162,23 @@ getCTD <- function(){
              DissolvedOxygen_flag = DOX2_quality_control, Chla_mgm3 = CPHL, Chla_flag = CPHL_quality_control, Turbidity_NTU = TURB, 
              Turbidity_flag = TURB_quality_control, Pressure_dbar = PRES_REL, Conductivity_Sm = CNDC, Conductivity_flag = CNDC_quality_control,
              WaterDensity_kgm3 = DENS, WaterDensity_flag = DENS_quality_control) %>%
-      select(file_id, StationName, NRScode, CastTime_UTC, Latitude, Longitude, Depth_m, Salinity_psu, Salinity_flag, Temperature_degC, Temperature_flag,
+      select(file_id, StationName, TripCode, CastTime_UTC, Latitude, Longitude, Depth_m, Salinity_psu, Salinity_flag, Temperature_degC, Temperature_flag,
              DissolvedOxygen_umolkg, DissolvedOxygen_flag, Chla_mgm3, Chla_flag, Turbidity_NTU, Turbidity_flag, Pressure_dbar, Conductivity_Sm,
              Conductivity_flag, WaterDensity_kgm3, WaterDensity_flag) %>%
       mutate(tz = paste("\"", tz_lookup_coords(Latitude, Longitude, method = "fast"),"\""),
              castTime_Local = with_tz(CastTime_UTC, tz = "Australia/Perth")) %>%
       filter(!file_id %in% c(2117, 2184, 2186, 2187))
     
-    NRSSamp <- getNRSTrips() %>% filter(!grepl('PH4', NRScode))
+    NRSSamp <- getNRSTrips() %>% filter(!grepl('PH4', TripCode))
     
-    Stations <- NRSSamp %>% select(NRScode) %>% mutate(stations = as.factor(substr(NRScode, 1, 3))) %>% select(stations) %>% unique() 
-    df <- data.frame(file_id = NA, NRScode = NA)
+    Stations <- NRSSamp %>% select(TripCode) %>% mutate(stations = as.factor(substr(TripCode, 1, 3))) %>% select(stations) %>% unique() 
+    df <- data.frame(file_id = NA, TripCode = NA)
     
     for (y in 1:nlevels(Stations$stations)){
           station  <-  levels(Stations$stations)[[y]]
-          rawCTDCast <- rawCTD %>% select(file_id, CastTime_UTC, NRScode) %>% filter(substr(NRScode, 4, 6) == station) %>% unique()
+          rawCTDCast <- rawCTD %>% select(file_id, CastTime_UTC, TripCode) %>% filter(substr(TripCode, 4, 6) == station) %>% unique()
           CastTimes <- rawCTDCast$CastTime_UTC
-          Samps <- NRSSamp %>% filter(substr(NRScode, 1, 3) == station) %>% select(SampleDateUTC, NRScode) %>% unique()
+          Samps <- NRSSamp %>% filter(substr(TripCode, 1, 3) == station) %>% select(SampleDateUTC, TripCode) %>% unique()
           
           dateSelect <- function(x){
             which.min(abs(x - CastTimes))
@@ -197,25 +197,25 @@ getCTD <- function(){
                                               DateDiff = ifelse(DateDiff > 3 & station != 'NSI', NA, 
                                                                 ifelse(DateDiff > 15 & station %in% c('NSI', 'KAI'), NA, DateDiff))) 
             
-          SampsMatch <- rawCTDCast %>% filter(substr(NRScode, 4, 6) == station) %>% select(CastTime_UTC, file_id) %>% unique()
+          SampsMatch <- rawCTDCast %>% filter(substr(TripCode, 4, 6) == station) %>% select(CastTime_UTC, file_id) %>% unique()
           
-          CastMatch <- Samps %>% drop_na(DateDiff) %>% inner_join(SampsMatch, by = 'CastTime_UTC') %>% select(file_id, NRScode)
+          CastMatch <- Samps %>% drop_na(DateDiff) %>% inner_join(SampsMatch, by = 'CastTime_UTC') %>% select(file_id, TripCode)
           
           df <- df %>% rbind(CastMatch)
           }
     
-    rawCTD <- rawCTD %>% select(-NRScode) %>% left_join(df, by = 'file_id')
+    rawCTD <- rawCTD %>% select(-TripCode) %>% left_join(df, by = 'file_id')
     
     return(rawCTD)
 }
 
-#CTD <- getCTD() %>% drop_na(NRScode)
+#CTD <- getCTD() %>% drop_na(TripCode)
 #write_csv(CTD, "RawData/NRS_CTD.csv")
 
 # 
-# missingCode <- rawCTD %>% filter(is.na(NRScode)) %>% select(StationName, CastTime_UTC, file_id) %>% unique()
+# missingCode <- rawCTD %>% filter(is.na(TripCode)) %>% select(StationName, CastTime_UTC, file_id) %>% unique()
 # 
-# NRSaddCTD <- NRSSamp %>% left_join(df, by = 'NRScode')
+# NRSaddCTD <- NRSSamp %>% left_join(df, by = 'TripCode')
 # NRSmissingCTD <- NRSaddCTD %>% filter(is.na(file_id))
 
 # getCTD <- function(){
@@ -223,15 +223,15 @@ getCTD <- function(){
 #                 col_types = cols(PRES = col_double(), # columns start with nulls so tidyverse annoyingly assigns col_logical()
 #                                  PAR = col_double(),
 #                                  SPEC_CNDC = col_double())) %>% 
-#   rename(NRScode = NRS_TRIP_CODE, SampleDepth_m = PRES_REL, CTDDensity_kgm3 = DENS, 
+#   rename(TripCode = NRS_TRIP_CODE, SampleDepth_m = PRES_REL, CTDDensity_kgm3 = DENS, 
 #          CTDTemperature = TEMP, CTDPAR_umolm2s = PAR,
 #          CTDConductivity_sm = CNDC, CTDSpecificConductivity_Sm = SPEC_CNDC, 
 #          CTDSalinity = PSAL, CTDTurbidity_ntu = TURB, CTDChlF_mgm3 = CHLF) %>%
 #   untibble()
 #   
-#   CTD_remove <- CTD %>% group_by(NRScode) %>% summarise(n = n()) %>%
+#   CTD_remove <- CTD %>% group_by(TripCode) %>% summarise(n = n()) %>%
 #     filter(n == 1)
-#   CTD <- CTD %>% filter(!NRScode %in% CTD_remove$NRScode) # removing records where CTD length is one value
+#   CTD <- CTD %>% filter(!TripCode %in% CTD_remove$TripCode) # removing records where CTD length is one value
 #   
 #   return(CTD)
 # }
