@@ -137,9 +137,7 @@ HCratCpr <- zoodatacpr %>%
 # Diversity, evenness etc.     
 
 # Bring in plankton data
-CPRZcount <- read_csv(paste0(raw, "CPR_Zoop_CountRaw.csv"), na = "(null)") %>%
-  rename(TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, Sample = SAMPLE,
-                Genus= GENUS, Species = SPECIES, TaxonCount = COUNTS, SampleVol_L = SAMPVOL_L)
+CPRZcount <- getCPRZooCount()
 
 zooCountCpr <-  cprZsamp %>% 
   left_join(CPRZcount, by = "Sample")

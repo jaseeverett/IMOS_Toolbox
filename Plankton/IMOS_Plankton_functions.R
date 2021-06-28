@@ -10,10 +10,16 @@ untibble <- function (tibble) {
   data.frame(unclass(tibble), check.names = FALSE, stringsAsFactors = FALSE)
 }  ## escape the nonsense
 
+raw <- "https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/"
+output <- "https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/Output/"
+
+
+############################################################################################################################################
+## NRS FUNCTIONS
 ## Functions for bringing in data sets
-## NRS 
+
 get_NRSStation <- function(){
-  NRSStation <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_StationInfo.csv", na = "") %>% 
+  NRSStation <- read_csv(paste0(raw, "BGC_StationInfo.csv"), na = "") %>% 
     rename(Station = STATIONNAME, Latitude = LATITUDE, Longitude = LONGITUDE, StationDepth_m = STATIONDEPTH_m) %>%
     filter(PROJECTNAME == "NRS") 
   return(NRSStation)
@@ -21,7 +27,7 @@ get_NRSStation <- function(){
 
 # Bring in all NRS samples
 getNRSTrips <- function(){
-    NRSSamp <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Trip.csv", na = "") %>% 
+    NRSSamp <- read_csv(paste0(raw, "BGC_Trip.csv"), na = "") %>% 
       rename(TripCode = TRIP_CODE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATELOCAL,  
              Biomass_mgm3 = BIOMASS_MGM3, Secchi_m = SECCHI_M, SampleType = SAMPLETYPE) %>%
       filter(PROJECTNAME == "NRS") %>% 
@@ -38,7 +44,7 @@ getNRSTrips <- function(){
 
 # Bring in plankton data
 getNRSPhytoData <- function(){
-  NRSPdat <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Phyto_Raw.csv", na = "") %>%
+  NRSPdat <- read_csv(paste0(raw, "BGC_Phyto_Raw.csv"), na = "") %>%
     rename(TripCode = TRIP_CODE, TaxonName = TAXON_NAME, TaxonGroup = TAXON_GROUP, Genus = GENUS, Species = SPECIES, 
            Cells_L = CELL_L, Biovolume_um3L = BIOVOLUME_UM3L)
   return(NRSPdat)
@@ -46,14 +52,14 @@ getNRSPhytoData <- function(){
 
 # Bring in Change Log
 getNRSPhytoChangeLog <- function(){
-  NRSPcl <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Phyto_ChangeLog.csv", na = "") %>%
+  NRSPcl <- read_csv(paste0(raw, "BGC_Phyto_ChangeLog.csv"), na = "") %>%
     rename(TaxonName = TAXON_NAME, StartDate = START_DATE, ParentName = PARENT_NAME)
   return(NRSPcl)
 }
 
 # Bring in zooplankton  abundance data
 getNRSZooData <- function(){
-  NRSZdat <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Zoop_Raw.csv", na = "") %>%
+  NRSZdat <- read_csv(paste0(raw, "BGC_Zoop_Raw.csv"), na = "") %>%
     rename(TripCode = TRIP_CODE, TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, 
          Genus = GENUS, Species = SPECIES, ZAbund_m3 = ZOOP_ABUNDANCE_M3)
   return(NRSZdat)
@@ -61,7 +67,7 @@ getNRSZooData <- function(){
 
 # Bring in zooplankton  abundance data
 getNRSZooCount <- function(){
-  NRSZcount <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Zoop_CountRaw.csv", na = "") %>%
+  NRSZcount <- read_csv(paste0(raw, "BGC_Zoop_CountRaw.csv"), na = "") %>%
     rename(TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, TripCode = TRIP_CODE,
            Genus = GENUS, Species = SPECIES, TaxonCount = COUNTS, SampVol_L = SAMPVOL_L)
   return(NRSZcount)
@@ -69,14 +75,14 @@ getNRSZooCount <- function(){
 
 # Bring in Change Log
 getNRSZooChangeLog <- function(){
-  NRSZcl <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Zoop_ChangeLog.csv", na = "") %>%
+  NRSZcl <- read_csv(paste0(raw, "BGC_Zoop_ChangeLog.csv"), na = "") %>%
     rename(TaxonName = TAXON_NAME, StartDate = START_DATE, ParentName = PARENT_NAME)
   return(NRSZcl)
 }
 
 # Bring in copepod information table with sizes etc.
 get_ZooInfo <- function(){
-  ZInfo <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/taxon_info.csv", na = "",
+  ZInfo <- read_csv(paste0(raw, "taxon_info.csv"), na = "",
                     col_types = cols(SIZE_MIN_MM = col_double(), # columns start with nulls so tidyverse annoyingly assigns col_logical()
                                      SIZE_MAX_MM = col_double(),
                                      SIZE_AVE_MM = col_double())) %>% 
@@ -87,7 +93,7 @@ get_ZooInfo <- function(){
 
 # Bring in chemistry data
 getChemistry <- function(){
-  chemistry <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Chemistry.csv", na = c("", NaN),
+  chemistry <- read_csv(paste0(raw, "BGC_Chemistry.csv"), na = c("", NaN),
                         col_types = cols(DIC_UMOLKG = col_double(),
                                          OXYGEN_UMOLL = col_double(),
                                          OXYGEN_COMMENTS = col_character())) %>% 
@@ -128,7 +134,7 @@ getChemistry <- function(){
 
 # Bring in picoplankton data
 getPico <- function(){
-  Pico <- read_csv("https://raw.githubusercontent.com/PlanktonTeam/IMOS_Toolbox/master/Plankton/RawData/BGC_Picoplankton.csv", na = "") %>%
+  Pico <- read_csv(paste0(raw, "BGC_Picoplankton.csv"), na = "") %>%
   rename(TripCode = TRIP_CODE, SampleDepth_m = SAMPLEDEPTH_M, Replicate = REPLICATE, SampleDate_Local = SAMPLEDATE_LOCAL,
          Prochlorococcus_CellsmL = PROCHLOROCOCCUS_CELLSML, Prochlorococcus_Flag = PROCHLOROCOCCUS_FLAG,
          Synecochoccus_CellsmL = SYNECOCHOCCUS_CELLSML, Synecochoccus_Flag = SYNECOCHOCCUS_FLAG, 
@@ -139,7 +145,7 @@ getPico <- function(){
 
 ## make raw product that should be similar to that produced by AODN
 getCTD <- function(){
-      rawCTD <- read_csv("C:/Users/dav649/Documents/GitHub/IMOS_Toolbox/Plankton/RawData/IMOS_-_Australian_National_Mooring_Network_(ANMN)_-_CTD_Profiles.csv", na = "", skip = 29,
+      rawCTD <- read_csv(paste0(raw, "IMOS_-_Australian_National_Mooring_Network_(ANMN)_-_CTD_Profiles.csv"), na = "", skip = 29,
                     col_types = cols(CHLU = col_double(), # columns start with nulls so tidyverse annoyingly assigns col_logical()
                                      CHLU_quality_control = col_double(),
                                      CPHL = col_double(),
@@ -235,4 +241,17 @@ getCTD <- function(){
 #   
 #   return(CTD)
 # }
+
+############################################################################################################################################
+## CPR FUNCTIONS
+# Bring in all CPR samples
+
+# CPR Zooplankton Count
+
+getCPRZooCount <- function() {
+  CPRZcount <- read_csv(paste0(raw, "CPR_Zoop_CountRaw.csv"), na = "(null)") %>%
+  rename(TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, Sample = SAMPLE,
+         Genus= GENUS, Species = SPECIES, TaxonCount = COUNTS, SampleVol_L = SAMPVOL_L)
+  return(CPRZooCount)
+}
 
