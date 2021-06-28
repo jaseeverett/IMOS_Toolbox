@@ -246,6 +246,22 @@ getCTD <- function(){
 ## CPR FUNCTIONS
 # Bring in all CPR samples
 
+# All CPR samples
+
+getCPRTrips <- function(){ 
+  CPRTrips <- read_csv(paste0(raw, "CPR_Samp.csv"), na = "(null)") %>% 
+      rename(Sample = SAMPLE, Route = ROUTE, Region = REGION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateUTC = SAMPLEDATEUTC, 
+             SampleType = SAMPLETYPE, Biomass_mgm3 = BIOMASS_MGM3, TripCode = TRIP_CODE) %>%
+      filter(!is.na(SampleType)) %>%
+      mutate(Year = year(SampleDateUTC),
+             Month = month(SampleDateUTC),
+             Day = day(SampleDateUTC),
+             Time_24hr = str_sub(SampleDateUTC, -8, -1), # hms doesn"t seem to work on 00:00:00 times
+             SampleDateUTC = as.character(SampleDateUTC)) %>% 
+      select(c(Sample, Latitude:Time_24hr, Region, Route, PCI, Biomass_mgm3))
+    return(CPRTrips)
+}
+
 # CPR Zooplankton Count
 
 getCPRZooCount <- function() {
