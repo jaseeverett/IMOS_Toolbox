@@ -256,8 +256,7 @@ getCPRTrips <- function(){
       mutate(Year = year(SampleDateUTC),
              Month = month(SampleDateUTC),
              Day = day(SampleDateUTC),
-             Time_24hr = str_sub(SampleDateUTC, -8, -1), # hms doesn"t seem to work on 00:00:00 times
-             SampleDateUTC = as.character(SampleDateUTC)) %>% 
+             Time_24hr = str_sub(SampleDateUTC, -8, -1)) %>% 
       select(c(TripCode, Sample, Latitude:Time_24hr, Region, Route, PCI, Biomass_mgm3))
     return(CPRTrips)
 }
