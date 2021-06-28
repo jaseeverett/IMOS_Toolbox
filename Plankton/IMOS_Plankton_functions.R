@@ -251,7 +251,7 @@ getCTD <- function(){
 getCPRZooCount <- function() {
   CPRZooCount <- read_csv(paste0(raw, "CPR_Zoop_CountRaw.csv"), na = "(null)") %>%
   rename(TaxonName = TAXON_NAME, Copepod = TAXON_GROUP, TaxonGroup = TAXON_GRP01, Sample = SAMPLE,
-         Genus= GENUS, Species = SPECIES, TaxonCount = COUNTS, SampleVol_L = SAMPVOL_L)
+         Genus= GENUS, Species = SPECIES, TaxonCount = COUNTS, SampVol_L = SAMPVOL_L)
   return(CPRZooCount)
 }
 
