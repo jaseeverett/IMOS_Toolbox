@@ -7,6 +7,7 @@ Clytemnestra spp.,115273,1.175,‘Species m’ (male) (eg. Acartia spp. m ) size ran
 Centropages furcatus,104495,1.735,Boltovskoy 1999,Omnivore
 Euchaeta marina,104552,3.26,Boltovskoy 1999,Carnivore
 Clytemnestra scutellata,115805,1.175,Boltovskoy 1999,Omnivore
+Clytemnestra spp.,115273,0.93,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Omnivore
 Copepod damaged / unidentified,1080,1,,
 Penaeidae larvae,106727,,,
 Rhincalanus spp.,104172,3.85,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Herbivore
@@ -19,13 +20,15 @@ Microsetella rosea,116116,0.515,Razouls 2012,Omnivore
 Nannocalanus minor,104469,2.025,Boltovskoy 1999,Herbivore
 Nannocalanus minor,104469,1.5,Boltovskoy 1999,Herbivore
 Nauplii calanoid,1100,0.3,,Herbivore
-Oithona spp.,106485,0.36,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Herbivore
+Oithona spp.,106485,0.36,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Herbivore
 Oncaea clevei complex,354022,0.53,Bottger-Schnack 2001,Omnivore
 Oncaea venusta complex,128954,1.075,Bottger-Schnack & Huys 2004,Omnivore
+Paracalanus spp.,104196,0.7,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Herbivore
 Parvocalanus crassirostris,360051,0.51,Boltovskoy 1999,Herbivore
 Pleuromamma borealis,104638,1.985,Boltovskoy 1999,Omnivore
 Pleuromamma quadrungulata,104641,4.14,Boltovskoy 1999,Omnivore
 Pleuromamma gracilis,104639,1.75,Boltovskoy 1999,Omnivore
+Pleuromamma spp.,104191,1.6,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Omnivore
 Sapphirina auronitens,129042,2.115,Boltovskoy 1999,Omnivore
 Sapphirina opalina,129054,3.15,Boltovskoy 1999,Omnivore
 Parvocalanus spp.,347746,0.67,Razouls 2013,Herbivore
@@ -39,13 +42,13 @@ Pentacrinoid larvae,1806,,,
 Siphonophore,1371,,,
 Squid,11707,,,
 Bivalve larvae,105,,,
+Heterorhabdus spp.,104178,1.62,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Carnivore
 Rhincalanus nasutus,104543,4.6,Boltovskoy 1999,Herbivore
 Rhincalanus rostrifrons,356829,3.4,Bradford-Grieve 1994,Herbivore
 Mecynocera spp.,104184,1.065,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Herbivore
 Oncaea venusta medium no hump,128954,1.025,Bottger-Schnack & Huys 2004,Omnivore
 Onychocorycaeus catus,128816,0.885,Razouls 2012,Carnivore
 Candacia bipinnata,104475,2.325,Boltovskoy 1999,Carnivore
-Centropages spp.,104159,1.25,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Omnivore
 Centropages orsinii,220901,1.55,Boltovskoy 1999,Omnivore
 Clausocalanus arcuicornis,104502,1.385,Frost & Fleminger 1968,Herbivore
 Clausocalanus furcatus,104503,1.125,Frost & Fleminger 1968,Herbivore
@@ -63,6 +66,7 @@ Euchirella rostrata,104303,2.8,Boltovskoy 1999,Herbivore
 Labidocera acuta,104726,3.05,Boltovskoy 1999,Carnivore
 Pontellina plumata,104743,1.69,Boltovskoy 1999,Carnivore
 Aglaura hemistoma,117851,,,
+Calanoides spp.,104151,2.08,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Herbivore
 Clausocalanus laticeps,342444,1.46,Frost & Fleminger 1968,Herbivore
 Agetus spp.,128633,1.38,‘Species m’ (male) (eg. Acartia spp. m ) size range based on the min & max size range for all the male species of that genus in the database,Carnivore
 Calocalanus contractus,104651,0.72,Boltovskoy 1999,Herbivore
@@ -77,7 +81,7 @@ Doliolum nationalis,137247,,,
 Harpacticoid m,1102,0.53,,
 Acartia (Acanthacartia) tonsa,345943,1.05,Boltovskoy 1999,Omnivore
 Oncaea venusta venella no hump,363588,0.85,Bottger-Schnack & Huys 2004,Omnivore
-Euchaeta marinella,346441,2.425,"Bradford, Haakonssen & Jillett 1983",Carnivore
+Copilia spp.,128721,2.2,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Omnivore
 Calanopia elliptica,104724,1.85,Boltovskoy 1999,Carnivore
 Augaptilus spp.,104137,4.55,Boltovskoy 1999,Carnivore
 Pleuromamma spp.,104191,2.55,‘Species m’ (male) (eg. Acartia spp. m ) size range based on the min & max size range for all the male species of that genus in the database,Omnivore
@@ -104,12 +108,15 @@ Magelona spp.,129341,,,
 Oithona attenuata,220944,0.4,Boltovskoy 1999,Herbivore
 Clausocalanus arcuicornis,104502,1.295,Frost & Fleminger 1968,Herbivore
 Calanopia australica,346201,1.93,Razouls 2013,Carnivore
+Paraeuchaeta antarctica,344974,6.915,"Bradford Haakonssen & Jillett 1983",Carnivore
 Pleuromamma quadrungulata,104641,3.47,Boltovskoy 1999,Omnivore
 Pontella danae,354855,3.85,Razouls 2013,Carnivore
 Pontellopsis tasmanensis,354898,1.485,Razouls 2013,Carnivore
 Pareucalanus attenuatus,237968,5.025,Razouls 2013,Herbivore
 Ditrichocorycaeus asiaticus,358328,1.18,Razouls 2012,Carnivore
+Paraeuchaeta tumidula,104573,4.34,"Bradford Haakonssen & Jillett 1983",Carnivore
 Calanus simillimus,342436,3.02,Boltovskoy 1999,Herbivore
+Paraeuchaeta biloba,344996,5.25,"Based on female size Bradford Haakonssen & Jillett 1983",Carnivore
 Onychocorycaeus agilis,359743,1.04,Razouls 2012,Carnivore
 Copilia quadrata,129039,3.95,Boltovskoy 1999,Omnivore
 Haloptilus oxycephalus,104434,3.555,Boltovskoy 1999,Carnivore
@@ -195,7 +202,7 @@ Anisomysis lamellicauda,226603,,,
 Stylocheiron carinatum,110701,,,
 Oncaea media,128938,0.63,Bottger-Schnack 2001,Omnivore
 Brachiopoda larvae,1803,,,
-Boeckella fluvialis,349227,1.7,Dwight, C. 1924.,Omnivore
+Boeckella fluvialis,349227,1.7,Dwight C. 1924.,Omnivore
 Nauplii oithonidae,106485,0.2,,Herbivore
 Acartia (Acartiura) ensifera,345716,1.005,Razouls 2013,Omnivore
 Dioithona oculata,346358,0.635,Boltovskoy 1999,Herbivore
@@ -252,12 +259,9 @@ Acrocalanus gibber,104645,1.03,Boltovskoy 1999,Herbivore
 Acrocalanus longicornis,104646,1.1,Boltovskoy 1999,Herbivore
 Calanid CIV,104079,2.4,,Herbivore
 Acrocalanus spp.,104192,1.11,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Herbivore
-Calanopia spp.,104207,1.2,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Carnivore
 Nauplii poecilostomatoida / cyclopoid,1103,0.2,,Herbivore
-Oncaea spp.,128690,0.31,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Omnivore
 Oncaea media complex,128938,0.56,Bottger-Schnack 2001,Omnivore
 Oncaea venusta complex,128954,0.765,Bottger-Schnack & Huys 2004,Omnivore
-Paracalanus spp.,104196,0.7,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Herbivore
 Temoropia mayumbaensis,104881,0.975,Boltovskoy 1999,Omnivore
 Cubozoan larvae,135219,,,
 Evadne nordmanni,106273,,,
@@ -282,7 +286,6 @@ Clausocalanus spp.,104161,1.03,‘Clausocalanus m’ (male) size range based on the 
 Onychocorycaeus spp.,128638,1.795,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Carnivore
 Calanopia spp.,104207,1.65,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Carnivore
 Subeucalanus crassus,104544,3,Boltovskoy 1999,Herbivore
-Hemicyclops spp.,394447,1.52,Moon, S.Y. & I.H. Kim. (2010),Carnivore
 Calanoides patagoniensis,345759,2.415,Razouls 2012,Herbivore
 Candacia spp.,104157,2.2,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Carnivore
 Pterotracheoidea - atlantid,387338,,,
@@ -300,11 +303,11 @@ Triconia elongata,361555,0.475,Bottger-Schnack 1999,Omnivore
 Aidanosagitta neglecta,266708,,,
 Agetus typicus,128797,1.445,Razouls 2012,Carnivore
 Ditrichocorycaeus subtilis,128809,0.75,Razouls 2012,Carnivore
-Euchaeta concinna,104551,2.62,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Pterotracheoidea,387338,,,
 Subeucalanus spp.,104173,3.425,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Herbivore
 Oncaea mediterranea broad,128939,1.4,Bottger-Schnack 1997,Omnivore
 Calanoides spp.,104151,2.465,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Herbivore
+Tisbidae spp.,115183,1,Johnson M.W. & J.B. Olson. (1948),
 Pontella spp.,104209,1.44,,Carnivore
 Centropages calaninus,104492,1.95,Boltovskoy 1999,Omnivore
 Eucalanus hyalinus,345781,6.1,Bradford-Grieve 1994,Herbivore
@@ -393,6 +396,7 @@ Penaeus semisulcatus,107112,,,
 Oncaea vodjanitskii complex,354038,0.24,Razouls 2013,Omnivore
 Paraeuchaeta spp.,196874,3,,Carnivore
 Ciliate,11,,,
+Quinquelaophonte wellsi,356545,0.61,Bjornberg T. 2010.,Omnivore
 Centropages kroyeri,104497,1.275,Boltovskoy 1999,Omnivore
 Xystonella spp.,183574,,,
 Labidocera farrani,346593,2.775,Razouls 2013,Carnivore
@@ -419,6 +423,7 @@ Pareucalanus attenuatus,237968,2.75,Razouls 2013,Herbivore
 Sapphirina vorax,129061,1.725,Razouls 2013,Omnivore
 Clytemnestra longipes,346286,1.21,Razouls 2012,Omnivore
 Desmopterus spp.,137889,,,
+Boeckella fluvialis,349227,1.8,Dwight C. 1924,Omnivore
 Phronima colletti,236606,,,
 Pronoe capito,421617,,,
 Euphausiid furcilia FI,110671,,,
@@ -430,7 +435,6 @@ Bougainvillia spp.,117015,,,
 Tintinnopsis mortensenii,417152,,,
 Gammaropsis spp.,101558,,,
 Eutintinnus spp.,183543,,,
-Schizopera spp.,115325,0.37,Karanovic, T., and J. McRae. 2013,Omnivore
 Diacria danae,420557,,,
 Dendrobranchiata larvae,106669,,,
 Pareucalanus spp.,237967,,,
@@ -473,9 +477,10 @@ Clausocalanus spp.,104161,1.28,‘Species f’ (female) (eg. Acartia spp. f ) size r
 Corycaeus spp.,128634,1.85,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Carnivore
 Farranula spp.,128636,0.785,‘Species m’ (male) (eg. Acartia spp. m ) size range based on the min & max size range for all the male species of that genus in the database,Carnivore
 Cosmocalanus darwinii,361259,1.84,Boltovskoy 1999,Herbivore
+Eucalanus spp.,104171,3.2,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Herbivore
 Candacia catula,220913,1.475,Boltovskoy 1999,Carnivore
 Labidocera cervi,346588,2.95,Razouls 2012,Carnivore
-Acartia spp.,104108,0.72,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Omnivore
+Acartia spp.,104108,0.72,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Omnivore
 Acartia (Acartiura) tranteri,346042,1.04,Bradford-Grieve 1976,Omnivore
 Acrocalanus longicornis,104646,1.13,Boltovskoy 1999,Herbivore
 Acrocalanus monachus,220839,0.835,Razouls 2012,Herbivore
@@ -485,8 +490,8 @@ Calanopia minor,220919,1.2,Boltovskoy 1999,Carnivore
 Acrocalanus spp.,104192,1.095,‘Species m’ (male) (eg. Acartia spp. m ) size range based on the min & max size range for all the male species of that genus in the database,Herbivore
 Anomuran zoea,106671,,,
 Calocalanus spp.,104193,0.465,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Herbivore
-Mecynocera spp.,104184,0.92,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Herbivore
 Oithona grp 3,106485,1.425,Size compiled from species in group from Nishida 1985,Herbivore
+Oncaea spp.,128690,0.31,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Omnivore
 Pleuromamma borealis,104638,2.025,Boltovskoy 1999,Omnivore
 Rhincalanus cornutus,104542,3.35,Boltovskoy 1999,Herbivore
 Sapphirina angusta,129041,4,Boltovskoy 1999,Omnivore
@@ -501,12 +506,14 @@ Podon spp.,106269,,,
 Pteropod,325345,,,
 Oncaea scottodicarloi,128950,0.545,Bottger-Schnack 2001,Omnivore
 Acartia (Acanthacartia) sinjiensis,345940,0.98,Razouls 2012,Omnivore
+Lucicutia spp.,104183,2,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Omnivore
 Copilia mirabilis,129038,3.15,Boltovskoy 1999,Omnivore
 Urocorycaeus lautus,128822,0.935,Boltovskoy 1999,Carnivore
 Copilia spp.,128721,5.25,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Omnivore
 Ihlea magalhanica,266541,,,
 Candacia bradyi,346234,1.49,Razouls 2012,Carnivore
 Canthocalanus pauper,220834,1.45,Boltovskoy 1999,Herbivore
+Centropages spp.,104159,1.25,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Omnivore
 Calocalanus cf. minutus,346221,0.535,Boltovskoy 1999,Herbivore
 Calocalanus cf. styliremis,104193,0.655,Boltovskoy 1999,Herbivore
 Tortanus (Tortanus) gracilis,720560,1.575,Razouls 2013,Carnivore
@@ -521,6 +528,7 @@ Temora turbinata,104880,1.27,Boltovskoy 1999,Herbivore
 Pleuromamma spp.,104191,3.29,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Omnivore
 Lucifer spp.,106827,,Unknown,
 Ditrichocorycaeus spp.,128635,1.025,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Carnivore
+Scolecithrix spp.,104230,1.8,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Herbivore
 Facetotecta nauplii,150305,,,
 Centropages spp.,104159,1.95,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Omnivore
 Ditrichocorycaeus erythraeus,764981,0.975,Razouls 2012,Carnivore
@@ -542,6 +550,7 @@ Ophiurida larvae,123117,,,
 Acartia spp.,104108,1.18,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Omnivore
 Microsetella rosea,116116,0.745,Boltovskoy 1999,Omnivore
 Acartia (Acartiura) simplex,346040,0.96,Bradford-Grieve 1976,Omnivore
+Euchaeta rimana,346444,3.605,"Bradford Haakonssen & Jillett 1983",Carnivore
 Pleuromamma spp.,104191,3.34,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Omnivore
 Temora spp.,104241,1.55,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Herbivore
 Clytemnestra spp.,115273,1.115,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Omnivore
@@ -556,6 +565,7 @@ Branchiopoda,1069,,,
 Hyperiella spp.,325378,,,
 Euphausia superba,236217,,,
 Scolecithricella spp.,104229,1.27,Based on females of species in database,Herbivore
+Paraeuchaeta cf. barbata,104557,8.495,"Bradford Haakonssen & Jillett 1983",Carnivore
 Limacina retroversa,140227,,,
 Themisto gaudichaudii,325384,,,
 Euphausia vallentini,221054,,,
@@ -568,7 +578,6 @@ Oithona similis,106656,0.82,Nishida 1985,Herbivore
 Abylopsis spp.,135352,,,
 Dolioletta spp.,137219,,,
 Soestia zonaria,137275,,,
-Paraeuchaeta barbata,104557,7.9,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Ditrichocorycaeus minimus,128808,0.75,Razouls 2012,Carnivore
 Gladioferens inermis,351944,1.1,Nyan Taw 1975,Omnivore
 Creseis spp.,137752,,,
@@ -576,16 +585,16 @@ Hyperia spinigera,103254,,,
 Styrofoam bead,,,,
 Centropages gracilis,220903,2.32,Boltovskoy 1999,Omnivore
 Gastropod operculum,101,,,
+Euchaeta acuta,104550,3.6,"Bradford Haakonssen & Jillett 1983",Carnivore
 Goniopsyllus rostratus,346510,0.85,Boltovskoy 1999,
 Mesocalanus tenuicornis,104468,2.05,Boltovskoy 1999,Herbivore
 Salpa maxima,137273,,,
-Paraeuchaeta antarctica,344974,6.915,"Bradford, Haakonssen & Jillett 1983",Carnivore
+Paraeuchaeta antarctica,344974,8.61,"Bradford Haakonssen & Jillett 1983",Carnivore
 Oithona australis,353988,0.605,Razouls 2013,Herbivore
 Candacia bradyi,346234,1.59,Boltovskoy 1999,Carnivore
 Labidocera farrani,346593,3.045,Razouls 2013,Carnivore
 Paracalanus denudatus,104682,0.815,Boltovskoy 1999,Herbivore
 Candacia discaudata,346235,1.71,Razouls 2012,Carnivore
-Paraeuchaeta barbata,104557,8.495,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Metridia spp.,104190,3.32,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Omnivore
 Ditrichocorycaeus erythraeus,764981,0.965,Razouls 2012,Carnivore
 Stephos durio (invalid),,,unknown,
@@ -718,7 +727,9 @@ Calanoides patagoniensis,345759,2.205,Razouls 2012,Herbivore
 Pseudevadne tergestina,106278,,,
 Calanoides acutus,342434,4.6,Boltovskoy 1999,Herbivore
 Clausocalanus pergens,104509,0.9,Frost & Fleminger 1968,Herbivore
+Corycaeidae j,128569,0.63,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Carnivore
 Delibus nudus,363905,0.47,New species - ‘Delibus f’ & ‘Delibus m’ size range based on the min & max size range of the female & male of D.nudus and D.Sewelli,Herbivore
+Euchaeta spp.,104174,2.21,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Carnivore
 Euterpina acutifrons,116162,0.625,Boltovskoy 1999,Omnivore
 Copilia spp.,128721,5.75,‘Species m’ (male) (eg. Acartia spp. m ) size range based on the min & max size range for all the male species of that genus in the database,Omnivore
 Acartia (Acartia) negligens,346030,1.155,Boltovskoy 1999,Omnivore
@@ -738,13 +749,11 @@ Ostracod,1078,,,
 Porcelain crab zoea,106734,,,
 Cavoliniidae shell,23000,,,
 Acartia (Acanthacartia) sinjiensis,345940,0.915,Razouls 2012,Omnivore
-Pontellina cf. morii,220928,1.63,"Based on Pontellina morii, Razouls 2012",Carnivore
 Limacina spp.,138122,,,
 Calocalanus spp.,104193,0.765,‘Species m’ (male) (eg. Acartia spp. m ) size range based on the min & max size range for all the male species of that genus in the database,Herbivore
 Metridia spp.,104190,1.96,‘Species m’ (male) (eg. Acartia spp. m ) size range based on the min & max size range for all the male species of that genus in the database,Omnivore
 Bestiolina spp.,346148,0.8,Bradford-Grieve 1993,Herbivore
 Onychocorycaeus spp.,128638,1.015,‘Species m’ (male) (eg. Acartia spp. m ) size range based on the min & max size range for all the male species of that genus in the database,Carnivore
-Euchaeta indica,346438,2.565,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Oncaea venusta typica,363803,1.2,Bottger-Schnack & Huys 2004,Omnivore
 Oncaea waldemari,360846,0.46,Bottger-Schnack 2001,Omnivore
 Ditrichocorycaeus anglicus,128805,0.855,Razouls 2012,Carnivore
@@ -773,9 +782,7 @@ Triconia umerus,361551,0.595,Bottger-Schnack 1999,Omnivore
 Eucalanus spp.,104171,5.85,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Herbivore
 Abylidae,135336,,,
 Asteroidea larvae,123080,,,
-Tisbidae spp.,115183,1,Johnson, M.W. & J.B. Olson. (1948),
 Candacia discaudata,346235,1.745,Razouls 2012,Carnivore
-Euchaeta rimana,346444,3.605,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Centropages furcatus,104495,1.55,Boltovskoy 1999,Omnivore
 Aetideus armatus,104275,1.8,Boltovskoy 1999,Omnivore
 Temora spp.,104241,1.45,Razouls 2012,Herbivore
@@ -800,14 +807,9 @@ Nauplii calanoid (Rhincalanus?),1100,0.5,,Herbivore
 Onchocalanus spp.,104201,7.54,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Herbivore
 Heterorhabdus lobatus,346538,2.35,Boltovskoy 1999,Carnivore
 Thysanoessa macrura,236219,,,
-Euchaeta acuta,104550,3.6,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Salpidae sol,137217,,,
 Calanopia australica,346201,1.845,Razouls 2013,Carnivore
-Euchaeta concinna,104551,2.995,"Bradford, Haakonssen & Jillett 1983",Carnivore
-Paraeuchaeta tumidula,104573,4.34,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Calanus propinquus,342435,5.375,Boltovskoy 1999,Herbivore
-Paraeuchaeta biloba,344996,5.85,"Based on female size Bradford, Haakonssen & Jillett 1983",Carnivore
-Paraeuchaeta biloba,344996,5.25,"Based on female size Bradford, Haakonssen & Jillett 1983",Carnivore
 Acartia (Acartiura) tranteri,346042,1.04,Based on female size Bradford-Grieve 1976,Omnivore
 Centropages orsinii,220901,1.425,Boltovskoy 1999,Omnivore
 Labidocera kroyeri stylifera,363402,2.61,Razouls 2013,Carnivore
@@ -821,7 +823,7 @@ Ridgewayia flemingeri,355326,0.665,Razouls 2013,Omnivore
 Cumacea,1137,,,
 Oithona plumifera,106652,0.59,Boltovskoy 1999,Herbivore
 Farranula gibbula,346477,0.83,Razouls 2013,Carnivore
-Parategastes spp.,115445,3.05,Saetang, Thanida, and Supiyanit Maiphae. 2015,Omnivore
+Parategastes spp.,115445,3.05,Saetang Thanida and Supiyanit Maiphae. 2015,Omnivore
 Scolecithricella spp.,104229,1,Razouls 2013,Herbivore
 Brachiolaria larvae,148743,,,
 Acartia (Odontacartia) pacifica,346059,1,Razouls 2013,Omnivore
@@ -829,7 +831,6 @@ Undinula spp.,104156,2.75,Boltovskoy 1999,Herbivore
 Spinoncaea spp.,348050,0.29,Razouls 2013,Omnivore
 Codonellopsis orthoceras,417162,,,
 Tintinnina ,732976,,,
-Parastenheliidae,115169,0.83,Walker-Smith, Genefor K,
 Paramacrochiron spp.,347694,1.75,not on worms,
 Aegisthus mucronatus,115509,1.94,Razouls 2013,Omnivore
 Aegisthus mucronatus,115509,1.55,Razouls 2013,Omnivore
@@ -871,6 +872,7 @@ Pisidia dispar,425841,,,
 Euchlanis spp.,134939,,,
 Echinospira larva,101,,,
 Hemisiriella parva,161454,,,
+Isias uncipes,346573,1.55,Bayly I. A. E. 1964,Omnivore
 Anisomysis pelewensis,161401,,,
 Mysidopsis surugae,227008,,,
 Fritillaria bicornis,103389,,,
@@ -916,6 +918,7 @@ Hydromyles globulosus,719622,,,
 Xystonellopsis spp.,416150,,,
 Codonella galea,417136,,,
 Tullbergella  cuspidatus,547498,,,
+Rhincalanus rostrifrons,356829,,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Herbivore
 Lysmata spp.,106992,,,
 Subeucalanus subcrassus,104548,,,
 Codonellopsis ostenfeldi,427448,,,
@@ -959,10 +962,8 @@ Oncaea venusta complex,128954,0.975,Bottger-Schnack & Huys 2004,Omnivore
 Lucicutia spp.,104183,1.6,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Omnivore
 Calanopia minor,220919,1.4,Boltovskoy 1999,Carnivore
 Clausocalanus ingens,345778,1.67,Frost & Fleminger 1968,Herbivore
-Clytemnestra spp.,115273,0.93,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Omnivore
 Nauplii copepod,1080,0.3,,Herbivore
 Ctenocalanus vanus,104510,1.23,Boltovskoy 1999,Herbivore
-Eucalanus spp.,104171,3.2,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Herbivore
 Euchaeta spp.,104174,3.255,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Carnivore
 Pontellina plumata,104743,1.64,Boltovskoy 1999,Carnivore
 Tortanus (Tortanus) gracilis,720560,1.81,Razouls 2013,Carnivore
@@ -985,6 +986,7 @@ Microsetella norvegica,116115,0.375,Boltovskoy 1999,Omnivore
 Oithona grp 2,106485,1.2,Size compiled from species in group from Nishida 1985,Herbivore
 Oncaea mediterranea complex,128939,1.4,Bottger-Schnack 1997,Omnivore
 Paracalanus aculeatus,104681,1.14,Bradford-Grieve 1994,Herbivore
+Sapphirina spp.,128722,1.42,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Omnivore
 Labidocera laevidentata,220924,1.9,Razouls 2013,Carnivore
 Temora discaudata,220898,1.58,Razouls 2012,Herbivore
 Temora turbinata,104880,1.33,Boltovskoy 1999,Herbivore
@@ -1000,8 +1002,6 @@ Nyctiphanes australis,237863,,,
 Oikopleuridae,103356,,,
 Cavoliniidae body,23000,,,
 Tortanus spp.,157683,1.5,,Carnivore
-Heterorhabdus spp.,104178,1.62,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Carnivore
-Lucicutia spp.,104183,2,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Omnivore
 Parvocalanus crassirostris,360051,0.37,Boltovskoy 1999,Herbivore
 Sapphirina opalina,129054,3.39,Boltovskoy 1999,Omnivore
 Clausocalanus spp.,104161,1.28,‘Species i’ (eg. Clausocalanus spp. i) size range based on the min & max size range for all the female species of that genus present in database,Herbivore
@@ -1011,7 +1011,6 @@ Phyllosoma larvae,383017,,,
 Canthocalanus pauper,220834,1.4,Boltovskoy 1999,Herbivore
 Centropages australiensis,346252,1.5,Razouls 2012,Omnivore
 Subeucalanus dentatus,360662,2.4,Razouls 2013,Herbivore
-Clausocalanus spp.,104161,0.66,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Herbivore
 Pontellina plumata,104743,1.63,Boltovskoy 1999,Carnivore
 Labidocera minuta,220921,1.65,Boltovskoy 1999,Carnivore
 Facetotecta cyprid,150305,,,
@@ -1039,7 +1038,6 @@ Subeucalanus spp.,104173,5.3,‘Species m’ (male) (eg. Acartia spp. m ) size range
 Tortanus (Tortanus) barbatus,220937,1.05,Razouls 2012,Carnivore
 Rhincalanus rostrifrons,356829,2.635,Bradford-Grieve 1994,Herbivore
 Sagitta bipunctata,105448,,,
-Euchaeta indica,346438,2.605,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Macrosetella gracilis,116382,1.315,Boltovskoy 1999,Herbivore
 Corycaeus crassiusculus,128799,1.505,Razouls 2012,Carnivore
 Euchaeta spp.,104174,3.255,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Carnivore
@@ -1054,7 +1052,7 @@ Eucalanus spp.,104171,5.85,,Herbivore
 Salpa thompsoni,266545,,,
 Nematoscelis spp.,110695,,,
 Siphonophore / nectophore,1371,,,
-Paraeuchaeta biloba,344996,5.475,"Based on female size Bradford, Haakonssen & Jillett 1983",Carnivore
+Paraeuchaeta barbata,104557,7.9,"Bradford Haakonssen & Jillett 1983",Carnivore
 Pontellidae,104097,1.69,,Carnivore
 Candacia falcifera,342437,3.81,Razouls 2012,Carnivore
 Solmundella bitentaculata,117267,,,
@@ -1062,10 +1060,12 @@ Centropages bradyi,104491,1.9,Boltovskoy 1999,Omnivore
 Oithona fallax,106645,0.67,Boltovskoy 1999,Herbivore
 Agetus spp.,128633,1.15,Boltovskoy 1999,Carnivore
 Paramisophria fosshageni,354297,1.325,Razouls 2013,Omnivore
+Euchaeta concinna,104551,2.995,"Bradford Haakonssen & Jillett 1983",Carnivore
 Copilia mirabilis,129038,4.15,Boltovskoy 1999,Omnivore
 Labidocera acuta,104726,3.1,Boltovskoy 1999,Carnivore
 Acartia (Odontacartia) amboinensis,346049,1.36,Razouls 2013,Omnivore
 Haloptilus oxycephalus,104434,2.5,Boltovskoy 1999,Carnivore
+Paraeuchaeta barbata,104557,8.495,"Bradford Haakonssen & Jillett 1983",Carnivore
 Pontellopsis scotti,220929,1.66,Razouls 2013,Carnivore
 Anawekia robusta,346092,0.85,Razouls 2013,
 Anawekia bilobata,346088,0.85,Razouls 2013,
@@ -1188,7 +1188,6 @@ Copilia mirabilis,129038,4.65,Boltovskoy 1999,Omnivore
 Paraeuchaeta spp.,196874,8.495,,Carnivore
 Calanus australis,345760,3.185,Boltovskoy 1999,Herbivore
 Cosmocalanus darwinii,361259,2,Boltovskoy 1999,Herbivore
-Euchaeta spp.,104174,2.21,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Carnivore
 Scolecithricella nicobarica,360544,1.29,Razouls 2013,Herbivore
 Pontellopsis tasmanensis,354898,1.56,Razouls 2013,Carnivore
 Bestiolina similis,346152,0.8,Bradford-Grieve 1993,Herbivore
@@ -1196,7 +1195,6 @@ Caligus spp.,135566,5.2, Z. Kabata (1965),
 Calocalanus pavo,104669,1.04,Boltovskoy 1999,Herbivore
 Macrosetella gracilis,116382,1.145,Boltovskoy 1999,Herbivore
 Mecynocera clausi,104616,1.03,Boltovskoy 1999,Herbivore
-Pleuromamma spp.,104191,1.6,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Omnivore
 Sapphirina cf. nigromaculata,129053,2.18,Boltovskoy 1999,Omnivore
 Sapphirina stellata,129060,2.375,Boltovskoy 1999,Omnivore
 Oithona spp.,106485,1.13,,Herbivore
@@ -1217,6 +1215,7 @@ Subeucalanus monachus,104545,2.24,Boltovskoy 1999,Herbivore
 Labidocera minuta,220921,2,Boltovskoy 1999,Carnivore
 Lubbockia spp.,128672,1.525,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Omnivore
 Ditrichocorycaeus tenuis,128810,0.84,Razouls 2012,Carnivore
+Euchaeta indica,346438,2.565,"Bradford Haakonssen & Jillett 1983",Carnivore
 Euchaeta marina,104552,3.52,Boltovskoy 1999,Carnivore
 Centropages bradyi,104491,2.15,Boltovskoy 1999,Omnivore
 Calocalanus cf. pavoninus,104670,0.67,Bradford-Grieve 1994,Herbivore
@@ -1236,12 +1235,14 @@ Trochophore larvae,882,,,
 Nauplii zooplankton,1066,0.3,,
 Clytemnestra spp.,115273,1.085,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Omnivore
 Clausocalanus brevipes,342443,1.195,Frost & Fleminger 1968,Herbivore
+Euchaeta concinna,104551,2.62,"Bradford Haakonssen & Jillett 1983",Carnivore
 Pleuromamma xiphias,104643,4.5,Boltovskoy 1999,Omnivore
 Oncaea mediterranea slender,128939,1.4,Bottger-Schnack 1997,Omnivore
 Cladoceran f,1076,,,
 Poecilostomatoida / Cyclopoid j,1103,0.5,,
 Corycaeus crassiusculus,128799,1.72,Razouls 2012,Carnivore
 Nannocalanus minor,104469,1.725,Boltovskoy 1999,Herbivore
+Euchaeta marinella,346441,2.425,"Bradford Haakonssen & Jillett 1983",Carnivore
 Onychocorycaeus ovalis,128819,1.285,Razouls 2012,Carnivore
 Clausocalanus farrani/jobei,104504,1.1,,Herbivore
 Aetideus spp.,104112,1.51,,Omnivore
@@ -1324,7 +1325,7 @@ Stephos maculosus,355902,0.54,Razouls 2013,Omnivore
 Hyperiid j,101796,,,
 Penaeus spp.,106822,,,
 Epiplocylis spp.,183562,,,
-Boeckella triarticulata,349268,1.39,Twombly, Saran, Nancy Clancy, and Carolyn W. Burns 1998,Omnivore
+Boeckella triarticulata,349268,1.39,Twombly Saran Nancy Clancy and Carolyn W. Burns 1998,Omnivore
 Codonellopsis spp.,204197,,,
 Oikopleura (Coecaria) fusiformis,103408,,,
 Calanus finmarchicus,104464,3.71,Razouls 2013,Herbivore
@@ -1354,7 +1355,7 @@ Melitidae,101397,,,
 Daphnia spp.,148370,,,
 Oithona brevicornis,106643,0.47,Boltovskoy 1999,Herbivore
 Moina spp.,148346,,,
-Calamoecia trifida,349519,1,Bayly, I.A.E. (1961),Omnivore
+Calamoecia trifida,349519,1,Bayly I.A.E. (1961),Omnivore
 Diaphanosoma spp.,234062,,,
 Centropages orsinii,220901,1.25,Boltovskoy 1999,Omnivore
 Phronimella elongata,236611,,,
@@ -1403,7 +1404,7 @@ Ctenocalanus spp.,104162,,,
 Radiolarian Q,,,,
 Neocalanus spp.,104155,,,
 Clausocalanus paululus,104508,0.73,Frost & Fleminger 1968,Herbivore
-Lubbockia spp.,128672,1.45,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Omnivore
+Lubbockia spp.,128672,1.45,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Omnivore
 Doliolum denticulatum,137246,,,
 Ditrichocorycaeus dahli,764980,0.835,Razouls 2012,Carnivore
 Corycaeus spp.,128634,1.555,‘Species m’ (male) (eg. Acartia spp. m ) size range based on the min & max size range for all the male species of that genus in the database,Carnivore
@@ -1419,6 +1420,7 @@ Euterpina acutifrons,116162,0.5,Boltovskoy 1999,Omnivore
 Paracalanus spp.,104196,1.03,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Herbivore
 Acrocalanus monachus,220839,0.975,Boltovskoy 1999,Herbivore
 Bestiolina similis,346152,0.765,Bradford-Grieve 1993,Herbivore
+Calanopia spp.,104207,1.2,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Carnivore
 Lucicutia flavicornis,104597,1.65,Boltovskoy 1999,Omnivore
 Mecynocera clausi,104616,1.065,Boltovskoy 1999,Herbivore
 Microsetella rosea,116116,0.625,Boltovskoy 1999,Omnivore
@@ -1428,16 +1430,18 @@ Oncaea mediterranea complex,128939,0.96,Bottger-Schnack 1997,Omnivore
 Paracalanus indicus,104683,0.9,Bradford-Grieve 1994,Herbivore
 Paracalanus indicus,104683,0.935,Bradford-Grieve 1994,Herbivore
 Pontellina morii,220928,1.63,Razouls 2012,Carnivore
-Sapphirina spp.,128722,1.42,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Omnivore
 Poecilostomatoida / Cyclopoid f,1103,0.7,,
+Subeucalanus spp.,104173,1.8,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Herbivore
 Temora discaudata,220898,1.735,Razouls 2012,Herbivore
+Temora spp.,104241,0.93,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Herbivore
 Barnacle nauplii,1082,,,
 Colonial ascidian larvae,1839,,,
 Salpidae,137217,,,
 Nauplii pontellidae,104097,0.4,,Herbivore
 Euchaeta marina,104552,3.04,Boltovskoy 1999,Carnivore
-Labidocera spp.,104208,1.45,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Carnivore
+Labidocera spp.,104208,1.45,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Carnivore
 Polychaete larvae,883,,,
+Pontellina cf. morii,220928,1.63,"Based on Pontellina morii Razouls 2012",Carnivore
 Rhincalanus nasutus,104543,3.5,Boltovskoy 1999,Herbivore
 Sapphirina nigromaculata,129053,2.375,Boltovskoy 1999,Omnivore
 Scolecithrix danae,104821,2.09,Boltovskoy 1999,Herbivore
@@ -1456,15 +1460,14 @@ Leptothecata,13552,,,
 Candacia bradyi,346234,1.75,Razouls 2012,Carnivore
 Centropages australiensis,346252,1.45,Razouls 2012,Omnivore
 Pontella novaezealandiae,354875,5.465,Razouls 2013,Carnivore
+Clausocalanus spp.,104161,0.66,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Herbivore
 Clytemnestra scutellata,115805,1.12,Boltovskoy 1999,Omnivore
 Lucifer typus,107122,,,
 Onychocorycaeus latus,128818,0.935,Boltovskoy 1999,Carnivore
 Pseudodiaptomus aurivillii,220947,1.25,Razouls 2012,Omnivore
-Scolecithrix spp.,104230,1.8,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Herbivore
 Labidocera tasmanica,346613,2.64,Nyan Taw 1974,Carnivore
 Farranula concinna,346476,0.915,Razouls 2012,Carnivore
 Macrosetella gracilis,116382,1.13,Boltovskoy 1999,Herbivore
-Calanoides spp.,104151,2.08,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Herbivore
 Copilia hendorffi,346293,6.9,Boltovskoy 1999,Omnivore
 Lensia subtiloides,135440,,,
 Aidanosagitta regularis,266712,,,
@@ -1477,16 +1480,17 @@ Triconia conifera complex,128957,1.11,Razouls 2012,Omnivore
 Subeucalanus subtenuis,104549,2.875,Boltovskoy 1999,Herbivore
 Candacia spp.,104157,2.04,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Carnivore
 Calanidae,104079,2.85,,Herbivore
+Euchaeta indica,346438,2.605,"Bradford Haakonssen & Jillett 1983",Carnivore
 Microsetella spp.,115341,0.33,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Omnivore
 Narcomedusae,16349,,,
 Temora discaudata,220898,1.11,Razouls 2012,Herbivore
-Copilia spp.,128721,2.2,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Omnivore
 Oithona spp.,106485,1.13,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Herbivore
 Cladoceran j,1076,,,
 Copilia spp.,128721,3.65,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Omnivore
 Pleuromamma gracilis,104639,1.875,Boltovskoy 1999,Omnivore
 Oithona spp.,106485,1.13,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Herbivore
 Oncaea spp.,128690,0.855,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Omnivore
+Euchaeta rimana,346444,3.55,"Bradford Haakonssen & Jillett 1983",Carnivore
 Mollusc,51,,,
 Pleuromamma robusta,104642,3.65,Boltovskoy 1999,Omnivore
 Thysanoessa gregaria,110707,,,
@@ -1494,14 +1498,12 @@ Subeucalanus longiceps,345366,4.55,Based on female of species Bradford-Grieve 19
 Large copepodite CIV,1080,2.4,,Herbivore
 Solidosagitta marri,266854,,,
 Spongiobranchaea australis,533451,,,
-Paraeuchaeta cf. barbata,104557,8.495,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Radiozoa,196831,,,
 Iospilidae,155189,,,
 Fish scales,11676,,,
 Clione antarctica,714164,,,
 Acartia (Acartiura) spp.,149737,1.18,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Omnivore
 Protomyctophum spp.,125832,,,
-Paraeuchaeta antarctica,344974,9.15,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Calocalanus tenuis,237966,1.245,Boltovskoy 1999,Herbivore
 Oithona frigida,344712,0.84,Boltovskoy 1999,Herbivore
 Oculosetella gracilis,116384,1.08,Razouls 2012,Omnivore
@@ -1513,6 +1515,7 @@ Lubbockia spp.,128672,2.075,‘Species m’ (male) (eg. Acartia spp. m ) size range 
 Pterosagitta draco,105430,,,
 Onychocorycaeus pacificus,359744,1.085,Razouls 2012,Carnivore
 Pontellina morii,220928,1.57,Razouls 2012,Carnivore
+Paraeuchaeta biloba,344996,5.85,"Based on female size Bradford Haakonssen & Jillett 1983",Carnivore
 Parvocalanus elegans,354636,0.49,Razouls 2013,Herbivore
 Onychocorycaeus catus,128816,0.98,Razouls 2012,Carnivore
 Clytemnestra scutellata,115805,1.15,Boltovskoy 1999,Omnivore
@@ -1565,7 +1568,6 @@ Candacia pachydactyla,104483,2.6,Boltovskoy 1999,Carnivore
 Dioithona oculata,346358,0.71,Boltovskoy 1999,Herbivore
 Cyttarocylis ampulla,723504,,,
 Amphinema spp.,117178,,,
-Quinquelaophonte wellsi,356545,0.61,Bjornberg, T. 2010.,Omnivore
 Oikopleura (Coecaria) longicauda,103414,,,
 Labidocera moretoni,220925,1.575,Razouls 2013,Carnivore
 Pontellidae m,104097,1.44,,Carnivore
@@ -1581,7 +1583,6 @@ Anchialina grossa,161483,,,
 Leucothoe spp.,101580,,,
 Ampelisca acinaces,422964,,,
 Pterocypridina spp.,415901,,,
-Isias uncipes,346573,1.55,Bayly, I. A. E. 1964,Omnivore
 Rhizophysa spp.,135384,,,
 Diacria trispinosa,139045,,,
 Haplostylus dakini,226404,,,
@@ -1597,7 +1598,6 @@ Boeckella spp.,346853,1.75,,Omnivore
 Eusiridae,101380,,,
 Paraeuchaeta russelli,359874,3.745,Razouls 2013,Carnivore
 Rotifera,14260,,,
-Boeckella fluvialis,349227,1.8,Dwight, C. 1924.,Omnivore
 Streetsia steenstrupi,421625,,,
 Parapronoe crustulum,421616,,,
 Lycaea vincentii,421621,,,
@@ -1616,7 +1616,6 @@ Codonella amphorella,417133,,,
 Axiidea zoea,477324,,,
 Xystonella lohmanni,427625,,,
 Scorpaenidae fish Larvae  ,125595,,,
-Rhincalanus rostrifrons,356829,,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Herbivore
 Ditrichocorycaeus spp.,128635,,,
 Monacanthidae larvae,125610,,,
 Acrocalanus gracilis,220838,,,
@@ -1657,7 +1656,6 @@ Lubbockia spp.,128672,1.9,,Omnivore
 Mesocalanus spp.,104153,2.05,Boltovskoy 1999,Herbivore
 Lucicutia flavicornis,104597,1.5,Boltovskoy 1999,Omnivore
 Farranula spp.,128636,0.91,‘Species f’ (female) (eg. Acartia spp. f ) size range based on the min & max size range for all the female species of that genus in the database,Carnivore
-Corycaeidae j,128569,0.63,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Carnivore
 Delibus nudus,363905,0.55,New species - ‘Delibus f’ & ‘Delibus m’ size range based on the min & max size range of the female & male of D.nudus and D.Sewelli,Herbivore
 Eucalanus elongatus,149718,4.1,Razouls 2012,Herbivore
 Euterpina acutifrons,116162,0.53,Boltovskoy 1999,Omnivore
@@ -1668,11 +1666,10 @@ Acartia (Acartiura) tranteri,346042,0.95,Bradford-Grieve 1976,Omnivore
 Acrocalanus gracilis,220838,1.26,Boltovskoy 1999,Herbivore
 Calocalanus pavo,104669,0.975,Boltovskoy 1999,Herbivore
 Candacia catula,220913,1.525,Boltovskoy 1999,Carnivore
+Mecynocera spp.,104184,0.92,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Herbivore
 Mesocalanus tenuicornis,104468,2.1,Boltovskoy 1999,Herbivore
 Nauplii harpacticoid,1102,0.2,,Herbivore
-Rhincalanidae j,345271,2.4,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Herbivore
-Subeucalanus spp.,104173,1.8,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Herbivore
-Temora spp.,104241,0.93,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Herbivore
+Rhincalanidae j,345271,2.4,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Herbivore
 Egg mass,,,,
 Euphausiid adult,110671,,,
 Isopod,1131,,,
@@ -1690,13 +1687,14 @@ Microsetella spp.,115341,0.515,‘Species m’ (male) (eg. Acartia spp. m ) size ran
 Onychocorycaeus latus,128818,2.845,Boltovskoy 1999,Carnivore
 Clausocalanus minor,220842,1.17,Frost & Fleminger 1968,Herbivore
 Candacia bipinnata,104475,2.5,Boltovskoy 1999,Carnivore
-Candacia spp.,104157,1.08,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus, and no minimum size limit has been entered",Carnivore
+Candacia spp.,104157,1.08,"‘Species j’ (juvenile) (eg. Acartia spp. j or Centropages australiensis j )  the maximum size limit is based on the minimum size of either the smallest male or female of that species or genus and no minimum size limit has been entered",Carnivore
 Centropages bradyi,104491,2.25,Boltovskoy 1999,Omnivore
 Centropages furcatus,104495,1.76,Boltovskoy 1999,Omnivore
 Pseudodiaptomus baylyi,355135,1.175,Razouls 2013,Omnivore
 Tortanus spp.,157683,1.5,‘Species m’ (male) (eg. Acartia spp. m ) size range based on the min & max size range for all the male species of that genus in the database,Carnivore
 Pleuromamma piseki,104640,1.85,Boltovskoy 1999,Omnivore
 Pleuromamma piseki,104640,1.745,Boltovskoy 1999,Omnivore
+Hemicyclops spp.,394447,1.52,Moon S.Y. & I.H. Kim. (2010),Carnivore
 Evadne spp.,106267,,,
 Clausocalanus mastigophorus,104506,1.535,Frost & Fleminger 1968,Herbivore
 Tortanus (Tortanus) barbatus,220937,1.625,Razouls 2012,Carnivore
@@ -1729,7 +1727,6 @@ Neocalanus tonsus,344701,3.75,Boltovskoy 1999,Herbivore
 Harpacticoid,1102,0.625,,
 Sapphirina spp.,128722,4.51,‘Species spp.’ (eg. Acartia spp. or Oncaea venusta (no sex)) size range based on the min & max size range for all the female & male species of that species or genus present in database,Omnivore
 Pontellidae j,104097,1.44,,Carnivore
-Euchaeta rimana,346444,3.55,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Heterorhabdus austrinus,343728,3.355,,Carnivore
 Ctenocalanus citer,342449,1.105,Boltovskoy 1999,Herbivore
 Hyperiella antarctica,325379,,,
@@ -1739,18 +1736,19 @@ Euphausia triacantha,236220,,,
 Hyperia spp.,101796,,,
 Clio pyramidata,139033,,,
 Phronima spp.,101804,,,
+Paraeuchaeta biloba,344996,5.475,"Based on female size Bradford Haakonssen & Jillett 1983",Carnivore
 Euphausia similis,221048,,,
 Dimophyes arctica,135418,,,
 Eudoxoides spiralis,135424,,,
 Zonosagitta pulchra,266888,,,
 Metridia spp.,104190,1.62,Boltovskoy 1999,Omnivore
+Paraeuchaeta antarctica,344974,9.15,"Bradford Haakonssen & Jillett 1983",Carnivore
 Clio spp.,137751,,,
 Candacia maxima,342438,3.785,Razouls 2012,Carnivore
 Oithona frigida,344712,1.22,Boltovskoy 1999,Herbivore
 Oncaea atlantica complex,128926,0.24,Boltovskoy 1999,Omnivore
 Squid j,11707,,,
 Subeucalanus subcrassus,104548,1.67,Bradford-Grieve 1994,Herbivore
-Paraeuchaeta antarctica,344974,8.61,"Bradford, Haakonssen & Jillett 1983",Carnivore
 Paraeuchaeta exigua,345051,5.65,Boltovskoy 1999,Carnivore
 Pontella securifer,104740,3.985,Boltovskoy 1999,Carnivore
 Pseudocyclops kulai,355109,0.825,Razouls 2013,Omnivore
@@ -1786,6 +1784,7 @@ Gonophores unid,1267,,,
 Heterorhabdus spinifrons,104583,3.125,Boltovskoy 1999,Carnivore
 Ostracod gravid,1078,,,
 Hormiphora spp.,106344,,,
+Parastenheliidae,115169,0.83,Walker-Smith Genefor K,
 Oithona australis,353988,0.575,Razouls 2013,Herbivore
 Oithona decipiens,106644,0.68,Razouls 2013,Herbivore
 Nannocalanus spp.,104154,1.725,Boltovskoy 1999,Herbivore
@@ -1872,6 +1871,7 @@ Tornaria larva,391906,,,
 Kuhnia spp.,119369,,,
 Aetideidae,104075,1.51,,Omnivore
 Cymbaloporetta spp.,112138,,,
+Schizopera spp.,115325,0.37,Karanovic T. and J. McRae. 2013,Omnivore
 Gebiidea zoea,477323,,,
 Eucheilota spp.,117092,,,
 Eutima spp.,117082,,,
