@@ -58,14 +58,14 @@ MLD <- data.frame(TripCode = NA, MLD_temp = as.numeric(NA), MLD_sal = as.numeric
 # DCM from max f from CTD
 for (i in 1:n) {
   dat <- CTD_MLD %>% select(TripCode) %>% unique() %>% mutate(TripCode = as.factor(TripCode)) 
-  TripCode <- dat$TripCode[[i]] %>% droplevels()
-  mldData <- CTD_MLD %>% filter(TripCode == TripCode) %>% arrange(SampleDepth_m)
+  Trip <- dat$TripCode[[i]] %>% droplevels()
+  mldData <- CTD_MLD %>% filter(TripCode == Trip) %>% arrange(SampleDepth_m)
     
-  if (as.character(substr(TripCode, 0,3)) %in% c("DAR", "YON")){
+  if (as.character(substr(Trip, 0,3)) %in% c("DAR", "YON")){
     refDepth  <-  5
   }  
     
-  if (!as.character(substr(TripCode, 0,3)) %in% c("DAR", "YON")){
+  if (!as.character(substr(Trip, 0,3)) %in% c("DAR", "YON")){
     refDepth  <-  10
   }  
   
@@ -88,7 +88,7 @@ for (i in 1:n) {
   dcm <- (mldData %>% filter(CTDChlF_mgm3 > 0 & CTDChlF_mgm3 == max(CTDChlF_mgm3)))$SampleDepth_m
   dcm[is_empty(dcm)] = NA
   
-  MLD <- rbind(MLD, data.frame(TripCode = as.character(TripCode), MLD_temp = MLD_temp, MLD_sal = MLD_sal, DCM = dcm), stringsAsFactors = FALSE)  %>% drop_na(TripCode)    
+  MLD <- rbind(MLD, data.frame(TripCode = as.character(Trip), MLD_temp = MLD_temp, MLD_sal = MLD_sal, DCM = dcm), stringsAsFactors = FALSE)  %>% drop_na(TripCode)    
 }
 
 # # Access satellite data for the sample dates using the IMOS_Toolbox
