@@ -28,7 +28,7 @@ get_NRSStation <- function(){
 # Bring in all NRS samples
 getNRSTrips <- function(){
     NRSSamp <- read_csv(paste0(raw, "BGC_Trip.csv"), na = "") %>% 
-      rename(TripCode = TRIP_CODE, Station = STATION, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATELOCAL,  
+      rename(TripCode = TRIP_CODE, Station = STATION, StationCode = STATIONCODE, Latitude = LATITUDE, Longitude = LONGITUDE, SampleDateLocal = SAMPLEDATELOCAL,  
              Biomass_mgm3 = BIOMASS_MGM3, Secchi_m = SECCHI_M, SampleType = SAMPLETYPE) %>%
       filter(PROJECTNAME == "NRS") %>% 
       mutate(Year = year(SampleDateLocal),
