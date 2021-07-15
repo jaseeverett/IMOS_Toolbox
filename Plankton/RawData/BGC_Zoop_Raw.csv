@@ -237,6 +237,7 @@ YON20180602,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,,,146142,1.4145
 ROT20190221,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,,,146142,31.4339
 YON20190313,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,,,146142,14.1453
 YON20190917,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,,,146142,7.0726
+MAI20210106,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,,,146142,2.8291
 MAI20091013,Calanus australis f,COPEPOD,Copepod,Calanus,australis,345760,4.4204
 MAI20101027,Calanus australis f,COPEPOD,Copepod,Calanus,australis,345760,1.7682
 KAI20150224,Calanus australis f,COPEPOD,Copepod,Calanus,australis,345760,3.5363
@@ -6002,6 +6003,7 @@ YON20200212,Calanoid j,COPEPOD,Copepod,,,1100,870.4783
 YON20200306,Calanoid j,COPEPOD,Copepod,,,1100,2176.1957
 MAI20200526,Calanoid j,COPEPOD,Copepod,,,1100,240.4696
 ROT20200605,Calanoid j,COPEPOD,Copepod,,,1100,804.5123
+MAI20210106,Calanoid j,COPEPOD,Copepod,,,1100,15.0883
 PHB20200922,Calanoid j,COPEPOD,Copepod,,,1100,84.8716
 ROT20201013,Calanoid j,COPEPOD,Copepod,,,1100,1723.955
 NSI20110412,Nauplii copepod,COPEPOD,Copepod,,,1080,1022.3174
@@ -6439,6 +6441,7 @@ IIOE20190527,Clausocalanus jobei f (>1.2mm),COPEPOD,Copepod,Clausocalanus,jobei,
 IIOE20190531,Clausocalanus jobei f (>1.2mm),COPEPOD,Copepod,Clausocalanus,jobei,104504,10.609
 KAI20200204,Clausocalanus jobei f (>1.2mm),COPEPOD,Copepod,Clausocalanus,jobei,104504,7.0726
 MAI20201020,Clausocalanus jobei f (>1.2mm),COPEPOD,Copepod,Clausocalanus,jobei,104504,14.1453
+MAI20210215,Clausocalanus jobei f (>1.2mm),COPEPOD,Copepod,Clausocalanus,jobei,104504,0.943
 NSI20100121,Prosobranch,NON-COPEPOD,Mollusc,,,102,9.6445
 MAI20100330,Prosobranch,NON-COPEPOD,Mollusc,,,102,2.5259
 MAI20100505,Prosobranch,NON-COPEPOD,Mollusc,,,102,1.263
@@ -6503,6 +6506,7 @@ ROT20200825,Prosobranch,NON-COPEPOD,Mollusc,,,102,70.7264
 DAR20200922_0630,Prosobranch,NON-COPEPOD,Mollusc,,,102,165.0282
 PHB20200609,Prosobranch,NON-COPEPOD,Mollusc,,,102,2.8291
 MAI20200106,Prosobranch,NON-COPEPOD,Mollusc,,,102,9.4302
+MAI20210106,Prosobranch,NON-COPEPOD,Mollusc,,,102,8.4872
 YON20120208,Thalia democratica agg,NON-COPEPOD,Thaliacean,Thalia,democratica,137279,106.0895
 NSI20120821,Thalia democratica agg,NON-COPEPOD,Thaliacean,Thalia,democratica,137279,3.2148
 YON20160927,Thalia democratica agg,NON-COPEPOD,Thaliacean,Thalia,democratica,137279,5.4405
@@ -6651,6 +6655,7 @@ MAI20150526,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),t
 MAI20160630,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,4.7151
 MAI20190624,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,1.1788
 MAI20190106,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,4.4204
+MAI20210106,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,0.943
 MAI20201118,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,28.2905
 NSI20090527,Acrocalanus gibber f,COPEPOD,Copepod,Acrocalanus,gibber,104645,4.2864
 NSI20110119,Acrocalanus gibber f,COPEPOD,Copepod,Acrocalanus,gibber,104645,4.2864
@@ -6768,6 +6773,7 @@ NSI20190618,Calanid CV,COPEPOD,Copepod,,,104079,3.2148
 IIOE20190602,Calanid CV,COPEPOD,Copepod,,,104079,3.5363
 YON20190826,Calanid CV,COPEPOD,Copepod,,,104079,7.0726
 MAI20200526,Calanid CV,COPEPOD,Copepod,,,104079,14.1453
+MAI20210106,Calanid CV,COPEPOD,Copepod,,,104079,0.943
 KAI20100112,Calanoides carinatus f,COPEPOD,Copepod,Calanoides,carinatus,104462,0.7073
 NSI20091101,Calanopia elliptica f,COPEPOD,Copepod,Calanopia,elliptica,104724,3.2148
 YON20110414,Calanopia elliptica f,COPEPOD,Copepod,Calanopia,elliptica,104724,6.8006
@@ -7508,6 +7514,7 @@ YON20200306,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,1768.159
 MAI20200106,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,457.3638
 KAI20200527,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,332.4139
 YON20201120,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,148.5254
+MAI20210215,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,5.6581
 NSI20100817,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,354022,6.4297
 PHB20110228,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,354022,3.5363
 YON20100817,Oncaea clevei f,COPEPOD,Copepod,Oncaea,clevei,354022,5.4405
@@ -9184,6 +9191,7 @@ MAI20191121,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,18.8604
 KAI20200204,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,7.0726
 YON20200212,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,136.0122
 MAI20200526,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,18.8604
+MAI20210106,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,3.7721
 MAI20201118,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,9.4302
 NSI20100214,Copilia mirabilis f,COPEPOD,Copepod,Copilia,mirabilis,129038,3.2148
 PHB20110203,Copilia mirabilis f,COPEPOD,Copepod,Copilia,mirabilis,129038,0.643
@@ -10675,6 +10683,7 @@ MAI20170412,Nyctiphanes australis,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,2
 MAI20170921,Nyctiphanes australis,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,2.8291
 MAI20180315,Nyctiphanes australis,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,4.7151
 MAI20201020,Nyctiphanes australis,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,14.1453
+MAI20210106,Nyctiphanes australis,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,1.886
 YON20130220,Diphyes chamissonis,NON-COPEPOD,Cnidarian,Diphyes,chamissonis,287246,6.8006
 ROT20101124,Eudoxoides spiralis,NON-COPEPOD,Cnidarian,Eudoxoides,spiralis,135424,7.8585
 MAI20121017,Eudoxoides spiralis,NON-COPEPOD,Cnidarian,Eudoxoides,spiralis,135424,1.7682
@@ -11066,6 +11075,7 @@ YON20170705,Fritillaria haplostoma,NON-COPEPOD,Appendicularian,Fritillaria,haplo
 ESP20130314,Mollusc veliger,NON-COPEPOD,Mollusc,,,51,133.5942
 ROT20170120,Echinospira larva,NON-COPEPOD,Mollusc,,,101,28.2905
 PHB20190227,Echinospira larva,NON-COPEPOD,Mollusc,,,101,3.8438
+MAI20210215,Echinospira larva,NON-COPEPOD,Mollusc,,,101,1.886
 ROT20201106,Echinospira larva,NON-COPEPOD,Mollusc,,,101,17.6816
 NSI20190416,Spionidae,NON-COPEPOD,Polychaete,,,913,6.4297
 NSI20150731,Tectillaria fertilis,NON-COPEPOD,Appendicularian,Tectillaria,fertilis,103390,6.4297
@@ -11269,6 +11279,7 @@ IIOE20190604,Radiolarian J,NON-COPEPOD,Radiozoa,,,,10.609
 IIOE20190526,Radiolarian M,NON-COPEPOD,Radiozoa,,,,17.6816
 IIOE20190531,Radiolarian M,NON-COPEPOD,Radiozoa,,,,14.1453
 IIOE20190610,Radiolarian M,NON-COPEPOD,Radiozoa,,,,28.2905
+MAI20210215,Ctenocalanus spp. f,COPEPOD,Copepod,Ctenocalanus,spp.,104162,0.943
 YON20201209,Acanthephyridae Zoea,NON-COPEPOD,Decapod,,,585943,17.6816
 PHB20111117,Onychocorycaeus giesbrechti f,COPEPOD,Copepod,Onychocorycaeus,giesbrechti,128817,0.416
 YON20120604,Onychocorycaeus giesbrechti f,COPEPOD,Copepod,Onychocorycaeus,giesbrechti,128817,1.0462
@@ -11454,6 +11465,7 @@ MAI20190828,Oithona atlantica f,COPEPOD,Copepod,Oithona,atlantica,106642,2.5487
 PHB20190827,Oithona atlantica f,COPEPOD,Copepod,Oithona,atlantica,106642,3.5363
 ROT20191218,Oithona atlantica f,COPEPOD,Copepod,Oithona,atlantica,106642,15.717
 NSI20200528,Oithona atlantica f,COPEPOD,Copepod,Oithona,atlantica,106642,5.1437
+MAI20210215,Oithona atlantica f,COPEPOD,Copepod,Oithona,atlantica,106642,14.1453
 PHB20200922,Oithona atlantica f,COPEPOD,Copepod,Oithona,atlantica,106642,10.609
 MAI20090506,Clausocalanus brevipes f,COPEPOD,Copepod,Clausocalanus,brevipes,342443,16.2081
 MAI20091013,Clausocalanus brevipes f,COPEPOD,Copepod,Clausocalanus,brevipes,342443,16.2081
@@ -11546,6 +11558,7 @@ MAI20190624,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509
 MAI20200909,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509,136.7376
 PHB20200812,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509,1.489
 MAI20191121,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509,18.8604
+MAI20210215,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509,3.7721
 MAI20201118,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509,221.6093
 MAI20090907,Clausocalanus spp. f,COPEPOD,Copepod,Clausocalanus,spp.,104161,0.3536
 ROT20100520,Clausocalanus spp. f,COPEPOD,Copepod,Clausocalanus,spp.,104161,3.9292
@@ -12201,6 +12214,7 @@ NSI20200228,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,19.289
 MAI20191015,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,18.8604
 MAI20200810,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,4.7151
 YON20201120,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,7.0726
+MAI20210106,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,1.886
 PHB20200922,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,28.2905
 PHB20090223,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,346026,2.3575
 PHB20090422,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,346026,5.6581
@@ -12796,6 +12810,7 @@ PHB20160201,Nannocalanus minor f,COPEPOD,Copepod,Nannocalanus,minor,104469,3.536
 MAI20151216,Nannocalanus minor f,COPEPOD,Copepod,Nannocalanus,minor,104469,11.7877
 ROT20170914,Nannocalanus minor f,COPEPOD,Copepod,Nannocalanus,minor,104469,31.4339
 IIOE20190530,Nannocalanus minor f,COPEPOD,Copepod,Nannocalanus,minor,104469,3.5363
+MAI20210215,Nannocalanus minor f,COPEPOD,Copepod,Nannocalanus,minor,104469,2.8291
 NSI20090318,Nannocalanus minor m,COPEPOD,Copepod,Nannocalanus,minor,104469,3.2148
 NSI20091021,Nannocalanus minor m,COPEPOD,Copepod,Nannocalanus,minor,104469,15.0026
 PHB20091011,Nannocalanus minor m,COPEPOD,Copepod,Nannocalanus,minor,104469,3.5363
@@ -14326,10 +14341,12 @@ ROT20171214,Medusa,NON-COPEPOD,Cnidarian,,,135220,7.8585
 NSI20181023,Medusa,NON-COPEPOD,Cnidarian,,,135220,25.7187
 ROT20190819,Medusa,NON-COPEPOD,Cnidarian,,,135220,7.6876
 DAR20191105,Medusa,NON-COPEPOD,Cnidarian,,,135220,22.815
+MAI20210215,Medusa,NON-COPEPOD,Cnidarian,,,135220,0.943
 YON20200904,Medusa,NON-COPEPOD,Cnidarian,,,135220,7.0726
 YON20200926,Medusa,NON-COPEPOD,Cnidarian,,,135220,7.0726
 NIN20110501,Megalope,NON-COPEPOD,Decapod,,,1066,2.0208
 MAI20140619,Megalope,NON-COPEPOD,Decapod,,,1066,0.4715
+MAI20210106,Megalope,NON-COPEPOD,Decapod,,,1066,1.886
 NSI20111116,Noctiluca scintillans,NOCTILUCA,Noctilucaceae,Noctiluca,scintillans,109921,115.734
 MAI20111026,Noctiluca scintillans,NOCTILUCA,Noctilucaceae,Noctiluca,scintillans,109921,17.6816
 NSI20130806,Noctiluca scintillans,NOCTILUCA,Noctilucaceae,Noctiluca,scintillans,109921,6.4297
@@ -16598,6 +16615,7 @@ YON20180927,Globigerinidae,NON-COPEPOD,Foraminifera,,,111929,42.4358
 NSI20190821,Globigerinidae,NON-COPEPOD,Foraminifera,,,111929,38.578
 YON20181213,Globigerinidae,NON-COPEPOD,Foraminifera,,,111929,28.2905
 KAI20191127,Globigerinidae,NON-COPEPOD,Foraminifera,,,111929,1.4145
+MAI20210215,Globigerinidae,NON-COPEPOD,Foraminifera,,,111929,3.7721
 ROT20150128,Labidocera farrani m,COPEPOD,Copepod,Labidocera,farrani,346593,3.9292
 DAR20150203_0030,Pseudodiaptomus aurivillii m,COPEPOD,Copepod,Pseudodiaptomus,aurivillii,220947,15.3753
 ROT20180328,Anthoathecata,NON-COPEPOD,Cnidarian,,,13551,15.3753
@@ -16762,6 +16780,7 @@ YON20180602,Cymbaloporetta spp.,NON-COPEPOD,Foraminifera,Cymbaloporetta,spp.,112
 YON20200306,Cymbaloporetta spp.,NON-COPEPOD,Foraminifera,Cymbaloporetta,spp.,112138,13.6012
 MAI20170223,Nyctiphanes australis FI,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,18.8604
 MAI20180605,Nyctiphanes australis FI,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,4.7151
+MAI20210106,Nyctiphanes australis FI,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,2.8291
 YON20141120,Hydromyles globulosus,NON-COPEPOD,Mollusc,Hydromyles,globulosus,719622,20.4018
 YON20150324,Gebiidea zoea,NON-COPEPOD,Decapod,,,477323,10.881
 MAI20180301,Axiidea zoea,NON-COPEPOD,Decapod,,,477324,9.4302
@@ -16898,6 +16917,7 @@ YON20200710,Ditrichocorycaeus dahli m,COPEPOD,Copepod,Ditrichocorycaeus,dahli,76
 ROT20191126,Ditrichocorycaeus dahli m,COPEPOD,Copepod,Ditrichocorycaeus,dahli,764980,3.5363
 ROT20201013,Ditrichocorycaeus dahli m,COPEPOD,Copepod,Ditrichocorycaeus,dahli,764980,17.6816
 DAR20140906_0030,Stomatopod,NON-COPEPOD,Decapod,,,14355,14.7347
+MAI20210215,Stomatopod,NON-COPEPOD,Decapod,,,14355,2.8291
 MAI20170323,Corycaeus spp. m,COPEPOD,Copepod,Corycaeus,spp.,128634,4.7151
 YON20091123,Pegea confoederata,NON-COPEPOD,Thaliacean,Pegea,confoederata,137266,13.6012
 PHB20110203,Thalia democratica sol,NON-COPEPOD,Thaliacean,Thalia,democratica,137279,2.3575
@@ -17101,6 +17121,7 @@ ROT20180831,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509
 MAI20190828,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509,0.7646
 MAI20200526,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509,28.2905
 MAI20200810,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509,21.2179
+MAI20210106,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509,6.6011
 PHB20200922,Clausocalanus pergens f,COPEPOD,Copepod,Clausocalanus,pergens,104509,3.5363
 MAI20100505,Clausocalanus spp. f,COPEPOD,Copepod,Clausocalanus,spp.,104161,16.4186
 PHB20101213,Clausocalanus spp. f,COPEPOD,Copepod,Clausocalanus,spp.,104161,1.0104
@@ -17719,6 +17740,7 @@ YON20200212,Prosobranch,NON-COPEPOD,Mollusc,,,102,136.0122
 KAI20200527,Prosobranch,NON-COPEPOD,Mollusc,,,102,7.0726
 NSI20200817,Prosobranch,NON-COPEPOD,Mollusc,,,102,6.4297
 ROT20200520,Prosobranch,NON-COPEPOD,Mollusc,,,102,61.8856
+MAI20210215,Prosobranch,NON-COPEPOD,Mollusc,,,102,21.6894
 YON20200904,Prosobranch,NON-COPEPOD,Mollusc,,,102,21.2179
 PHB20091206,Thalia democratica agg,NON-COPEPOD,Thaliacean,Thalia,democratica,137279,3.5363
 KAI20100112,Thalia democratica agg,NON-COPEPOD,Thaliacean,Thalia,democratica,137279,138.6237
@@ -17891,6 +17913,7 @@ MAI20180418,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),t
 KAI20180820,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,21.2179
 MAI20190320,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,9.4302
 MAI20200106,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,14.1453
+MAI20210215,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,23.5755
 YON20090909,Acrocalanus gibber f,COPEPOD,Copepod,Acrocalanus,gibber,104645,13.6012
 YON20091123,Acrocalanus gibber f,COPEPOD,Copepod,Acrocalanus,gibber,104645,40.8037
 NSI20100214,Acrocalanus gibber f,COPEPOD,Copepod,Acrocalanus,gibber,104645,9.6445
@@ -18016,6 +18039,7 @@ PHB20110717,Calocalanus plumulosus f,COPEPOD,Copepod,Calocalanus,plumulosus,2118
 PHB20100218,Calocalanus plumulosus f,COPEPOD,Copepod,Calocalanus,plumulosus,211848,2.3575
 NSI20150528,Calocalanus plumulosus f,COPEPOD,Copepod,Calocalanus,plumulosus,211848,3.2148
 MAI20180116,Calocalanus plumulosus f,COPEPOD,Copepod,Calocalanus,plumulosus,211848,23.5755
+MAI20210215,Calocalanus plumulosus f,COPEPOD,Copepod,Calocalanus,plumulosus,211848,0.943
 YON20130808,Candacia ethiopica f,COPEPOD,Copepod,Candacia,ethiopica,104478,1.943
 MAI20101001,Acrocalanus spp. f,COPEPOD,Copepod,Acrocalanus,spp.,104192,1.263
 ROT20161004,Acrocalanus spp. f,COPEPOD,Copepod,Acrocalanus,spp.,104192,3.9292
@@ -20226,6 +20250,7 @@ NSI20180530,Salpidae,NON-COPEPOD,Thaliacean,,,137217,3.2148
 IIOE20190521,Salpidae,NON-COPEPOD,Thaliacean,,,137217,3.5363
 ROT20200128,Salpidae,NON-COPEPOD,Thaliacean,,,137217,7.8585
 NSI20201116,Salpidae,NON-COPEPOD,Thaliacean,,,137217,154.3121
+MAI20210215,Salpidae,NON-COPEPOD,Thaliacean,,,137217,1.886
 NSI20090218,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,9.6445
 NSI20111013,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,6.4297
 NSI20111116,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,9.6445
@@ -20949,6 +20974,7 @@ NSI20201022,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,104161,9.644
 MAI20200628,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,104161,0.6736
 NSI20200625,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,104161,25.7187
 ROT20200520,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,104161,35.3632
+MAI20210106,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,104161,1.886
 ROT20201127,Clausocalanus spp. m,COPEPOD,Copepod,Clausocalanus,spp.,104161,26.5224
 KAI20120116,Clytemnestra scutellata f,COPEPOD,Copepod,Clytemnestra,scutellata,115805,0.7073
 MAI20141127,Clytemnestra scutellata f,COPEPOD,Copepod,Clytemnestra,scutellata,115805,1.1788
@@ -21367,6 +21393,7 @@ NSI20191024,Triconia conifera complex f,COPEPOD,Copepod,Triconia,conifera comple
 NSI20110816,Oncaea mediterranea broad f,COPEPOD,Copepod,Oncaea,mediterranea broad,128939,6.4297
 MAI20141208,Oncaea mediterranea broad f,COPEPOD,Copepod,Oncaea,mediterranea broad,128939,0.5525
 MAI20151216,Oncaea mediterranea broad f,COPEPOD,Copepod,Oncaea,mediterranea broad,128939,2.3575
+MAI20210106,Oncaea mediterranea broad f,COPEPOD,Copepod,Oncaea,mediterranea broad,128939,1.886
 NIN20120827,Neocalanus gracilis f,COPEPOD,Copepod,Neocalanus,gracilis,104471,5.6581
 IIOE20190526,Neocalanus gracilis f,COPEPOD,Copepod,Neocalanus,gracilis,104471,3.5363
 IIOE20190529,Neocalanus gracilis f,COPEPOD,Copepod,Neocalanus,gracilis,104471,3.5363
@@ -22915,6 +22942,7 @@ YON20191202,Calanoid j,COPEPOD,Copepod,,,1100,512.7661
 ROT20191126,Calanoid j,COPEPOD,Copepod,,,1100,109.6259
 KAI20200527,Calanoid j,COPEPOD,Copepod,,,1100,381.9223
 KAI20201123,Calanoid j,COPEPOD,Copepod,,,1100,70.7264
+MAI20210215,Calanoid j,COPEPOD,Copepod,,,1100,15.0883
 PHB20201110,Calanoid j,COPEPOD,Copepod,,,1100,275.047
 ROT20201106,Calanoid j,COPEPOD,Copepod,,,1100,2227.8803
 ROT20201127,Calanoid j,COPEPOD,Copepod,,,1100,831.0347
@@ -24680,6 +24708,7 @@ NSI20200122,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,104683,12.
 MAI20200106,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,104683,14.1453
 ROT20200520,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,104683,53.0448
 MAI20200928,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,104683,4.7151
+MAI20210215,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,104683,13.2023
 NSI20081217,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,104683,6.4297
 ESP20090512,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,104683,7.8585
 NSI20091006,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,104683,12.8593
@@ -25173,6 +25202,7 @@ ROT20191218,Chaetognatha,NON-COPEPOD,Chaetognath,,,2081,62.8679
 ROT20200304,Chaetognatha,NON-COPEPOD,Chaetognath,,,2081,15.717
 YON20191202,Chaetognatha,NON-COPEPOD,Chaetognath,,,2081,70.7264
 YON20201120,Chaetognatha,NON-COPEPOD,Chaetognath,,,2081,77.799
+MAI20210215,Chaetognatha,NON-COPEPOD,Chaetognath,,,2081,2.8291
 NSI20091115,Cnidarian larvae,NON-COPEPOD,Cnidarian,,,1267,22.5038
 YON20161207,Cnidarian larvae,NON-COPEPOD,Cnidarian,,,1267,13.6012
 NSI20190821,Cnidarian larvae,NON-COPEPOD,Cnidarian,,,1267,2.5719
@@ -25222,6 +25252,7 @@ DAR20160201_2130,Decapod larvae,NON-COPEPOD,Decapod,,,1130,13.6012
 ROT20160621,Decapod larvae,NON-COPEPOD,Decapod,,,1130,15.717
 IIOE20190608,Decapod larvae,NON-COPEPOD,Decapod,,,1130,14.1453
 DAR20191105,Decapod larvae,NON-COPEPOD,Decapod,,,1130,45.6299
+MAI20210106,Decapod larvae,NON-COPEPOD,Decapod,,,1130,1.886
 PHB20090223,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,137222,8.2514
 PHB20090422,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,137222,1.4145
 NSI20091021,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,137222,86.8005
@@ -27042,6 +27073,7 @@ NSI20200720,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/simili
 NSI20200817,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,106485,51.4374
 NSI20201221,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,106485,19.289
 MAI20200928,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,106485,94.3018
+MAI20210106,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,106485,15.0883
 ROT20201127,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,106485,26.5224
 YON20100909,Oithona nana f,COPEPOD,Copepod,Oithona,nana,106651,13.6012
 NSI20110220,Oithona nana f,COPEPOD,Copepod,Oithona,nana,106651,225.0384
@@ -28277,6 +28309,7 @@ MAI20191210,Oithona atlantica f,COPEPOD,Copepod,Oithona,atlantica,106642,18.8604
 PHB20191118,Oithona atlantica f,COPEPOD,Copepod,Oithona,atlantica,106642,49.5085
 PHB20200224,Oithona atlantica f,COPEPOD,Copepod,Oithona,atlantica,106642,10.609
 MAI20200928,Oithona atlantica f,COPEPOD,Copepod,Oithona,atlantica,106642,9.4302
+MAI20210106,Oithona atlantica f,COPEPOD,Copepod,Oithona,atlantica,106642,7.5441
 ESP20090917,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,,,146142,20.956
 ESP20100629,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,,,146142,10.478
 MAI20101214,Bryozoan (Cyphonaute larvae),NON-COPEPOD,Bryozoan,,,146142,0.8841
@@ -29270,6 +29303,7 @@ PHB20191118,Amphipod j,NON-COPEPOD,Amphipod,,,1135,3.5363
 ROT20091026,Anomuran zoea,NON-COPEPOD,Decapod,,,106671,7.8585
 NSI20151027,Anomuran zoea,NON-COPEPOD,Decapod,,,106671,6.4297
 DAR20170203_0630,Anomuran zoea,NON-COPEPOD,Decapod,,,106671,20.8019
+MAI20210106,Anomuran zoea,NON-COPEPOD,Decapod,,,106671,1.886
 MAI20201118,Anomuran zoea,NON-COPEPOD,Decapod,,,106671,4.7151
 NSI20100411,Calanopia spp. j,COPEPOD,Copepod,Calanopia,spp.,104207,3.2148
 NSI20100618,Calocalanus spp. f,COPEPOD,Copepod,Calocalanus,spp.,104193,3.2148
@@ -29397,6 +29431,7 @@ MAI20181018,Mecynocera clausi f,COPEPOD,Copepod,Mecynocera,clausi,104616,9.4302
 IIOE20190526,Mecynocera clausi f,COPEPOD,Copepod,Mecynocera,clausi,104616,3.5363
 PHB20200831,Mecynocera clausi f,COPEPOD,Copepod,Mecynocera,clausi,104616,2.8291
 NSI20200528,Mecynocera clausi f,COPEPOD,Copepod,Mecynocera,clausi,104616,10.2875
+MAI20210215,Mecynocera clausi f,COPEPOD,Copepod,Mecynocera,clausi,104616,0.943
 MAI20120119,Mecynocera clausi m,COPEPOD,Copepod,Mecynocera,clausi,104616,2.2102
 MAI20120524,Mecynocera clausi m,COPEPOD,Copepod,Mecynocera,clausi,104616,0.2526
 IIOE20190519,Mecynocera clausi m,COPEPOD,Copepod,Mecynocera,clausi,104616,0.5894
@@ -30709,6 +30744,7 @@ DAR20200511,Bivalve,NON-COPEPOD,Mollusc,,,105,166.415
 YON20201120,Bivalve,NON-COPEPOD,Mollusc,,,105,7.0726
 YON20201209,Bivalve,NON-COPEPOD,Mollusc,,,105,406.6766
 DAR20201123,Bivalve,NON-COPEPOD,Mollusc,,,105,934.5983
+MAI20210106,Bivalve,NON-COPEPOD,Mollusc,,,105,36.7777
 YON20200926,Bivalve,NON-COPEPOD,Mollusc,,,105,35.3632
 NSI20081119,Brachyuran zoea,NON-COPEPOD,Decapod,,,106673,2.1432
 NSI20110119,Brachyuran zoea,NON-COPEPOD,Decapod,,,106673,3.2148
@@ -30984,6 +31020,7 @@ MAI20160630,Euphausiid calyptope,NON-COPEPOD,Euphausiid,,,110671,1.886
 MAI20170801,Euphausiid calyptope,NON-COPEPOD,Euphausiid,,,110671,1.4508
 IIOE20190605,Euphausiid calyptope,NON-COPEPOD,Euphausiid,,,110671,7.0726
 ROT20190819,Euphausiid calyptope,NON-COPEPOD,Euphausiid,,,110671,7.6876
+MAI20210106,Euphausiid calyptope,NON-COPEPOD,Euphausiid,,,110671,58.4671
 NIN20101108,Euphausiid furcilia larvae,NON-COPEPOD,Euphausiid,,,110671,14.1453
 NIN20110209,Euphausiid furcilia larvae,NON-COPEPOD,Euphausiid,,,110671,21.2179
 MAI20111005,Euphausiid furcilia larvae,NON-COPEPOD,Euphausiid,,,110671,7.5778
@@ -31305,6 +31342,7 @@ YON20200306,Oikopleuridae,NON-COPEPOD,Appendicularian,,,103356,584.8526
 MAI20200106,Oikopleuridae,NON-COPEPOD,Appendicularian,,,103356,33.0056
 KAI20200527,Oikopleuridae,NON-COPEPOD,Appendicularian,,,103356,7.0726
 YON20201209,Oikopleuridae,NON-COPEPOD,Appendicularian,,,103356,459.7213
+MAI20210215,Oikopleuridae,NON-COPEPOD,Appendicularian,,,103356,2.8291
 ROT20201106,Oikopleuridae,NON-COPEPOD,Appendicularian,,,103356,123.7711
 NSI20090114,Ostracod,NON-COPEPOD,Ostracod,,,1078,22.5038
 ESP20090623,Ostracod,NON-COPEPOD,Ostracod,,,1078,7.8585
@@ -31533,6 +31571,7 @@ KAI20140122,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,1.4145
 NSI20161116,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,6.4297
 NSI20201022,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,3.2148
 YON20191107,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,17.6816
+MAI20210215,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,0.943
 NSI20111116,Tomopteris spp.,NON-COPEPOD,Polychaete,Tomopteris,spp.,129715,3.2148
 PHB20130514,Tomopteris spp.,NON-COPEPOD,Polychaete,Tomopteris,spp.,129715,0.0832
 IIOE20190607,Tomopteris spp.,NON-COPEPOD,Polychaete,Tomopteris,spp.,129715,3.5363
@@ -31715,6 +31754,7 @@ ROT20200520,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,53.0448
 ROT20200605,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,53.0448
 NSI20201116,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,51.4374
 YON20201120,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,7.0726
+MAI20210215,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,3.7721
 YON20200904,Limacina,NON-COPEPOD,Mollusc,Limacina,spp.,138122,7.0726
 NSI20100322,Copilia mirabilis f,COPEPOD,Copepod,Copilia,mirabilis,129038,6.4297
 NSI20110323,Copilia mirabilis f,COPEPOD,Copepod,Copilia,mirabilis,129038,2.1432
@@ -33643,6 +33683,7 @@ DAR20140702,Leprotintinnus nordqvisti,NON-COPEPOD,Ciliophora,Leprotintinnus,nord
 MAI20141127,Nyctiphanes australis FII,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,20.0391
 MAI20150224,Nyctiphanes australis FII,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,0.943
 MAI20141127,Nyctiphanes australis FIV,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,21.2179
+MAI20210215,Nyctiphanes australis FIV,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,2.8291
 PHB20140824,Codonellopsis morchella,NON-COPEPOD,Ciliophora,Codonellopsis,morchella,240441,1.7682
 ROT20140624,Codonellopsis morchella,NON-COPEPOD,Ciliophora,Codonellopsis,morchella,240441,7.8585
 DAR20150505,Codonellopsis morchella,NON-COPEPOD,Ciliophora,Codonellopsis,morchella,240441,7.8585
@@ -33663,6 +33704,7 @@ PHB20190522,Ophiopluteus,NON-COPEPOD,Echinoderm,,,1806,10.7161
 NSI20190527,Ophiopluteus,NON-COPEPOD,Echinoderm,,,1806,6.4297
 IIOE20190529,Ophiopluteus,NON-COPEPOD,Echinoderm,,,1806,3.5363
 ROT20200825,Ophiopluteus,NON-COPEPOD,Echinoderm,,,1806,17.6816
+MAI20210106,Nyctiphanes australis FIII,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,0.943
 MAI20200810,Nyctiphanes australis FV,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,2.3575
 DAR20150316,Tintinnopsis radix,NON-COPEPOD,Ciliophora,Tintinnopsis,radix,235757,8.8408
 NSI20170829,Eutintinnus spp.,NON-COPEPOD,Ciliophora,Eutintinnus,spp.,183543,12.8593
@@ -33737,6 +33779,7 @@ IIOE20190605,Radiolarian J,NON-COPEPOD,Radiozoa,,,,7.0726
 IIOE20190523,Primno latreillei,NON-COPEPOD,Amphipod,Primno,latreillei,421606,3.5363
 IIOE20190605,Radiolarian M,NON-COPEPOD,Radiozoa,,,,28.2905
 IIOE20190608,Radiolarian M,NON-COPEPOD,Radiozoa,,,,35.3632
+MAI20210106,Ctenocalanus spp. f,COPEPOD,Copepod,Ctenocalanus,spp.,104162,1.886
 ROT20200814,Lensia conoidea,NON-COPEPOD,Cnidarian,Lensia,conoidea,135426,8.8408
 NSI20120821,Onychocorycaeus giesbrechti f,COPEPOD,Copepod,Onychocorycaeus,giesbrechti,128817,3.2148
 IIOE20190528,Subeucalanus mucronatus f,COPEPOD,Copepod,Subeucalanus,mucronatus,104546,3.5363
@@ -34679,6 +34722,7 @@ MAI20191210,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,14.1453
 ROT20200128,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,471.5091
 MAI20200628,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,2.0208
 KAI20200527,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,7.0726
+MAI20210215,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,8.4872
 MAI20201118,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,14.1453
 YON20200904,Acartia spp. j,COPEPOD,Copepod,Acartia,spp.,104108,7.0726
 MAI20100527,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,346026,7.9567
@@ -34759,6 +34803,8 @@ MAI20190106,Acartia (Acartiura) tranteri f,COPEPOD,Copepod,Acartia (Acartiura),t
 PHB20190827,Acartia (Acartiura) tranteri f,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,3.5363
 PHB20200630,Acartia (Acartiura) tranteri f,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,1.0104
 PHB20191216,Acartia (Acartiura) tranteri f,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,3.5363
+MAI20210215,Acartia (Acartiura) tranteri f,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,56.5811
+MAI20210106,Acartia (Acartiura) tranteri f,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,0.943
 MAI20090601,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,8.8408
 PHB20090819,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,1.7682
 NSI20091215,Acartia (Acartiura) tranteri m,COPEPOD,Copepod,Acartia (Acartiura),tranteri,346042,12.8593
@@ -35908,6 +35954,7 @@ MAI20191015,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,104683,231
 ROT20191126,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,104683,3.5363
 YON20200212,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,104683,13.6012
 ROT20200605,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,104683,17.6816
+MAI20210106,Paracalanus indicus f,COPEPOD,Copepod,Paracalanus,indicus,104683,5.6581
 PHB20090422,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,104683,1.4145
 NSI20090618,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,104683,9.6445
 ROT20091026,Paracalanus indicus m,COPEPOD,Copepod,Paracalanus,indicus,104683,62.8679
@@ -36324,6 +36371,7 @@ NSI20200228,Bivalve,NON-COPEPOD,Mollusc,,,105,70.7264
 PHB20200609,Bivalve,NON-COPEPOD,Mollusc,,,105,7.0726
 NSI20200720,Bivalve,NON-COPEPOD,Mollusc,,,105,6.4297
 MAI20201020,Bivalve,NON-COPEPOD,Mollusc,,,105,4.7151
+MAI20210215,Bivalve,NON-COPEPOD,Mollusc,,,105,41.4928
 NSI20081217,Brachyuran zoea,NON-COPEPOD,Decapod,,,106673,3.2148
 NSI20091015,Brachyuran zoea,NON-COPEPOD,Decapod,,,106673,3.2148
 ROT20091026,Brachyuran zoea,NON-COPEPOD,Decapod,,,106673,7.8585
@@ -36476,6 +36524,7 @@ NSI20190527,Decapod larvae,NON-COPEPOD,Decapod,,,1130,6.4297
 MAI20191210,Decapod larvae,NON-COPEPOD,Decapod,,,1130,4.7151
 PHB20200224,Decapod larvae,NON-COPEPOD,Decapod,,,1130,3.5363
 MAI20200526,Decapod larvae,NON-COPEPOD,Decapod,,,1130,4.7151
+MAI20210215,Decapod larvae,NON-COPEPOD,Decapod,,,1130,0.943
 NSI20090218,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,137222,80.3709
 PHB20100119,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,137222,10.609
 PHB20100316,Doliolum spp.,NON-COPEPOD,Thaliacean,Doliolum,spp.,137222,0.3536
@@ -37074,6 +37123,7 @@ ROT20110725,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,7.8585
 PHB20120628,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,1.4145
 ROT20140319,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,7.8585
 MAI20140821,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,1.886
+MAI20210106,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,0.943
 ROT20170626,Sipunculid worm larvae,NON-COPEPOD,Sipunculid,,,1296,15.717
 ESP20090623,Acartia (Acanthacartia) sinjiensis f,COPEPOD,Copepod,Acartia (Acanthacartia),sinjiensis,345940,15.717
 NSI20080929,Clausocalanus parapergens f,COPEPOD,Copepod,Clausocalanus,parapergens,104507,3.2148
@@ -37475,6 +37525,8 @@ ROT20190527,Oncaea venusta typica f,COPEPOD,Copepod,Oncaea,venusta typica,363803
 IIOE20190528,Oncaea venusta typica f,COPEPOD,Copepod,Oncaea,venusta typica,363803,14.1453
 IIOE20190529,Oncaea venusta typica f,COPEPOD,Copepod,Oncaea,venusta typica,363803,3.5363
 NSI20201116,Oncaea venusta typica f,COPEPOD,Copepod,Oncaea,venusta typica,363803,25.7187
+MAI20210215,Oncaea venusta typica f,COPEPOD,Copepod,Oncaea,venusta typica,363803,1.886
+MAI20210106,Oncaea venusta typica f,COPEPOD,Copepod,Oncaea,venusta typica,363803,0.943
 NSI20110220,Oncaea waldemari f,COPEPOD,Copepod,Oncaea,waldemari,360846,12.8593
 ROT20100723,Oncaea waldemari f,COPEPOD,Copepod,Oncaea,waldemari,360846,7.8585
 ROT20100820,Oncaea waldemari f,COPEPOD,Copepod,Oncaea,waldemari,360846,15.717
@@ -38174,6 +38226,7 @@ MAI20150312,Calanus australis CV,COPEPOD,Copepod,Calanus,australis,345760,1.3472
 MAI20170412,Calanus australis CV,COPEPOD,Copepod,Calanus,australis,345760,4.7151
 MAI20170801,Calanus australis CV,COPEPOD,Copepod,Calanus,australis,345760,0.544
 MAI20191210,Calanus australis CV,COPEPOD,Copepod,Calanus,australis,345760,18.8604
+MAI20210215,Calanus australis CV,COPEPOD,Copepod,Calanus,australis,345760,2.8291
 ROT20110923,Oncaea venusta medium f,COPEPOD,Copepod,Oncaea,venusta medium,128954,3.9292
 ROT20120504,Oncaea venusta medium f,COPEPOD,Copepod,Oncaea,venusta medium,128954,7.8585
 PHB20141112,Oncaea venusta medium f,COPEPOD,Copepod,Oncaea,venusta medium,128954,3.5902
@@ -38933,6 +38986,7 @@ MAI20140205,Calanidae j,COPEPOD,Copepod,,,104079,12.4081
 YON20190213,Calanidae j,COPEPOD,Copepod,,,104079,1570.1252
 YON20200710,Calanidae j,COPEPOD,Copepod,,,104079,5.4405
 NSI20140901,Cephalopoda j,NON-COPEPOD,Cephalopod,,,11707,2.5719
+MAI20210215,Cephalopoda j,NON-COPEPOD,Cephalopod,,,11707,0.943
 NSI20190723,Oithona decipiens f,COPEPOD,Copepod,Oithona,decipiens,106644,6.4297
 PHB20190408,Oithona decipiens f,COPEPOD,Copepod,Oithona,decipiens,106644,21.2179
 ROT20191218,Oithona decipiens f,COPEPOD,Copepod,Oithona,decipiens,106644,15.717
@@ -39568,6 +39622,8 @@ MAI20151001,Calanus australis f,COPEPOD,Copepod,Calanus,australis,345760,155.598
 KAI20151116,Calanus australis f,COPEPOD,Copepod,Calanus,australis,345760,10.609
 MAI20160630,Calanus australis f,COPEPOD,Copepod,Calanus,australis,345760,0.4715
 MAI20151216,Calanus australis f,COPEPOD,Copepod,Calanus,australis,345760,9.4302
+MAI20210215,Calanus australis f,COPEPOD,Copepod,Calanus,australis,345760,2.8291
+MAI20210106,Calanus australis f,COPEPOD,Copepod,Calanus,australis,345760,5.6581
 MAI20100120,Calanus australis m,COPEPOD,Copepod,Calanus,australis,345760,1.4735
 MAI20140516,Calanus australis m,COPEPOD,Copepod,Calanus,australis,345760,0.5894
 MAI20150421,Calanus australis m,COPEPOD,Copepod,Calanus,australis,345760,5.0519
@@ -40308,6 +40364,7 @@ MAI20190320,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,34
 MAI20190430,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,346026,4.7151
 ROT20181211,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,346026,15.717
 MAI20190828,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,346026,0.5097
+MAI20210215,Acartia (Acartia) danae f,COPEPOD,Copepod,Acartia (Acartia),danae,346026,5.6581
 PHB20151013,Acartia (Acartia) danae m,COPEPOD,Copepod,Acartia (Acartia),danae,346026,3.5363
 MAI20150526,Acartia (Acartia) danae m,COPEPOD,Copepod,Acartia (Acartia),danae,346026,3.1434
 PHB20160201,Acartia (Acartia) danae m,COPEPOD,Copepod,Acartia (Acartia),danae,346026,3.5363
@@ -40484,6 +40541,7 @@ MAI20170223,Calanid CV,COPEPOD,Copepod,,,104079,4.7151
 PHB20181120,Calanid CV,COPEPOD,Copepod,,,104079,7.0726
 MAI20190828,Calanid CV,COPEPOD,Copepod,,,104079,0.2549
 PHB20200609,Calanid CV,COPEPOD,Copepod,,,104079,1.4145
+MAI20210215,Calanid CV,COPEPOD,Copepod,,,104079,5.6581
 PHB20121009,Calanoides carinatus f,COPEPOD,Copepod,Calanoides,carinatus,104462,0.7858
 YON20100413,Calanopia elliptica f,COPEPOD,Copepod,Calanopia,elliptica,104724,6.8006
 YON20130220,Calanopia elliptica f,COPEPOD,Copepod,Calanopia,elliptica,104724,6.8006
@@ -40807,6 +40865,7 @@ PHB20180905,Microsetella rosea f,COPEPOD,Copepod,Microsetella,rosea,116116,3.536
 NSI20200625,Microsetella rosea f,COPEPOD,Copepod,Microsetella,rosea,116116,12.8593
 YON20191202,Microsetella rosea f,COPEPOD,Copepod,Microsetella,rosea,116116,44.204
 YON20200306,Microsetella rosea f,COPEPOD,Copepod,Microsetella,rosea,116116,13.6012
+MAI20210106,Microsetella rosea f,COPEPOD,Copepod,Microsetella,rosea,116116,1.886
 YON20111027,Microsetella rosea m,COPEPOD,Copepod,Microsetella,rosea,116116,5.4405
 PHB20140317,Microsetella rosea m,COPEPOD,Copepod,Microsetella,rosea,116116,1.7682
 PHB20140824,Microsetella rosea m,COPEPOD,Copepod,Microsetella,rosea,116116,1.1788
@@ -41196,6 +41255,7 @@ KAI20191127,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,31.1196
 MAI20200223,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,146.1678
 ROT20200605,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,477.4029
 DAR20201123,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,2728.0167
+MAI20210106,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,12.2592
 PHB20200922,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,95.4806
 PHB20201110,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,62.8679
 ROT20201106,Oithona spp. j,COPEPOD,Copepod,Oithona,spp.,106485,512.7661
@@ -42675,6 +42735,7 @@ YON20140820,Salpidae,NON-COPEPOD,Thaliacean,,,137217,5.4405
 YON20150430,Salpidae,NON-COPEPOD,Thaliacean,,,137217,11.3344
 ROT20160621,Salpidae,NON-COPEPOD,Thaliacean,,,137217,15.717
 YON20161012,Salpidae,NON-COPEPOD,Thaliacean,,,137217,13.6012
+MAI20210106,Salpidae,NON-COPEPOD,Thaliacean,,,137217,14.1453
 NSI20090416,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,1.6074
 PHB20090518,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,1.0104
 MAI20111214,Siphonophore,NON-COPEPOD,Cnidarian,,,1371,0.8841
@@ -43856,6 +43917,7 @@ PHB20200224,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/simili
 MAI20191015,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,106485,179.1734
 ROT20200128,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,106485,39.2924
 NSI20201116,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,106485,25.7187
+MAI20210215,Oithona decipiens/similis f,COPEPOD,Copepod,Oithona,decipiens/similis,106485,11.3162
 NSI20100817,Oithona nana f,COPEPOD,Copepod,Oithona,nana,106651,6.4297
 NSI20101115,Oithona nana f,COPEPOD,Copepod,Oithona,nana,106651,30.0051
 YON20110118,Oithona nana f,COPEPOD,Copepod,Oithona,nana,106651,81.6073
@@ -44320,6 +44382,7 @@ NSI20190322,Pelagobia longicirrata,NON-COPEPOD,Polychaete,Pelagobia,longicirrata
 MAI20141029,Nyctiphanes australis,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,2.3575
 MAI20200909,Nyctiphanes australis,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,9.4302
 MAI20200628,Nyctiphanes australis,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,1.3472
+MAI20210215,Nyctiphanes australis,NON-COPEPOD,Euphausiid,Nyctiphanes,australis,237863,2.8291
 NSI20160120,Chelophyes contorta,NON-COPEPOD,Cnidarian,Chelophyes,contorta,196554,6.4297
 ROT20160527,Eudoxoides mitra,NON-COPEPOD,Cnidarian,Eudoxoides,mitra,135423,7.8585
 NSI20160517,Eudoxoides spiralis,NON-COPEPOD,Cnidarian,Eudoxoides,spiralis,135424,6.4297
