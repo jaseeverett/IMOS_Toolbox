@@ -51,6 +51,10 @@ getLFCountAll <- function(){
   return(LFCount)
 }
 
+LFSamp <- getLFTrips()
+LFData <- getLFData()
+LFCount <- getLFCountAll()
+
 fwrite(LFCount, "Output/LFCount_All.csv")
 
 # Make count data of all larval fish
@@ -65,5 +69,7 @@ getLFCountBGC <- function(){
     arrange(SampleDateLocal)
   return(LFCountBGC)
 }
+
+LFCountBGC <- getLFCountBGC()
 
 fwrite(LFCountBGC, "Output/LFCount_BGC.csv") 
