@@ -1,44 +1,44 @@
 TAXON_NAME,START_DATE,PARENT_NAME
-Ceratocorys horrida,2010-09-15 00:00:00,Ceratocorys spp.
-Codonellopsis orthoceras,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
-Codonellopsis pusilla,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
-Codonellopsis spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
-Cyttarocylis spp.,2008-09-29 00:00:00,Ciliate (Inc. tintinnid)
-Epiplocylis spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
-Eutintinnus spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
-Odontella spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
-Parundella spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
-Undella spp.,2008-09-29 00:00:00,Ciliate (Inc. tintinnid)
-Xystonella spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
-Coscinodiscus spp. 100-150 µm,2008-09-29 00:00:00,Coscinodiscus spp. > 80 µm
-Coscinodiscus spp. 150-200 µm,2008-09-29 00:00:00,Coscinodiscus spp. > 80 µm
-Coscinodiscus spp. 300-400 µm,2008-09-29 00:00:00,Coscinodiscus spp. > 80 µm
 Gonyaulax polygramma,2008-09-29 00:00:00,Gonyaulax spp.
-Oxytoxum scolopax,2012-03-01 00:00:00,Oxytoxum spp.
-Pennate diatom > 10 µm,2011-05-17 00:00:00,Pennate diatom
-Protoperidinium grande,2012-03-01 00:00:00,Protoperidinium spp.
+Tripos furca type,2011-05-17 00:00:00,Tripos spp.
+Tripos fusus type,2011-05-17 00:00:00,Tripos spp.
+Tripos muelleri type,2011-05-17 00:00:00,Tripos spp.
+Tripos hundhausenii,2015-02-01 00:00:00,Tripos spp.
+Coscinodiscus spp. 100-150 µm,2008-09-29 00:00:00,Coscinodiscus spp. > 80 µm
+Coscinodiscus spp. 300-400 µm,2008-09-29 00:00:00,Coscinodiscus spp. > 80 µm
+Coscinodiscus spp. 150-200 µm,2008-09-29 00:00:00,Coscinodiscus spp. > 80 µm
 Protoperidinium oceanicum,2012-03-01 00:00:00,Protoperidinium spp.
+Protoperidinium grande,2012-03-01 00:00:00,Protoperidinium spp.
 Protoperidinium oceanicum/oblongum,2012-03-01 00:00:00,Protoperidinium spp.
 Pseudo-nitzschia delicatissima complex <=3 µm,2011-05-17 00:00:00,Pseudo-nitzschia spp.
 Pseudo-nitzschia seriata complex >3 µm,2011-05-17 00:00:00,Pseudo-nitzschia spp.
-Rhizosolenia fallax,2015-04-01 00:00:00,Rhizosolenia fallax group
-Rhizosolenia imbricata,2015-04-01 00:00:00,Rhizosolenia imbricata group
-Rhizosolenia setigera,2015-04-01 00:00:00,Rhizosolenia setigera group
 Rhizosolenia acuminata,2012-03-01 00:00:00,Rhizosolenia spp.
 Rhizosolenia imbricata group,2012-03-01 00:00:00,Rhizosolenia spp.
-Rhizosolenia styliformis,2015-04-01 00:00:00,Rhizosolenia styliformis group
-Dictyocha antarctica,2010-01-01 00:00:00,Silicoflagellate
-Dictyocha fibula,2010-01-01 00:00:00,Silicoflagellate
-Dictyocha speculum,2010-01-01 00:00:00,Silicoflagellate
-Octactis octonaria,2010-01-01 00:00:00,Silicoflagellate
-Octactis spp.,2010-01-01 00:00:00,Silicoflagellate
 Silicoflagellate 4 points,2010-01-01 00:00:00,Silicoflagellate
 Silicoflagellate 6 points,2010-01-01 00:00:00,Silicoflagellate
+Octactis octonaria,2010-01-01 00:00:00,Silicoflagellate
+Dictyocha speculum,2010-01-01 00:00:00,Silicoflagellate
+Dictyocha fibula,2010-01-01 00:00:00,Silicoflagellate
+Dictyocha antarctica,2010-01-01 00:00:00,Silicoflagellate
+Octactis spp.,2010-01-01 00:00:00,Silicoflagellate
+Thalassiosira spp. <10 µm,2008-09-29 00:00:00,Thalassiosira spp.
+Thalassiosira spp. 40-60 µm,2008-09-29 00:00:00,Thalassiosira spp.
 Thalassiosira spp. 10-20 µm,2008-09-29 00:00:00,Thalassiosira spp.
 Thalassiosira spp. 20-40 µm,2008-09-29 00:00:00,Thalassiosira spp.
-Thalassiosira spp. 40-60 µm,2008-09-29 00:00:00,Thalassiosira spp.
-Thalassiosira spp. <10 µm,2008-09-29 00:00:00,Thalassiosira spp.
-Tripos furca type,2011-05-17 00:00:00,Tripos spp.
-Tripos fusus type,2011-05-17 00:00:00,Tripos spp.
-Tripos hundhausenii,2015-02-01 00:00:00,Tripos spp.
-Tripos muelleri type,2011-05-17 00:00:00,Tripos spp.
+Codonellopsis orthoceras,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
+Codonellopsis pusilla,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
+Cyttarocylis spp.,2008-09-29 00:00:00,Ciliate (Inc. tintinnid)
+Epiplocylis spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
+Eutintinnus spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
+Parundella spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
+Undella spp.,2008-09-29 00:00:00,Ciliate (Inc. tintinnid)
+Xystonella spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
+Odontella spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
+Codonellopsis spp.,2010-01-01 00:00:00,Ciliate (Inc. tintinnid)
+Oxytoxum scolopax,2012-03-01 00:00:00,Oxytoxum spp.
+Pennate diatom > 10 µm,2011-05-17 00:00:00,Pennate diatom
+Ceratocorys horrida,2010-09-15 00:00:00,Ceratocorys spp.
+Rhizosolenia fallax,2015-04-01 00:00:00,Rhizosolenia fallax group
+Rhizosolenia imbricata,2015-04-01 00:00:00,Rhizosolenia imbricata group
+Rhizosolenia styliformis,2015-04-01 00:00:00,Rhizosolenia styliformis group
+Rhizosolenia setigera,2015-04-01 00:00:00,Rhizosolenia setigera group
